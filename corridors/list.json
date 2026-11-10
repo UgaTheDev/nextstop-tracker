@@ -1,0 +1,302 @@
+[
+ {
+  "id": 1,
+  "name": "E Gun Hill Rd",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 2,
+  "name": "E Kingsbridge Rd",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 3,
+  "name": "E Fordham Rd",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 4,
+  "name": "White Plains Rd",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 5,
+  "name": "E Tremont Ave",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 6,
+  "name": "Grand Concourse",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 7,
+  "name": "3rd Ave",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 8,
+  "name": "Southern Blvd",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 9,
+  "name": "Tremont/Cross Bronx",
+  "borough": "BX",
+  "rapid_bus_corridor": true
+ },
+ {
+  "id": 10,
+  "name": "South Bronx Crosstown",
+  "borough": "BX",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 11,
+  "name": "Upper Manhattan North-South",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 12,
+  "name": "125th St",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 13,
+  "name": "Lexington Ave (95th to 125th St)",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 14,
+  "name": "116th St",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 15,
+  "name": "79th St",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 16,
+  "name": "Midtown Crosstown",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 17,
+  "name": "34th St Busway",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 18,
+  "name": "9th Avenue",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 19,
+  "name": "Lexington Ave (52nd to 60th St)",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 20,
+  "name": "6th Ave",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 21,
+  "name": "Madison Ave",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 22,
+  "name": "Broadway",
+  "borough": "MN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 23,
+  "name": "Northern Blvd",
+  "borough": "QN",
+  "rapid_bus_corridor": true
+ },
+ {
+  "id": 24,
+  "name": "Jackson Heights Hub",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 25,
+  "name": "Grand Ave/Grand St",
+  "borough": "BK-QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 26,
+  "name": "108th St",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 27,
+  "name": "Main St/Linden Pl",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 28,
+  "name": "Kissena Blvd/Union St/Parsons Blvd",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 29,
+  "name": "Ridgewood Busway",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 30,
+  "name": "Woodhaven/Metropolitan",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 31,
+  "name": "Woodhaven (Union Turnpike/107 Ave)",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 32,
+  "name": "Jamaica Ave",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 33,
+  "name": "Merrick Blvd",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 34,
+  "name": "Sutphin/Guy R Brewer Blvd",
+  "borough": "QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 35,
+  "name": "Bedford Ave",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 36,
+  "name": "Marcy Ave",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 37,
+  "name": "Livingston St",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 38,
+  "name": "DeKalb/Lafayette Ave",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 39,
+  "name": "Flatbush Ave",
+  "borough": "BK",
+  "rapid_bus_corridor": true
+ },
+ {
+  "id": 40,
+  "name": "Utica Ave",
+  "borough": "BK",
+  "rapid_bus_corridor": true
+ },
+ {
+  "id": 41,
+  "name": "Church Ave",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 42,
+  "name": "Kensington-JFK",
+  "borough": "BK-QN",
+  "rapid_bus_corridor": true
+ },
+ {
+  "id": 43,
+  "name": "Linden Blvd",
+  "borough": "BK-QN",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 44,
+  "name": "South Brooklyn Crosstown",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 45,
+  "name": "Avenue J",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 46,
+  "name": "Bay Parkway",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 47,
+  "name": "86th St",
+  "borough": "BK",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 48,
+  "name": "Bay St",
+  "borough": "SI",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 49,
+  "name": "Victory Blvd",
+  "borough": "SI",
+  "rapid_bus_corridor": false
+ },
+ {
+  "id": 50,
+  "name": "Richmond Ave",
+  "borough": "SI",
+  "rapid_bus_corridor": false
+ }
+]

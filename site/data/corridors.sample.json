@@ -1,0 +1,1194 @@
+{
+ "generated": "2026-11-09",
+ "data_through": "2026-09",
+ "plan_released": "2026-07",
+ "baseline": {
+  "from": "2025-07",
+  "to": "2026-06",
+  "note": "Sample: the 12 months before the plan. The plan does not define a baseline; this is our choice."
+ },
+ "target_pct": 20,
+ "summary": {
+  "corridors_total": 50,
+  "corridors_tracked": 6,
+  "post_plan_months": [
+   "2026-07",
+   "2026-08",
+   "2026-09"
+  ],
+  "tracked_baseline_mph": 7.91,
+  "tracked_latest_mph": 8.1
+ },
+ "corridors": [
+  {
+   "id": 1,
+   "name": "E Gun Hill Rd",
+   "borough": "BX",
+   "rapid_bus_corridor": false,
+   "status": "mapped",
+   "definition": "Sample definition: every bus segment whose two stops are both on this street.",
+   "notes": "",
+   "routes": [
+    "R1"
+   ],
+   "miles": 2.37,
+   "n_segments": 4,
+   "baseline_mph": 5.73,
+   "target_mph": 6.88,
+   "latest": {
+    "month": "2026-09",
+    "mph": 5.58,
+    "yoy_pct": 0.7,
+    "vs_baseline_pct": -2.6
+   },
+   "post_plan": {
+    "mph": 5.68,
+    "same_months_prior_year_mph": 5.63,
+    "change_pct": 0.8,
+    "months": 3
+   },
+   "series": [
+    {
+     "month": "2025-01",
+     "mph": 5.54,
+     "trips": 1434
+    },
+    {
+     "month": "2025-02",
+     "mph": 5.62,
+     "trips": 2841
+    },
+    {
+     "month": "2025-03",
+     "mph": 5.78,
+     "trips": 1168
+    },
+    {
+     "month": "2025-04",
+     "mph": 5.76,
+     "trips": 2821
+    },
+    {
+     "month": "2025-05",
+     "mph": 5.56,
+     "trips": 1859
+    },
+    {
+     "month": "2025-06",
+     "mph": 5.52,
+     "trips": 2826
+    },
+    {
+     "month": "2025-07",
+     "mph": 5.72,
+     "trips": 2851
+    },
+    {
+     "month": "2025-08",
+     "mph": 5.64,
+     "trips": 1516
+    },
+    {
+     "month": "2025-09",
+     "mph": 5.54,
+     "trips": 1521
+    },
+    {
+     "month": "2025-10",
+     "mph": 5.92,
+     "trips": 2497
+    },
+    {
+     "month": "2025-11",
+     "mph": 5.84,
+     "trips": 1162
+    },
+    {
+     "month": "2025-12",
+     "mph": 5.5,
+     "trips": 1075
+    },
+    {
+     "month": "2026-01",
+     "mph": 5.58,
+     "trips": 1027
+    },
+    {
+     "month": "2026-02",
+     "mph": 5.89,
+     "trips": 2003
+    },
+    {
+     "month": "2026-03",
+     "mph": 5.68,
+     "trips": 2487
+    },
+    {
+     "month": "2026-04",
+     "mph": 5.83,
+     "trips": 2648
+    },
+    {
+     "month": "2026-05",
+     "mph": 5.64,
+     "trips": 2721
+    },
+    {
+     "month": "2026-06",
+     "mph": 5.98,
+     "trips": 1449
+    },
+    {
+     "month": "2026-07",
+     "mph": 5.98,
+     "trips": 1299
+    },
+    {
+     "month": "2026-08",
+     "mph": 5.47,
+     "trips": 2927
+    },
+    {
+     "month": "2026-09",
+     "mph": 5.58,
+     "trips": 2686
+    }
+   ],
+   "segments": [
+    {
+     "route_id": "R1",
+     "direction": "S",
+     "from_stop": "Stop 0 & Main St",
+     "to_stop": "Stop 1 & Main St",
+     "from_lat": 40.809999999999995,
+     "from_lon": -73.896,
+     "to_lat": 40.81399999999999,
+     "to_lon": -73.894,
+     "miles": 0.61,
+     "baseline_mph": 7.15,
+     "latest_mph": 5.26
+    },
+    {
+     "route_id": "R1",
+     "direction": "N",
+     "from_stop": "Stop 1 & Main St",
+     "to_stop": "Stop 2 & Main St",
+     "from_lat": 40.81399999999999,
+     "from_lon": -73.89,
+     "to_lat": 40.818,
+     "to_lon": -73.888,
+     "miles": 0.63,
+     "baseline_mph": 6.03,
+     "latest_mph": 5.72
+    },
+    {
+     "route_id": "R1",
+     "direction": "S",
+     "from_stop": "Stop 2 & Main St",
+     "to_stop": "Stop 3 & Main St",
+     "from_lat": 40.818,
+     "from_lon": -73.884,
+     "to_lat": 40.821999999999996,
+     "to_lon": -73.882,
+     "miles": 0.46,
+     "baseline_mph": 4.66,
+     "latest_mph": 4.93
+    },
+    {
+     "route_id": "R1",
+     "direction": "N",
+     "from_stop": "Stop 3 & Main St",
+     "to_stop": "Stop 4 & Main St",
+     "from_lat": 40.821999999999996,
+     "from_lon": -73.878,
+     "to_lat": 40.82599999999999,
+     "to_lon": -73.876,
+     "miles": 0.67,
+     "baseline_mph": 3.84,
+     "latest_mph": 4.7
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Grand Concourse",
+   "borough": "BX",
+   "rapid_bus_corridor": true,
+   "status": "mapped",
+   "definition": "Sample definition: every bus segment whose two stops are both on this street.",
+   "notes": "",
+   "routes": [
+    "R2"
+   ],
+   "miles": 1.99,
+   "n_segments": 4,
+   "baseline_mph": 6.33,
+   "target_mph": 7.6,
+   "latest": {
+    "month": "2026-09",
+    "mph": 6.79,
+    "yoy_pct": 6.9,
+    "vs_baseline_pct": 7.3
+   },
+   "post_plan": {
+    "mph": 6.48,
+    "same_months_prior_year_mph": 6.3,
+    "change_pct": 3.0,
+    "months": 3
+   },
+   "series": [
+    {
+     "month": "2025-01",
+     "mph": 6.46,
+     "trips": 1568
+    },
+    {
+     "month": "2025-02",
+     "mph": 6.52,
+     "trips": 2236
+    },
+    {
+     "month": "2025-03",
+     "mph": 6.68,
+     "trips": 1326
+    },
+    {
+     "month": "2025-04",
+     "mph": 6.53,
+     "trips": 1764
+    },
+    {
+     "month": "2025-05",
+     "mph": 6.48,
+     "trips": 1993
+    },
+    {
+     "month": "2025-06",
+     "mph": 6.27,
+     "trips": 1159
+    },
+    {
+     "month": "2025-07",
+     "mph": 6.39,
+     "trips": 2880
+    },
+    {
+     "month": "2025-08",
+     "mph": 6.15,
+     "trips": 1172
+    },
+    {
+     "month": "2025-09",
+     "mph": 6.35,
+     "trips": 1517
+    },
+    {
+     "month": "2025-10",
+     "mph": 6.11,
+     "trips": 2649
+    },
+    {
+     "month": "2025-11",
+     "mph": 6.56,
+     "trips": 1387
+    },
+    {
+     "month": "2025-12",
+     "mph": 6.13,
+     "trips": 1084
+    },
+    {
+     "month": "2026-01",
+     "mph": 6.33,
+     "trips": 2255
+    },
+    {
+     "month": "2026-02",
+     "mph": 6.43,
+     "trips": 2043
+    },
+    {
+     "month": "2026-03",
+     "mph": 6.4,
+     "trips": 1047
+    },
+    {
+     "month": "2026-04",
+     "mph": 6.29,
+     "trips": 1215
+    },
+    {
+     "month": "2026-05",
+     "mph": 6.16,
+     "trips": 1028
+    },
+    {
+     "month": "2026-06",
+     "mph": 6.67,
+     "trips": 2570
+    },
+    {
+     "month": "2026-07",
+     "mph": 6.37,
+     "trips": 1978
+    },
+    {
+     "month": "2026-08",
+     "mph": 6.29,
+     "trips": 1073
+    },
+    {
+     "month": "2026-09",
+     "mph": 6.79,
+     "trips": 2291
+    }
+   ],
+   "segments": [
+    {
+     "route_id": "R2",
+     "direction": "S",
+     "from_stop": "Stop 0 & Main St",
+     "to_stop": "Stop 1 & Main St",
+     "from_lat": 40.82,
+     "from_lon": -73.89200000000001,
+     "to_lat": 40.824,
+     "to_lon": -73.89000000000001,
+     "miles": 0.43,
+     "baseline_mph": 8.16,
+     "latest_mph": 8.38
+    },
+    {
+     "route_id": "R2",
+     "direction": "N",
+     "from_stop": "Stop 1 & Main St",
+     "to_stop": "Stop 2 & Main St",
+     "from_lat": 40.824,
+     "from_lon": -73.88600000000001,
+     "to_lat": 40.828,
+     "to_lon": -73.88400000000001,
+     "miles": 0.45,
+     "baseline_mph": 6.17,
+     "latest_mph": 6.87
+    },
+    {
+     "route_id": "R2",
+     "direction": "S",
+     "from_stop": "Stop 2 & Main St",
+     "to_stop": "Stop 3 & Main St",
+     "from_lat": 40.828,
+     "from_lon": -73.88000000000001,
+     "to_lat": 40.832,
+     "to_lon": -73.87800000000001,
+     "miles": 0.56,
+     "baseline_mph": 6.71,
+     "latest_mph": 7.03
+    },
+    {
+     "route_id": "R2",
+     "direction": "N",
+     "from_stop": "Stop 3 & Main St",
+     "to_stop": "Stop 4 & Main St",
+     "from_lat": 40.832,
+     "from_lon": -73.87400000000001,
+     "to_lat": 40.836,
+     "to_lon": -73.87200000000001,
+     "miles": 0.55,
+     "baseline_mph": 8.09,
+     "latest_mph": 6.82
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Fordham Rd",
+   "borough": "BX",
+   "rapid_bus_corridor": false,
+   "status": "unmapped",
+   "definition": "",
+   "notes": "Sample note: the corridor runs on a street with no clear timepoint stops in the data.",
+   "routes": [],
+   "miles": null,
+   "n_segments": null,
+   "baseline_mph": null,
+   "target_mph": null,
+   "latest": null,
+   "post_plan": null,
+   "series": [],
+   "segments": []
+  },
+  {
+   "id": 4,
+   "name": "3rd Ave",
+   "borough": "MN",
+   "rapid_bus_corridor": false,
+   "status": "mapped",
+   "definition": "Sample definition: every bus segment whose two stops are both on this street.",
+   "notes": "",
+   "routes": [
+    "R4"
+   ],
+   "miles": 2.06,
+   "n_segments": 4,
+   "baseline_mph": 7.82,
+   "target_mph": 9.38,
+   "latest": {
+    "month": "2026-09",
+    "mph": 7.89,
+    "yoy_pct": 0.3,
+    "vs_baseline_pct": 0.9
+   },
+   "post_plan": {
+    "mph": 7.98,
+    "same_months_prior_year_mph": 7.73,
+    "change_pct": 3.2,
+    "months": 3
+   },
+   "series": [
+    {
+     "month": "2025-01",
+     "mph": 7.76,
+     "trips": 1873
+    },
+    {
+     "month": "2025-02",
+     "mph": 8.06,
+     "trips": 2691
+    },
+    {
+     "month": "2025-03",
+     "mph": 8.09,
+     "trips": 2141
+    },
+    {
+     "month": "2025-04",
+     "mph": 7.83,
+     "trips": 946
+    },
+    {
+     "month": "2025-05",
+     "mph": 7.97,
+     "trips": 2189
+    },
+    {
+     "month": "2025-06",
+     "mph": 7.51,
+     "trips": 1445
+    },
+    {
+     "month": "2025-07",
+     "mph": 7.54,
+     "trips": 2261
+    },
+    {
+     "month": "2025-08",
+     "mph": 7.78,
+     "trips": 2344
+    },
+    {
+     "month": "2025-09",
+     "mph": 7.87,
+     "trips": 2042
+    },
+    {
+     "month": "2025-10",
+     "mph": 7.94,
+     "trips": 990
+    },
+    {
+     "month": "2025-11",
+     "mph": 7.85,
+     "trips": 987
+    },
+    {
+     "month": "2025-12",
+     "mph": 8.08,
+     "trips": 1928
+    },
+    {
+     "month": "2026-01",
+     "mph": 7.88,
+     "trips": 2123
+    },
+    {
+     "month": "2026-02",
+     "mph": 7.86,
+     "trips": 2210
+    },
+    {
+     "month": "2026-03",
+     "mph": 7.61,
+     "trips": 1658
+    },
+    {
+     "month": "2026-04",
+     "mph": 7.69,
+     "trips": 2412
+    },
+    {
+     "month": "2026-05",
+     "mph": 8.01,
+     "trips": 1981
+    },
+    {
+     "month": "2026-06",
+     "mph": 7.68,
+     "trips": 2444
+    },
+    {
+     "month": "2026-07",
+     "mph": 7.76,
+     "trips": 1010
+    },
+    {
+     "month": "2026-08",
+     "mph": 8.28,
+     "trips": 1438
+    },
+    {
+     "month": "2026-09",
+     "mph": 7.89,
+     "trips": 1811
+    }
+   ],
+   "segments": [
+    {
+     "route_id": "R4",
+     "direction": "S",
+     "from_stop": "Stop 0 & Main St",
+     "to_stop": "Stop 1 & Main St",
+     "from_lat": 40.839999999999996,
+     "from_lon": -73.884,
+     "to_lat": 40.843999999999994,
+     "to_lon": -73.882,
+     "miles": 0.56,
+     "baseline_mph": 6.9,
+     "latest_mph": 7.2
+    },
+    {
+     "route_id": "R4",
+     "direction": "N",
+     "from_stop": "Stop 1 & Main St",
+     "to_stop": "Stop 2 & Main St",
+     "from_lat": 40.843999999999994,
+     "from_lon": -73.878,
+     "to_lat": 40.848,
+     "to_lon": -73.876,
+     "miles": 0.57,
+     "baseline_mph": 8.42,
+     "latest_mph": 6.28
+    },
+    {
+     "route_id": "R4",
+     "direction": "S",
+     "from_stop": "Stop 2 & Main St",
+     "to_stop": "Stop 3 & Main St",
+     "from_lat": 40.848,
+     "from_lon": -73.872,
+     "to_lat": 40.852,
+     "to_lon": -73.87,
+     "miles": 0.54,
+     "baseline_mph": 9.62,
+     "latest_mph": 8.59
+    },
+    {
+     "route_id": "R4",
+     "direction": "N",
+     "from_stop": "Stop 3 & Main St",
+     "to_stop": "Stop 4 & Main St",
+     "from_lat": 40.852,
+     "from_lon": -73.866,
+     "to_lat": 40.855999999999995,
+     "to_lon": -73.864,
+     "miles": 0.39,
+     "baseline_mph": 9.06,
+     "latest_mph": 9.73
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "14th St",
+   "borough": "MN",
+   "rapid_bus_corridor": true,
+   "status": "partial",
+   "definition": "Sample definition: every bus segment whose two stops are both on this street.",
+   "notes": "Sample note: only part of the corridor could be matched to timepoint segments.",
+   "routes": [
+    "R5"
+   ],
+   "miles": 1.89,
+   "n_segments": 4,
+   "baseline_mph": 8.46,
+   "target_mph": 10.15,
+   "latest": {
+    "month": "2026-09",
+    "mph": 8.52,
+    "yoy_pct": -0.4,
+    "vs_baseline_pct": 0.7
+   },
+   "post_plan": {
+    "mph": 8.76,
+    "same_months_prior_year_mph": 8.64,
+    "change_pct": 1.4,
+    "months": 3
+   },
+   "series": [
+    {
+     "month": "2025-01",
+     "mph": 8.25,
+     "trips": 1793
+    },
+    {
+     "month": "2025-02",
+     "mph": 8.73,
+     "trips": 2747
+    },
+    {
+     "month": "2025-03",
+     "mph": 8.36,
+     "trips": 1395
+    },
+    {
+     "month": "2025-04",
+     "mph": 8.22,
+     "trips": 1681
+    },
+    {
+     "month": "2025-05",
+     "mph": 8.39,
+     "trips": 1651
+    },
+    {
+     "month": "2025-06",
+     "mph": 8.72,
+     "trips": 2293
+    },
+    {
+     "month": "2025-07",
+     "mph": 8.68,
+     "trips": 1250
+    },
+    {
+     "month": "2025-08",
+     "mph": 8.68,
+     "trips": 2314
+    },
+    {
+     "month": "2025-09",
+     "mph": 8.55,
+     "trips": 2625
+    },
+    {
+     "month": "2025-10",
+     "mph": 8.38,
+     "trips": 2010
+    },
+    {
+     "month": "2025-11",
+     "mph": 8.48,
+     "trips": 2607
+    },
+    {
+     "month": "2025-12",
+     "mph": 8.37,
+     "trips": 2577
+    },
+    {
+     "month": "2026-01",
+     "mph": 8.22,
+     "trips": 2592
+    },
+    {
+     "month": "2026-02",
+     "mph": 8.29,
+     "trips": 919
+    },
+    {
+     "month": "2026-03",
+     "mph": 8.49,
+     "trips": 2989
+    },
+    {
+     "month": "2026-04",
+     "mph": 8.46,
+     "trips": 1809
+    },
+    {
+     "month": "2026-05",
+     "mph": 8.22,
+     "trips": 2770
+    },
+    {
+     "month": "2026-06",
+     "mph": 8.7,
+     "trips": 2083
+    },
+    {
+     "month": "2026-07",
+     "mph": 8.78,
+     "trips": 1831
+    },
+    {
+     "month": "2026-08",
+     "mph": 8.97,
+     "trips": 2075
+    },
+    {
+     "month": "2026-09",
+     "mph": 8.52,
+     "trips": 1901
+    }
+   ],
+   "segments": [
+    {
+     "route_id": "R5",
+     "direction": "S",
+     "from_stop": "Stop 0 & Main St",
+     "to_stop": "Stop 1 & Main St",
+     "from_lat": 40.849999999999994,
+     "from_lon": -73.88000000000001,
+     "to_lat": 40.85399999999999,
+     "to_lon": -73.87800000000001,
+     "miles": 0.32,
+     "baseline_mph": 10.07,
+     "latest_mph": 9.29
+    },
+    {
+     "route_id": "R5",
+     "direction": "N",
+     "from_stop": "Stop 1 & Main St",
+     "to_stop": "Stop 2 & Main St",
+     "from_lat": 40.85399999999999,
+     "from_lon": -73.87400000000001,
+     "to_lat": 40.858,
+     "to_lon": -73.87200000000001,
+     "miles": 0.67,
+     "baseline_mph": 10.05,
+     "latest_mph": 10.12
+    },
+    {
+     "route_id": "R5",
+     "direction": "S",
+     "from_stop": "Stop 2 & Main St",
+     "to_stop": "Stop 3 & Main St",
+     "from_lat": 40.858,
+     "from_lon": -73.86800000000001,
+     "to_lat": 40.861999999999995,
+     "to_lon": -73.86600000000001,
+     "miles": 0.53,
+     "baseline_mph": 6.51,
+     "latest_mph": 9.5
+    },
+    {
+     "route_id": "R5",
+     "direction": "N",
+     "from_stop": "Stop 3 & Main St",
+     "to_stop": "Stop 4 & Main St",
+     "from_lat": 40.861999999999995,
+     "from_lon": -73.86200000000001,
+     "to_lat": 40.86599999999999,
+     "to_lon": -73.86000000000001,
+     "miles": 0.37,
+     "baseline_mph": 7.66,
+     "latest_mph": 9.17
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Flatbush Ave",
+   "borough": "BK",
+   "rapid_bus_corridor": true,
+   "status": "mapped",
+   "definition": "Sample definition: every bus segment whose two stops are both on this street.",
+   "notes": "",
+   "routes": [
+    "R6"
+   ],
+   "miles": 1.81,
+   "n_segments": 4,
+   "baseline_mph": 9.13,
+   "target_mph": 10.96,
+   "latest": {
+    "month": "2026-09",
+    "mph": 9.39,
+    "yoy_pct": -0.6,
+    "vs_baseline_pct": 2.8
+   },
+   "post_plan": {
+    "mph": 9.54,
+    "same_months_prior_year_mph": 9.14,
+    "change_pct": 4.3,
+    "months": 3
+   },
+   "series": [
+    {
+     "month": "2025-01",
+     "mph": 9.21,
+     "trips": 2594
+    },
+    {
+     "month": "2025-02",
+     "mph": 8.93,
+     "trips": 1365
+    },
+    {
+     "month": "2025-03",
+     "mph": 9.1,
+     "trips": 1934
+    },
+    {
+     "month": "2025-04",
+     "mph": 9.48,
+     "trips": 2854
+    },
+    {
+     "month": "2025-05",
+     "mph": 9.39,
+     "trips": 1151
+    },
+    {
+     "month": "2025-06",
+     "mph": 9.11,
+     "trips": 1708
+    },
+    {
+     "month": "2025-07",
+     "mph": 8.97,
+     "trips": 1388
+    },
+    {
+     "month": "2025-08",
+     "mph": 9.0,
+     "trips": 2021
+    },
+    {
+     "month": "2025-09",
+     "mph": 9.45,
+     "trips": 1426
+    },
+    {
+     "month": "2025-10",
+     "mph": 9.39,
+     "trips": 930
+    },
+    {
+     "month": "2025-11",
+     "mph": 9.19,
+     "trips": 2539
+    },
+    {
+     "month": "2025-12",
+     "mph": 8.93,
+     "trips": 2011
+    },
+    {
+     "month": "2026-01",
+     "mph": 9.05,
+     "trips": 2632
+    },
+    {
+     "month": "2026-02",
+     "mph": 8.93,
+     "trips": 2223
+    },
+    {
+     "month": "2026-03",
+     "mph": 9.37,
+     "trips": 907
+    },
+    {
+     "month": "2026-04",
+     "mph": 9.41,
+     "trips": 1419
+    },
+    {
+     "month": "2026-05",
+     "mph": 8.93,
+     "trips": 1104
+    },
+    {
+     "month": "2026-06",
+     "mph": 8.94,
+     "trips": 1035
+    },
+    {
+     "month": "2026-07",
+     "mph": 9.71,
+     "trips": 1252
+    },
+    {
+     "month": "2026-08",
+     "mph": 9.51,
+     "trips": 2907
+    },
+    {
+     "month": "2026-09",
+     "mph": 9.39,
+     "trips": 2188
+    }
+   ],
+   "segments": [
+    {
+     "route_id": "R6",
+     "direction": "S",
+     "from_stop": "Stop 0 & Main St",
+     "to_stop": "Stop 1 & Main St",
+     "from_lat": 40.86,
+     "from_lon": -73.876,
+     "to_lat": 40.864,
+     "to_lon": -73.87400000000001,
+     "miles": 0.33,
+     "baseline_mph": 8.67,
+     "latest_mph": 8.95
+    },
+    {
+     "route_id": "R6",
+     "direction": "N",
+     "from_stop": "Stop 1 & Main St",
+     "to_stop": "Stop 2 & Main St",
+     "from_lat": 40.864,
+     "from_lon": -73.87,
+     "to_lat": 40.868,
+     "to_lon": -73.86800000000001,
+     "miles": 0.42,
+     "baseline_mph": 8.19,
+     "latest_mph": 11.34
+    },
+    {
+     "route_id": "R6",
+     "direction": "S",
+     "from_stop": "Stop 2 & Main St",
+     "to_stop": "Stop 3 & Main St",
+     "from_lat": 40.868,
+     "from_lon": -73.864,
+     "to_lat": 40.872,
+     "to_lon": -73.86200000000001,
+     "miles": 0.47,
+     "baseline_mph": 7.64,
+     "latest_mph": 7.4
+    },
+    {
+     "route_id": "R6",
+     "direction": "N",
+     "from_stop": "Stop 3 & Main St",
+     "to_stop": "Stop 4 & Main St",
+     "from_lat": 40.872,
+     "from_lon": -73.858,
+     "to_lat": 40.876,
+     "to_lon": -73.85600000000001,
+     "miles": 0.59,
+     "baseline_mph": 10.31,
+     "latest_mph": 9.66
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Woodhaven Blvd",
+   "borough": "QN",
+   "rapid_bus_corridor": true,
+   "status": "mapped",
+   "definition": "Sample definition: every bus segment whose two stops are both on this street.",
+   "notes": "",
+   "routes": [
+    "R7"
+   ],
+   "miles": 2.09,
+   "n_segments": 4,
+   "baseline_mph": 9.96,
+   "target_mph": 11.95,
+   "latest": {
+    "month": "2026-09",
+    "mph": 10.41,
+    "yoy_pct": 7.0,
+    "vs_baseline_pct": 4.5
+   },
+   "post_plan": {
+    "mph": 10.36,
+    "same_months_prior_year_mph": 9.82,
+    "change_pct": 5.5,
+    "months": 3
+   },
+   "series": [
+    {
+     "month": "2025-01",
+     "mph": 9.63,
+     "trips": 2787
+    },
+    {
+     "month": "2025-02",
+     "mph": 9.96,
+     "trips": 2457
+    },
+    {
+     "month": "2025-03",
+     "mph": 9.98,
+     "trips": 1077
+    },
+    {
+     "month": "2025-04",
+     "mph": 9.97,
+     "trips": 2667
+    },
+    {
+     "month": "2025-05",
+     "mph": 9.63,
+     "trips": 2932
+    },
+    {
+     "month": "2025-06",
+     "mph": 10.06,
+     "trips": 2190
+    },
+    {
+     "month": "2025-07",
+     "mph": 9.85,
+     "trips": 2613
+    },
+    {
+     "month": "2025-08",
+     "mph": 9.88,
+     "trips": 1903
+    },
+    {
+     "month": "2025-09",
+     "mph": 9.73,
+     "trips": 2006
+    },
+    {
+     "month": "2025-10",
+     "mph": 10.02,
+     "trips": 1193
+    },
+    {
+     "month": "2025-11",
+     "mph": 10.08,
+     "trips": 1819
+    },
+    {
+     "month": "2025-12",
+     "mph": 9.86,
+     "trips": 1015
+    },
+    {
+     "month": "2026-01",
+     "mph": 10.16,
+     "trips": 2432
+    },
+    {
+     "month": "2026-02",
+     "mph": 10.18,
+     "trips": 1973
+    },
+    {
+     "month": "2026-03",
+     "mph": 9.67,
+     "trips": 1404
+    },
+    {
+     "month": "2026-04",
+     "mph": 10.16,
+     "trips": 2441
+    },
+    {
+     "month": "2026-05",
+     "mph": 10.0,
+     "trips": 2204
+    },
+    {
+     "month": "2026-06",
+     "mph": 9.94,
+     "trips": 1322
+    },
+    {
+     "month": "2026-07",
+     "mph": 10.44,
+     "trips": 920
+    },
+    {
+     "month": "2026-08",
+     "mph": 10.23,
+     "trips": 1866
+    },
+    {
+     "month": "2026-09",
+     "mph": 10.41,
+     "trips": 1081
+    }
+   ],
+   "segments": [
+    {
+     "route_id": "R7",
+     "direction": "S",
+     "from_stop": "Stop 0 & Main St",
+     "to_stop": "Stop 1 & Main St",
+     "from_lat": 40.87,
+     "from_lon": -73.872,
+     "to_lat": 40.873999999999995,
+     "to_lon": -73.87,
+     "miles": 0.51,
+     "baseline_mph": 10.22,
+     "latest_mph": 11.05
+    },
+    {
+     "route_id": "R7",
+     "direction": "N",
+     "from_stop": "Stop 1 & Main St",
+     "to_stop": "Stop 2 & Main St",
+     "from_lat": 40.873999999999995,
+     "from_lon": -73.866,
+     "to_lat": 40.878,
+     "to_lon": -73.864,
+     "miles": 0.45,
+     "baseline_mph": 11.24,
+     "latest_mph": 9.78
+    },
+    {
+     "route_id": "R7",
+     "direction": "S",
+     "from_stop": "Stop 2 & Main St",
+     "to_stop": "Stop 3 & Main St",
+     "from_lat": 40.878,
+     "from_lon": -73.86,
+     "to_lat": 40.882,
+     "to_lon": -73.858,
+     "miles": 0.64,
+     "baseline_mph": 8.06,
+     "latest_mph": 8.87
+    },
+    {
+     "route_id": "R7",
+     "direction": "N",
+     "from_stop": "Stop 3 & Main St",
+     "to_stop": "Stop 4 & Main St",
+     "from_lat": 40.882,
+     "from_lon": -73.854,
+     "to_lat": 40.885999999999996,
+     "to_lon": -73.852,
+     "miles": 0.49,
+     "baseline_mph": 10.75,
+     "latest_mph": 9.55
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Hylan Blvd",
+   "borough": "SI",
+   "rapid_bus_corridor": false,
+   "status": "unmapped",
+   "definition": "",
+   "notes": "Sample note: the corridor runs on a street with no clear timepoint stops in the data.",
+   "routes": [],
+   "miles": null,
+   "n_segments": null,
+   "baseline_mph": null,
+   "target_mph": null,
+   "latest": null,
+   "post_plan": null,
+   "series": [],
+   "segments": []
+  }
+ ]
+}

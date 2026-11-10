@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methods | Next Stop Tracker</title>
+<meta name="description" content="How the Next Stop Tracker measures bus speeds, defines corridors and chooses a baseline.">
+<script>(function(){var t=null;try{t=localStorage.getItem('nst-theme')}catch(e){}if(t!=='light'&&t!=='dark'){t='light';try{if(matchMedia('(prefers-color-scheme: dark)').matches)t='dark'}catch(e){}}document.documentElement.dataset.theme=t})()</script>
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css"><link rel="stylesheet" href="style.css"></head>
+<body data-page="methods"><a class="skip" href="#app">Skip to content</a>
+<div id="chrome-top"></div>
+<main id="app" tabindex="-1">
+<section class="hero inner"><div class="wrap"><h1 class="display inner">Methods</h1><p class="lead">This is an independent project by Kush Zingade. It is not affiliated with NYC DOT or the MTA. Every number here is computed from public data, and the code and corridor definitions are open so they can be checked and corrected.</p></div></section>
+<div class="wrap methods">
+<nav class="toc" aria-label="On this page"><div class="tochd">On this page</div><ol><li><a href="#s1">Data sources</a></li><li><a href="#s2">How speeds are computed</a></li><li><a href="#s3">How corridors were defined</a></li><li><a href="#s4">Which segments count</a></li><li><a href="#s5">Baseline choice</a></li><li><a href="#s6">Camera enforcement analysis</a></li><li><a href="#s7">Limits</a></li><li><a href="#s8">Report a wrong corridor definition</a></li></ol></nav>
+<div class="mbody">
+<section id="s1" aria-labelledby="s1h"><h2 id="s1h">Data sources</h2><ul>
+<li><a href="https://data.ny.gov/d/kufs-yh3x">MTA Bus Route Segment Speeds (data.ny.gov, kufs-yh3x)</a>: monthly weekday speeds between timepoint stops. We use Local, Limited and Select Bus Service trips only, so school and express trips are left out. This is the main source.</li>
+<li><a href="https://data.ny.gov/d/cudb-vcni">MTA Bus Speeds: Beginning 2015 (data.ny.gov, cudb-vcni)</a>: route speeds for the camera analysis.</li>
+<li><a href="https://data.ny.gov/d/ki2b-sg5y">MTA Bus Automated Camera Enforced Routes: Beginning October 2019 (data.ny.gov, ki2b-sg5y)</a>: which routes have cameras and when they started.</li>
+<li><a href="https://www.nyc.gov/html/dot/downloads/pdf/next-stop-fast-buses-better-service.pdf">Next Stop: Fast Buses, Better Service (NYC DOT plan PDF)</a>: the list of 50 Priority Corridors and the 20 percent goal.</li>
+</ul></section>
+<section id="s2" aria-labelledby="s2h"><h2 id="s2h">How speeds are computed</h2><p>A speed figure is average weekday bus speed in miles per hour (mph). For any group of segments and months, speed is total bus-miles divided by total bus-hours. We never average the speeds of individual segments, because that would give short, slow segments the same weight as long, fast ones.</p></section>
+<section id="s3" aria-labelledby="s3h"><h2 id="s3h">How corridors were defined</h2><div class="callout inline"><div class="chd">Our definition, not the city's</div><div class="cbd"><p>The plan does not publish stop-level definitions. Every corridor on this site is our own reading of the plan's street limits, and each corridor page says what we measured in plain English.</p></div></div><p>The plan gives street limits, and sometimes routes, for most of its 28 ongoing projects, and only a name for the rest. It does not publish stop-level definitions. Where the plan gives limits we used them, and each corridor page says so. For each corridor we matched the street name to bus timepoint stops in the segment catalog and, as the usual rule, kept the segments whose two stops are both on that street. A few corridors have stated exceptions: some keep segments that only partly overlap the project (for example the 34th St Busway and Madison Ave), some keep segments with one stop on a cross street, and South Brooklyn Crosstown follows the whole B82 route. Each corridor page describes what we measured in plain English.</p><p>Some corridors could only be partly matched, and some could not be matched yet. Each corridor has one of these labels.</p>
+<dl class="defs">
+<div><dt>● Tracked</dt><dd>A corridor is marked "Tracked" only when the matched segments cover those limits.</dd></div>
+<div><dt>◐ Partly mapped</dt><dd>A "Partly mapped" corridor does show numbers, but they cover only the stretch we could match, not the plan's stated limits (or, when the plan gives none, the whole named street).</dd></div>
+<div><dt>○ Not yet mapped</dt><dd>A "Not yet mapped" corridor has no numbers, with the reason.</dd></div>
+<div><dt>◌ Mapped, no recent data</dt><dd>A corridor can also be mapped but have no recent data, if the source changed its stop ids.</dd></div>
+</dl><p>A corridor figure covers every route and direction on those segments, including routes that also run beyond the corridor. Segment lines on the corridor map are schematic: each is a straight line between two stops, not the street shape. The "segment miles" on a corridor page add up every route and direction, so they are not the corridor length. Some corridors share segments, so their numbers are not independent; the home page names them.</p></section>
+<section id="s4" aria-labelledby="s4h"><span id="basis"></span><h2 id="s4h">Which segments count</h2><p>Segments come and go in the source: a timepoint is added, a route is rerouted, a stop id changes. If we pooled whatever happens to exist each month, a corridor's speed could move only because the mix of segments changed. So:</p>
+<ul>
+<li>Stop-id variants of the same stop pair (same route, direction, stop locations and recorded length) are treated as one segment.</li>
+<li>A segment is "consistent" if it has data in every one of the 12 baseline months. If consistent segments carry at least 70% of the corridor's trips in the baseline months, the corridor's baseline, latest and since-release figures use only them. Otherwise they use all segments with data, and the corridor page says so. The baseline window is closed, and the 70% test uses baseline months only, so later months cannot change a baseline. A segment that stops reporting after the plan stays in the baseline but drops out of the latest month; the corridor page says how many segments still report.</li>
+<li>Comparisons with the same month a year earlier use only segments that have data in both months.</li>
+<li>Each segment's distance is held fixed at its baseline miles per trip, so small drift in the recorded distance does not look like a speed change. A segment is also left out entirely if the recorded distance moves by more than 3% inside the window, which suggests a different path. Speed is distance divided by time, so a changed distance looks like a speed change even when the buses did not change.</li>
+<li>Corridor pages list every mapped segment and mark the ones not used.</li>
+<li>The pooled figures on the home page count each segment-month once, even when two corridors share it, and leave out corridors with no baseline.</li>
+</ul></section>
+<section id="s5" aria-labelledby="s5h"><h2 id="s5h">Baseline choice</h2><p>The plan does not define a baseline period. We chose the 12 months before the plan: July 2025 to June 2026. The baseline speed is the speed over those 12 months, and the target is the baseline times 1.2. This is our choice, and a different baseline would change the gap to target. Using a full year avoids seasonal swings, but it means a single month should not be compared with the baseline, because some months are always slower than the yearly average. The tracker leads with the months since release against the same months a year earlier. The plan was released in July 2026, so months from July 2026 on are "after release".</p>
+<p>Most street projects are not built yet, so flat speeds right after release are expected. This tracker sets a starting line. It does not judge the plan.</p></section>
+<section id="s6" aria-labelledby="s6h"><h2 id="s6h">Camera enforcement analysis</h2><p>The camera page compares each enforced route before and after cameras began, against control routes in the same borough and trip type, over matched calendar months. The result is the difference of the two percent changes, in percentage points. Because the result can be moved by other changes, the page also shows a check with fake start dates a year early, results without Queens routes affected by the mid 2025 Queens bus redesign, and the wider of two confidence intervals. Comparison routes that run in the same bus lanes as camera routes may also benefit, so the page also shows a version without them. Full method: <code>docs/ACE-METHOD.md</code>. Data downloads: <a href="data/corridors.json">corridors.json</a> and <a href="data/ace.json">ace.json</a>.</p></section>
+<section id="s7" aria-labelledby="s7h"><h2 id="s7h">Limits</h2><ul>
+<li>Timepoint segments: speeds are measured between scheduled timepoint stops, which can be far apart.</li>
+<li>Weekday averages only. Weekends, rush hours and individual trips are not separated.</li>
+<li>Data lags by about a month, so the latest month shown is not current.</li>
+<li>Observational analysis: cameras, lanes and other changes arrive together, so we cannot isolate one cause.</li>
+<li>Congestion pricing began in January 2025 and may affect before and after comparisons.</li>
+<li>Queens bus routes were redesigned in phases in mid 2025, which falls inside the year-earlier months used for the since-release comparison. Queens changes since release can include redesign effects.</li>
+<li>The plan promises a public performance dashboard but gives no date for it or for the 20% goal. If it appears, it should replace this tracker's figures where they differ.</li>
+</ul></section>
+<section id="s8" aria-labelledby="s8h"><span id="report"></span><h2 id="s8h">Report a wrong corridor definition</h2><p>If a corridor includes a segment it should not, or misses one, please <a href="https://github.com/UgaTheDev/nextstop-tracker/issues/new">open an issue on the project's GitHub repository</a>, with the corridor name, the stop ids and a short reason. The code, corridor definitions and data are all in <a href="https://github.com/UgaTheDev/nextstop-tracker">the repository</a>.</p></section>
+</div></div>
+</main>
+<div id="chrome-bottom"></div>
+<script src="app.js"></script></body></html>

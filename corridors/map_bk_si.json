@@ -1,0 +1,1498 @@
+{
+ "corridors": [
+  {
+   "id": 35,
+   "name": "Bedford Ave",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "Segments whose two timepoint stops are both on Bedford Av in Brooklyn.",
+   "on_streets": [
+    "BEDFORD AV"
+   ],
+   "extent": "all Bedford Av segments present in the catalog (Bergen St to Avenue D)",
+   "routes": [
+    "B49"
+   ],
+   "segments": [
+    {
+     "route_id": "B49",
+     "direction": "S",
+     "from_id": "303968",
+     "to_id": "303976",
+     "from_stop": "BEDFORD AV/BERGEN ST",
+     "to_stop": "BEDFORD AV/EMPIRE BLVD",
+     "miles": 0.92,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B49",
+     "direction": "S",
+     "from_id": "303976",
+     "to_id": "303985",
+     "from_stop": "BEDFORD AV/EMPIRE BLVD",
+     "to_stop": "BEDFORD AV/CHURCH AV",
+     "miles": 0.91,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B49",
+     "direction": "S",
+     "from_id": "303985",
+     "to_id": "303990",
+     "from_stop": "BEDFORD AV/CHURCH AV",
+     "to_stop": "BEDFORD AV/AVENUE D",
+     "miles": 0.67,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan text gives no limits for Bedford Ave. Only B49 southbound has both-on-Bedford pairs (Bergen St to Avenue D, 2.5 mi); coverage is one-directional (northbound B49 timepoints are on Rogers Av, reaching Bedford only at Dean St). The Church Av to Avenue D segment is a low-volume variant (about 2,800 trips in 21 months). The main B49 pattern, Bedford Av/Church Av to FOSTER AV/BEDFORD AV (0.85 mi along Bedford, about 41,000 trips), is excluded because its end stop is named on Foster Av. Bedford Av north of Fulton St (northbound B44 and B44+ SBS) is not represented: those segments run Fulton St/Nostrand Av or Nostrand Av/Avenue H to Bedford Av/Flushing Av to Williamsburg Bridge Plaza, one stop on Bedford only. B62 touches Bedford Av/Broadway only."
+  },
+  {
+   "id": 36,
+   "name": "Marcy Ave",
+   "borough": "BK",
+   "status": "unmapped",
+   "definition": "Marcy Ave, Borinquen Pl to Broadway, Brooklyn (plan p.23).",
+   "on_streets": [],
+   "extent": "n/a",
+   "routes": [],
+   "segments": [],
+   "notes": "Plan limits are Borinquen Pl to Broadway, but no catalog stop is ON Marcy Av (it only appears as a cross street), so no segment has both timepoints on it. Plan says a new bus lane will serve 3 routes. UNMAPPED: needs a stop-level or GIS source."
+  },
+  {
+   "id": 37,
+   "name": "Livingston St",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "Livingston St segments between Court St and Smith St (inside plan limits Gallatin Pl to Court St).",
+   "on_streets": [
+    "LIVINGSTON ST"
+   ],
+   "extent": "Court St to Smith St",
+   "routes": [
+    "B45"
+   ],
+   "segments": [
+    {
+     "route_id": "B45",
+     "direction": "E",
+     "from_id": "303517",
+     "to_id": "303290",
+     "from_stop": "LIVINGSTON ST/COURT ST",
+     "to_stop": "LIVINGSTON ST/SMITH ST",
+     "miles": 0.2,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B45",
+     "direction": "W",
+     "from_id": "303259",
+     "to_id": "801026",
+     "from_stop": "LIVINGSTON ST/SMITH ST",
+     "to_stop": "LIVINGSTON ST/COURT ST",
+     "miles": 0.52,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan limits Gallatin Pl to Court St. Only B45 has both-on-Livingston timepoints (Court St and Smith St). Smith St to Gallatin Pl is not a timepoint-to-timepoint segment, so most of the stated extent is uncovered; B45 and B67 segments that continue east from Smith St end on Atlantic Av or Flatbush Av. Longitude clip -73.992 to -73.984. The westbound segment is 0.52 mi against 0.20 mi eastbound for the same two corners (stops about 0.2 mi apart), so the westbound path is not the direct line (probably a terminal loop)."
+  },
+  {
+   "id": 38,
+   "name": "DeKalb/Lafayette Ave",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "DeKalb Av / Lafayette Av segments from Flatbush Av east to about Broadway (Bed-Stuy), plan limits Broadway to Flatbush Av.",
+   "on_streets": [
+    "DE KALB AV",
+    "LAFAYETTE AV"
+   ],
+   "extent": "west of lon -73.927 (approximate Broadway crossing)",
+   "routes": [
+    "B38"
+   ],
+   "segments": [
+    {
+     "route_id": "B38",
+     "direction": "E",
+     "from_id": "303027",
+     "to_id": "306395",
+     "from_stop": "LAFAYETTE AV/NOSTRAND AV",
+     "to_stop": "LAFAYETTE AV/PATCHEN AV",
+     "miles": 1.21,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B38",
+     "direction": "W",
+     "from_id": "303081",
+     "to_id": "303088",
+     "from_stop": "DE KALB AV/MALCOLM X BLVD",
+     "to_stop": "DE KALB AV/NOSTRAND AV",
+     "miles": 1.09,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B38",
+     "direction": "W",
+     "from_id": "303088",
+     "to_id": "303096",
+     "from_stop": "DE KALB AV/NOSTRAND AV",
+     "to_stop": "DE KALB AV/VANDERBILT AV",
+     "miles": 0.92,
+     "route_type": "Limited"
+    }
+   ],
+   "notes": "Plan: DeKalb and Lafayette Avenues, Broadway to Flatbush Avenue (labelled Brooklyn/Queens, though both limits are in Brooklyn; if the east end was meant to reach Ridgewood, the B38 DeKalb Av segments Malcolm X Blvd to Wyckoff Av to Seneca Av would also belong and are not included). B38 Local and Limited. No catalog stop sits on Broadway at DeKalb or Lafayette, so the Broadway crossing is approximated at lon -73.927 from the Broadway alignment; one WebSearch returned no coordinates. Lafayette Av/Patchen Av (-73.9281) and DeKalb Av/Malcolm X Blvd (-73.9316) are the last stops west of Broadway; segments continuing to DeKalb Av/Wyckoff Av cross Broadway and are excluded. West end not covered: B38 E Fulton St/Bond St to Lafayette Av/Nostrand Av (1.75 mi, mostly on Lafayette Av) and B38 W DeKalb Av/Vanderbilt Av to Fulton St/Duffield St (0.84 mi) have one stop on Fulton St, so Flatbush Av to Nostrand Av (eastbound) and Flatbush Av to Vanderbilt Av (westbound) are missing."
+  },
+  {
+   "id": 39,
+   "name": "Flatbush Ave",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "All segments whose two timepoint stops are both on Flatbush Av in Brooklyn (full-length rapid bus corridor), not only the 2026 project limits Livingston St to Grand Army Plaza.",
+   "on_streets": [
+    "FLATBUSH AV"
+   ],
+   "extent": "full length present in catalog (Kings Plaza to Atlantic Av); assumption: full corridor rather than the stated 2026 project limits (Livingston St to Grand Army Plaza)",
+   "routes": [
+    "B41",
+    "B9"
+   ],
+   "segments": [
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "303215",
+     "to_id": "303222",
+     "from_stop": "FLATBUSH AV/KINGS PLAZA",
+     "to_stop": "FLATBUSH AV/TROY AV",
+     "miles": 0.93,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "303222",
+     "to_id": "303232",
+     "from_stop": "FLATBUSH AV/TROY AV",
+     "to_stop": "FLATBUSH AV/NOSTRAND AV",
+     "miles": 1.2,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "303222",
+     "to_id": "307839",
+     "from_stop": "FLATBUSH AV/TROY AV",
+     "to_stop": "FLATBUSH AV/E 31 ST",
+     "miles": 1.13,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "303232",
+     "to_id": "308348",
+     "from_stop": "FLATBUSH AV/NOSTRAND AV",
+     "to_stop": "FLATBUSH AV/CHURCH AV",
+     "miles": 1.44,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "306325",
+     "to_id": "303254",
+     "from_stop": "FLATBUSH AV/EMPIRE BLVD",
+     "to_stop": "FLATBUSH AV/ATLANTIC AV",
+     "miles": 1.73,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "307839",
+     "to_id": "308348",
+     "from_stop": "FLATBUSH AV/E 31 ST",
+     "to_stop": "FLATBUSH AV/CHURCH AV",
+     "miles": 1.51,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "N",
+     "from_id": "308348",
+     "to_id": "306325",
+     "from_stop": "FLATBUSH AV/CHURCH AV",
+     "to_stop": "FLATBUSH AV/EMPIRE BLVD",
+     "miles": 0.86,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "S",
+     "from_id": "303295",
+     "to_id": "307646",
+     "from_stop": "FLATBUSH AV/ATLANTIC AV",
+     "to_stop": "FLATBUSH AV/OCEAN AV",
+     "miles": 1.72,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "S",
+     "from_id": "303317",
+     "to_id": "303324",
+     "from_stop": "FLATBUSH AV/NOSTRAND AV",
+     "to_stop": "FLATBUSH AV/AVENUE P",
+     "miles": 1.15,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "S",
+     "from_id": "303324",
+     "to_id": "801144",
+     "from_stop": "FLATBUSH AV/AVENUE P",
+     "to_stop": "FLATBUSH AV/KINGS PLAZA",
+     "miles": 1.1,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "S",
+     "from_id": "307646",
+     "to_id": "308369",
+     "from_stop": "FLATBUSH AV/OCEAN AV",
+     "to_stop": "FLATBUSH AV/CHURCH AV",
+     "miles": 0.92,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B41",
+     "direction": "S",
+     "from_id": "308369",
+     "to_id": "303317",
+     "from_stop": "FLATBUSH AV/CHURCH AV",
+     "to_stop": "FLATBUSH AV/NOSTRAND AV",
+     "miles": 1.41,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B9",
+     "direction": "E",
+     "from_id": "303324",
+     "to_id": "801039",
+     "from_stop": "FLATBUSH AV/AVENUE P",
+     "to_stop": "FLATBUSH AV/KINGS PLAZA",
+     "miles": 1.02,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Extent assumption (why \"partial\"): the plan states limits for project 39, \"Flatbush Avenue, Livingston Street to Grand Army Plaza\" (2026 center-running lanes), and separately promises rapid bus on \"the full length of the Flatbush Avenue corridor\" by 2030 (rapid_bus_corridor=true). The full length is used. Only two mapped segments touch the 2026 project limits: B41 N Empire Blvd to Atlantic Av and B41 S Atlantic Av to Ocean Av, each about half inside (Grand Army Plaza to Atlantic Av); Atlantic Av to Livingston St has no both-on-Flatbush segment (B41 runs Flatbush/Atlantic to Cadman Plaza West). B41 Local and Limited, plus B9 E Avenue P to Kings Plaza. Northbound B41 lists two stop variants for the same stretch (Troy Av to Nostrand Av or E 31 St, then to Church Av), so summed miles (about 8.8 N vs 6.3 S) overstate; one pass is about 6.2 mi. Removed in review: Q90 S Flatbush Av/Pacific St to Ocean Av. That row has 6 trips in a single month, catalog borough \"Other\" and 8xxxxx stop ids, and runs Atlantic Av to Prospect Park; it looks like a subway-replacement shuttle reusing the Q90 id, not the Q90 bus route (Flushing to LaGuardia). Excluded by the both-stops-on-street rule: B9, B2, Q35 and B103 segments with one stop on a cross street, Flatbush Av north of Atlantic Av and south of Kings Plaza."
+  },
+  {
+   "id": 40,
+   "name": "Utica Ave",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "All segments whose two timepoint stops are both on Utica Av.",
+   "on_streets": [
+    "UTICA AV"
+   ],
+   "extent": "full length present in catalog (Avenue N/Fillmore to Fulton St)",
+   "routes": [
+    "B46",
+    "B46+"
+   ],
+   "segments": [
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "303590",
+     "to_id": "303592",
+     "from_stop": "UTICA AV/FILLMORE AV",
+     "to_stop": "UTICA AV/AVENUE N",
+     "miles": 0.38,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "303590",
+     "to_id": "308802",
+     "from_stop": "UTICA AV/FILLMORE AV",
+     "to_stop": "UTICA AV/AVENUE N",
+     "miles": 0.38,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "303592",
+     "to_id": "801094",
+     "from_stop": "UTICA AV/AVENUE N",
+     "to_stop": "UTICA AV/AVENUE H",
+     "miles": 0.89,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "307668",
+     "to_id": "307092",
+     "from_stop": "UTICA AV/EASTERN PKWY",
+     "to_stop": "UTICA AV/FULTON ST",
+     "miles": 0.76,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "308802",
+     "to_id": "308809",
+     "from_stop": "UTICA AV/AVENUE N",
+     "to_stop": "UTICA AV/AVENUE H",
+     "miles": 0.89,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "308804",
+     "to_id": "307668",
+     "from_stop": "UTICA AV/CHURCH AV",
+     "to_stop": "UTICA AV/EASTERN PKWY",
+     "miles": 1.11,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "308804",
+     "to_id": "308806",
+     "from_stop": "UTICA AV/CHURCH AV",
+     "to_stop": "UTICA AV/UNION ST",
+     "miles": 1.1,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "308806",
+     "to_id": "308807",
+     "from_stop": "UTICA AV/UNION ST",
+     "to_stop": "UTICA AV/FULTON ST",
+     "miles": 0.77,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "308809",
+     "to_id": "308804",
+     "from_stop": "UTICA AV/AVENUE H",
+     "to_stop": "UTICA AV/CHURCH AV",
+     "miles": 1.37,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "N",
+     "from_id": "801094",
+     "to_id": "308804",
+     "from_stop": "UTICA AV/AVENUE H",
+     "to_stop": "UTICA AV/CHURCH AV",
+     "miles": 1.37,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "S",
+     "from_id": "303696",
+     "to_id": "303702",
+     "from_stop": "UTICA AV/AVENUE H",
+     "to_stop": "UTICA AV/AVENUE N",
+     "miles": 0.97,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "S",
+     "from_id": "303702",
+     "to_id": "303704",
+     "from_stop": "UTICA AV/AVENUE N",
+     "to_stop": "UTICA AV/FILLMORE AV",
+     "miles": 0.28,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "S",
+     "from_id": "307026",
+     "to_id": "308800",
+     "from_stop": "UTICA AV/EASTERN PKWY",
+     "to_stop": "UTICA AV/CHURCH AV",
+     "miles": 1.17,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46",
+     "direction": "S",
+     "from_id": "308800",
+     "to_id": "303696",
+     "from_stop": "UTICA AV/CHURCH AV",
+     "to_stop": "UTICA AV/AVENUE H",
+     "miles": 1.28,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B46+",
+     "direction": "S",
+     "from_id": "303702",
+     "to_id": "901494",
+     "from_stop": "UTICA AV/AVENUE N",
+     "to_stop": "UTICA AV/FILLMORE AV (NON-PUBLIC/FOR RELIEFS)",
+     "miles": 0.28,
+     "route_type": "SBS"
+    }
+   ],
+   "notes": "Plan gives no limits (rapid bus study corridor). Speeds here are almost entirely B46 local: the B46+ SBS timepoint segments run Utica Av/Avenue N to MALCOLM X BLVD/DE KALB AV (5.1 mi each way, about 4 mi of it on Utica Av, about 131,000 trips in 21 months) and are excluded because one stop is on Malcolm X Blvd. The only SBS segment kept is B46+ S Avenue N to Fillmore Av (0.28 mi, ends at a non-public stop). Northbound B46 lists two stop-id variants of each segment (used in different months), so summed miles (9.0 N vs 3.7 S) overstate; one pass is 4.5 mi N (Fillmore Av to Fulton St) and 3.7 mi S (Eastern Pkwy to Fillmore Av). Southbound Fulton St to Eastern Pkwy is missing (segment starts at Malcolm X Blvd/Marion St). Utica Av south of Fillmore Av (to Kings Plaza) has no both-on-Utica pair."
+  },
+  {
+   "id": 41,
+   "name": "Church Ave",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "All segments whose two timepoint stops are both on Church Av in Brooklyn.",
+   "on_streets": [
+    "CHURCH AV"
+   ],
+   "extent": "full length present in catalog (McDonald Av to Kings Hwy)",
+   "routes": [
+    "B35"
+   ],
+   "segments": [
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302692",
+     "to_id": "302696",
+     "from_stop": "CHURCH AV/McDONALD AV",
+     "to_stop": "CHURCH AV/CONEY ISLAND AV",
+     "miles": 0.51,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302696",
+     "to_id": "302701",
+     "from_stop": "CHURCH AV/CONEY ISLAND AV",
+     "to_stop": "CHURCH AV/FLATBUSH AV",
+     "miles": 0.74,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302701",
+     "to_id": "307792",
+     "from_stop": "CHURCH AV/FLATBUSH AV",
+     "to_stop": "CHURCH AV/NOSTRAND AV",
+     "miles": 0.47,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302715",
+     "to_id": "302719",
+     "from_stop": "CHURCH AV/UTICA AV",
+     "to_stop": "CHURCH AV/KINGS HWY",
+     "miles": 0.44,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "307792",
+     "to_id": "302715",
+     "from_stop": "CHURCH AV/NOSTRAND AV",
+     "to_stop": "CHURCH AV/UTICA AV",
+     "miles": 0.99,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "302742",
+     "to_id": "308483",
+     "from_stop": "CHURCH AV/KINGS HWY",
+     "to_stop": "CHURCH AV/UTICA AV",
+     "miles": 0.38,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "302759",
+     "to_id": "302765",
+     "from_stop": "CHURCH AV/FLATBUSH AV",
+     "to_stop": "CHURCH AV/CONEY ISLAND AV",
+     "miles": 0.65,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "302765",
+     "to_id": "307947",
+     "from_stop": "CHURCH AV/CONEY ISLAND AV",
+     "to_stop": "CHURCH AV/MCDONALD AV",
+     "miles": 0.55,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "307793",
+     "to_id": "302759",
+     "from_stop": "CHURCH AV/NOSTRAND AV",
+     "to_stop": "CHURCH AV/FLATBUSH AV",
+     "miles": 0.5,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "308483",
+     "to_id": "307793",
+     "from_stop": "CHURCH AV/UTICA AV",
+     "to_stop": "CHURCH AV/NOSTRAND AV",
+     "miles": 1.02,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan gives no limits. Only B35 Local has both-on-Church pairs, McDonald Av to Kings Hwy (about 3.1 mi each way). B35 Limited is not represented: its segments run Church Av/McDonald Av to Hegeman Av/Watkins St (4.3 mi) with one stop off Church Av. Church Av west of McDonald Av and east of Kings Hwy have none. Overlaps corridor 42 (same segments) by design."
+  },
+  {
+   "id": 42,
+   "name": "Kensington\u2013JFK",
+   "borough": "BK\u2013QN",
+   "status": "partial",
+   "definition": "Church Av, Linden Blvd, New Lots Av and Conduit Av, per plan (visioning for rapid bus connecting Kensington to JFK).",
+   "on_streets": [
+    "CHURCH AV",
+    "CONDUIT AV",
+    "CONDUIT BLVD",
+    "LINDEN BLVD",
+    "NEW LOTS AV"
+   ],
+   "extent": "Church Av (McDonald Av) east, New Lots Av, Linden Blvd and Conduit Av up to lon -73.825",
+   "routes": [
+    "B15",
+    "B35"
+   ],
+   "segments": [
+    {
+     "route_id": "B15",
+     "direction": "E",
+     "from_id": "301146",
+     "to_id": "307332",
+     "from_stop": "NEW LOTS AV/ASHFORD ST",
+     "to_stop": "LINDEN BLVD/ELDERT LN",
+     "miles": 1.25,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "E",
+     "from_id": "307989",
+     "to_id": "301146",
+     "from_stop": "NEW LOTS AV/PENNSYLVANIA AV",
+     "to_stop": "NEW LOTS AV/ASHFORD ST",
+     "miles": 0.59,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "E",
+     "from_id": "307989",
+     "to_id": "308820",
+     "from_stop": "NEW LOTS AV/PENNSYLVANIA AV",
+     "to_stop": "NEW LOTS AV/CLEVELAND ST",
+     "miles": 0.62,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "E",
+     "from_id": "308820",
+     "to_id": "307332",
+     "from_stop": "NEW LOTS AV/CLEVELAND ST",
+     "to_stop": "LINDEN BLVD/ELDERT LN",
+     "miles": 1.22,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "W",
+     "from_id": "301029",
+     "to_id": "301040",
+     "from_stop": "LINDEN BLVD/ELDERT LN",
+     "to_stop": "NEW LOTS AV/ASHFORD ST",
+     "miles": 1.26,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "W",
+     "from_id": "301029",
+     "to_id": "308831",
+     "from_stop": "LINDEN BLVD/ELDERT LN",
+     "to_stop": "NEW LOTS AV/WARWICK ST",
+     "miles": 1.28,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "W",
+     "from_id": "301040",
+     "to_id": "301045",
+     "from_stop": "NEW LOTS AV/ASHFORD ST",
+     "to_stop": "NEW LOTS AV/PENNSYLVANIA AV",
+     "miles": 0.57,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B15",
+     "direction": "W",
+     "from_id": "308831",
+     "to_id": "301045",
+     "from_stop": "NEW LOTS AV/WARWICK ST",
+     "to_stop": "NEW LOTS AV/PENNSYLVANIA AV",
+     "miles": 0.54,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302692",
+     "to_id": "302696",
+     "from_stop": "CHURCH AV/McDONALD AV",
+     "to_stop": "CHURCH AV/CONEY ISLAND AV",
+     "miles": 0.51,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302696",
+     "to_id": "302701",
+     "from_stop": "CHURCH AV/CONEY ISLAND AV",
+     "to_stop": "CHURCH AV/FLATBUSH AV",
+     "miles": 0.74,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302701",
+     "to_id": "307792",
+     "from_stop": "CHURCH AV/FLATBUSH AV",
+     "to_stop": "CHURCH AV/NOSTRAND AV",
+     "miles": 0.47,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "302715",
+     "to_id": "302719",
+     "from_stop": "CHURCH AV/UTICA AV",
+     "to_stop": "CHURCH AV/KINGS HWY",
+     "miles": 0.44,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "E",
+     "from_id": "307792",
+     "to_id": "302715",
+     "from_stop": "CHURCH AV/NOSTRAND AV",
+     "to_stop": "CHURCH AV/UTICA AV",
+     "miles": 0.99,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "302742",
+     "to_id": "308483",
+     "from_stop": "CHURCH AV/KINGS HWY",
+     "to_stop": "CHURCH AV/UTICA AV",
+     "miles": 0.38,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "302759",
+     "to_id": "302765",
+     "from_stop": "CHURCH AV/FLATBUSH AV",
+     "to_stop": "CHURCH AV/CONEY ISLAND AV",
+     "miles": 0.65,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "302765",
+     "to_id": "307947",
+     "from_stop": "CHURCH AV/CONEY ISLAND AV",
+     "to_stop": "CHURCH AV/MCDONALD AV",
+     "miles": 0.55,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "307793",
+     "to_id": "302759",
+     "from_stop": "CHURCH AV/NOSTRAND AV",
+     "to_stop": "CHURCH AV/FLATBUSH AV",
+     "miles": 0.5,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B35",
+     "direction": "W",
+     "from_id": "308483",
+     "to_id": "307793",
+     "from_stop": "CHURCH AV/UTICA AV",
+     "to_stop": "CHURCH AV/NOSTRAND AV",
+     "miles": 1.02,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan names the four streets but no extents. Catalog has Church Av (B35) and New Lots Av (B15) pairs only; zero pairs with both stops on Linden Blvd and none on Conduit Av; the only Linden stop is LINDEN BLVD/ELDERT LN (Cypress Hills), reached by 2 B15 segments that start on New Lots Av (kept because both stops are on named corridor streets). Linden east of lon -73.825 (Q4/Q51 in Queens) excluded as beyond Conduit/JFK access. Church segments duplicate corridor 41. The New Lots Av to Linden Blvd/Eldert Ln segments are 1.22 to 1.28 mi against 1.05 mi straight-line, so a short connector on streets not named by the plan is included in them. B15 stop ids changed during the data period, so Ashford St and Cleveland St / Warwick St variants cover different months, not extra service. Not included (stops named on cross streets): B20 Ashford St/Linden Blvd to Eldert Ln/Linden Blvd, which runs along Linden Blvd."
+  },
+  {
+   "id": 43,
+   "name": "Linden Blvd",
+   "borough": "BK\u2013QN",
+   "status": "unmapped",
+   "definition": "Linden Blvd, Fountain Av to Conduit Av, Brooklyn/Queens (plan p.24).",
+   "on_streets": [],
+   "extent": "n/a",
+   "routes": [],
+   "segments": [],
+   "notes": "Plan defines the corridor (Linden Blvd, Fountain Av to Conduit Av) but no catalog segment has both timepoints named on Linden Blvd there, so it stays UNMAPPED under the both-stops-on-street rule. Near misses, for anyone relaxing the rule: (1) B20 N/S ELDERT LN/LINDEN BLVD to ASHFORD ST/LINDEN BLVD (1.1 mi, about 38,000 trips each way, all 21 months) runs along Linden Blvd, but both stops are named on the cross streets and roughly half the segment lies west of Fountain Av (Fountain Av has no timepoint; position estimated from the street grid); (2) B15 LINDEN BLVD/ELDERT LN to DREW ST/LINDEN BLVD (0.13 mi E, 0.34 mi W), one block; (3) B15 New Lots Av to Linden Blvd/Eldert Ln pairs, mixed-street, reported under corridor 42. B15 Linden Blvd/Eldert Ln to Lefferts Blvd/AirTrain (2.4 mi) leaves Linden Blvd. Q4/Q51 Linden Blvd segments are in Queens far east of Conduit Av."
+  },
+  {
+   "id": 44,
+   "name": "South Brooklyn Crosstown",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "B82 SBS route and the B82 local segments between the SBS terminals, Cropsey Av (Bay 37 St / 24 Av) to Seaview Av/Pennsylvania Av (plan p.24/p.30: 7.5 miles of streets along the B82 SBS corridor).",
+   "on_streets": [],
+   "extent": "route-based: B82+ SBS end to end (Cropsey Av at Bay 37 St / 24 Av to Seaview Av/Pennsylvania Av), plus B82 local between the same two points",
+   "routes": [
+    "B82",
+    "B82+"
+   ],
+   "segments": [
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "300445",
+     "to_id": "300449",
+     "from_stop": "KINGS HWY/CONEY ISLAND AV",
+     "to_stop": "KINGS HWY/OCEAN AV",
+     "miles": 0.46,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "300449",
+     "to_id": "307158",
+     "from_stop": "KINGS HWY/OCEAN AV",
+     "to_stop": "KINGS HWY/RYDER ST",
+     "miles": 1.23,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "300560",
+     "to_id": "308004",
+     "from_stop": "FLATLANDS AV/RALPH AV",
+     "to_stop": "GLENWOOD RD/ROCKAWAY PKWY",
+     "miles": 1.36,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "307158",
+     "to_id": "300560",
+     "from_stop": "KINGS HWY/RYDER ST",
+     "to_stop": "FLATLANDS AV/RALPH AV",
+     "miles": 1.33,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "308004",
+     "to_id": "901080",
+     "from_stop": "GLENWOOD RD/ROCKAWAY PKWY",
+     "to_stop": "SEAVIEW AV/PENNSYLVANIA AV",
+     "miles": 1.92,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "308195",
+     "to_id": "300445",
+     "from_stop": "KINGS HWY/W 7 ST",
+     "to_stop": "KINGS HWY/CONEY ISLAND AV",
+     "miles": 1.06,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "308860",
+     "to_id": "308195",
+     "from_stop": "CROPSEY AV/BAY 37 ST",
+     "to_stop": "KINGS HWY/W 7 ST",
+     "miles": 1.6,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "E",
+     "from_id": "801192",
+     "to_id": "308195",
+     "from_stop": "CROPSEY AV/BAY 37 ST",
+     "to_stop": "KINGS HWY/W 7 ST",
+     "miles": 1.61,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "300470",
+     "to_id": "300474",
+     "from_stop": "AVENUE P/OCEAN AV",
+     "to_stop": "KINGS HWY/CONEY ISLAND AV",
+     "miles": 0.55,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "300474",
+     "to_id": "308868",
+     "from_stop": "KINGS HWY/CONEY ISLAND AV",
+     "to_stop": "KINGS HWY/W 8 ST",
+     "miles": 1.04,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "300618",
+     "to_id": "308855",
+     "from_stop": "FLATLANDS AV/RALPH AV",
+     "to_stop": "KINGS HWY/RYDER ST",
+     "miles": 1.32,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "304083",
+     "to_id": "308903",
+     "from_stop": "SEAVIEW AV/PENNSYLVANIA AV",
+     "to_stop": "E 98 ST/ROCKAWAY PKWY",
+     "miles": 1.95,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "308855",
+     "to_id": "300470",
+     "from_stop": "KINGS HWY/RYDER ST",
+     "to_stop": "AVENUE P/OCEAN AV",
+     "miles": 1.22,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "308868",
+     "to_id": "300497",
+     "from_stop": "KINGS HWY/W 8 ST",
+     "to_stop": "CROPSEY AV/24 AV",
+     "miles": 1.55,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82",
+     "direction": "W",
+     "from_id": "308903",
+     "to_id": "300618",
+     "from_stop": "E 98 ST/ROCKAWAY PKWY",
+     "to_stop": "FLATLANDS AV/RALPH AV",
+     "miles": 1.4,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B82+",
+     "direction": "E",
+     "from_id": "801192",
+     "to_id": "901080",
+     "from_stop": "CROPSEY AV/BAY 37 ST",
+     "to_stop": "SEAVIEW AV/PENNSYLVANIA AV",
+     "miles": 8.99,
+     "route_type": "SBS"
+    },
+    {
+     "route_id": "B82+",
+     "direction": "W",
+     "from_id": "304083",
+     "to_id": "308903",
+     "from_stop": "SEAVIEW AV/PENNSYLVANIA AV",
+     "to_stop": "E 98 ST/ROCKAWAY PKWY",
+     "miles": 1.95,
+     "route_type": "SBS"
+    },
+    {
+     "route_id": "B82+",
+     "direction": "W",
+     "from_id": "308903",
+     "to_id": "300497",
+     "from_stop": "E 98 ST/ROCKAWAY PKWY",
+     "to_stop": "CROPSEY AV/24 AV",
+     "miles": 7.05,
+     "route_type": "SBS"
+    }
+   ],
+   "notes": "Route-based, not street-based: the plan defines this corridor only as \"7.5 miles of streets ... along the B82 SBS corridor\" (South Brooklyn Crosstown Select Bus Service). One WebSearch (nyc.gov BRT pages) did not give project limits, so which 7.5 mi of the roughly 9 mi SBS route is meant is unknown; the whole SBS route is used as an upper bound. Removed in review: the three B82 local segments between Stillwell Terminal / Mermaid Av (Coney Island) and Cropsey Av, which the SBS does not serve. B82 local between the SBS terminals sums to 8.96 mi E and 9.03 mi W, matching the SBS (8.99 E, 9.00 W), so local and SBS cover the same streets and summed miles double count. B82+ SBS timepoints are terminals only (one 9.0 mi hop E; 1.95 + 7.05 mi W). B82 E Cropsey Av to Kings Hwy/W 7 St appears as two stop variants in different months. Timepoints are on Cropsey Av, Kings Hwy, Avenue P, Flatlands Av, Glenwood Rd, E 98 St and Seaview Av."
+  },
+  {
+   "id": 45,
+   "name": "Avenue J",
+   "borough": "BK",
+   "status": "unmapped",
+   "definition": "Avenue J, Brooklyn.",
+   "on_streets": [],
+   "extent": "n/a",
+   "routes": [],
+   "segments": [],
+   "notes": "Plan gives no extents. Only one catalog timepoint is on Avenue J (AVENUE J/CONEY ISLAND AV, B6 and B11), so no segment has both timepoints on Avenue J. UNMAPPED under the both-stops-on-street rule. Buses that use Avenue J appear only in mixed-street segments: B6 Bay Pkwy/60 St to Avenue J/Coney Island Av to Glenwood Rd/Nostrand Av, and B11 50 St/18 Av to Avenue J/Coney Island Av to Nostrand Av/Flatbush Av."
+  },
+  {
+   "id": 46,
+   "name": "Bay Parkway",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "Bay Pkwy and Cropsey Av segments with both timepoints on those streets.",
+   "on_streets": [
+    "BAY PKWY",
+    "CROPSEY AV"
+   ],
+   "extent": "all Bay Pkwy pairs in catalog (60 St to 86 St)",
+   "routes": [
+    "B6"
+   ],
+   "segments": [
+    {
+     "route_id": "B6",
+     "direction": "E",
+     "from_id": "300429",
+     "to_id": "300521",
+     "from_stop": "BAY PKWY/86 ST",
+     "to_stop": "BAY PKWY/60 ST",
+     "miles": 1.26,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B6",
+     "direction": "E",
+     "from_id": "300505",
+     "to_id": "300429",
+     "from_stop": "CROPSEY AV/BAY 37 ST",
+     "to_stop": "BAY PKWY/86 ST",
+     "miles": 0.81,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B6",
+     "direction": "E",
+     "from_id": "307738",
+     "to_id": "300429",
+     "from_stop": "CROPSEY AV/HARWAY AV",
+     "to_stop": "BAY PKWY/86 ST",
+     "miles": 0.82,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B6",
+     "direction": "W",
+     "from_id": "300491",
+     "to_id": "300422",
+     "from_stop": "BAY PKWY/86 ST",
+     "to_stop": "CROPSEY AV/25 AV",
+     "miles": 1.39,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B6",
+     "direction": "W",
+     "from_id": "300491",
+     "to_id": "901691",
+     "from_stop": "BAY PKWY/86 ST",
+     "to_stop": "CROPSEY AV/25 AV",
+     "miles": 1.39,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "B6",
+     "direction": "W",
+     "from_id": "300654",
+     "to_id": "300491",
+     "from_stop": "BAY PKWY/60 ST",
+     "to_stop": "BAY PKWY/86 ST",
+     "miles": 1.3,
+     "route_type": "Limited"
+    }
+   ],
+   "notes": "Plan: Bay Parkway and Cropsey Avenue, 6 routes. Only B6 gives both-on-Bay-Pkwy pairs; there are no both-on-Cropsey Av pairs, so Cropsey is not covered. Mixed pairs with a Cropsey Av stop at one end and a Bay Pkwy stop at the other (B6 Cropsey/Bay 37 St or Harway Av to Bay Pkwy/86 St) are included because both stops are on named corridor streets. B6 Local and Limited. The westbound Bay Pkwy/86 St to Cropsey Av/25 Av segments are 1.39 mi against 0.68 mi straight-line, so the path includes a loop beyond the direct Bay Pkwy to Cropsey Av line; the two rows are stop-id variants from different months. B82 and B82+ stop on Cropsey Av (Bay 37 St, 24 Av) but their adjoining timepoints are on other streets, so they are excluded; B70 Cropsey Av stops (Bay Ridge end) likewise."
+  },
+  {
+   "id": 47,
+   "name": "86th St",
+   "borough": "BK",
+   "status": "partial",
+   "definition": "86 St in Brooklyn (Bay Ridge/Bensonhurst), both timepoint stops on 86 ST.",
+   "on_streets": [
+    "86 ST"
+   ],
+   "extent": "all Brooklyn 86 St pairs in catalog; Manhattan E/W 86 St excluded by lat/lon",
+   "routes": [
+    "B1",
+    "B16"
+   ],
+   "segments": [
+    {
+     "route_id": "B1",
+     "direction": "N",
+     "from_id": "300031",
+     "to_id": "300040",
+     "from_stop": "86 ST/STILLWELL AV",
+     "to_stop": "86 ST/18 AV",
+     "miles": 1.21,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B1",
+     "direction": "S",
+     "from_id": "300099",
+     "to_id": "306457",
+     "from_stop": "86 ST/18 AV",
+     "to_stop": "86 ST/STILLWELL AV",
+     "miles": 1.14,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "B16",
+     "direction": "S",
+     "from_id": "301707",
+     "to_id": "307515",
+     "from_stop": "86 ST/5 AV",
+     "to_stop": "86 ST/NARROWS AV",
+     "miles": 0.81,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan gives no extents. Covered: B1 both directions Stillwell Av to 18 Av (1.2 mi) and B16 southbound 5 Av to Narrows Av (0.8 mi). Not covered: 18 Av to 5 Av, about 1.6 mi (B1 runs 86 St/18 Av to 87 St/4 Av, 1.7 mi, end stop on 87 St), and B16 northbound (NARROWS AV/86 ST to 86 St/5 Av, 0.76 mi along 86 St, start stop named on Narrows Av). B64, B3 and B4 touch 86 St at one stop only. Manhattan E/W 86 St (M86+) excluded by lat/lon."
+  },
+  {
+   "id": 48,
+   "name": "Bay St",
+   "borough": "SI",
+   "status": "partial",
+   "definition": "All Staten Island segments with both timepoint stops on Bay St.",
+   "on_streets": [
+    "BAY ST"
+   ],
+   "extent": "Victory Blvd to St Johns Av",
+   "routes": [
+    "S51",
+    "S81"
+   ],
+   "segments": [
+    {
+     "route_id": "S51",
+     "direction": "N",
+     "from_id": "200140",
+     "to_id": "200147",
+     "from_stop": "BAY ST/HYLAN BLVD",
+     "to_stop": "BAY ST/WATER ST",
+     "miles": 1.05,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S51",
+     "direction": "N",
+     "from_id": "200147",
+     "to_id": "200153",
+     "from_stop": "BAY ST/WATER ST",
+     "to_stop": "BAY ST/VICTORY BLVD",
+     "miles": 0.75,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S51",
+     "direction": "S",
+     "from_id": "200178",
+     "to_id": "200184",
+     "from_stop": "BAY ST/VICTORY BLVD",
+     "to_stop": "BAY ST/WATER ST",
+     "miles": 0.76,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S51",
+     "direction": "S",
+     "from_id": "200184",
+     "to_id": "200193",
+     "from_stop": "BAY ST/WATER ST",
+     "to_stop": "BAY ST/HYLAN BLVD",
+     "miles": 1.03,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S81",
+     "direction": "S",
+     "from_id": "200178",
+     "to_id": "200184",
+     "from_stop": "BAY ST/VICTORY BLVD",
+     "to_stop": "BAY ST/WATER ST",
+     "miles": 0.76,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S81",
+     "direction": "S",
+     "from_id": "200184",
+     "to_id": "200194",
+     "from_stop": "BAY ST/WATER ST",
+     "to_stop": "BAY ST/SAINT JOHNS AV",
+     "miles": 1.18,
+     "route_type": "Limited"
+    }
+   ],
+   "notes": "Plan gives no extents. S51 both directions Victory Blvd to Hylan Blvd (1.8 mi) and S81 Limited southbound Victory Blvd to St Johns Av; no S81 northbound Bay St pair in the catalog. Bay St north of Victory Blvd is not covered: S51, S74, S76, S78, S81, S84 and S86 segments there run Bay St/Victory Blvd to St George Ferry ramps (one stop on Bay St). Bay St south of Hylan Blvd / St Johns Av likewise (next stop on Lily Pond Av)."
+  },
+  {
+   "id": 49,
+   "name": "Victory Blvd",
+   "borough": "SI",
+   "status": "partial",
+   "definition": "Victory Blvd segments from Bay St west to Clove Rd, inside the plan limits Bay St to Little Clove Rd.",
+   "on_streets": [
+    "VICTORY BLVD"
+   ],
+   "extent": "Bay St to Clove Rd (east of lon -74.105); ends a few stops short of the Little Clove Rd limit",
+   "routes": [
+    "S61",
+    "S62",
+    "S66",
+    "S91",
+    "S92"
+   ],
+   "segments": [
+    {
+     "route_id": "S61",
+     "direction": "E",
+     "from_id": "200544",
+     "to_id": "200550",
+     "from_stop": "VICTORY BLVD/CLOVE RD",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 1.21,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S61",
+     "direction": "E",
+     "from_id": "200550",
+     "to_id": "905002",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/BAY ST",
+     "miles": 0.92,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S61",
+     "direction": "W",
+     "from_id": "200573",
+     "to_id": "200580",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/CLOVE RD",
+     "miles": 1.26,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S61",
+     "direction": "W",
+     "from_id": "905003",
+     "to_id": "200573",
+     "from_stop": "VICTORY BLVD/BAY ST",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 0.97,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S62",
+     "direction": "E",
+     "from_id": "200544",
+     "to_id": "200550",
+     "from_stop": "VICTORY BLVD/CLOVE RD",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 1.21,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S62",
+     "direction": "E",
+     "from_id": "200550",
+     "to_id": "905002",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/BAY ST",
+     "miles": 0.92,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S62",
+     "direction": "W",
+     "from_id": "200573",
+     "to_id": "200580",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/CLOVE RD",
+     "miles": 1.26,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S62",
+     "direction": "W",
+     "from_id": "905003",
+     "to_id": "200573",
+     "from_stop": "VICTORY BLVD/BAY ST",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 0.97,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S66",
+     "direction": "E",
+     "from_id": "200550",
+     "to_id": "905002",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/BAY ST",
+     "miles": 0.92,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S66",
+     "direction": "W",
+     "from_id": "905003",
+     "to_id": "200573",
+     "from_stop": "VICTORY BLVD/BAY ST",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 0.97,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S91",
+     "direction": "E",
+     "from_id": "200544",
+     "to_id": "200550",
+     "from_stop": "VICTORY BLVD/CLOVE RD",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 1.21,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S91",
+     "direction": "E",
+     "from_id": "200550",
+     "to_id": "905002",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/BAY ST",
+     "miles": 0.92,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S91",
+     "direction": "W",
+     "from_id": "200573",
+     "to_id": "200580",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/CLOVE RD",
+     "miles": 1.26,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S91",
+     "direction": "W",
+     "from_id": "905003",
+     "to_id": "200573",
+     "from_stop": "VICTORY BLVD/BAY ST",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 0.97,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S92",
+     "direction": "E",
+     "from_id": "200544",
+     "to_id": "200550",
+     "from_stop": "VICTORY BLVD/CLOVE RD",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 1.21,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S92",
+     "direction": "E",
+     "from_id": "200550",
+     "to_id": "905002",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/BAY ST",
+     "miles": 0.92,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S92",
+     "direction": "W",
+     "from_id": "200573",
+     "to_id": "200580",
+     "from_stop": "VICTORY BLVD/FOREST AV",
+     "to_stop": "VICTORY BLVD/CLOVE RD",
+     "miles": 1.26,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S92",
+     "direction": "W",
+     "from_id": "905003",
+     "to_id": "200573",
+     "from_stop": "VICTORY BLVD/BAY ST",
+     "to_stop": "VICTORY BLVD/FOREST AV",
+     "miles": 0.97,
+     "route_type": "Limited"
+    }
+   ],
+   "notes": "Plan limit is Bay St to Little Clove Rd. Little Clove Rd is not a catalog timepoint. It lies west of Clove Rd: MTA stop 200583 Victory Blvd/Little Clove Rd is served by westbound S61, S62 and S66, and westbound stop ids rise from Forest Av (200573) to Clove Rd (200580), which puts it about three stops past Clove Rd (one WebSearch by the mapper, one WebSearch plus the MTA Bus Time stop page in review; no coordinates found, so the distance is not measured). So all mapped segments are inside the limits and the last stretch, Clove Rd to Little Clove Rd, is not covered: the next segments run Clove Rd to Jewett Av / Perry Av (1.4 mi), mostly beyond the limit, and are excluded. S61, S62, S91 and S92 share the same two physical segments each way and S66 the Forest Av to Bay St one, so summed miles count the street several times. Plan cites 16 routes; S93 has Victory Blvd pairs only west of Clove Rd, and S46, S78, S96 touch Victory Blvd/Bay St at one stop."
+  },
+  {
+   "id": 50,
+   "name": "Richmond Ave",
+   "borough": "SI",
+   "status": "partial",
+   "definition": "All segments whose two timepoint stops are both on Richmond Av (Staten Island); Port Richmond Av excluded.",
+   "on_streets": [
+    "RICHMOND AV"
+   ],
+   "extent": "full length present in catalog (Hylan Blvd to Vedder Av)",
+   "routes": [
+    "S44",
+    "S79+",
+    "S89",
+    "S94"
+   ],
+   "segments": [
+    {
+     "route_id": "S44",
+     "direction": "E",
+     "from_id": "200400",
+     "to_id": "200406",
+     "from_stop": "RICHMOND AV/VICTORY BLVD",
+     "to_stop": "RICHMOND AV/VEDDER AV",
+     "miles": 1.27,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S44",
+     "direction": "W",
+     "from_id": "203693",
+     "to_id": "200444",
+     "from_stop": "RICHMOND AV/MONSEY PL",
+     "to_stop": "RICHMOND AV/VICTORY BLVD",
+     "miles": 1.43,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "S79+",
+     "direction": "S",
+     "from_id": "200371",
+     "to_id": "202845",
+     "from_stop": "RICHMOND AV/HYLAN BLVD",
+     "to_stop": "RICHMOND AV/YUKON AV",
+     "miles": 3.31,
+     "route_type": "SBS"
+    },
+    {
+     "route_id": "S79+",
+     "direction": "W",
+     "from_id": "200371",
+     "to_id": "202845",
+     "from_stop": "RICHMOND AV/HYLAN BLVD",
+     "to_stop": "RICHMOND AV/YUKON AV",
+     "miles": 3.31,
+     "route_type": "SBS"
+    },
+    {
+     "route_id": "S89",
+     "direction": "S",
+     "from_id": "805071",
+     "to_id": "200444",
+     "from_stop": "RICHMOND AV/ MONSEY PL",
+     "to_stop": "RICHMOND AV/VICTORY BLVD",
+     "miles": 1.43,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S94",
+     "direction": "E",
+     "from_id": "200400",
+     "to_id": "200406",
+     "from_stop": "RICHMOND AV/VICTORY BLVD",
+     "to_stop": "RICHMOND AV/VEDDER AV",
+     "miles": 1.27,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "S94",
+     "direction": "W",
+     "from_id": "203693",
+     "to_id": "200444",
+     "from_stop": "RICHMOND AV/MONSEY PL",
+     "to_stop": "RICHMOND AV/VICTORY BLVD",
+     "miles": 1.43,
+     "route_type": "Limited"
+    }
+   ],
+   "notes": "Plan gives no extents. Covered: Hylan Blvd to Yukon Av (S79+ SBS, one 3.3 mi hop, toward the Staten Island Mall only) and Victory Blvd to Vedder Av / Monsey Pl (S44 Local, S94 and S89 Limited, 1.3 to 1.4 mi). The two S79+ rows (direction S and W) are the same segment relabelled between months, not two services. S79+ in the other direction is split at Eltingville Transit Center, which is not named on Richmond Av, so it is excluded. Gap between Yukon Av and Victory Blvd (segments there start at Staten Island Mall / Marsh Av). Port Richmond Av is a different street and is excluded."
+  }
+ ]
+}

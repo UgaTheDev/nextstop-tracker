@@ -1,0 +1,793 @@
+{
+ "corridors": [
+  {
+   "id": 1,
+   "name": "E Gun Hill Rd",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Every Local/Limited/SBS segment whose two timepoint stops are both on East Gun Hill Rd in the Bronx; in the catalog that is only the stretch between White Plains Rd and Boston Rd/Hering Av (Bx28, Bx38).",
+   "on_streets": [
+    "EAST GUN HILL RD"
+   ],
+   "extent": "White Plains Rd to Boston Rd/Hering Av only: about 0.7 mi per direction of a road roughly 3 mi long (estimate); the rest of East Gun Hill Rd has no timepoint pair on the road",
+   "routes": [
+    "BX28",
+    "BX38"
+   ],
+   "segments": [
+    {
+     "route_id": "BX28",
+     "direction": "E",
+     "from_id": "101866",
+     "to_id": "101871",
+     "from_stop": "EAST GUN HILL RD/WHITE PLAINS RD",
+     "to_stop": "EAST GUN HILL RD/HERING AV",
+     "miles": 0.719
+    },
+    {
+     "route_id": "BX28",
+     "direction": "W",
+     "from_id": "101929",
+     "to_id": "104291",
+     "from_stop": "EAST GUN HILL RD/BOSTON RD",
+     "to_stop": "EAST GUN HILL RD/WHITE PLAINS RD",
+     "miles": 0.684
+    },
+    {
+     "route_id": "BX38",
+     "direction": "E",
+     "from_id": "101866",
+     "to_id": "101871",
+     "from_stop": "EAST GUN HILL RD/WHITE PLAINS RD",
+     "to_stop": "EAST GUN HILL RD/HERING AV",
+     "miles": 0.719
+    },
+    {
+     "route_id": "BX38",
+     "direction": "W",
+     "from_id": "101929",
+     "to_id": "104291",
+     "from_stop": "EAST GUN HILL RD/BOSTON RD",
+     "to_stop": "EAST GUN HILL RD/WHITE PLAINS RD",
+     "miles": 0.685
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. Catalog spells it EAST GUN HILL RD; no WEST GUN HILL RD stops exist. Coverage is thin: BX28 and BX38 share the same stop pairs, so the 4 rows are 2 physical segments (do not sum miles across routes). Excluded because one stop is off the road, although the bus runs mostly on it: BAINBRIDGE AV/E 206 ST <-> EAST GUN HILL RD/WHITE PLAINS RD (1.1-1.2 mi) and EAST GUN HILL RD/HERING AV or /BOSTON RD <-> BARTOW AV (1.1-1.2 mi). School-only rows (BX28 from Bronxwood Av, BX30) excluded."
+  },
+  {
+   "id": 2,
+   "name": "E Kingsbridge Rd",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Bx9 Local segments between the Kingsbridge Rd timepoint at Jerome Av/Morris Av and the EAST FORDHAM RD/3 AV timepoint; they run the full length of East Kingsbridge Rd (Jerome Av to E Fordham Rd) plus a short piece of E Fordham Rd.",
+   "on_streets": [
+    "EAST KINGSBRIDGE RD"
+   ],
+   "extent": "East Kingsbridge Rd end to end, Jerome Av to E Fordham Rd (segments are 0.68 mi northbound and 0.73 mi southbound, of which an estimated 0.1-0.15 mi is on E Fordham Rd up to the 3 Av stop)",
+   "routes": [
+    "BX9"
+   ],
+   "segments": [
+    {
+     "route_id": "BX9",
+     "direction": "N",
+     "from_id": "104090",
+     "to_id": "902181",
+     "from_stop": "EAST FORDHAM RD/3 AV",
+     "to_stop": "EAST KINGSBRIDGE RD/MORRIS AV",
+     "miles": 0.684
+    },
+    {
+     "route_id": "BX9",
+     "direction": "S",
+     "from_id": "100630",
+     "to_id": "104102",
+     "from_stop": "WEST KINGSBRIDGE RD/JEROME AV",
+     "to_stop": "EAST FORDHAM RD/3 AV",
+     "miles": 0.725
+    }
+   ],
+   "notes": "Stated assumption, an exception to the both-stops-on-street rule: the catalog has a single timepoint location on Kingsbridge Rd east of Jerome Av (EAST KINGSBRIDGE RD/MORRIS AV northbound, WEST KINGSBRIDGE RD/JEROME AV southbound, about 70 m apart at the East/West boundary), so no segment has both stops on the road and the strict rule yields 0 segments. East Kingsbridge Rd ends at E Fordham Rd just west of the EAST FORDHAM RD/3 AV timepoint, so these two Bx9 segments cover the whole road; the off-road share (roughly 15-20%, on E Fordham Rd at Fordham Plaza) is an estimate from stop coordinates, not a measurement. One WebSearch used: MTA lists the Bx9 as running via Broadway / Kingsbridge Rd / Southern Blvd, with E Kingsbridge Rd stops at Grand Concourse, E 192 St and E Fordham Rd. Excluded: BX22 (northbound uses the same stop pair but also has a timepoint at E Fordham Rd/Valentine Av and southbound runs via Valentine Av, so its alignment on Kingsbridge Rd is not confirmed), BX28/BX38 (other end at Valentine Av/E 192 St or Bainbridge Av/E 206 St), every West Kingsbridge Rd segment west of Jerome Av, and School rows. A reader who rejects one-end segments should treat this corridor as unmapped."
+  },
+  {
+   "id": 3,
+   "name": "E Fordham Rd",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Every Local/Limited/SBS segment with both stops on Fordham Rd (East or West) between Sedgwick Av and Boston Rd, the limits the plan gives for its Fordham Road project on this corridor.",
+   "on_streets": [
+    "EAST FORDHAM RD",
+    "W FORDHAM RD",
+    "WEST FORDHAM RD"
+   ],
+   "extent": "Fordham Rd from Sedgwick Av to 3 Av/Webster Av (about 1.0 mi per direction); no timepoint pair on Fordham Rd east of 3 Av",
+   "routes": [
+    "BX12",
+    "BX22"
+   ],
+   "segments": [
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "100796",
+     "to_id": "100799",
+     "from_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "to_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "miles": 0.446
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "100796",
+     "to_id": "104240",
+     "from_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "to_stop": "EAST FORDHAM RD/ELM PL",
+     "miles": 0.557
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "100798",
+     "to_id": "100799",
+     "from_stop": "EAST FORDHAM RD/GRAND CONCOURSE",
+     "to_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "miles": 0.084
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "100799",
+     "to_id": "104015",
+     "from_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "to_stop": "EAST FORDHAM RD/3 AV",
+     "miles": 0.311
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "103051",
+     "to_id": "100796",
+     "from_stop": "WEST FORDHAM RD/SEDGWICK AV",
+     "to_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "miles": 0.222
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "103051",
+     "to_id": "104542",
+     "from_stop": "WEST FORDHAM RD/SEDGWICK AV",
+     "to_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "miles": 0.193
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "104240",
+     "to_id": "104015",
+     "from_stop": "EAST FORDHAM RD/ELM PL",
+     "to_stop": "EAST FORDHAM RD/3 AV",
+     "miles": 0.2
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "104542",
+     "to_id": "100798",
+     "from_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "to_stop": "EAST FORDHAM RD/GRAND CONCOURSE",
+     "miles": 0.391
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "104542",
+     "to_id": "100799",
+     "from_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "to_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "miles": 0.475
+    },
+    {
+     "route_id": "BX12",
+     "direction": "E",
+     "from_id": "104542",
+     "to_id": "104240",
+     "from_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "to_stop": "EAST FORDHAM RD/ELM PL",
+     "miles": 0.586
+    },
+    {
+     "route_id": "BX12",
+     "direction": "W",
+     "from_id": "103999",
+     "to_id": "104235",
+     "from_stop": "EAST FORDHAM RD/WEBSTER AV",
+     "to_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "miles": 0.247
+    },
+    {
+     "route_id": "BX12",
+     "direction": "W",
+     "from_id": "104226",
+     "to_id": "100854",
+     "from_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "to_stop": "W FORDHAM RD/SEDGWICK AV",
+     "miles": 0.184
+    },
+    {
+     "route_id": "BX12",
+     "direction": "W",
+     "from_id": "104235",
+     "to_id": "104226",
+     "from_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "to_stop": "WEST FORDHAM RD/UNIVERSITY AV",
+     "miles": 0.512
+    },
+    {
+     "route_id": "BX22",
+     "direction": "N",
+     "from_id": "104090",
+     "to_id": "902239",
+     "from_stop": "EAST FORDHAM RD/3 AV",
+     "to_stop": "EAST FORDHAM RD/VALENTINE AV",
+     "miles": 0.313
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. Stated assumption: the corridor list says 'E Fordham Rd', but the plan's item 3 is 'Fordham Road, Sedgwick Avenue to Boston Road', so West Fordham Rd (Sedgwick Av to Jerome Av, spelled WEST FORDHAM RD and W FORDHAM RD) is included. A strict reader can keep only the segments with both stops on EAST FORDHAM RD: BX12 E 100798->100799, BX12 E 100799->104015, BX12 E 104240->104015, BX12 W 103999->104235, BX22 N 104090->902239. Rows include overlapping alternates (two University Av stop ids, skip-stop timepoint patterns), so summing miles double counts; the unique path is about 1.0 mi eastbound and 0.94 mi westbound. East of 3 Av the plan's project continues on E Fordham Rd and Pelham Pkwy to Boston Rd, but every segment there (BX12 to/from PELHAM PKWY/WHITE PLAINS RD, BX22 to Boston Rd/Bronx Park East, BX9 to Southern Blvd) has one stop off Fordham Rd and is excluded. BX12+ SBS has no Fordham Rd timepoints at all (its segments run 5.5-6.2 mi from Broadway to Westchester Av), so the SBS itself is not measured. FORDHAM PLAZA/BUS TERMINAL (BX17) is off-street. No WebSearch used."
+  },
+  {
+   "id": 4,
+   "name": "White Plains Rd",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Every Local/Limited/SBS segment with both stops on White Plains Rd inside the Bronx (lat <= 40.905, excludes Mount Vernon).",
+   "on_streets": [
+    "WHITE PLAINS RD"
+   ],
+   "extent": "Westchester Av to E 233 St, about 4.3 mi per direction; White Plains Rd south of Westchester Av and north of E 233 St has no timepoint pair on the road",
+   "routes": [
+    "BX39"
+   ],
+   "segments": [
+    {
+     "route_id": "BX39",
+     "direction": "N",
+     "from_id": "102942",
+     "to_id": "102766",
+     "from_stop": "WHITE PLAINS RD/EAST GUN HILL RD",
+     "to_stop": "WHITE PLAINS RD/E 233 ST",
+     "miles": 1.16
+    },
+    {
+     "route_id": "BX39",
+     "direction": "N",
+     "from_id": "103321",
+     "to_id": "102942",
+     "from_stop": "WHITE PLAINS RD/WESTCHESTER AV",
+     "to_stop": "WHITE PLAINS RD/EAST GUN HILL RD",
+     "miles": 3.128
+    },
+    {
+     "route_id": "BX39",
+     "direction": "S",
+     "from_id": "102782",
+     "to_id": "102793",
+     "from_stop": "WHITE PLAINS RD/E 233 ST",
+     "to_stop": "WHITE PLAINS RD/EAST GUN HILL RD",
+     "miles": 1.186
+    },
+    {
+     "route_id": "BX39",
+     "direction": "S",
+     "from_id": "102793",
+     "to_id": "102394",
+     "from_stop": "WHITE PLAINS RD/EAST GUN HILL RD",
+     "to_stop": "WHITE PLAINS RD/WESTCHESTER AV",
+     "miles": 3.172
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. White Plains Rd appears only in the Bronx in the catalog; the lat <= 40.905 clip is a safeguard. Only BX39 has both stops on the road. Excluded as one-ended: BX39 to/from E 241 ST/CRANFORD AV and SOUNDVIEW AV, and BX41, BX41+ SBS, BX36, BX22, BX30, BX5, BX8, which each touch White Plains Rd at a single timepoint."
+  },
+  {
+   "id": 5,
+   "name": "E Tremont Ave",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Every Local/Limited/SBS segment with both stops on East Tremont Ave in the Bronx (catalog spelling variants merged); in the catalog these all lie between Castle Hill Av and Randall Av/Roosevelt Av (Bx40, Bx42).",
+   "on_streets": [
+    "EAST TREMONT AV",
+    "EASTTREMONT AV",
+    "EAST TREMONT A"
+   ],
+   "extent": "Castle Hill Av to Randall Av/Roosevelt Av only, about 2.2 mi per direction in the east Bronx. Assumption: the corridor is the whole avenue; the plan's Tremont Avenue Busway stretch (Webster Av to Southern Blvd) has no qualifying segment",
+   "routes": [
+    "BX40",
+    "BX42"
+   ],
+   "segments": [
+    {
+     "route_id": "BX40",
+     "direction": "E",
+     "from_id": "102575",
+     "to_id": "103683",
+     "from_stop": "EAST TREMONT AV/CASTLE HILL AV",
+     "to_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "miles": 0.649
+    },
+    {
+     "route_id": "BX40",
+     "direction": "E",
+     "from_id": "103683",
+     "to_id": "104106",
+     "from_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "to_stop": "EAST TREMONT A/ROOSEVELT AV",
+     "miles": 1.614
+    },
+    {
+     "route_id": "BX40",
+     "direction": "W",
+     "from_id": "102662",
+     "to_id": "103684",
+     "from_stop": "EAST TREMONT AV/RANDALL AV",
+     "to_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "miles": 1.556
+    },
+    {
+     "route_id": "BX40",
+     "direction": "W",
+     "from_id": "103684",
+     "to_id": "102678",
+     "from_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "to_stop": "EAST TREMONT AV/CASTLE HILL AV",
+     "miles": 0.625
+    },
+    {
+     "route_id": "BX42",
+     "direction": "E",
+     "from_id": "102575",
+     "to_id": "103683",
+     "from_stop": "EAST TREMONT AV/CASTLE HILL AV",
+     "to_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "miles": 0.649
+    },
+    {
+     "route_id": "BX42",
+     "direction": "W",
+     "from_id": "102662",
+     "to_id": "103684",
+     "from_stop": "EAST TREMONT AV/RANDALL AV",
+     "to_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "miles": 1.556
+    },
+    {
+     "route_id": "BX42",
+     "direction": "W",
+     "from_id": "103684",
+     "to_id": "102678",
+     "from_stop": "EAST TREMONT AV/WESTCHESTER AV",
+     "to_stop": "EAST TREMONT AV/CASTLE HILL AV",
+     "miles": 0.625
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. Merged typo spellings EASTTREMONT AV and EAST TREMONT A. Bare 'TREMONT AV' and 'WEST TREMONT AV' stops excluded. Stated assumption: the corridor is all of East Tremont Ave, not just the plan's item 5 (Tremont Avenue Busway, Webster Av to Southern Blvd, Bx36). Consequence a skeptic must know: none of the mapped segments is on the busway; they start more than 1.5 miles east of its Southern Blvd end, so this corridor's speeds will not show the busway's effect. The only catalog segments that cross the busway are BX36 E 100149->903254 (UNIVERSITY AV/W 174 ST -> EAST TREMONT AV/E 177 ST, 2.638 mi) and BX36 W 903255->802186 (EAST TREMONT AV/BOSTON RD -> UNIVERSITY AV/ W 175 ST, 2.476 mi), Local and Limited; they are excluded because one stop is on University Av and the busway (roughly 0.7 mi, estimate) is under a third of their length. One WebSearch used: an MTA notice says the Bx36 runs on E Tremont Av between Webster Av and White Plains Rd. Bx40/Bx42 use E 180 St, not Tremont, between Webster Av and Boston Rd. Also excluded: BX42 E 103683->102613 ends at RANDALL AV/EAST TREMONT AV (stop is on Randall Av; BX40 E covers the same stretch); BX21, BX9, BX8, BX4, BX31 touch Tremont at a single timepoint. BX40 and BX42 share stop pairs, so do not sum miles across routes."
+  },
+  {
+   "id": 6,
+   "name": "Grand Concourse",
+   "borough": "BX",
+   "status": "mapped",
+   "definition": "Every Local/Limited/SBS segment with both stops on the Grand Concourse (Bronx only street of that name in the catalog).",
+   "on_streets": [
+    "GRAND CONCOURSE"
+   ],
+   "extent": "E 149 St to E Fordham Rd, about 3.5 mi per direction (Bx1 Local and Limited over the whole stretch, Bx2 only between E Tremont Av/E 177 St and E Fordham Rd)",
+   "routes": [
+    "BX1",
+    "BX2"
+   ],
+   "segments": [
+    {
+     "route_id": "BX1",
+     "direction": "N",
+     "from_id": "100021",
+     "to_id": "100027",
+     "from_stop": "GRAND CONCOURSE/E 149 ST",
+     "to_stop": "GRAND CONCOURSE/E 165 ST",
+     "miles": 0.944
+    },
+    {
+     "route_id": "BX1",
+     "direction": "N",
+     "from_id": "100027",
+     "to_id": "104112",
+     "from_stop": "GRAND CONCOURSE/E 165 ST",
+     "to_stop": "GRAND CONCOURSE/EAST TREMONT AV",
+     "miles": 1.451
+    },
+    {
+     "route_id": "BX1",
+     "direction": "N",
+     "from_id": "104112",
+     "to_id": "100045",
+     "from_stop": "GRAND CONCOURSE/EAST TREMONT AV",
+     "to_stop": "GRAND CONCOURSE/E FORDHAM RD",
+     "miles": 1.095
+    },
+    {
+     "route_id": "BX1",
+     "direction": "S",
+     "from_id": "100103",
+     "to_id": "103973",
+     "from_stop": "GRAND CONCOURSE/E FORDHAM RD",
+     "to_stop": "GRAND CONCOURSE/E 177 ST",
+     "miles": 1.036
+    },
+    {
+     "route_id": "BX1",
+     "direction": "S",
+     "from_id": "100131",
+     "to_id": "100138",
+     "from_stop": "GRAND CONCOURSE/E 165 ST",
+     "to_stop": "GRAND CONCOURSE/E 149 ST",
+     "miles": 0.934
+    },
+    {
+     "route_id": "BX1",
+     "direction": "S",
+     "from_id": "103973",
+     "to_id": "100131",
+     "from_stop": "GRAND CONCOURSE/E 177 ST",
+     "to_stop": "GRAND CONCOURSE/E 165 ST",
+     "miles": 1.453
+    },
+    {
+     "route_id": "BX2",
+     "direction": "N",
+     "from_id": "104112",
+     "to_id": "100045",
+     "from_stop": "GRAND CONCOURSE/EAST TREMONT AV",
+     "to_stop": "GRAND CONCOURSE/E FORDHAM RD",
+     "miles": 1.095
+    },
+    {
+     "route_id": "BX2",
+     "direction": "S",
+     "from_id": "100103",
+     "to_id": "103973",
+     "from_stop": "GRAND CONCOURSE/E FORDHAM RD",
+     "to_stop": "GRAND CONCOURSE/E 177 ST",
+     "miles": 1.036
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. BX1 Limited counted. BX1 and BX2 share one stop pair in each direction, so summing miles across routes double counts. North of E Fordham Rd and south of E 149 St the segments end off the Concourse (Mosholu Pkwy, Sedgwick Av, Lincoln Av, 3 Av, E 149 St/Courtlandt Av) and are excluded."
+  },
+  {
+   "id": 7,
+   "name": "3rd Ave",
+   "borough": "BX",
+   "status": "mapped",
+   "definition": "Every Local/Limited/SBS segment with both stops on 3 Av in the Bronx (lon > -73.93 and lat > 40.81, which excludes the 3 Av stops in Manhattan and Brooklyn).",
+   "on_streets": [
+    "3 AV"
+   ],
+   "extent": "Westchester Av/E 150 St (the Hub) to E Fordham Rd/E 189 St, about 3.5 mi per direction",
+   "routes": [
+    "BX15",
+    "BX21"
+   ],
+   "segments": [
+    {
+     "route_id": "BX15",
+     "direction": "N",
+     "from_id": "101028",
+     "to_id": "104371",
+     "from_stop": "3 AV/E 168 ST",
+     "to_stop": "3 AV/CLAREMONT PKWY",
+     "miles": 0.519
+    },
+    {
+     "route_id": "BX15",
+     "direction": "N",
+     "from_id": "101029",
+     "to_id": "104371",
+     "from_stop": "3 AV/E 169 ST",
+     "to_stop": "3 AV/CLAREMONT PKWY",
+     "miles": 0.389
+    },
+    {
+     "route_id": "BX15",
+     "direction": "N",
+     "from_id": "103737",
+     "to_id": "102938",
+     "from_stop": "3 AV/EAST TREMONT AV",
+     "to_stop": "3 AV/E FORDHAM RD",
+     "miles": 1.059
+    },
+    {
+     "route_id": "BX15",
+     "direction": "N",
+     "from_id": "104371",
+     "to_id": "103737",
+     "from_stop": "3 AV/CLAREMONT PKWY",
+     "to_stop": "3 AV/EAST TREMONT AV",
+     "miles": 0.68
+    },
+    {
+     "route_id": "BX15",
+     "direction": "N",
+     "from_id": "104515",
+     "to_id": "101028",
+     "from_stop": "3 AV/WESTCHESTER AV",
+     "to_stop": "3 AV/E 168 ST",
+     "miles": 1.229
+    },
+    {
+     "route_id": "BX15",
+     "direction": "N",
+     "from_id": "104515",
+     "to_id": "101029",
+     "from_stop": "3 AV/WESTCHESTER AV",
+     "to_stop": "3 AV/E 169 ST",
+     "miles": 1.359
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "101057",
+     "to_id": "101066",
+     "from_stop": "3 AV/E 168 ST",
+     "to_stop": "3 AV/E 150 ST",
+     "miles": 1.229
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "102953",
+     "to_id": "101066",
+     "from_stop": "3 AV/E 169 ST",
+     "to_stop": "3 AV/E 150 ST",
+     "miles": 1.385
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "103266",
+     "to_id": "101057",
+     "from_stop": "3 AV/CLAREMONT PKWY",
+     "to_stop": "3 AV/E 168 ST",
+     "miles": 0.58
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "103266",
+     "to_id": "102953",
+     "from_stop": "3 AV/CLAREMONT PKWY",
+     "to_stop": "3 AV/E 169 ST",
+     "miles": 0.424
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "103899",
+     "to_id": "103266",
+     "from_stop": "3 AV/EAST TREMONT AV",
+     "to_stop": "3 AV/CLAREMONT PKWY",
+     "miles": 0.642
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "104223",
+     "to_id": "103899",
+     "from_stop": "3 AV/E 189 ST",
+     "to_stop": "3 AV/EAST TREMONT AV",
+     "miles": 1.039
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "104223",
+     "to_id": "902251",
+     "from_stop": "3 AV/E 189 ST",
+     "to_stop": "3 AV/E TREMONT AV",
+     "miles": 1.031
+    },
+    {
+     "route_id": "BX15",
+     "direction": "S",
+     "from_id": "902251",
+     "to_id": "103266",
+     "from_stop": "3 AV/E TREMONT AV",
+     "to_stop": "3 AV/CLAREMONT PKWY",
+     "miles": 0.65
+    },
+    {
+     "route_id": "BX21",
+     "direction": "N",
+     "from_id": "102976",
+     "to_id": "101401",
+     "from_stop": "3 AV/WESTCHESTER AV",
+     "to_stop": "3 AV/E 163 ST",
+     "miles": 0.712
+    },
+    {
+     "route_id": "BX21",
+     "direction": "S",
+     "from_id": "101059",
+     "to_id": "101066",
+     "from_stop": "3 AV/E 163 ST",
+     "to_stop": "3 AV/E 150 ST",
+     "miles": 0.728
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. Manhattan and Brooklyn 3 AV excluded by coordinates, not by the borough column. BX15 Limited counted. The 16 rows include overlapping alternates (Local timepoint at E 168 St vs Limited at E 169 St, two stop ids at E Tremont Av southbound), so summing miles double counts; the unique path is about 3.5 mi each way. South of E 149 St (to E 138 St) only one-ended segments exist. BX41 and BX41+ SBS start on 3 Av at 148/149 St but end on Melrose Av/Webster Av; BX1, BX2 and M125 touch 3 Av at one timepoint only."
+  },
+  {
+   "id": 8,
+   "name": "Southern Blvd",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Every Local/Limited/SBS segment with both stops on Southern Blvd (Bronx only street of that name in the catalog).",
+   "on_streets": [
+    "SOUTHERN BLVD"
+   ],
+   "extent": "Hunts Point Av/E 163 St to the Botanical Garden stop just north of E Fordham Rd, about 2.9 mi per direction (Bx19); Bx5 adds a 0.2 mi piece from Westchester Av to E 163 St inside that stretch",
+   "routes": [
+    "BX19",
+    "BX5"
+   ],
+   "segments": [
+    {
+     "route_id": "BX19",
+     "direction": "N",
+     "from_id": "101335",
+     "to_id": "902030",
+     "from_stop": "SOUTHERN BLVD/EAST TREMONT AV",
+     "to_stop": "SOUTHERN BLVD/BOTANICAL GARDENS",
+     "miles": 1.297
+    },
+    {
+     "route_id": "BX19",
+     "direction": "N",
+     "from_id": "103507",
+     "to_id": "101335",
+     "from_stop": "SOUTHERN BLVD/HUNTS POINT AV",
+     "to_stop": "SOUTHERN BLVD/EAST TREMONT AV",
+     "miles": 1.601
+    },
+    {
+     "route_id": "BX19",
+     "direction": "S",
+     "from_id": "103640",
+     "to_id": "103917",
+     "from_stop": "SOUTHERN BLVD/BOTANICAL GARDENS",
+     "to_stop": "SOUTHERN BLVD/EAST TREMONT AV",
+     "miles": 1.339
+    },
+    {
+     "route_id": "BX19",
+     "direction": "S",
+     "from_id": "103917",
+     "to_id": "104221",
+     "from_stop": "SOUTHERN BLVD/EAST TREMONT AV",
+     "to_stop": "SOUTHERN BLVD/E 163 ST",
+     "miles": 1.592
+    },
+    {
+     "route_id": "BX5",
+     "direction": "E",
+     "from_id": "100273",
+     "to_id": "104681",
+     "from_stop": "SOUTHERN BLVD/WESTCHESTER AV",
+     "to_stop": "SOUTHERN BLVD/E 163 ST",
+     "miles": 0.212
+    }
+   ],
+   "notes": "Segments are timepoint-to-timepoint; only Local/Limited/SBS route types kept (Express, School, School Limited excluded). Duplicate rows across route types removed. South of E 163 St/Hunts Point Av there is no timepoint pair on the boulevard. BX9 runs on Southern Blvd between E Fordham Rd and E Tremont Av but its segments end at EAST TREMONT AV/E 177 ST, BOSTON RD/E 178 ST or EAST FORDHAM RD/3 AV and are excluded; BX19 and BX5 segments toward E 149 St and Story Av are one-ended."
+  },
+  {
+   "id": 9,
+   "name": "Tremont/Cross Bronx",
+   "borough": "BX",
+   "status": "unmapped",
+   "definition": "Plan gives no street extents: it is a future rapid-bus visioning study after the Tremont Ave busway and the Reimagine the Cross Bronx study.",
+   "on_streets": [],
+   "extent": "undefined",
+   "routes": [],
+   "segments": [],
+   "notes": "Plan text: after the Tremont Avenue Busway, NYC DOT/MTA will launch visioning for new rapid bus options for cross-borough travel. No streets, endpoints or routes named. Cross Bronx Expwy has no local timepoints (only BXM express stops, excluded). Tremont Ave itself is already corridor 5. Not guessed."
+  },
+  {
+   "id": 10,
+   "name": "South Bronx Crosstown",
+   "borough": "BX",
+   "status": "partial",
+   "definition": "Bx6 and Bx13 Local segments with both stops on E 161 St or E 163 St between River Av and Southern Blvd, the Bronx street alignment of the Bx6 SBS.",
+   "on_streets": [
+    "E 161 ST",
+    "E 163 ST"
+   ],
+   "extent": "E 161 St and E 163 St from River Av to Southern Blvd (about 1.95 mi per direction; the plan says 1.75 mi without endpoints)",
+   "routes": [
+    "BX13",
+    "BX6"
+   ],
+   "segments": [
+    {
+     "route_id": "BX13",
+     "direction": "E",
+     "from_id": "100363",
+     "to_id": "902102",
+     "from_stop": "E 161 ST/RIVER AV",
+     "to_stop": "E 163 ST/ 3 AV",
+     "miles": 0.977
+    },
+    {
+     "route_id": "BX13",
+     "direction": "W",
+     "from_id": "103910",
+     "to_id": "102966",
+     "from_stop": "E 163 ST/3 AV",
+     "to_stop": "E 161 ST/RIVER AV",
+     "miles": 0.975
+    },
+    {
+     "route_id": "BX6",
+     "direction": "E",
+     "from_id": "100363",
+     "to_id": "100368",
+     "from_stop": "E 161 ST/RIVER AV",
+     "to_stop": "E 161 ST/MELROSE AV",
+     "miles": 0.702
+    },
+    {
+     "route_id": "BX6",
+     "direction": "E",
+     "from_id": "100368",
+     "to_id": "100374",
+     "from_stop": "E 161 ST/MELROSE AV",
+     "to_stop": "E 163 ST/PROSPECT AV",
+     "miles": 0.755
+    },
+    {
+     "route_id": "BX6",
+     "direction": "E",
+     "from_id": "100374",
+     "to_id": "902215",
+     "from_stop": "E 163 ST/PROSPECT AV",
+     "to_stop": "E 163 ST/SOUTHERN BLVD",
+     "miles": 0.496
+    },
+    {
+     "route_id": "BX6",
+     "direction": "W",
+     "from_id": "100425",
+     "to_id": "100431",
+     "from_stop": "E 163 ST/PROSPECT AV",
+     "to_stop": "E 161 ST/MELROSE AV",
+     "miles": 0.753
+    },
+    {
+     "route_id": "BX6",
+     "direction": "W",
+     "from_id": "100431",
+     "to_id": "103807",
+     "from_stop": "E 161 ST/MELROSE AV",
+     "to_stop": "E 161 ST/RIVER AV",
+     "miles": 0.648
+    },
+    {
+     "route_id": "BX6",
+     "direction": "W",
+     "from_id": "902214",
+     "to_id": "100425",
+     "from_stop": "E 163 ST/SIMPSON ST",
+     "to_stop": "E 163 ST/PROSPECT AV",
+     "miles": 0.5
+    }
+   ],
+   "notes": "Plan: capital project improving 1.75 miles of streets along the Bx6 SBS route, no endpoints given. Stated assumption: that stretch is E 161 St/E 163 St between River Av and Southern Blvd. Two WebSearches used: press coverage of the 2026 capital project describes E 161 St from Ruppert Pl to Morris Av plus E 163 St between Washington Av and Tiffany St; sources disagree and none gives official limits, but all named limits fall inside River Av-Southern Blvd, so the extent stays an assumption. Reviewer added BX13 (E 161 ST/RIVER AV <-> E 163 ST/3 AV, about 0.98 mi each way): both stops are on corridor streets inside the extent. It overlaps the Bx6 River Av-Melrose Av segment, so do not sum miles across routes. BX6+ SBS is excluded because its timepoint segments run from Riverside Dr in Manhattan to E 163 St/Southern Blvd (3.6-3.7 mi, including W 155 St and the Macombs Dam Bridge), so the SBS itself is not measured, only the locals on the same streets. Bx6 alternates ending at HUNTS POINT AV stops, the Hunts Point Av/Food Center Dr tail and the Manhattan end are excluded. Only Local/Limited/SBS route types kept."
+  }
+ ]
+}

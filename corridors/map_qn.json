@@ -1,0 +1,1179 @@
+{
+ "corridors": [
+  {
+   "id": 23,
+   "name": "Northern Blvd",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Segments whose both timepoint stops are on Northern Blvd in Queens (catalog spellings NORTHERN BLVD and NORTHERN BL).",
+   "on_streets": [
+    "NORTHERN BLVD",
+    "NORTHERN BL"
+   ],
+   "extent": "The plan gives no limits, so every qualifying segment in Queens is used. They cover two separate stretches: Woodside Av/Newtown Rd to Junction Blvd (about 1.9 mi), and in the east 163 St to 232 St eastbound (3.0 mi) and Westmoreland St/Morgan St at the city line to Station Rd westbound (3.9 mi). Nothing qualifies between Junction Blvd and 163 St (about 3.7 mi through Corona and Flushing) or west of Woodside Av.",
+   "routes": [
+    "Q12",
+    "Q63",
+    "Q66"
+   ],
+   "segments": [
+    {
+     "route_id": "Q12",
+     "direction": "E",
+     "from_id": "500871",
+     "to_id": "500877",
+     "from_stop": "NORTHERN BLVD/FRANCIS LEWIS BLVD",
+     "to_stop": "NORTHERN BLVD/BELL BLVD",
+     "miles": 0.84,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "E",
+     "from_id": "500877",
+     "to_id": "503259",
+     "from_stop": "NORTHERN BLVD/BELL BLVD",
+     "to_stop": "NORTHERN BLVD/232 ST",
+     "miles": 1.137,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "E",
+     "from_id": "501007",
+     "to_id": "500871",
+     "from_stop": "NORTHERN BLVD/163 ST",
+     "to_stop": "NORTHERN BLVD/FRANCIS LEWIS BLVD",
+     "miles": 1.059,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "W",
+     "from_id": "500893",
+     "to_id": "500907",
+     "from_stop": "NORTHERN BLVD/MORGAN ST",
+     "to_stop": "NORTHERN BLVD/BELL BLVD",
+     "miles": 2.065,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "W",
+     "from_id": "500901",
+     "to_id": "500907",
+     "from_stop": "NORTHERN BLVD/232 ST",
+     "to_stop": "NORTHERN BLVD/BELL BLVD",
+     "miles": 1.212,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "W",
+     "from_id": "500907",
+     "to_id": "500913",
+     "from_stop": "NORTHERN BLVD/BELL BLVD",
+     "to_stop": "NORTHERN BLVD/FRANCIS LEWIS BLVD",
+     "miles": 0.773,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "W",
+     "from_id": "500913",
+     "to_id": "501076",
+     "from_stop": "NORTHERN BLVD/FRANCIS LEWIS BLVD",
+     "to_stop": "NORTHERN BLVD/STATION RD",
+     "miles": 1.096,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q12",
+     "direction": "W",
+     "from_id": "505302",
+     "to_id": "500901",
+     "from_stop": "NORTHERN BL/WESTMORELAND ST",
+     "to_stop": "NORTHERN BLVD/232 ST",
+     "miles": 0.835,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q63",
+     "direction": "E",
+     "from_id": "551861",
+     "to_id": "551886",
+     "from_stop": "NORTHERN BLVD/54 ST",
+     "to_stop": "NORTHERN BLVD/JUNCTION BLVD",
+     "miles": 1.802,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q63",
+     "direction": "W",
+     "from_id": "551887",
+     "to_id": "553024",
+     "from_stop": "NORTHERN BLVD/JUNCTION BLVD",
+     "to_stop": "NORTHERN BLVD/BROADWAY",
+     "miles": 1.758,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q66",
+     "direction": "E",
+     "from_id": "551856",
+     "to_id": "551886",
+     "from_stop": "NORTHERN BLVD/WOODSIDE AV",
+     "to_stop": "NORTHERN BLVD/JUNCTION BLVD",
+     "miles": 1.937,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q66",
+     "direction": "E",
+     "from_id": "551861",
+     "to_id": "551886",
+     "from_stop": "NORTHERN BLVD/54 ST",
+     "to_stop": "NORTHERN BLVD/JUNCTION BLVD",
+     "miles": 1.802,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q66",
+     "direction": "W",
+     "from_id": "551887",
+     "to_id": "551919",
+     "from_stop": "NORTHERN BLVD/JUNCTION BLVD",
+     "to_stop": "NORTHERN BLVD/NEWTOWN RD",
+     "miles": 1.965,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q66",
+     "direction": "W",
+     "from_id": "551887",
+     "to_id": "553024",
+     "from_stop": "NORTHERN BLVD/JUNCTION BLVD",
+     "to_stop": "NORTHERN BLVD/BROADWAY",
+     "miles": 1.758,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "The plan names Northern Blvd only as a rapid bus study, with no limits. Only Q12, Q63 and Q66 have consecutive timepoints both on Northern Blvd; routes that turn on or off it (Q13, Q28, Q101, and the Q12/Q63/Q66 hops into downtown Flushing) have one stop on another street and are left out, so roughly half of the street, including the Flushing and Corona section, is not measured. Review added Q12 W NORTHERN BL/WESTMORELAND ST to NORTHERN BLVD/232 ST, missed because of its spelling: since June 2025 it replaces the Morgan St to Bell Blvd segment, whose rows stop in 2025-06. Timepoints changed in June 2025, so several listed segments are before/after versions of the same stretch (Q66 Woodside Av/Newtown Rd vs 54 St/Broadway). Q66 School-only segments (78 St to 82 St to Junction Blvd) and QM3 Express are excluded."
+  },
+  {
+   "id": 24,
+   "name": "Jackson Heights Hub",
+   "borough": "QN",
+   "status": "unmapped",
+   "definition": "Plan item 24 is \"Broadway, Brooklyn Queens Expressway to Roosevelt Avenue, Queens\" (Q70 SBS to LaGuardia), but no MTA segment has both timepoints on Broadway in that stretch.",
+   "on_streets": [
+    "BROADWAY"
+   ],
+   "extent": "Broadway, Brooklyn-Queens Expwy to Roosevelt Av (plan item 24); no catalog segment fits",
+   "routes": [],
+   "segments": [],
+   "notes": "Plan item 24 names Broadway from the BQE to Roosevelt Av, 9,000 daily riders on the Q70. Item numbers in the plan detail section match the corridor list for the other Queens items (25, 30 to 34), and Broadway/Roosevelt Av/74 St is the Jackson Heights station complex, so reading item 24 as the Jackson Heights Hub is well supported (only detail items 26 and 27 are numbered differently from the list). The stretch is short (well under a mile). The only segment that contains it is Q70+ 74 ST/ROOSEVELT AV STATION to LAGUARDIA AIRPORT/TERMINAL C (3.99 mi, mostly expressway), which would measure highway speed, not Broadway. The other Q70+ segments run Roosevelt Av/61 St to the 74 St station and LaGuardia to Woodside Av/61 St. Q47 has single stops at BROADWAY/ROOSEVELT AV and 75 ST/BROADWAY but no pair on Broadway. Left unmapped because no segment can stand in for it without guessing."
+  },
+  {
+   "id": 25,
+   "name": "Grand Ave/Grand St",
+   "borough": "BK-QN",
+   "status": "partial",
+   "definition": "Segments with both stops on Grand St or Grand Av from the Grand St/Metropolitan Av junction (Newtown Creek) east to Queens Blvd.",
+   "on_streets": [
+    "GRAND ST",
+    "GRAND AV"
+   ],
+   "extent": "Grand St/Metropolitan Av (approx lon -73.935) to Grand Av/Queens Blvd",
+   "routes": [
+    "Q58",
+    "Q59"
+   ],
+   "segments": [
+    {
+     "route_id": "Q58",
+     "direction": "E",
+     "from_id": "503471",
+     "to_id": "502992",
+     "from_stop": "GRAND AV/71 ST",
+     "to_stop": "GRAND AV/QUEENS BLVD",
+     "miles": 1.007,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q58",
+     "direction": "W",
+     "from_id": "503522",
+     "to_id": "503530",
+     "from_stop": "GRAND AV/QUEENS BLVD",
+     "to_stop": "GRAND AV/72 ST",
+     "miles": 0.955,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "E",
+     "from_id": "304863",
+     "to_id": "503748",
+     "from_stop": "GRAND ST/METRO BRIDGE",
+     "to_stop": "GRAND AV/PAGE PL",
+     "miles": 0.903,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "E",
+     "from_id": "503258",
+     "to_id": "502992",
+     "from_stop": "GRAND AV/73 ST",
+     "to_stop": "GRAND AV/QUEENS BLVD",
+     "miles": 0.841,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "E",
+     "from_id": "503743",
+     "to_id": "503258",
+     "from_stop": "GRAND AV/64 ST",
+     "to_stop": "GRAND AV/73 ST",
+     "miles": 0.796,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "E",
+     "from_id": "503748",
+     "to_id": "503258",
+     "from_stop": "GRAND AV/PAGE PL",
+     "to_stop": "GRAND AV/73 ST",
+     "miles": 1.722,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "E",
+     "from_id": "503748",
+     "to_id": "503743",
+     "from_stop": "GRAND AV/PAGE PL",
+     "to_stop": "GRAND AV/64 ST",
+     "miles": 0.926,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "W",
+     "from_id": "503522",
+     "to_id": "503530",
+     "from_stop": "GRAND AV/QUEENS BLVD",
+     "to_stop": "GRAND AV/72 ST",
+     "miles": 0.955,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "W",
+     "from_id": "503530",
+     "to_id": "503747",
+     "from_stop": "GRAND AV/72 ST",
+     "to_stop": "GRAND AV/MASPETH AV",
+     "miles": 0.666,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "W",
+     "from_id": "503747",
+     "to_id": "503749",
+     "from_stop": "GRAND AV/MASPETH AV",
+     "to_stop": "GRAND AV/PAGE PL",
+     "miles": 0.916,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q59",
+     "direction": "W",
+     "from_id": "503749",
+     "to_id": "308181",
+     "from_stop": "GRAND AV/PAGE PL",
+     "to_stop": "GRAND ST/GRAND ST BRIDGE",
+     "miles": 0.339,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan: \"Metropolitan Avenue to Queens Boulevard\", Q59, Q58, Q98. The Grand St/Metropolitan Av junction is the GRAND ST/METRO BRIDGE stop (lon -73.932), confirmed by the mapper with 1 WebSearch; both stops must be east of lon -73.9355. Q98 has no segment with both stops on Grand. Q58 joins Grand Av at 71/72 St, so it only adds the eastern mile. Excluded for crossing the west limit: Q59 W GRAND ST/GRAND ST BRIDGE to GRAND ST/GRAHAM AV (1.09 mi, about 60% west of Metropolitan Av), so westbound coverage stops at the Grand St Bridge, about 0.4 mi short of Metropolitan Av; eastbound starts at Metropolitan Av. Q54 and Q59 Grand St segments west of the junction (Graham Av, Lorimer St, Morgan Av) are outside the limits. School-only Q58 segments (74 St) are excluded. Q59 E Page Pl to 64 St to 73 St (rows through 2025-06) and Page Pl to 73 St (rows from 2025-06) are the same stretch before and after a timepoint change."
+  },
+  {
+   "id": 26,
+   "name": "108th St",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Segments with both stops on 108 St in Queens between Queens Blvd and Roosevelt Av, plus the same southbound run when its last stop is recorded around the corner at 70 Rd/Queens Blvd.",
+   "on_streets": [
+    "108 ST"
+   ],
+   "extent": "108 St from Queens Blvd to Roosevelt Av (about 2.1 mi per direction); the plan runs on to Astoria Blvd (about 0.8 mi more), which no segment covers",
+   "routes": [
+    "Q23"
+   ],
+   "segments": [
+    {
+     "route_id": "Q23",
+     "direction": "N",
+     "from_id": "503862",
+     "to_id": "700151",
+     "from_stop": "108 ST/HORACE HARDING EXPWY",
+     "to_stop": "108 ST/ROOSEVELT AV",
+     "miles": 0.978,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q23",
+     "direction": "N",
+     "from_id": "982462",
+     "to_id": "503862",
+     "from_stop": "108 ST/70 RD",
+     "to_stop": "108 ST/HORACE HARDING EXPWY",
+     "miles": 1.16,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q23",
+     "direction": "S",
+     "from_id": "550913",
+     "to_id": "701030",
+     "from_stop": "108 ST/HORACE HARDING EXPWY",
+     "to_stop": "70 RD/QUEENS BLVD",
+     "miles": 1.117,
+     "route_type": "Local",
+     "exception": "to_stop is on 70 Rd at Queens Blvd, 0.06 mi around the corner from 108 ST/QUEENS BLVD; same 1.12-mi run down 108 St"
+    },
+    {
+     "route_id": "Q23",
+     "direction": "S",
+     "from_id": "550913",
+     "to_id": "982461",
+     "from_stop": "108 ST/HORACE HARDING EXPWY",
+     "to_stop": "70 RD/QUEENS BLVD",
+     "miles": 1.116,
+     "route_type": "Local",
+     "exception": "to_stop is on 70 Rd at Queens Blvd, 0.06 mi around the corner from 108 ST/QUEENS BLVD; same 1.12-mi run down 108 St"
+    },
+    {
+     "route_id": "Q23",
+     "direction": "S",
+     "from_id": "550913",
+     "to_id": "982499",
+     "from_stop": "108 ST/HORACE HARDING EXPWY",
+     "to_stop": "108 ST/QUEENS BLVD",
+     "miles": 1.121,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q23",
+     "direction": "S",
+     "from_id": "982360",
+     "to_id": "550913",
+     "from_stop": "108 ST/ROOSEVELT AV",
+     "to_stop": "108 ST/HORACE HARDING EXPWY",
+     "miles": 1.015,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan (detail item numbered 27): \"108th Street, Queens Boulevard to Astoria Boulevard\", three routes, 35,000 riders. Only Q23 has pairs on 108 St; Q58 (108 St/Horace Harding Expwy) and Q48 (Roosevelt Av/108 St) have single stops there but no pair on 108 St. The stretch from Roosevelt Av to Astoria Blvd is inside Q23 108 ST/ROOSEVELT AV to DITMARS BLVD/102 ST (1.4 mi, about 40% on other streets) and is left out. Review added Q23 S 108 ST/HORACE HARDING EXPWY to 70 RD/QUEENS BLVD (stop ids 701030 and 982461). This is a stated exception to the both-stops rule: the stop is on 70 Rd, 0.06 mi from 108 ST/QUEENS BLVD, and the 1.12-mi run is the same. Without it the southbound Horace Harding to Queens Blvd half has rows only for 2025-07 to 2026-06 (the baseline) and vanishes from 2026-07, when the feed switched to the 70 Rd stop, which would change the segment mix exactly at the plan date. No segment qualifies before June 2025 (the old Q23 timepoints were 71 Av/Queens Blvd and 108 St/62 Dr)."
+  },
+  {
+   "id": 27,
+   "name": "Main St/Linden Pl",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Segments with both stops on Main St in Queens, over the full length the catalog covers (Union Tpke to 38/39 Av in Flushing).",
+   "on_streets": [
+    "MAIN ST"
+   ],
+   "extent": "Assumed: the full length of Main St in the catalog, Union Tpke to 38/39 Av (about 3.1 mi per direction), because the plan gives no limits. No segment covers Linden Pl or Main St south of Union Tpke.",
+   "routes": [
+    "Q20",
+    "Q20A",
+    "Q20B"
+   ],
+   "segments": [
+    {
+     "route_id": "Q20",
+     "direction": "N",
+     "from_id": "502174",
+     "to_id": "501090",
+     "from_stop": "MAIN ST/60 AV",
+     "to_stop": "MAIN ST/38 AV",
+     "miles": 1.278,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20",
+     "direction": "N",
+     "from_id": "505271",
+     "to_id": "502174",
+     "from_stop": "MAIN ST/UNION TPKE",
+     "to_stop": "MAIN ST/60 AV",
+     "miles": 1.814,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20",
+     "direction": "S",
+     "from_id": "503961",
+     "to_id": "502281",
+     "from_stop": "MAIN ST/HORACE HARDING EXPWY NORTH",
+     "to_stop": "MAIN ST/UNION TPKE",
+     "miles": 1.81,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20",
+     "direction": "S",
+     "from_id": "505225",
+     "to_id": "503961",
+     "from_stop": "MAIN ST/39 AV",
+     "to_stop": "MAIN ST/HORACE HARDING EXPWY NORTH",
+     "miles": 1.271,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20A",
+     "direction": "N",
+     "from_id": "502174",
+     "to_id": "502185",
+     "from_stop": "MAIN ST/60 AV",
+     "to_stop": "MAIN ST/39 AV",
+     "miles": 1.242,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20A",
+     "direction": "N",
+     "from_id": "904231",
+     "to_id": "502174",
+     "from_stop": "MAIN ST/UNION TPKE",
+     "to_stop": "MAIN ST/60 AV",
+     "miles": 1.814,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20A",
+     "direction": "S",
+     "from_id": "503961",
+     "to_id": "502281",
+     "from_stop": "MAIN ST/HORACE HARDING EXPWY NORTH",
+     "to_stop": "MAIN ST/UNION TPKE",
+     "miles": 1.81,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20A",
+     "direction": "S",
+     "from_id": "504993",
+     "to_id": "503961",
+     "from_stop": "MAIN ST/39 AV",
+     "to_stop": "MAIN ST/HORACE HARDING EXPWY NORTH",
+     "miles": 1.269,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20B",
+     "direction": "N",
+     "from_id": "502174",
+     "to_id": "502185",
+     "from_stop": "MAIN ST/60 AV",
+     "to_stop": "MAIN ST/39 AV",
+     "miles": 1.242,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20B",
+     "direction": "N",
+     "from_id": "904231",
+     "to_id": "502174",
+     "from_stop": "MAIN ST/UNION TPKE",
+     "to_stop": "MAIN ST/60 AV",
+     "miles": 1.814,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20B",
+     "direction": "S",
+     "from_id": "503961",
+     "to_id": "502281",
+     "from_stop": "MAIN ST/HORACE HARDING EXPWY NORTH",
+     "to_stop": "MAIN ST/UNION TPKE",
+     "miles": 1.81,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q20B",
+     "direction": "S",
+     "from_id": "504993",
+     "to_id": "503961",
+     "from_stop": "MAIN ST/39 AV",
+     "to_stop": "MAIN ST/HORACE HARDING EXPWY NORTH",
+     "miles": 1.269,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "The plan gives no limits for Main St/Linden Pl (2 WebSearches in total, mapper and reviewer, found none). Review change: the first pass cut Main St at Horace Harding Expwy on the assumption that the corridor is the Flushing core. The plan does not say that, and the other no-limit streets in this tracker are mapped at the full length the catalog covers, so the six Q20/Q20A/Q20B segments between Union Tpke and 60 Av/Horace Harding Expwy (1.81 mi each) were added. To restore the narrower reading, drop the segments that touch MAIN ST/UNION TPKE. Linden Pl has no Local, Limited or SBS segment (only QM express stops at Whitestone Expwy/Linden Pl), so the northern half of the corridor name is not measured. Q44 SBS runs on Main St but its timepoints are Merrick Blvd/Archer Av, Main St/39 Av and Parsons Blvd/14 Av, so it has no pair on Main St (its only Main St pairs are School Limited trips, excluded). Q20A and Q20B rows end in 2025-06; Q20 rows start in 2025-06. The Q27 loop MAIN ST/39 AV to MAIN ST/39 AV (0.07 mi) is dropped as a terminal loop."
+  },
+  {
+   "id": 28,
+   "name": "Kissena Blvd/Union St/Parsons Blvd",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Segments whose both stops are on Kissena Blvd, Union St or Parsons Blvd in Queens.",
+   "on_streets": [
+    "KISSENA BLVD",
+    "UNION ST",
+    "PARSONS BLVD"
+   ],
+   "extent": "all catalog timepoint segments on the three streets (College Point/Flushing to Jamaica)",
+   "routes": [
+    "Q20B",
+    "Q25",
+    "Q34"
+   ],
+   "segments": [
+    {
+     "route_id": "Q20B",
+     "direction": "S",
+     "from_id": "502434",
+     "to_id": "501138",
+     "from_stop": "PARSONS BLVD/14 AV",
+     "to_stop": "UNION ST/31 RD",
+     "miles": 1.204,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q25",
+     "direction": "N",
+     "from_id": "553236",
+     "to_id": "550999",
+     "from_stop": "PARSONS BLVD/88 AV",
+     "to_stop": "KISSENA BLVD/JEWEL AV",
+     "miles": 1.981,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q25",
+     "direction": "S",
+     "from_id": "551000",
+     "to_id": "550978",
+     "from_stop": "KISSENA BLVD/JEWEL AV",
+     "to_stop": "PARSONS BLVD/HILLSIDE AV",
+     "miles": 1.868,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q25",
+     "direction": "S",
+     "from_id": "551000",
+     "to_id": "700821",
+     "from_stop": "KISSENA BLVD/JEWEL AV",
+     "to_stop": "PARSONS BLVD/HILLSIDE AV",
+     "miles": 1.901,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q34",
+     "direction": "N",
+     "from_id": "553236",
+     "to_id": "550999",
+     "from_stop": "PARSONS BLVD/88 AV",
+     "to_stop": "KISSENA BLVD/JEWEL AV",
+     "miles": 1.981,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q34",
+     "direction": "S",
+     "from_id": "551000",
+     "to_id": "550978",
+     "from_stop": "KISSENA BLVD/JEWEL AV",
+     "to_stop": "PARSONS BLVD/HILLSIDE AV",
+     "miles": 1.868,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan gives only the three street names, no extent. 1 WebSearch confirmed these are the Q25/Q34 alignment (Kissena to Parsons, Flushing-Jamaica). Because timepoints are sparse many Q25/Q34 hops are cross-street to cross-street across turns (e.g. Kissena->Main St) and are not captured; coverage is partial."
+  },
+  {
+   "id": 29,
+   "name": "Ridgewood Busway",
+   "borough": "QN",
+   "status": "unmapped",
+   "definition": "Planned new busway on the unused right-of-way under the Myrtle Av elevated M line; no existing bus service or segments.",
+   "on_streets": [],
+   "extent": "Myrtle Av El right-of-way (planned)",
+   "routes": [],
+   "segments": [],
+   "notes": "Plan (item 26 in detail section): preliminary engineering starts 2026; routes affected not named (\"many local buses\"). Could be approximated by Myrtle Av segments (B54, Q55) but plan does not name them: not mapped to avoid guessing."
+  },
+  {
+   "id": 30,
+   "name": "Woodhaven/Metropolitan",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Woodhaven Blvd segments that end at the Metropolitan Av intersection (Q11, Q21 between Jamaica Av and Metropolitan Av), used as a coarse stand-in for the short project there.",
+   "on_streets": [
+    "WOODHAVEN BLVD"
+   ],
+   "extent": "Plan: 73 Av to Yellowstone Blvd, about a quarter mile either side of Metropolitan Av. Mapped: Jamaica Av to Metropolitan Av (1.4 mi), so under 20% of each segment is inside the plan limits and the north side (Metropolitan Av to Yellowstone Blvd) is not covered.",
+   "routes": [
+    "Q11",
+    "Q21"
+   ],
+   "segments": [
+    {
+     "route_id": "Q11",
+     "direction": "N",
+     "from_id": "553349",
+     "to_id": "550454",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "miles": 1.402,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q11",
+     "direction": "S",
+     "from_id": "553141",
+     "to_id": "553353",
+     "from_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.389,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q21",
+     "direction": "N",
+     "from_id": "553349",
+     "to_id": "550454",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "miles": 1.402,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q21",
+     "direction": "S",
+     "from_id": "553141",
+     "to_id": "553353",
+     "from_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.389,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan: \"Woodhaven Boulevard, 73rd Avenue to Yellowstone Boulevard\", a 0.25-mile segment on both ends of the Woodhaven Blvd/Metropolitan Av intersection, 34,000 daily riders. No catalog segment is that short. The only pairs on Woodhaven Blvd that touch the intersection run 1.4 mi south to Jamaica Av, so at most about 0.25 mi of each lies inside the project and the rest is outside it (it is inside corridor 31). The north arm exists only as WOODHAVEN BLVD/METROPOLITAN AV to QUEENS BLVD/59 AV and HOFFMAN DR/WOODHAVEN BLVD to WOODHAVEN BLVD/METROPOLITAN AV (1.7 mi, one stop named for another street) and is left out. Q52+/Q53+ SBS pairs (Jamaica Av to Queens Blvd/Hoffman Dr, 3.1 mi) are left out for the same reason. Q21 rows end in 2025-08. These four segments are also in corridor 31: do not add the two corridors together, and read this one as \"Woodhaven Blvd south of Metropolitan Av\", not as a measurement of the project block."
+  },
+  {
+   "id": 31,
+   "name": "Woodhaven (Union Turnpike/107 Ave)",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Segments with both stops on Woodhaven Blvd or on its continuation Cross Bay Blvd, between Metropolitan Av (nearest timepoint north of Union Tpke) and 107 Av.",
+   "on_streets": [
+    "WOODHAVEN BLVD",
+    "CROSS BAY BLVD"
+   ],
+   "extent": "Plan: Union Tpke to 107 Av, 2 miles. Mapped: Metropolitan Av to Rockaway Blvd/Liberty Av/107 Av, about 2.4 mi per direction. The north end overshoots Union Tpke by about 0.35 mi; the south end is 107 Av southbound and Rockaway Blvd (about 0.1 mi short) northbound.",
+   "routes": [
+    "Q11",
+    "Q21"
+   ],
+   "segments": [
+    {
+     "route_id": "Q11",
+     "direction": "N",
+     "from_id": "553349",
+     "to_id": "550454",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "miles": 1.402,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q11",
+     "direction": "N",
+     "from_id": "553352",
+     "to_id": "553349",
+     "from_stop": "CROSS BAY BLVD/ROCKAWAY BLVD",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.005,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q11",
+     "direction": "N",
+     "from_id": "982119",
+     "to_id": "553349",
+     "from_stop": "CROSS BAY BLVD/ROCKAWAY BLVD",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.002,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q11",
+     "direction": "S",
+     "from_id": "553141",
+     "to_id": "553353",
+     "from_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.389,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q11",
+     "direction": "S",
+     "from_id": "553353",
+     "to_id": "550138",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "CROSS BAY BLVD/LIBERTY AV",
+     "miles": 1.056,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q11",
+     "direction": "S",
+     "from_id": "553353",
+     "to_id": "982500",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "CROSS BAY BLVD/107 AV",
+     "miles": 1.127,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q21",
+     "direction": "N",
+     "from_id": "553349",
+     "to_id": "550454",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "miles": 1.402,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q21",
+     "direction": "N",
+     "from_id": "553352",
+     "to_id": "553349",
+     "from_stop": "CROSS BAY BLVD/ROCKAWAY BLVD",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.005,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q21",
+     "direction": "S",
+     "from_id": "553141",
+     "to_id": "553353",
+     "from_stop": "WOODHAVEN BLVD/METROPOLITAN AV",
+     "to_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "miles": 1.389,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q21",
+     "direction": "S",
+     "from_id": "553353",
+     "to_id": "550138",
+     "from_stop": "WOODHAVEN BLVD/JAMAICA AV",
+     "to_stop": "CROSS BAY BLVD/LIBERTY AV",
+     "miles": 1.056,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan: \"Woodhaven Boulevard, Union Turnpike to 107th Avenue\", two miles along the Q52 SBS and Q53 SBS, 34,000 riders. Review found the first pass covered only the northern half: the catalog puts CROSS BAY BLVD/107 AV at lat 40.6788, about 1.0 mi south of Jamaica Av (lat 40.6937), not next to it. Woodhaven Blvd continues as Cross Bay Blvd from Rockaway Blvd/Liberty Av south, and 107 Av is just south of Liberty Av, so the six Q11/Q21 segments between WOODHAVEN BLVD/JAMAICA AV and CROSS BAY BLVD at Rockaway Blvd, Liberty Av or 107 Av were added and CROSS BAY BLVD was added to the streets (only north of 107 Av; the rest of Cross Bay Blvd is excluded by latitude). The Jamaica Av to Metropolitan Av segments are kept although they run about 0.35 mi north of Union Tpke (Union Tpke is not a timepoint; its position is estimated from the UNION TPKE/CRESCENT APARTMENTS stop at lat 40.7071). They are also in corridor 30: do not add the two corridors together. The plan names Q52 SBS and Q53 SBS, but their pairs are Woodhaven Blvd/Jamaica Av to Queens Blvd/59 Av or Hoffman Dr (3.1 mi, about 30% inside the limits, one stop named for another street) and Woodhaven Blvd/Jamaica Av to Cross Bay Blvd/16-17 Rd (6.7 mi), so no SBS segment is included and the speeds here are Q11/Q21 local speeds. Q21 rows and the Q11 Rockaway Blvd/Liberty Av timepoints end in 2025-08; from 2025-09 the Q11 uses stop ids 982119 and 982500 for the same stretch."
+  },
+  {
+   "id": 32,
+   "name": "Jamaica Ave",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Segments on Jamaica Av between Sutphin Blvd and about 169th St.",
+   "on_streets": [
+    "JAMAICA AV"
+   ],
+   "extent": "Jamaica Av, Sutphin Blvd (lon -73.808) to 170 St (lon -73.790)",
+   "routes": [
+    "Q54",
+    "Q56"
+   ],
+   "segments": [
+    {
+     "route_id": "Q54",
+     "direction": "E",
+     "from_id": "503727",
+     "to_id": "501422",
+     "from_stop": "JAMAICA AV/147 PL",
+     "to_stop": "170 ST/JAMAICA AV",
+     "miles": 1.011,
+     "route_type": "Local",
+     "exception": "to_stop is on 170 St at Jamaica Av (the terminal stop), 0.02 mi from JAMAICA AV/170 ST; the whole run is on Jamaica Av"
+    },
+    {
+     "route_id": "Q54",
+     "direction": "W",
+     "from_id": "503406",
+     "to_id": "804206",
+     "from_stop": "JAMAICA AV/170 ST",
+     "to_stop": "JAMAICA AV/146 ST",
+     "miles": 1.088,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q54",
+     "direction": "W",
+     "from_id": "504384",
+     "to_id": "503718",
+     "from_stop": "JAMAICA AV/170 ST",
+     "to_stop": "JAMAICA AV/SUTPHIN BLVD",
+     "miles": 1.055,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q56",
+     "direction": "E",
+     "from_id": "503727",
+     "to_id": "501422",
+     "from_stop": "JAMAICA AV/147 PL",
+     "to_stop": "170 ST/JAMAICA AV",
+     "miles": 1.012,
+     "route_type": "Local",
+     "exception": "to_stop is on 170 St at Jamaica Av (the terminal stop), 0.02 mi from JAMAICA AV/170 ST; the whole run is on Jamaica Av"
+    },
+    {
+     "route_id": "Q56",
+     "direction": "W",
+     "from_id": "503406",
+     "to_id": "503184",
+     "from_stop": "JAMAICA AV/170 ST",
+     "to_stop": "JAMAICA AV/146 ST",
+     "miles": 1.087,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q56",
+     "direction": "W",
+     "from_id": "504384",
+     "to_id": "503184",
+     "from_stop": "JAMAICA AV/170 ST",
+     "to_stop": "JAMAICA AV/146 ST",
+     "miles": 1.087,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan: \"Jamaica Avenue, Sutphin Boulevard to 169th Street\", 1 mile, the Jamaica Av Busway, 139,000 riders. Both stops must lie between lon -73.809 (146 St, at Sutphin Blvd) and -73.789 (170 St, one block east of 169 St), a tolerance of about 0.1 mi. Stated exception to the both-stops rule: the eastbound Q54 and Q56 segments end at 170 ST/JAMAICA AV, a stop on 170 St at the corner (0.02 mi from JAMAICA AV/170 ST). Without them the corridor would have no eastbound data. Excluded: Q110 Jamaica Av/168 St to 188 St (1.2 mi, almost all east of the limit), Q54/Q56 138 St to 147 Pl and Q24/Q54/Q56 Sutphin Blvd or 146 St to Queens Blvd (west of the limit), and pairs with one stop on another street (Q30/Q31 Jamaica Av/165 St to Archer Av, Q110 88 Av/Parsons Blvd to Jamaica Av/168 St). Westbound stop ids changed in mid-2025, so each route has a before and an after version of the same segment."
+  },
+  {
+   "id": 33,
+   "name": "Merrick Blvd",
+   "borough": "QN",
+   "status": "mapped",
+   "definition": "Segments with both stops on Merrick Blvd from Liberty Av (approx 104 Av/Liberty) to Linden Blvd.",
+   "on_streets": [
+    "MERRICK BLVD"
+   ],
+   "extent": "Merrick Blvd, Liberty Av to Linden Blvd",
+   "routes": [
+    "Q5",
+    "Q84",
+    "Q85"
+   ],
+   "segments": [
+    {
+     "route_id": "Q5",
+     "direction": "E",
+     "from_id": "503967",
+     "to_id": "500451",
+     "from_stop": "MERRICK BLVD/104 AV",
+     "to_stop": "MERRICK BLVD/LINDEN BLVD",
+     "miles": 0.925,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q5",
+     "direction": "E",
+     "from_id": "503967",
+     "to_id": "505313",
+     "from_stop": "MERRICK BLVD/104 AV",
+     "to_stop": "MERRICK BLVD/LINDEN BLVD",
+     "miles": 0.927,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q5",
+     "direction": "W",
+     "from_id": "500512",
+     "to_id": "500433",
+     "from_stop": "MERRICK BLVD/LINDEN BLVD",
+     "to_stop": "MERRICK BLVD/LIBERTY AV",
+     "miles": 0.986,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q84",
+     "direction": "E",
+     "from_id": "503967",
+     "to_id": "500451",
+     "from_stop": "MERRICK BLVD/104 AV",
+     "to_stop": "MERRICK BLVD/LINDEN BLVD",
+     "miles": 0.925,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q84",
+     "direction": "W",
+     "from_id": "500512",
+     "to_id": "500433",
+     "from_stop": "MERRICK BLVD/LINDEN BLVD",
+     "to_stop": "MERRICK BLVD/LIBERTY AV",
+     "miles": 0.986,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q85",
+     "direction": "E",
+     "from_id": "503967",
+     "to_id": "500451",
+     "from_stop": "MERRICK BLVD/104 AV",
+     "to_stop": "MERRICK BLVD/LINDEN BLVD",
+     "miles": 0.925,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q85",
+     "direction": "W",
+     "from_id": "500512",
+     "to_id": "500433",
+     "from_stop": "MERRICK BLVD/LINDEN BLVD",
+     "to_stop": "MERRICK BLVD/LIBERTY AV",
+     "miles": 0.986,
+     "route_type": "Local"
+    }
+   ],
+   "notes": "Plan: \"Merrick Boulevard, Liberty Avenue to Linden Boulevard\", 1 mile, 77,000 riders. The north end is MERRICK BLVD/104 AV eastbound and MERRICK BLVD/LIBERTY AV westbound, within about 0.1 mi of each other. Only Q5 has rows after June 2025 (eastbound stop id 505313 replaces 500451); the Q84 and Q85 segments listed have rows only through 2025-06. After the June 2025 timepoint change Q84, Q85, Q86, Q87 and Q89 report this stretch as Merrick Blvd/Linden Blvd to Archer Av/165 St or Jamaica Center to Merrick Blvd/Linden Blvd (1.3 to 1.7 mi, one stop off Merrick Blvd) and are left out, so the corridor speed from mid-2025 is Q5 only. Limited-pattern pairs ending at LIBERTY AV/MERRICK BLVD (around the corner) and Q4 pairs ending on Linden Blvd are also left out; Merrick Blvd south of Linden Blvd is outside the limits."
+  },
+  {
+   "id": 34,
+   "name": "Sutphin/Guy R Brewer Blvd",
+   "borough": "QN",
+   "status": "partial",
+   "definition": "Guy R Brewer Blvd between Archer Av and Linden Blvd (the shortest segments that contain the plan's Liberty Av to Archer Av block), plus Sutphin Blvd over the full length the catalog covers (Rockaway Blvd to 88 Av).",
+   "on_streets": [
+    "GUY R BREWER BLVD",
+    "SUTPHIN BLVD"
+   ],
+   "extent": "Guy R Brewer Blvd: plan limits are Liberty Av to Archer Av (about 0.2 mi); mapped Archer Av to Linden Blvd/115 Av/Sayres Av (1.1 to 1.4 mi), so most of each segment is south of Liberty Av. Sutphin Blvd: no limits in the plan, assumed full catalog length, Rockaway Blvd to Archer Av (2.2 mi) plus 88 Av to Jamaica Av (0.2 mi).",
+   "routes": [
+    "Q111",
+    "Q113",
+    "Q114",
+    "Q115",
+    "Q40",
+    "Q6"
+   ],
+   "segments": [
+    {
+     "route_id": "Q111",
+     "direction": "N",
+     "from_id": "552340",
+     "to_id": "552357",
+     "from_stop": "GUY R BREWER BLVD/115 AV",
+     "to_stop": "GUY R BREWER BLVD/ARCHER AV",
+     "miles": 1.212,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q111",
+     "direction": "N",
+     "from_id": "552342",
+     "to_id": "505264",
+     "from_stop": "GUY R BREWER BLVD/SAYRES AV",
+     "to_stop": "ARCHER AV/160 ST",
+     "miles": 1.229,
+     "route_type": "Local",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q111",
+     "direction": "S",
+     "from_id": "505256",
+     "to_id": "552367",
+     "from_stop": "ARCHER AV/PARSONS BL",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.318,
+     "route_type": "Local",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q111",
+     "direction": "S",
+     "from_id": "552358",
+     "to_id": "552367",
+     "from_stop": "GUY R BREWER BLVD/ARCHER AV",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.13,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q113",
+     "direction": "N",
+     "from_id": "552340",
+     "to_id": "505264",
+     "from_stop": "GUY R BREWER BLVD/115 AV",
+     "to_stop": "ARCHER AV/160 ST",
+     "miles": 1.373,
+     "route_type": "Limited",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q113",
+     "direction": "N",
+     "from_id": "552342",
+     "to_id": "505264",
+     "from_stop": "GUY R BREWER BLVD/SAYRES AV",
+     "to_stop": "ARCHER AV/160 ST",
+     "miles": 1.229,
+     "route_type": "Limited",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q113",
+     "direction": "S",
+     "from_id": "552409",
+     "to_id": "552367",
+     "from_stop": "ARCHER AV/160 ST",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.278,
+     "route_type": "Limited",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q114",
+     "direction": "N",
+     "from_id": "552340",
+     "to_id": "505264",
+     "from_stop": "GUY R BREWER BLVD/115 AV",
+     "to_stop": "ARCHER AV/160 ST",
+     "miles": 1.373,
+     "route_type": "Limited",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q114",
+     "direction": "N",
+     "from_id": "552340",
+     "to_id": "552357",
+     "from_stop": "GUY R BREWER BLVD/115 AV",
+     "to_stop": "GUY R BREWER BLVD/ARCHER AV",
+     "miles": 1.213,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q114",
+     "direction": "N",
+     "from_id": "552342",
+     "to_id": "505264",
+     "from_stop": "GUY R BREWER BLVD/SAYRES AV",
+     "to_stop": "ARCHER AV/160 ST",
+     "miles": 1.229,
+     "route_type": "Local",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q114",
+     "direction": "S",
+     "from_id": "552358",
+     "to_id": "552367",
+     "from_stop": "GUY R BREWER BLVD/ARCHER AV",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.13,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q114",
+     "direction": "S",
+     "from_id": "552409",
+     "to_id": "552367",
+     "from_stop": "ARCHER AV/160 ST",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.284,
+     "route_type": "Limited",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q115",
+     "direction": "N",
+     "from_id": "552342",
+     "to_id": "505264",
+     "from_stop": "GUY R BREWER BLVD/SAYRES AV",
+     "to_stop": "ARCHER AV/160 ST",
+     "miles": 1.228,
+     "route_type": "Local",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q115",
+     "direction": "S",
+     "from_id": "505256",
+     "to_id": "552367",
+     "from_stop": "ARCHER AV/PARSONS BL",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.318,
+     "route_type": "Local",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q115",
+     "direction": "S",
+     "from_id": "552359",
+     "to_id": "552367",
+     "from_stop": "ARCHER AV/160 ST",
+     "to_stop": "GUY R BREWER BLVD/LINDEN BLVD",
+     "miles": 1.292,
+     "route_type": "Local",
+     "exception": "one stop is on Archer Av at 160 St/Parsons Blvd, the Jamaica terminal approach, 0.15 to 0.19 mi from Guy R Brewer Blvd; the rest of the run is on Guy R Brewer Blvd"
+    },
+    {
+     "route_id": "Q40",
+     "direction": "S",
+     "from_id": "551474",
+     "to_id": "502139",
+     "from_stop": "SUTPHIN BLVD/88 AV",
+     "to_stop": "SUTPHIN BLVD/JAMAICA AV",
+     "miles": 0.22,
+     "route_type": "Local"
+    },
+    {
+     "route_id": "Q6",
+     "direction": "N",
+     "from_id": "550012",
+     "to_id": "550031",
+     "from_stop": "SUTPHIN BLVD/ROCKAWAY BLVD",
+     "to_stop": "SUTPHIN BLVD/ARCHER AV",
+     "miles": 2.163,
+     "route_type": "Limited"
+    },
+    {
+     "route_id": "Q6",
+     "direction": "S",
+     "from_id": "550184",
+     "to_id": "550057",
+     "from_stop": "SUTPHIN BLVD/91 AV",
+     "to_stop": "ROCKAWAY BLVD/150 ST",
+     "miles": 2.266,
+     "route_type": "Limited",
+     "exception": "to_stop is on Rockaway Blvd at 150 St, 0.08 mi around the corner from SUTPHIN BLVD/ROCKAWAY BLVD; the rest of the run is on Sutphin Blvd"
+    }
+   ],
+   "notes": "Plan: \"Guy R Brewer Boulevard, Liberty Avenue to Archer Avenue\", Q111, Q112, Q113, Q114, Q115, 13,000 riders. 1 WebSearch by the reviewer found a DOT presentation for the same one-block stretch and nothing that sets limits for Sutphin Blvd. Three review changes. (1) The four first-pass Brewer segments (both stops on Brewer, Q111 and Q114) have rows only for 2025-01 to 2025-06, so they give no baseline and no post-plan data. Since the June 2025 timepoint change the same stretch is reported as GUY R BREWER BLVD/SAYRES AV or /LINDEN BLVD to or from ARCHER AV/160 ST or ARCHER AV/PARSONS BL. Those pairs were added as a stated exception to the both-stops rule: the Archer Av stop is the terminal approach, 0.15 to 0.19 mi from Brewer (about 12 to 15% of the segment). They are marked with an \"exception\" field and can be dropped by anyone who wants the strict rule, at the cost of having no Brewer data after June 2025. (2) The first pass said the segments overshoot Liberty Av by about 0.4 mi. By the catalog coordinates Liberty Av crosses Brewer about 0.2 mi south of Archer Av, so about 0.9 to 1.0 mi of each segment (three quarters or more) is south of the plan limits; this is a coarse stand-in for the project block. (3) Sutphin Blvd is in the corridor name but was left out because the plan gives it no limits. The other no-limit streets in this tracker are mapped at the full length the catalog covers, so the Sutphin pairs were added: Q6 N Rockaway Blvd to Archer Av, Q40 S 88 Av to Jamaica Av, and Q6 S SUTPHIN BLVD/91 AV to ROCKAWAY BLVD/150 ST (exception: the last stop is 0.08 mi around the corner on Rockaway Blvd). This is an assumption about extent; drop the SUTPHIN BLVD segments to track Brewer alone. Not included: Brewer south of Linden Blvd (outside the plan limits), Q112 (no pair on Brewer), Q51 pairs on Linden Blvd, and the many Sutphin Blvd pairs with one stop on another street (Q8, Q9, Q40, Q41, Q60 at Sutphin Blvd/Archer Av)."
+  }
+ ]
+}

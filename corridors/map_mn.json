@@ -1,0 +1,884 @@
+{
+ "route_types_seen": [
+  "Express",
+  "Limited",
+  "Local",
+  "SBS",
+  "School",
+  "School Limited"
+ ],
+ "route_types_kept": [
+  "Limited",
+  "Local",
+  "SBS"
+ ],
+ "corridors": [
+  {
+   "id": 11,
+   "name": "Upper Manhattan North-South",
+   "borough": "MN",
+   "status": "unmapped",
+   "definition": "",
+   "on_streets": [],
+   "extent": "",
+   "routes": [],
+   "segments": [],
+   "notes": "The plan names this corridor only in the Priority Corridors table and on the map; it gives no streets, endpoints, routes or project description. Review re-checked the plan text for Upper Manhattan, Harlem, Washington Heights, Inwood and M-route mentions and found none. Not mapped, because any street choice would be a guess. No web search used."
+  },
+  {
+   "id": 12,
+   "name": "125th St",
+   "borough": "MN",
+   "status": "partial",
+   "definition": "125th St in Manhattan between Amsterdam Av and 3 Av in both directions, plus Amsterdam Av to St Clair Pl westbound (M125 timepoints).",
+   "on_streets": [
+    "W 125 ST",
+    "E 125 ST"
+   ],
+   "extent": "Every timepoint pair on W 125 ST / E 125 ST in Manhattan; no clipping because the plan states no limits. No qualifying segment covers 125th St east of 3 Av.",
+   "routes": [
+    "M125"
+   ],
+   "segments": [
+    {
+     "route_id": "M125",
+     "direction": "E",
+     "from_id": "402653",
+     "to_id": "402657",
+     "from_stop": "W 125 ST/AMSTERDAM AV",
+     "to_stop": "W 125 ST/FREDERICK DOUGLASS BLVD",
+     "miles": 0.324,
+     "overlap_frac": 1.0,
+     "from_lat": 40.812602,
+     "from_lon": -73.955693,
+     "to_lat": 40.809908,
+     "to_lon": -73.950705
+    },
+    {
+     "route_id": "M125",
+     "direction": "E",
+     "from_id": "402657",
+     "to_id": "402661",
+     "from_stop": "W 125 ST/FREDERICK DOUGLASS BLVD",
+     "to_stop": "E 125 ST/MADISON AV",
+     "miles": 0.624,
+     "overlap_frac": 1.0,
+     "from_lat": 40.809908,
+     "from_lon": -73.950705,
+     "to_lat": 40.805533,
+     "to_lon": -73.940296
+    },
+    {
+     "route_id": "M125",
+     "direction": "E",
+     "from_id": "402661",
+     "to_id": "403672",
+     "from_stop": "E 125 ST/MADISON AV",
+     "to_stop": "E 125 ST/3 AV",
+     "miles": 0.292,
+     "overlap_frac": 1.0,
+     "from_lat": 40.805533,
+     "from_lon": -73.940296,
+     "to_lat": 40.803485,
+     "to_lon": -73.935437
+    },
+    {
+     "route_id": "M125",
+     "direction": "W",
+     "from_id": "403604",
+     "to_id": "403829",
+     "from_stop": "W 125 ST/AMSTERDAM AV",
+     "to_stop": "W 125 ST/SAINT CLAIR PL",
+     "miles": 0.292,
+     "overlap_frac": 1.0,
+     "from_lat": 40.813693,
+     "from_lon": -73.956392,
+     "to_lat": 40.817202,
+     "to_lon": -73.959504
+    },
+    {
+     "route_id": "M125",
+     "direction": "W",
+     "from_id": "402509",
+     "to_id": "403604",
+     "from_stop": "W 125 ST/FREDERICK DOUGLASS BLVD",
+     "to_stop": "W 125 ST/AMSTERDAM AV",
+     "miles": 0.351,
+     "overlap_frac": 1.0,
+     "from_lat": 40.810402,
+     "from_lon": -73.951598,
+     "to_lat": 40.813693,
+     "to_lon": -73.956392
+    },
+    {
+     "route_id": "M125",
+     "direction": "W",
+     "from_id": "402505",
+     "to_id": "402509",
+     "from_stop": "E 125 ST/MADISON AV",
+     "to_stop": "W 125 ST/FREDERICK DOUGLASS BLVD",
+     "miles": 0.634,
+     "overlap_frac": 1.0,
+     "from_lat": 40.805979,
+     "from_lon": -73.940999,
+     "to_lat": 40.810402,
+     "to_lon": -73.951598
+    },
+    {
+     "route_id": "M125",
+     "direction": "W",
+     "from_id": "402502",
+     "to_id": "402505",
+     "from_stop": "E 125 ST/3 AV",
+     "to_stop": "E 125 ST/MADISON AV",
+     "miles": 0.287,
+     "overlap_frac": 1.0,
+     "from_lat": 40.803935,
+     "from_lon": -73.936221,
+     "to_lat": 40.805979,
+     "to_lon": -73.940999
+    }
+   ],
+   "notes": "Only M125 has consecutive timepoints that are both named on 125th St (eastbound 1.24 mi, westbound 1.56 mi), so the corridor speed is M125 only. Segments that run along 125th St but have one stop named on a cross street are excluded by the both-stops rule: M101 N E 125 ST/3 AV to AMSTERDAM AV/W 125 ST (1.28 mi), M101 S W 125 ST/AMSTERDAM AV to LEXINGTON AV/E 124 ST (1.16 mi), M125 E SAINT CLAIRE PL/W 125 ST to W 125 ST/AMSTERDAM AV (0.38 mi), M60 SBS BROADWAY/W 106 ST to E 125 ST/LEXINGTON AV (2.36 mi), and the M100 and M125 segments that leave 125th St. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 13,
+   "name": "Lexington Ave (95th-125th St)",
+   "borough": "MN",
+   "status": "mapped",
+   "definition": "Lexington Av from 95th St to 125th St, southbound (the avenue is one-way southbound).",
+   "on_streets": [
+    "LEXINGTON AV"
+   ],
+   "extent": "Latitude 40.7848 to 40.8043 on Lexington Av: 95th St is one block south of the LEXINGTON AV/E 96 ST stop (40.7855) and 125th St is midway between the E 124 ST (40.8039) and E 126 ST (40.8048) stops. Mapped timepoints run from E 124 St to E 96 St.",
+   "routes": [
+    "M101",
+    "M102",
+    "M103"
+   ],
+   "segments": [
+    {
+     "route_id": "M101",
+     "direction": "S",
+     "from_id": "404255",
+     "to_id": "402816",
+     "from_stop": "LEXINGTON AV/E 124 ST",
+     "to_stop": "LEXINGTON AV/E 100 ST",
+     "miles": 1.232,
+     "overlap_frac": 1.0,
+     "from_lat": 40.803886,
+     "from_lon": -73.937851,
+     "to_lat": 40.78827,
+     "to_lon": -73.949209
+    },
+    {
+     "route_id": "M101",
+     "direction": "S",
+     "from_id": "402816",
+     "to_id": "403418",
+     "from_stop": "LEXINGTON AV/E 100 ST",
+     "to_stop": "LEXINGTON AV/E 96 ST",
+     "miles": 0.218,
+     "overlap_frac": 1.0,
+     "from_lat": 40.78827,
+     "from_lon": -73.949209,
+     "to_lat": 40.785502,
+     "to_lon": -73.951206
+    },
+    {
+     "route_id": "M102",
+     "direction": "S",
+     "from_id": "402816",
+     "to_id": "403418",
+     "from_stop": "LEXINGTON AV/E 100 ST",
+     "to_stop": "LEXINGTON AV/E 96 ST",
+     "miles": 0.218,
+     "overlap_frac": 1.0,
+     "from_lat": 40.78827,
+     "from_lon": -73.949209,
+     "to_lat": 40.785502,
+     "to_lon": -73.951206
+    },
+    {
+     "route_id": "M103",
+     "direction": "S",
+     "from_id": "404255",
+     "to_id": "402816",
+     "from_stop": "LEXINGTON AV/E 124 ST",
+     "to_stop": "LEXINGTON AV/E 100 ST",
+     "miles": 1.231,
+     "overlap_frac": 1.0,
+     "from_lat": 40.803886,
+     "from_lon": -73.937851,
+     "to_lat": 40.78827,
+     "to_lon": -73.949209
+    },
+    {
+     "route_id": "M103",
+     "direction": "S",
+     "from_id": "402816",
+     "to_id": "403418",
+     "from_stop": "LEXINGTON AV/E 100 ST",
+     "to_stop": "LEXINGTON AV/E 96 ST",
+     "miles": 0.218,
+     "overlap_frac": 1.0,
+     "from_lat": 40.78827,
+     "from_lon": -73.949209,
+     "to_lat": 40.785502,
+     "to_lon": -73.951206
+    }
+   ],
+   "notes": "M101 and M103 cover E 124 St to E 96 St; M102 joins at E 100 St (its segment from Malcolm X Blvd ends on Lexington but starts off it). The E 96 St to E 68 St segment is excluded (4% inside the limits). Summed miles (3.12) count the same 1.45 mi stretch once per route. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 14,
+   "name": "116th St",
+   "borough": "MN",
+   "status": "partial",
+   "definition": "116th St in Manhattan plus Pleasant Av, Manhattan Av and Morningside Av, the four streets the plan names for this project; in the catalog this is M116 on 116th St (Frederick Douglass Blvd to Pleasant Av) and on Pleasant Av (E 120 St to E 116 St).",
+   "on_streets": [
+    "W 116 ST",
+    "E 116 ST",
+    "PLEASANT AV",
+    "MANHATTAN AV",
+    "MORNINGSIDE AV"
+   ],
+   "extent": "Assumed: the full Manhattan length of each named street, because the plan gives no limits. Manhattan is tested by lat/lon west of the East River, which excludes MANHATTAN AV in Greenpoint, Brooklyn (B62).",
+   "routes": [
+    "M116"
+   ],
+   "segments": [
+    {
+     "route_id": "M116",
+     "direction": "E",
+     "from_id": "401044",
+     "to_id": "401988",
+     "from_stop": "W 116 ST/FREDERICK DOUGLASS BLVD",
+     "to_stop": "W 116 ST/MALCOLM X BLVD",
+     "miles": 0.357,
+     "overlap_frac": 1.0,
+     "from_lat": 40.804229,
+     "from_lon": -73.955203,
+     "to_lat": 40.801755,
+     "to_lon": -73.949213
+    },
+    {
+     "route_id": "M116",
+     "direction": "E",
+     "from_id": "401988",
+     "to_id": "401990",
+     "from_stop": "W 116 ST/MALCOLM X BLVD",
+     "to_stop": "E 116 ST/MADISON AV",
+     "miles": 0.289,
+     "overlap_frac": 1.0,
+     "from_lat": 40.801755,
+     "from_lon": -73.949213,
+     "to_lat": 40.799718,
+     "to_lon": -73.944398
+    },
+    {
+     "route_id": "M116",
+     "direction": "W",
+     "from_id": "404274",
+     "to_id": "401079",
+     "from_stop": "W 116 ST/MALCOLM X BLVD",
+     "to_stop": "W 116 ST/FREDERICK DOUGLASS BLVD",
+     "miles": 0.306,
+     "overlap_frac": 1.0,
+     "from_lat": 40.802292,
+     "from_lon": -73.950025,
+     "to_lat": 40.804421,
+     "to_lon": -73.955141
+    },
+    {
+     "route_id": "M116",
+     "direction": "W",
+     "from_id": "402005",
+     "to_id": "404274",
+     "from_stop": "E 116 ST/MADISON AV",
+     "to_stop": "W 116 ST/MALCOLM X BLVD",
+     "miles": 0.294,
+     "overlap_frac": 1.0,
+     "from_lat": 40.800172,
+     "from_lon": -73.94517,
+     "to_lat": 40.802292,
+     "to_lon": -73.950025
+    },
+    {
+     "route_id": "M116",
+     "direction": "W",
+     "from_id": "401998",
+     "to_id": "401999",
+     "from_stop": "PLEASANT AV/E 120 ST",
+     "to_stop": "E 116 ST/PLEASANT AV",
+     "miles": 0.235,
+     "overlap_frac": 1.0,
+     "from_lat": 40.797246,
+     "from_lon": -73.931695,
+     "to_lat": 40.795306,
+     "to_lon": -73.93351
+    },
+    {
+     "route_id": "M116",
+     "direction": "W",
+     "from_id": "401999",
+     "to_id": "402005",
+     "from_stop": "E 116 ST/PLEASANT AV",
+     "to_stop": "E 116 ST/MADISON AV",
+     "miles": 0.697,
+     "overlap_frac": 1.0,
+     "from_lat": 40.795306,
+     "from_lon": -73.93351,
+     "to_lat": 40.800172,
+     "to_lon": -73.94517
+    }
+   ],
+   "notes": "Plan: improvements along 116th Street, Manhattan Avenue, Morningside Avenue and Pleasant Avenue for 10 routes and 65,000 riders. Only M116 has timepoint pairs on these streets: eastbound Frederick Douglass Blvd to Madison Av (0.65 mi), westbound Pleasant Av/E 120 St to Frederick Douglass Blvd (1.53 mi). No segment has both stops on Manhattan Av or Morningside Av in Manhattan. Excluded by the both-stops rule although they use these streets: M116 E E 116 ST/MADISON AV to 1 AV/E 116 ST (0.56 mi), M116 W E 120 ST/PLEASANT AV to E 116 ST/PLEASANT AV, the M116 and M7 segments between W 116 ST/FREDERICK DOUGLASS BLVD and W 106 St, and M3 N MANHATTAN AV/W 111 ST to SAINT NICHOLAS AV/W 125 ST. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 15,
+   "name": "79th St",
+   "borough": "MN",
+   "status": "mapped",
+   "definition": "79th St from Riverside Dr to East End Av (M79 SBS), both directions.",
+   "on_streets": [
+    "W 79 ST",
+    "E 79 ST"
+   ],
+   "extent": "Longitude -73.9845 (Riverside Dr) to -73.9440 (East End Av); every mapped stop is inside.",
+   "routes": [
+    "M79+"
+   ],
+   "segments": [
+    {
+     "route_id": "M79+",
+     "direction": "E",
+     "from_id": "403522",
+     "to_id": "403523",
+     "from_stop": "W 79 ST/RIVERSIDE DR",
+     "to_stop": "W 79 ST/BROADWAY",
+     "miles": 0.124,
+     "overlap_frac": 1.0,
+     "from_lat": 40.784786,
+     "from_lon": -73.982315,
+     "to_lat": 40.783867,
+     "to_lon": -73.980284
+    },
+    {
+     "route_id": "M79+",
+     "direction": "E",
+     "from_id": "403523",
+     "to_id": "401870",
+     "from_stop": "W 79 ST/BROADWAY",
+     "to_stop": "E 79 ST/5 AV",
+     "miles": 1.185,
+     "overlap_frac": 1.0,
+     "from_lat": 40.783867,
+     "from_lon": -73.980284,
+     "to_lat": 40.776768,
+     "to_lon": -73.963421
+    },
+    {
+     "route_id": "M79+",
+     "direction": "W",
+     "from_id": "403989",
+     "to_id": "401893",
+     "from_stop": "E 79 ST/5 AV",
+     "to_stop": "W 79 ST/BROADWAY",
+     "miles": 1.185,
+     "overlap_frac": 1.0,
+     "from_lat": 40.77698,
+     "from_lon": -73.963475,
+     "to_lat": 40.784063,
+     "to_lon": -73.980345
+    },
+    {
+     "route_id": "M79+",
+     "direction": "W",
+     "from_id": "401880",
+     "to_id": "403989",
+     "from_stop": "E 79 ST/EAST END AV",
+     "to_stop": "E 79 ST/5 AV",
+     "miles": 0.886,
+     "overlap_frac": 1.0,
+     "from_lat": 40.77074,
+     "from_lon": -73.948716,
+     "to_lat": 40.77698,
+     "to_lon": -73.963475
+    }
+   ],
+   "notes": "Eastbound covers Riverside Dr to 5 Av (1.31 mi); westbound covers East End Av to Broadway (2.07 mi). Excluded: M79 SBS westbound W 79 ST/BROADWAY to W 79 ST/RIVERSIDE DR, whose catalog length is 0.94 mi for a 0.13 mi block (eastbound is 0.12 mi), so it is a terminal turnaround loop mostly off 79th St. Also excluded: eastbound E 79 ST/5 AV to E 80 ST/EAST END AV (0.96 mi), because the terminal stop is named on E 80 St. The Broadway to 5 Av segment includes the Central Park transverse; the plan cites 1.65 miles of streets for a stretch that is about 2.0 mi end to end. M79+ rows appear under both Limited and SBS route types and are counted once. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 16,
+   "name": "Midtown Crosstown",
+   "borough": "MN",
+   "status": "unmapped",
+   "definition": "",
+   "on_streets": [],
+   "extent": "",
+   "routes": [],
+   "segments": [],
+   "notes": "The plan names this corridor only in the Priority Corridors table and on the map; it gives no streets, endpoints or routes. It may overlap the 34th, 42nd, 49th/50th or 57th St crosstowns, but the plan does not say, so it is not mapped. No web search used."
+  },
+  {
+   "id": 17,
+   "name": "34th St Busway",
+   "borough": "MN",
+   "status": "partial",
+   "definition": "34th St from 3 Av to 9 Av (M34 SBS and M34A SBS), both directions, using every 34th St timepoint segment with at least 30% of its length inside those limits.",
+   "on_streets": [
+    "W 34 ST",
+    "E 34 ST"
+   ],
+   "extent": "Longitude -73.9960 (the W 34 ST/9 AV stop) to -73.9786 (the E 34 ST/3 AV stop); a segment is kept when at least 30% of its longitude span is inside. Each segment carries overlap_frac.",
+   "routes": [
+    "M34+",
+    "M34A+"
+   ],
+   "segments": [
+    {
+     "route_id": "M34+",
+     "direction": "E",
+     "from_id": "803131",
+     "to_id": "404820",
+     "from_stop": "W 34 ST/12 AV",
+     "to_stop": "W 34 ST/7 AV",
+     "miles": 0.77,
+     "overlap_frac": 0.38,
+     "from_lat": 40.756579,
+     "from_lon": -74.00403,
+     "to_lat": 40.751116,
+     "to_lon": -73.991115
+    },
+    {
+     "route_id": "M34+",
+     "direction": "E",
+     "from_id": "405286",
+     "to_id": "404280",
+     "from_stop": "W 34 ST/12 AV",
+     "to_stop": "W 34 ST/7 AV",
+     "miles": 0.765,
+     "overlap_frac": 0.4,
+     "from_lat": 40.756419,
+     "from_lon": -74.003657,
+     "to_lat": 40.751046,
+     "to_lon": -73.990911
+    },
+    {
+     "route_id": "M34+",
+     "direction": "E",
+     "from_id": "404820",
+     "to_id": "401827",
+     "from_stop": "W 34 ST/7 AV",
+     "to_stop": "E 34 ST/2 AV",
+     "miles": 0.902,
+     "overlap_frac": 0.83,
+     "from_lat": 40.751116,
+     "from_lon": -73.991115,
+     "to_lat": 40.744771,
+     "to_lon": -73.976091
+    },
+    {
+     "route_id": "M34+",
+     "direction": "E",
+     "from_id": "404280",
+     "to_id": "401827",
+     "from_stop": "W 34 ST/7 AV",
+     "to_stop": "E 34 ST/2 AV",
+     "miles": 0.89,
+     "overlap_frac": 0.83,
+     "from_lat": 40.751046,
+     "from_lon": -73.990911,
+     "to_lat": 40.744771,
+     "to_lon": -73.976091
+    },
+    {
+     "route_id": "M34+",
+     "direction": "W",
+     "from_id": "401847",
+     "to_id": "803130",
+     "from_stop": "W 34 ST/7 AV",
+     "to_stop": "W 34 ST/12 AV",
+     "miles": 0.967,
+     "overlap_frac": 0.38,
+     "from_lat": 40.75125,
+     "from_lon": -73.991027,
+     "to_lat": 40.75667,
+     "to_lon": -74.00431
+    },
+    {
+     "route_id": "M34+",
+     "direction": "W",
+     "from_id": "401847",
+     "to_id": "803131",
+     "from_stop": "W 34 ST/7 AV",
+     "to_stop": "W 34 ST/12 AV",
+     "miles": 0.982,
+     "overlap_frac": 0.39,
+     "from_lat": 40.75125,
+     "from_lon": -73.991027,
+     "to_lat": 40.756579,
+     "to_lon": -74.00403
+    },
+    {
+     "route_id": "M34+",
+     "direction": "W",
+     "from_id": "403359",
+     "to_id": "401847",
+     "from_stop": "E 34 ST/1 AV",
+     "to_stop": "W 34 ST/7 AV",
+     "miles": 1.027,
+     "overlap_frac": 0.73,
+     "from_lat": 40.744007,
+     "from_lon": -73.97394,
+     "to_lat": 40.75125,
+     "to_lon": -73.991027
+    },
+    {
+     "route_id": "M34A+",
+     "direction": "E",
+     "from_id": "404820",
+     "to_id": "401827",
+     "from_stop": "W 34 ST/7 AV",
+     "to_stop": "E 34 ST/2 AV",
+     "miles": 0.902,
+     "overlap_frac": 0.83,
+     "from_lat": 40.751116,
+     "from_lon": -73.991115,
+     "to_lat": 40.744771,
+     "to_lon": -73.976091
+    },
+    {
+     "route_id": "M34A+",
+     "direction": "E",
+     "from_id": "404280",
+     "to_id": "401827",
+     "from_stop": "W 34 ST/7 AV",
+     "to_stop": "E 34 ST/2 AV",
+     "miles": 0.89,
+     "overlap_frac": 0.83,
+     "from_lat": 40.751046,
+     "from_lon": -73.990911,
+     "to_lat": 40.744771,
+     "to_lon": -73.976091
+    },
+    {
+     "route_id": "M34A+",
+     "direction": "W",
+     "from_id": "403359",
+     "to_id": "401847",
+     "from_stop": "E 34 ST/1 AV",
+     "to_stop": "W 34 ST/7 AV",
+     "miles": 1.027,
+     "overlap_frac": 0.73,
+     "from_lat": 40.744007,
+     "from_lon": -73.97394,
+     "to_lat": 40.75125,
+     "to_lon": -73.991027
+    }
+   ],
+   "notes": "Assumption: straddling segments are kept. 34th St timepoints are only at 12 Av, 7 Av and 2 Av/1 Av, so no segment sits wholly inside the busway (about 1.0 mi). The 7 Av to 2 Av/1 Av segments are 73-83% inside. The 12 Av to 7 Av segments are only 38-40% inside (the 9 Av to 7 Av part) and are kept because nothing else covers 7 Av to 9 Av; westbound they are 0.97-0.98 mi against 0.77 mi eastbound, so they include a turnaround west of 12 Av. Two stop-ID variants of the 12 Av/7 Av stretch and the shared M34/M34A segments mean summed miles (9.12) count the same street several times. Segments to Marginal St, the ferry terminal, Waterside, W 43 St or 9 AV/W 42 ST have a stop off 34th St and are excluded. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 18,
+   "name": "9th Avenue",
+   "borough": "MN",
+   "status": "partial",
+   "definition": "9th Av from 32nd St to 50th St (M11 southbound; the avenue is one-way southbound), using the one 9th Av timepoint segment, W 42 St to W 23 St.",
+   "on_streets": [
+    "9 AV"
+   ],
+   "extent": "Latitude 40.7521 (32nd St) to 40.7638 (50th St), placed by linear interpolation between the 9 AV/W 23 ST (40.7463) and 9 AV/W 42 ST (40.7586) stops; the same interpolation puts 34th St at 40.7534, matching the W 34 ST/9 AV stop. Kept when at least 30% of the latitude span is inside.",
+   "routes": [
+    "M11"
+   ],
+   "segments": [
+    {
+     "route_id": "M11",
+     "direction": "S",
+     "from_id": "401497",
+     "to_id": "404881",
+     "from_stop": "9 AV/W 42 ST",
+     "to_stop": "9 AV/W 23 ST",
+     "miles": 0.972,
+     "overlap_frac": 0.53,
+     "from_lat": 40.758584,
+     "from_lon": -73.992665,
+     "to_lat": 40.746264,
+     "to_lon": -74.001642
+    }
+   ],
+   "notes": "Assumption: the straddling segment is kept. M11 S 9 AV/W 42 ST to 9 AV/W 23 ST is 53% inside (42nd to 32nd St); the 32nd to 23rd St part is outside. 42nd to 50th St is not covered: the only segment there is M11 S COLUMBUS AV/W 66 ST to 9 AV/W 42 ST (1.2 mi), whose first stop is named on Columbus Av (9th Av north of 59th St) and which is only about a third inside. 49 AV and other Queens/Brooklyn names are excluded by exact name and location. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 19,
+   "name": "Lexington Ave (52nd-60th St)",
+   "borough": "MN",
+   "status": "partial",
+   "definition": "Lexington Av from 60th St to 52nd St, southbound (the avenue is one-way southbound), using the one timepoint segment that crosses it, E 59 St to E 42 St.",
+   "on_streets": [
+    "LEXINGTON AV"
+   ],
+   "extent": "Latitude 40.7578 (52nd St, interpolated between the LEXINGTON AV/E 50 ST and E 55 ST stops) to 40.7627 (60th St, extrapolated from the E 55 ST and E 59 ST stops). Kept when at least 30% of the latitude span is inside.",
+   "routes": [
+    "M101",
+    "M102",
+    "M103"
+   ],
+   "segments": [
+    {
+     "route_id": "M101",
+     "direction": "S",
+     "from_id": "404171",
+     "to_id": "403425",
+     "from_stop": "LEXINGTON AV/E 59 ST",
+     "to_stop": "LEXINGTON AV/E 42 ST",
+     "miles": 0.888,
+     "overlap_frac": 0.38,
+     "from_lat": 40.762106,
+     "from_lon": -73.968336,
+     "to_lat": 40.750843,
+     "to_lon": -73.976533
+    },
+    {
+     "route_id": "M102",
+     "direction": "S",
+     "from_id": "404171",
+     "to_id": "403425",
+     "from_stop": "LEXINGTON AV/E 59 ST",
+     "to_stop": "LEXINGTON AV/E 42 ST",
+     "miles": 0.889,
+     "overlap_frac": 0.38,
+     "from_lat": 40.762106,
+     "from_lon": -73.968336,
+     "to_lat": 40.750843,
+     "to_lon": -73.976533
+    },
+    {
+     "route_id": "M103",
+     "direction": "S",
+     "from_id": "404171",
+     "to_id": "403425",
+     "from_stop": "LEXINGTON AV/E 59 ST",
+     "to_stop": "LEXINGTON AV/E 42 ST",
+     "miles": 0.888,
+     "overlap_frac": 0.38,
+     "from_lat": 40.762106,
+     "from_lon": -73.968336,
+     "to_lat": 40.750843,
+     "to_lon": -73.976533
+    }
+   ],
+   "notes": "Assumption: the straddling segment is kept. LEXINGTON AV/E 59 ST to LEXINGTON AV/E 42 ST (M101, M102, M103; 0.89 mi) is 38% inside (59th to 52nd St) and 62% south of the project, so this corridor is a weak proxy. The E 68 St to E 59 St segment is 11% inside and excluded. The plan cites eight routes; the others are Express (excluded) or have no consecutive Lexington timepoints here (M98 runs W 178 St to E 68 St as one segment). Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 20,
+   "name": "6th Ave",
+   "borough": "MN",
+   "status": "mapped",
+   "definition": "6th Av (Avenue of the Americas) from Lispenard St to 59th St, northbound (the avenue is one-way northbound).",
+   "on_streets": [
+    "6 AV",
+    "AVENUE OF THE AMERICAS"
+   ],
+   "extent": "Latitude 40.7195 (Lispenard St) to 40.7657 (59th St, two blocks north of the 6 AV/W 57 ST stop at 40.7644); every mapped stop is inside. Mapped timepoints run from Grand St to W 57 St.",
+   "routes": [
+    "M5",
+    "M55",
+    "M7"
+   ],
+   "segments": [
+    {
+     "route_id": "M5",
+     "direction": "N",
+     "from_id": "400936",
+     "to_id": "404992",
+     "from_stop": "6 AV/W 42 ST",
+     "to_stop": "6 AV/W 57 ST",
+     "miles": 0.734,
+     "overlap_frac": 1.0,
+     "from_lat": 40.755109,
+     "from_lon": -73.983786,
+     "to_lat": 40.764401,
+     "to_lon": -73.977001
+    },
+    {
+     "route_id": "M5",
+     "direction": "N",
+     "from_id": "803083",
+     "to_id": "400936",
+     "from_stop": "6 AV/W 31 ST",
+     "to_stop": "6 AV/W 42 ST",
+     "miles": 0.558,
+     "overlap_frac": 1.0,
+     "from_lat": 40.748042,
+     "from_lon": -73.988957,
+     "to_lat": 40.755109,
+     "to_lon": -73.983786
+    },
+    {
+     "route_id": "M55",
+     "direction": "N",
+     "from_id": "400725",
+     "to_id": "403769",
+     "from_stop": "6 AV/W 12 ST",
+     "to_stop": "6 AV/W 31 ST",
+     "miles": 0.932,
+     "overlap_frac": 1.0,
+     "from_lat": 40.736155,
+     "from_lon": -73.997539,
+     "to_lat": 40.748017,
+     "to_lon": -73.98901
+    },
+    {
+     "route_id": "M55",
+     "direction": "N",
+     "from_id": "400919",
+     "to_id": "400725",
+     "from_stop": "6 AV/WEST HOUSTON ST",
+     "to_stop": "6 AV/W 12 ST",
+     "miles": 0.579,
+     "overlap_frac": 1.0,
+     "from_lat": 40.7287,
+     "from_lon": -74.00254,
+     "to_lat": 40.736155,
+     "to_lon": -73.997539
+    },
+    {
+     "route_id": "M55",
+     "direction": "N",
+     "from_id": "405635",
+     "to_id": "400919",
+     "from_stop": "6 AV/GRAND ST",
+     "to_stop": "6 AV/WEST HOUSTON ST",
+     "miles": 0.423,
+     "overlap_frac": 1.0,
+     "from_lat": 40.722882,
+     "from_lon": -74.005044,
+     "to_lat": 40.7287,
+     "to_lon": -74.00254
+    },
+    {
+     "route_id": "M7",
+     "direction": "N",
+     "from_id": "405579",
+     "to_id": "400933",
+     "from_stop": "6 AV/W 16 ST",
+     "to_stop": "6 AV/W 34 ST",
+     "miles": 0.892,
+     "overlap_frac": 1.0,
+     "from_lat": 40.738553,
+     "from_lon": -73.995894,
+     "to_lat": 40.74986,
+     "to_lon": -73.987669
+    },
+    {
+     "route_id": "M7",
+     "direction": "N",
+     "from_id": "903176",
+     "to_id": "400933",
+     "from_stop": "6 AV/W 15 ST",
+     "to_stop": "6 AV/W 34 ST",
+     "miles": 0.938,
+     "overlap_frac": 1.0,
+     "from_lat": 40.737972,
+     "from_lon": -73.996333,
+     "to_lat": 40.74986,
+     "to_lon": -73.987669
+    }
+   ],
+   "notes": "Both spellings are matched; AVENUE OF THE AMERICAS adds no segment, because among kept route types it appears only on M7 S 7 AV/W 34 ST to AVENUE OF THE AMERICAS/W 16 ST, which runs on 7th Av. M55 and M5 chain Grand St to W 57 St (3.23 mi); M7 W 15/16 St to W 34 St overlaps that chain, so summed miles (5.06) exceed the street length. Excluded for a stop named on a cross street: M55 N 6 AV/W 31 ST to W 44 ST/6 AV. M5 N W 31 ST/6 AV to 6 AV/W 42 ST is not excluded: its stop is about 0.03 mi from the mapped 6 AV/W 31 ST stop on the same block and similar length, so the stop-location merge counts it as the same segment (stop ids 405505 and 803083). The plan cites 31 routes; most are Express (excluded). Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 21,
+   "name": "Madison Ave",
+   "borough": "MN",
+   "status": "partial",
+   "definition": "Madison Av from 23rd St to 42nd St, northbound (the avenue is one-way northbound), using the timepoint segments that start at E 28 St or E 32 St and end at E 57/58 St.",
+   "on_streets": [
+    "MADISON AV"
+   ],
+   "extent": "Latitude 40.7412 (the MADISON AV/E 23 ST stop) to 40.7527 (the MADISON AV/E 42 ST stop). Kept when at least 30% of the latitude span is inside.",
+   "routes": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+   ],
+   "segments": [
+    {
+     "route_id": "M1",
+     "direction": "N",
+     "from_id": "405380",
+     "to_id": "400024",
+     "from_stop": "MADISON AV/E 28 ST",
+     "to_stop": "MADISON AV/E 58 ST",
+     "miles": 1.46,
+     "overlap_frac": 0.46,
+     "from_lat": 40.744189,
+     "from_lon": -73.985425,
+     "to_lat": 40.762701,
+     "to_lon": -73.971959
+    },
+    {
+     "route_id": "M2",
+     "direction": "N",
+     "from_id": "405380",
+     "to_id": "400024",
+     "from_stop": "MADISON AV/E 28 ST",
+     "to_stop": "MADISON AV/E 58 ST",
+     "miles": 1.46,
+     "overlap_frac": 0.46,
+     "from_lat": 40.744189,
+     "from_lon": -73.985425,
+     "to_lat": 40.762701,
+     "to_lon": -73.971959
+    },
+    {
+     "route_id": "M3",
+     "direction": "N",
+     "from_id": "405380",
+     "to_id": "400363",
+     "from_stop": "MADISON AV/E 28 ST",
+     "to_stop": "MADISON AV/E 57 ST",
+     "miles": 1.459,
+     "overlap_frac": 0.46,
+     "from_lat": 40.744189,
+     "from_lon": -73.985425,
+     "to_lat": 40.762702,
+     "to_lon": -73.971997
+    },
+    {
+     "route_id": "M4",
+     "direction": "N",
+     "from_id": "400353",
+     "to_id": "400363",
+     "from_stop": "MADISON AV/E 32 ST",
+     "to_stop": "MADISON AV/E 57 ST",
+     "miles": 1.258,
+     "overlap_frac": 0.37,
+     "from_lat": 40.746763,
+     "from_lon": -73.983626,
+     "to_lat": 40.762702,
+     "to_lon": -73.971997
+    }
+   ],
+   "notes": "Assumption: straddling segments are kept. M1, M2 and M3 E 28 St to E 57/58 St (1.46 mi) are 46% inside; M4 E 32 St to E 57 St (1.26 mi) is 37% inside. More than half of each segment is north of 42nd St, so the speed reflects Midtown above the project as well. 23rd to 28th St is not covered: M1/M2/M3 N 4 AV/E 10 ST to MADISON AV/E 28 ST starts off Madison. The plan cites 34 routes; most are Express (excluded). MADISON ST is a different street and is not matched. Rule applied: both stops on a listed street, both in Manhattan by lat/lon, Local/Limited/SBS only."
+  },
+  {
+   "id": 22,
+   "name": "Broadway",
+   "borough": "MN",
+   "status": "unmapped",
+   "definition": "Broadway from 14th St to Houston St (per plan); no catalog segment qualifies.",
+   "on_streets": [
+    "BROADWAY"
+   ],
+   "extent": "14th St to Houston St (latitude about 40.7251 to 40.7345 on Broadway).",
+   "routes": [],
+   "segments": [],
+   "notes": "The plan defines the street and limits, but no catalog segment of any route type has both stops on Broadway inside them. Closest: M55 S 5 AV/W 23 ST to BROADWAY/WEST HOUSTON ST (1.39 mi, first stop on 5th Av, most of the path off Broadway); Express SIM7/SIM9/SIM33 from BROADWAY/E 13 ST to West St and X27/X28 from E 23 ST/BROADWAY to BROADWAY/BROOME ST (Express, and one stop off or outside). M1/M2/M3 southbound end at E 8 ST/LAFAYETTE ST or 4 AV/E 9 ST. Adding the M55 segment would break the both-stops rule, so the corridor stays unmapped until the feed has a Broadway timepoint pair here. No web search used."
+  }
+ ]
+}

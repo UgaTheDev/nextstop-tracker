@@ -1,0 +1,41 @@
+/* Next Stop Tracker design tokens. Light is the default; add data-theme="dark" on <html>. */
+:root {
+  --bg: #ffffff;          /* page background */
+  --surface: #f3f5f8;     /* notice strip, row hover, hatch, chart baseline band */
+  --ink: #0e1b2e;         /* text, borders, speed line */
+  --muted: #4a5668;       /* secondary text, baseline line */
+  --rule: #d5dae2;        /* hairlines, gridlines */
+  --bar: #0e1b2e;         /* top strip, table header, footer (text on it is #fff) */
+  --panel: #10223d;       /* hero panel (text on it is #fff) */
+  --panel-muted: #dfe6f0; /* secondary text on panel and bar */
+  --panel-rule: #3a4d6b;  /* rules on panel */
+  --amber: #ffc533;       /* key figure, tags, callout header; text on amber is always #0e1b2e */
+  --callout: #fff7df;     /* callout and warning background */
+  --faster: #1259c3;      /* faster than baseline; pair with ▲ or filled circle */
+  --slower: #b4500a;      /* slower than baseline; pair with ▼ or hollow square */
+  --target: #8a5a00;      /* target line and label */
+  --focus: #1259c3;       /* focus ring */
+  --logo-sign: #0e1b2e;
+  --logo-arrow: #ffc533;
+  --s1: #8a3200; /* map: under 6 mph */
+  --s2: #d07a2a; /* map: 6 to 7 mph */
+  --s3: #5b8fd6; /* map: 7 to 8 mph */
+  --s4: #1259c3; /* map: 8 mph and over */
+
+  --font: "Public Sans", system-ui, sans-serif;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px; --space-6: 40px; --space-7: 56px;
+  --gutter: 40px;
+  --radius: 4px; --radius-tag: 3px;
+}
+[data-theme="dark"] {
+  --bg: #0b1626; --surface: #132238; --ink: #eef2f7; --muted: #a9b6c8; --rule: #2c3d57;
+  --bar: #1d3050; --panel: #16294a; --callout: #2a2410;
+  --faster: #7db4ff; --slower: #ffa35c; --target: #ffc533; --focus: #ffc533;
+  --logo-sign: #ffc533; --logo-arrow: #0e1b2e;
+  --s1: #ff8a3d; --s2: #ffc79a; --s3: #a9cbff; --s4: #5b9dff;
+}
+@media (max-width: 720px) { :root { --gutter: 16px; } }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--font); font-size: 16px; line-height: 1.5; font-variant-numeric: tabular-nums; }
+a { color: inherit; }
+a:hover { color: var(--faster); }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
