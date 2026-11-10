@@ -14,6 +14,7 @@ main:focus{outline:none}
 
 /* strip, header, footer */
 .strip{background:var(--bar);color:#fff;font-size:13px;line-height:1.4;padding:8px 0}
+.strip a,.foot p a{color:inherit;text-decoration:underline;display:inline;min-height:0}
 header.site{border-bottom:1px solid var(--rule);background:var(--bg)}
 .bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:14px;padding-bottom:14px}
 .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:20px;letter-spacing:-.01em;text-decoration:none;min-height:44px}

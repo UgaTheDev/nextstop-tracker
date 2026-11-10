@@ -35,12 +35,12 @@ const LOGO = '<svg width="36" height="36" viewBox="0 0 48 48" aria-hidden="true"
 function chrome() {
   const page = document.body.dataset.page === 'corridor' ? 'home' : document.body.dataset.page;
   const links = [['home', 'index.html', 'Corridors'], ['commitments', 'commitments.html', 'Commitments'], ['ace', 'ace.html', 'Camera enforcement'], ['methods', 'methods.html', 'Methods']];
-  $('#chrome-top').innerHTML = '<div class="strip"><div class="wrap">An independent project by Kush Zingade. Not affiliated with NYC DOT or the MTA.</div></div>' +
+  $('#chrome-top').innerHTML = '<div class="strip"><div class="wrap">An independent project by <a href="https://www.linkedin.com/in/kush-zingade">Kush Zingade</a>. Not affiliated with NYC DOT or the MTA.</div></div>' +
     '<header class="site"><div class="wrap bar"><a class="brand" href="index.html">' + LOGO + '<span>Next Stop Tracker</span></a>' +
     '<button type="button" class="btn menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>' +
     '<nav id="nav" aria-label="Main">' + links.map(l => `<a href="${l[1]}"${l[0] === page ? ' aria-current="page"' : ''}>${l[2]}</a>`).join('') +
     '<button type="button" class="btn" id="theme"></button></nav></div></header>';
-  $('#chrome-bottom').innerHTML = '<footer class="site"><div class="wrap foot"><p>An independent project by Kush Zingade. Not affiliated with NYC DOT or the MTA. Corridor definitions are our own: the plan does not publish stop-level definitions. Data: MTA bus segment speeds on data.ny.gov.</p>' +
+  $('#chrome-bottom').innerHTML = '<footer class="site"><div class="wrap foot"><p>An independent project by <a href="https://www.linkedin.com/in/kush-zingade">Kush Zingade</a>. Not affiliated with NYC DOT or the MTA. Corridor definitions are our own: the plan does not publish stop-level definitions. Data: MTA bus segment speeds on data.ny.gov.</p>' +
     '<nav aria-label="Footer"><a href="methods.html">Methods</a><a href="methods.html#report">Report a wrong corridor</a><a href="data/corridors.json">Data</a><a href="https://github.com/UgaTheDev/nextstop-tracker">Code</a></nav></div></footer>';
   applyTheme(curTheme(), false);
   $('#theme').addEventListener('click', () => applyTheme(curTheme() === 'dark' ? 'light' : 'dark', true));
