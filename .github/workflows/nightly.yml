@@ -29,13 +29,19 @@ jobs:
         run: |
           python3 pipeline/build.py --selfcheck
           python3 pipeline/ace.py --selfcheck
+          python3 pipeline/stop_delay.py --selfcheck
+          python3 pipeline/commitments.py --selfcheck
 
       - name: Run pipeline
         run: |
           cp site/data/corridors.json "$RUNNER_TEMP/prev.json"
+          cp site/data/stop_delay.json "$RUNNER_TEMP/prev_delay.json"
+          cp site/data/commitments.json "$RUNNER_TEMP/prev_commit.json"
           python3 pipeline/fetch.py
           python3 pipeline/build.py
           python3 pipeline/ace.py "$(date -u +%F)"
+          python3 pipeline/stop_delay.py "$(date -u +%F)"
+          python3 pipeline/commitments.py "$(date -u +%F)"
 
       - name: Sanity gate (do not publish if data went backwards)
         run: |
@@ -46,6 +52,15 @@ jobs:
           assert new["data_through"] >= old["data_through"], "data_through moved backwards"
           assert new["summary"]["corridors_tracked"] >= old["summary"]["corridors_tracked"], "corridors_tracked dropped"
           print("ok:", new["data_through"], new["summary"]["corridors_tracked"], "corridors tracked")
+          old = json.load(open(os.environ["RUNNER_TEMP"] + "/prev_delay.json"))
+          new = json.load(open("site/data/stop_delay.json"))
+          assert new["data_through"] >= old["data_through"], "stop delay data_through moved backwards"
+          assert new["summary"]["corridors_with_data"] >= old["summary"]["corridors_with_data"], "stop delay corridors dropped"
+          live = lambda d: {c["id"]: c["measured"]["value"] for c in d["commitments"] if c["measured"]}
+          old, new = live(json.load(open(os.environ["RUNNER_TEMP"] + "/prev_commit.json"))), live(json.load(open("site/data/commitments.json")))
+          assert all(k in new for k in old), "a measured commitment disappeared"
+          assert all(new[k] >= old[k] for k in old if k.startswith("ace_")), "a camera route count went down"
+          print("ok: stop delay and commitments")
           PY
 
       - name: Commit changed site data
@@ -53,7 +68,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # A file whose only change is its "generated" date is not a data change.
-          for f in site/data/corridors.json site/data/ace.json; do
+          for f in site/data/corridors.json site/data/ace.json site/data/stop_delay.json site/data/commitments.json; do
             if git diff --quiet -I '"generated"' -- "$f"; then git checkout -- "$f"; fi
           done
           git add -- site/data/*.json

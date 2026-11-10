@@ -1,0 +1,7074 @@
+{
+ "generated": "2026-11-09",
+ "data_through": "2026-09",
+ "threshold_min": 2.0,
+ "metric": {
+  "name": "Additional Bus Stop Time (minutes)",
+  "definition": "Additional Bus Stop Time is the average time that customers spend waiting at a stop beyond their scheduled wait time. (MTA dataset description; column: \"The average additional bus stop time (in minutes) for each bus route, monthly, during peak and off-peak hours.\")",
+  "source_url": "https://data.ny.gov/Transportation/MTA-Bus-Customer-Journey-Focused-Metrics-Beginning-/8mkn-d32t"
+ },
+ "baseline": {
+  "from": "2025-07",
+  "to": "2026-06"
+ },
+ "summary": {
+  "tracked": {
+   "routes": [
+    "B1",
+    "B15",
+    "B16",
+    "B35",
+    "B38",
+    "B41",
+    "B45",
+    "B46",
+    "B46+",
+    "B49",
+    "B6",
+    "B82",
+    "B82+",
+    "B9",
+    "BX1",
+    "BX12",
+    "BX12+",
+    "BX13",
+    "BX15",
+    "BX19",
+    "BX2",
+    "BX21",
+    "BX22",
+    "BX28",
+    "BX38",
+    "BX39",
+    "BX40",
+    "BX42",
+    "BX5",
+    "BX6",
+    "BX6+",
+    "BX9",
+    "M1",
+    "M101",
+    "M102",
+    "M103",
+    "M11",
+    "M116",
+    "M125",
+    "M2",
+    "M3",
+    "M34+",
+    "M34A+",
+    "M4",
+    "M5",
+    "M55",
+    "M7",
+    "M79+",
+    "Q11",
+    "Q111",
+    "Q113",
+    "Q114",
+    "Q115",
+    "Q12",
+    "Q20",
+    "Q20A",
+    "Q20B",
+    "Q21",
+    "Q23",
+    "Q25",
+    "Q34",
+    "Q40",
+    "Q5",
+    "Q54",
+    "Q56",
+    "Q58",
+    "Q59",
+    "Q6",
+    "Q63",
+    "Q66",
+    "Q84",
+    "Q85",
+    "S44",
+    "S51",
+    "S61",
+    "S62",
+    "S66",
+    "S79+",
+    "S81",
+    "S89",
+    "S91",
+    "S92",
+    "S94"
+   ],
+   "routes_with_data_since_release": 79,
+   "baseline_min": 2.7,
+   "since_release": {
+    "min": 2.41,
+    "same_months_prior_year_min": 2.7,
+    "change_min": -0.29,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.7
+   }
+  },
+  "citywide": {
+   "baseline_min": 2.67,
+   "since_release": {
+    "min": 2.37,
+    "same_months_prior_year_min": 2.65,
+    "change_min": -0.28,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.69
+   }
+  },
+  "corridors_with_data": 41,
+  "corridors_under_threshold": 10,
+  "corridors_under_threshold_prior_year": 5,
+  "corridors_over_threshold": 31,
+  "routes_unmatched": []
+ },
+ "corridors": [
+  {
+   "id": 1,
+   "name": "E Gun Hill Rd",
+   "routes_used": [
+    "BX28",
+    "BX38"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.26,
+   "since_release": {
+    "min": 1.96,
+    "same_months_prior_year_min": 2.44,
+    "change_min": -0.48,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.11
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.74,
+     "riders": 422345
+    },
+    {
+     "month": "2024-08",
+     "min": 2.73,
+     "riders": 410402
+    },
+    {
+     "month": "2024-09",
+     "min": 3.15,
+     "riders": 387700
+    },
+    {
+     "month": "2024-10",
+     "min": 2.93,
+     "riders": 408681
+    },
+    {
+     "month": "2024-11",
+     "min": 2.77,
+     "riders": 336170
+    },
+    {
+     "month": "2024-12",
+     "min": 3.1,
+     "riders": 452245
+    },
+    {
+     "month": "2025-01",
+     "min": 2.25,
+     "riders": 452527
+    },
+    {
+     "month": "2025-02",
+     "min": 2.76,
+     "riders": 403230
+    },
+    {
+     "month": "2025-03",
+     "min": 2.28,
+     "riders": 453949
+    },
+    {
+     "month": "2025-04",
+     "min": 2.21,
+     "riders": 436574
+    },
+    {
+     "month": "2025-05",
+     "min": 2.72,
+     "riders": 426725
+    },
+    {
+     "month": "2025-06",
+     "min": 2.81,
+     "riders": 420847
+    },
+    {
+     "month": "2025-07",
+     "min": 2.13,
+     "riders": 433244
+    },
+    {
+     "month": "2025-08",
+     "min": 2.29,
+     "riders": 410774
+    },
+    {
+     "month": "2025-09",
+     "min": 2.85,
+     "riders": 497525
+    },
+    {
+     "month": "2025-10",
+     "min": 2.16,
+     "riders": 467697
+    },
+    {
+     "month": "2025-11",
+     "min": 2.04,
+     "riders": 412998
+    },
+    {
+     "month": "2025-12",
+     "min": 2.33,
+     "riders": 455741
+    },
+    {
+     "month": "2026-01",
+     "min": 1.88,
+     "riders": 299305
+    },
+    {
+     "month": "2026-02",
+     "min": 3.25,
+     "riders": 346754
+    },
+    {
+     "month": "2026-03",
+     "min": 2.18,
+     "riders": 442343
+    },
+    {
+     "month": "2026-04",
+     "min": 2.02,
+     "riders": 436715
+    },
+    {
+     "month": "2026-05",
+     "min": 1.84,
+     "riders": 235761
+    },
+    {
+     "month": "2026-06",
+     "min": 1.85,
+     "riders": 357363
+    },
+    {
+     "month": "2026-07",
+     "min": 1.97,
+     "riders": 448264
+    },
+    {
+     "month": "2026-08",
+     "min": 1.8,
+     "riders": 408713
+    },
+    {
+     "month": "2026-09",
+     "min": 2.11,
+     "riders": 395420
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "E Kingsbridge Rd",
+   "routes_used": [
+    "BX9"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.0,
+   "since_release": {
+    "min": 2.01,
+    "same_months_prior_year_min": 1.84,
+    "change_min": 0.17,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.18
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": true,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.03,
+     "riders": 742432
+    },
+    {
+     "month": "2024-08",
+     "min": 2.06,
+     "riders": 732341
+    },
+    {
+     "month": "2024-09",
+     "min": 1.6,
+     "riders": 690511
+    },
+    {
+     "month": "2024-10",
+     "min": 1.73,
+     "riders": 700577
+    },
+    {
+     "month": "2024-11",
+     "min": 1.89,
+     "riders": 541454
+    },
+    {
+     "month": "2024-12",
+     "min": 1.82,
+     "riders": 725960
+    },
+    {
+     "month": "2025-01",
+     "min": 1.25,
+     "riders": 731853
+    },
+    {
+     "month": "2025-02",
+     "min": 1.65,
+     "riders": 653818
+    },
+    {
+     "month": "2025-03",
+     "min": 1.65,
+     "riders": 706098
+    },
+    {
+     "month": "2025-04",
+     "min": 1.74,
+     "riders": 694199
+    },
+    {
+     "month": "2025-05",
+     "min": 1.73,
+     "riders": 664042
+    },
+    {
+     "month": "2025-06",
+     "min": 1.82,
+     "riders": 659483
+    },
+    {
+     "month": "2025-07",
+     "min": 1.87,
+     "riders": 631810
+    },
+    {
+     "month": "2025-08",
+     "min": 1.67,
+     "riders": 588822
+    },
+    {
+     "month": "2025-09",
+     "min": 1.96,
+     "riders": 746583
+    },
+    {
+     "month": "2025-10",
+     "min": 2.29,
+     "riders": 749196
+    },
+    {
+     "month": "2025-11",
+     "min": 1.86,
+     "riders": 632308
+    },
+    {
+     "month": "2025-12",
+     "min": 1.98,
+     "riders": 728867
+    },
+    {
+     "month": "2026-01",
+     "min": 1.48,
+     "riders": 494660
+    },
+    {
+     "month": "2026-02",
+     "min": 2.53,
+     "riders": 549948
+    },
+    {
+     "month": "2026-03",
+     "min": 2.14,
+     "riders": 657056
+    },
+    {
+     "month": "2026-04",
+     "min": 1.87,
+     "riders": 584537
+    },
+    {
+     "month": "2026-05",
+     "min": 1.94,
+     "riders": 586109
+    },
+    {
+     "month": "2026-06",
+     "min": 2.23,
+     "riders": 676403
+    },
+    {
+     "month": "2026-07",
+     "min": 1.96,
+     "riders": 666377
+    },
+    {
+     "month": "2026-08",
+     "min": 1.9,
+     "riders": 613517
+    },
+    {
+     "month": "2026-09",
+     "min": 2.18,
+     "riders": 594012
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "E Fordham Rd",
+   "routes_used": [
+    "BX12",
+    "BX12+",
+    "BX22"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.29,
+   "since_release": {
+    "min": 2.15,
+    "same_months_prior_year_min": 2.4,
+    "change_min": -0.25,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.6
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.32,
+     "riders": 1365151
+    },
+    {
+     "month": "2024-08",
+     "min": 2.3,
+     "riders": 1377157
+    },
+    {
+     "month": "2024-09",
+     "min": 2.53,
+     "riders": 1235700
+    },
+    {
+     "month": "2024-10",
+     "min": 2.19,
+     "riders": 1499873
+    },
+    {
+     "month": "2024-11",
+     "min": 2.43,
+     "riders": 1247315
+    },
+    {
+     "month": "2024-12",
+     "min": 2.2,
+     "riders": 1544148
+    },
+    {
+     "month": "2025-01",
+     "min": 1.38,
+     "riders": 1543510
+    },
+    {
+     "month": "2025-02",
+     "min": 1.83,
+     "riders": 1395019
+    },
+    {
+     "month": "2025-03",
+     "min": 2.0,
+     "riders": 1537057
+    },
+    {
+     "month": "2025-04",
+     "min": 2.05,
+     "riders": 1439091
+    },
+    {
+     "month": "2025-05",
+     "min": 2.59,
+     "riders": 1399276
+    },
+    {
+     "month": "2025-06",
+     "min": 3.25,
+     "riders": 1367581
+    },
+    {
+     "month": "2025-07",
+     "min": 2.59,
+     "riders": 1352574
+    },
+    {
+     "month": "2025-08",
+     "min": 2.16,
+     "riders": 1305024
+    },
+    {
+     "month": "2025-09",
+     "min": 2.42,
+     "riders": 1640001
+    },
+    {
+     "month": "2025-10",
+     "min": 2.03,
+     "riders": 1590206
+    },
+    {
+     "month": "2025-11",
+     "min": 1.85,
+     "riders": 1375533
+    },
+    {
+     "month": "2025-12",
+     "min": 2.56,
+     "riders": 1561632
+    },
+    {
+     "month": "2026-01",
+     "min": 1.61,
+     "riders": 1060212
+    },
+    {
+     "month": "2026-02",
+     "min": 3.03,
+     "riders": 1159201
+    },
+    {
+     "month": "2026-03",
+     "min": 2.16,
+     "riders": 1406816
+    },
+    {
+     "month": "2026-04",
+     "min": 2.16,
+     "riders": 1245532
+    },
+    {
+     "month": "2026-05",
+     "min": 2.57,
+     "riders": 1240419
+    },
+    {
+     "month": "2026-06",
+     "min": 2.28,
+     "riders": 1481079
+    },
+    {
+     "month": "2026-07",
+     "min": 1.95,
+     "riders": 1516801
+    },
+    {
+     "month": "2026-08",
+     "min": 1.93,
+     "riders": 1351244
+    },
+    {
+     "month": "2026-09",
+     "min": 2.6,
+     "riders": 1286170
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "White Plains Rd",
+   "routes_used": [
+    "BX39"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.16,
+   "since_release": {
+    "min": 2.48,
+    "same_months_prior_year_min": 3.84,
+    "change_min": -1.36,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.52
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.79,
+     "riders": 467238
+    },
+    {
+     "month": "2024-08",
+     "min": 3.36,
+     "riders": 467535
+    },
+    {
+     "month": "2024-09",
+     "min": 4.07,
+     "riders": 418433
+    },
+    {
+     "month": "2024-10",
+     "min": 2.86,
+     "riders": 485306
+    },
+    {
+     "month": "2024-11",
+     "min": 2.94,
+     "riders": 403103
+    },
+    {
+     "month": "2024-12",
+     "min": 2.73,
+     "riders": 454122
+    },
+    {
+     "month": "2025-01",
+     "min": 2.11,
+     "riders": 438533
+    },
+    {
+     "month": "2025-02",
+     "min": 2.57,
+     "riders": 400702
+    },
+    {
+     "month": "2025-03",
+     "min": 2.37,
+     "riders": 431984
+    },
+    {
+     "month": "2025-04",
+     "min": 2.27,
+     "riders": 435188
+    },
+    {
+     "month": "2025-05",
+     "min": 2.99,
+     "riders": 421886
+    },
+    {
+     "month": "2025-06",
+     "min": 4.36,
+     "riders": 425190
+    },
+    {
+     "month": "2025-07",
+     "min": 4.84,
+     "riders": 383437
+    },
+    {
+     "month": "2025-08",
+     "min": 3.83,
+     "riders": 362810
+    },
+    {
+     "month": "2025-09",
+     "min": 3.05,
+     "riders": 482004
+    },
+    {
+     "month": "2025-10",
+     "min": 2.51,
+     "riders": 455318
+    },
+    {
+     "month": "2025-11",
+     "min": 2.42,
+     "riders": 401788
+    },
+    {
+     "month": "2025-12",
+     "min": 3.04,
+     "riders": 452746
+    },
+    {
+     "month": "2026-01",
+     "min": 2.32,
+     "riders": 297881
+    },
+    {
+     "month": "2026-02",
+     "min": 4.29,
+     "riders": 333294
+    },
+    {
+     "month": "2026-03",
+     "min": 3.36,
+     "riders": 406667
+    },
+    {
+     "month": "2026-04",
+     "min": 2.67,
+     "riders": 367523
+    },
+    {
+     "month": "2026-05",
+     "min": 3.17,
+     "riders": 370789
+    },
+    {
+     "month": "2026-06",
+     "min": 2.68,
+     "riders": 469158
+    },
+    {
+     "month": "2026-07",
+     "min": 2.33,
+     "riders": 479786
+    },
+    {
+     "month": "2026-08",
+     "min": 2.61,
+     "riders": 439999
+    },
+    {
+     "month": "2026-09",
+     "min": 2.52,
+     "riders": 415020
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "E Tremont Ave",
+   "routes_used": [
+    "BX40",
+    "BX42"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.52,
+   "since_release": {
+    "min": 2.17,
+    "same_months_prior_year_min": 2.57,
+    "change_min": -0.4,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.27
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.52,
+     "riders": 511171
+    },
+    {
+     "month": "2024-08",
+     "min": 2.67,
+     "riders": 512973
+    },
+    {
+     "month": "2024-09",
+     "min": 2.58,
+     "riders": 467086
+    },
+    {
+     "month": "2024-10",
+     "min": 2.26,
+     "riders": 530841
+    },
+    {
+     "month": "2024-11",
+     "min": 2.52,
+     "riders": 440369
+    },
+    {
+     "month": "2024-12",
+     "min": 2.15,
+     "riders": 542708
+    },
+    {
+     "month": "2025-01",
+     "min": 1.96,
+     "riders": 533802
+    },
+    {
+     "month": "2025-02",
+     "min": 2.25,
+     "riders": 493847
+    },
+    {
+     "month": "2025-03",
+     "min": 2.6,
+     "riders": 519575
+    },
+    {
+     "month": "2025-04",
+     "min": 2.06,
+     "riders": 552909
+    },
+    {
+     "month": "2025-05",
+     "min": 2.23,
+     "riders": 527201
+    },
+    {
+     "month": "2025-06",
+     "min": 2.81,
+     "riders": 520479
+    },
+    {
+     "month": "2025-07",
+     "min": 2.46,
+     "riders": 489501
+    },
+    {
+     "month": "2025-08",
+     "min": 2.84,
+     "riders": 453254
+    },
+    {
+     "month": "2025-09",
+     "min": 2.46,
+     "riders": 623582
+    },
+    {
+     "month": "2025-10",
+     "min": 2.12,
+     "riders": 594378
+    },
+    {
+     "month": "2025-11",
+     "min": 2.1,
+     "riders": 515026
+    },
+    {
+     "month": "2025-12",
+     "min": 2.44,
+     "riders": 582288
+    },
+    {
+     "month": "2026-01",
+     "min": 1.92,
+     "riders": 388014
+    },
+    {
+     "month": "2026-02",
+     "min": 4.03,
+     "riders": 414813
+    },
+    {
+     "month": "2026-03",
+     "min": 2.6,
+     "riders": 517008
+    },
+    {
+     "month": "2026-04",
+     "min": 2.29,
+     "riders": 479005
+    },
+    {
+     "month": "2026-05",
+     "min": 2.67,
+     "riders": 457104
+    },
+    {
+     "month": "2026-06",
+     "min": 2.62,
+     "riders": 609201
+    },
+    {
+     "month": "2026-07",
+     "min": 2.04,
+     "riders": 624118
+    },
+    {
+     "month": "2026-08",
+     "min": 2.22,
+     "riders": 543583
+    },
+    {
+     "month": "2026-09",
+     "min": 2.27,
+     "riders": 521576
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Grand Concourse",
+   "routes_used": [
+    "BX1",
+    "BX2"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.34,
+   "since_release": {
+    "min": 2.47,
+    "same_months_prior_year_min": 2.25,
+    "change_min": 0.22,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.84
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.5,
+     "riders": 1066156
+    },
+    {
+     "month": "2024-08",
+     "min": 2.63,
+     "riders": 1056675
+    },
+    {
+     "month": "2024-09",
+     "min": 2.6,
+     "riders": 982067
+    },
+    {
+     "month": "2024-10",
+     "min": 2.39,
+     "riders": 985355
+    },
+    {
+     "month": "2024-11",
+     "min": 2.44,
+     "riders": 768610
+    },
+    {
+     "month": "2024-12",
+     "min": 2.33,
+     "riders": 963307
+    },
+    {
+     "month": "2025-01",
+     "min": 2.0,
+     "riders": 984713
+    },
+    {
+     "month": "2025-02",
+     "min": 2.19,
+     "riders": 880321
+    },
+    {
+     "month": "2025-03",
+     "min": 2.52,
+     "riders": 969036
+    },
+    {
+     "month": "2025-04",
+     "min": 2.09,
+     "riders": 965026
+    },
+    {
+     "month": "2025-05",
+     "min": 2.22,
+     "riders": 934633
+    },
+    {
+     "month": "2025-06",
+     "min": 2.34,
+     "riders": 927514
+    },
+    {
+     "month": "2025-07",
+     "min": 2.34,
+     "riders": 972528
+    },
+    {
+     "month": "2025-08",
+     "min": 1.99,
+     "riders": 915834
+    },
+    {
+     "month": "2025-09",
+     "min": 2.38,
+     "riders": 1134518
+    },
+    {
+     "month": "2025-10",
+     "min": 2.33,
+     "riders": 1052664
+    },
+    {
+     "month": "2025-11",
+     "min": 2.3,
+     "riders": 897190
+    },
+    {
+     "month": "2025-12",
+     "min": 2.24,
+     "riders": 1035068
+    },
+    {
+     "month": "2026-01",
+     "min": 2.18,
+     "riders": 718201
+    },
+    {
+     "month": "2026-02",
+     "min": 3.14,
+     "riders": 795289
+    },
+    {
+     "month": "2026-03",
+     "min": 2.52,
+     "riders": 920581
+    },
+    {
+     "month": "2026-04",
+     "min": 2.3,
+     "riders": 871030
+    },
+    {
+     "month": "2026-05",
+     "min": 2.27,
+     "riders": 865647
+    },
+    {
+     "month": "2026-06",
+     "min": 2.23,
+     "riders": 1012351
+    },
+    {
+     "month": "2026-07",
+     "min": 2.25,
+     "riders": 1025549
+    },
+    {
+     "month": "2026-08",
+     "min": 2.35,
+     "riders": 925826
+    },
+    {
+     "month": "2026-09",
+     "min": 2.84,
+     "riders": 913109
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "name": "3rd Ave",
+   "routes_used": [
+    "BX15",
+    "BX21"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.51,
+   "since_release": {
+    "min": 3.07,
+    "same_months_prior_year_min": 3.42,
+    "change_min": -0.35,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.7
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.44,
+     "riders": 734866
+    },
+    {
+     "month": "2024-08",
+     "min": 3.66,
+     "riders": 747615
+    },
+    {
+     "month": "2024-09",
+     "min": 4.59,
+     "riders": 671612
+    },
+    {
+     "month": "2024-10",
+     "min": 4.09,
+     "riders": 848479
+    },
+    {
+     "month": "2024-11",
+     "min": 4.32,
+     "riders": 679320
+    },
+    {
+     "month": "2024-12",
+     "min": 4.05,
+     "riders": 879283
+    },
+    {
+     "month": "2025-01",
+     "min": 3.27,
+     "riders": 880343
+    },
+    {
+     "month": "2025-02",
+     "min": 3.5,
+     "riders": 788189
+    },
+    {
+     "month": "2025-03",
+     "min": 3.94,
+     "riders": 876982
+    },
+    {
+     "month": "2025-04",
+     "min": 3.47,
+     "riders": 811306
+    },
+    {
+     "month": "2025-05",
+     "min": 3.89,
+     "riders": 775890
+    },
+    {
+     "month": "2025-06",
+     "min": 3.64,
+     "riders": 767129
+    },
+    {
+     "month": "2025-07",
+     "min": 3.28,
+     "riders": 849037
+    },
+    {
+     "month": "2025-08",
+     "min": 3.08,
+     "riders": 782178
+    },
+    {
+     "month": "2025-09",
+     "min": 3.86,
+     "riders": 904983
+    },
+    {
+     "month": "2025-10",
+     "min": 3.33,
+     "riders": 859639
+    },
+    {
+     "month": "2025-11",
+     "min": 3.11,
+     "riders": 747558
+    },
+    {
+     "month": "2025-12",
+     "min": 3.31,
+     "riders": 863811
+    },
+    {
+     "month": "2026-01",
+     "min": 3.19,
+     "riders": 572426
+    },
+    {
+     "month": "2026-02",
+     "min": 5.0,
+     "riders": 634587
+    },
+    {
+     "month": "2026-03",
+     "min": 3.83,
+     "riders": 758144
+    },
+    {
+     "month": "2026-04",
+     "min": 3.02,
+     "riders": 728624
+    },
+    {
+     "month": "2026-05",
+     "min": 3.74,
+     "riders": 699130
+    },
+    {
+     "month": "2026-06",
+     "min": 3.53,
+     "riders": 840083
+    },
+    {
+     "month": "2026-07",
+     "min": 2.75,
+     "riders": 834770
+    },
+    {
+     "month": "2026-08",
+     "min": 2.82,
+     "riders": 768309
+    },
+    {
+     "month": "2026-09",
+     "min": 3.7,
+     "riders": 738089
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Southern Blvd",
+   "routes_used": [
+    "BX19",
+    "BX5"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.98,
+   "since_release": {
+    "min": 2.71,
+    "same_months_prior_year_min": 2.94,
+    "change_min": -0.23,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.95
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.95,
+     "riders": 973452
+    },
+    {
+     "month": "2024-08",
+     "min": 3.01,
+     "riders": 973250
+    },
+    {
+     "month": "2024-09",
+     "min": 2.69,
+     "riders": 870912
+    },
+    {
+     "month": "2024-10",
+     "min": 2.81,
+     "riders": 1055453
+    },
+    {
+     "month": "2024-11",
+     "min": 2.77,
+     "riders": 862282
+    },
+    {
+     "month": "2024-12",
+     "min": 2.62,
+     "riders": 1056364
+    },
+    {
+     "month": "2025-01",
+     "min": 2.21,
+     "riders": 1067172
+    },
+    {
+     "month": "2025-02",
+     "min": 2.64,
+     "riders": 970110
+    },
+    {
+     "month": "2025-03",
+     "min": 2.92,
+     "riders": 1048972
+    },
+    {
+     "month": "2025-04",
+     "min": 2.64,
+     "riders": 1035345
+    },
+    {
+     "month": "2025-05",
+     "min": 2.92,
+     "riders": 998486
+    },
+    {
+     "month": "2025-06",
+     "min": 3.37,
+     "riders": 987508
+    },
+    {
+     "month": "2025-07",
+     "min": 2.82,
+     "riders": 1035354
+    },
+    {
+     "month": "2025-08",
+     "min": 2.88,
+     "riders": 964275
+    },
+    {
+     "month": "2025-09",
+     "min": 3.09,
+     "riders": 1193249
+    },
+    {
+     "month": "2025-10",
+     "min": 2.69,
+     "riders": 1172805
+    },
+    {
+     "month": "2025-11",
+     "min": 2.85,
+     "riders": 1006049
+    },
+    {
+     "month": "2025-12",
+     "min": 3.13,
+     "riders": 1126437
+    },
+    {
+     "month": "2026-01",
+     "min": 2.37,
+     "riders": 740934
+    },
+    {
+     "month": "2026-02",
+     "min": 3.99,
+     "riders": 877756
+    },
+    {
+     "month": "2026-03",
+     "min": 3.28,
+     "riders": 1053107
+    },
+    {
+     "month": "2026-04",
+     "min": 2.64,
+     "riders": 903134
+    },
+    {
+     "month": "2026-05",
+     "min": 2.98,
+     "riders": 870593
+    },
+    {
+     "month": "2026-06",
+     "min": 2.98,
+     "riders": 1099769
+    },
+    {
+     "month": "2026-07",
+     "min": 2.58,
+     "riders": 1091389
+    },
+    {
+     "month": "2026-08",
+     "min": 2.61,
+     "riders": 1025890
+    },
+    {
+     "month": "2026-09",
+     "min": 2.95,
+     "riders": 977104
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Tremont/Cross Bronx",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 10,
+   "name": "South Bronx Crosstown",
+   "routes_used": [
+    "BX13",
+    "BX6",
+    "BX6+"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.31,
+   "since_release": {
+    "min": 2.19,
+    "same_months_prior_year_min": 2.27,
+    "change_min": -0.08,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.35
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.19,
+     "riders": 907923
+    },
+    {
+     "month": "2024-08",
+     "min": 2.12,
+     "riders": 929753
+    },
+    {
+     "month": "2024-09",
+     "min": 2.09,
+     "riders": 833713
+    },
+    {
+     "month": "2024-10",
+     "min": 2.03,
+     "riders": 941795
+    },
+    {
+     "month": "2024-11",
+     "min": 2.33,
+     "riders": 771244
+    },
+    {
+     "month": "2024-12",
+     "min": 1.96,
+     "riders": 947920
+    },
+    {
+     "month": "2025-01",
+     "min": 2.14,
+     "riders": 971560
+    },
+    {
+     "month": "2025-02",
+     "min": 1.67,
+     "riders": 882175
+    },
+    {
+     "month": "2025-03",
+     "min": 1.91,
+     "riders": 952975
+    },
+    {
+     "month": "2025-04",
+     "min": 1.81,
+     "riders": 919003
+    },
+    {
+     "month": "2025-05",
+     "min": 2.21,
+     "riders": 890113
+    },
+    {
+     "month": "2025-06",
+     "min": 2.09,
+     "riders": 883440
+    },
+    {
+     "month": "2025-07",
+     "min": 2.25,
+     "riders": 928838
+    },
+    {
+     "month": "2025-08",
+     "min": 2.03,
+     "riders": 888980
+    },
+    {
+     "month": "2025-09",
+     "min": 2.47,
+     "riders": 1076658
+    },
+    {
+     "month": "2025-10",
+     "min": 2.08,
+     "riders": 1060305
+    },
+    {
+     "month": "2025-11",
+     "min": 1.91,
+     "riders": 913005
+    },
+    {
+     "month": "2025-12",
+     "min": 2.32,
+     "riders": 1035859
+    },
+    {
+     "month": "2026-01",
+     "min": 1.75,
+     "riders": 709796
+    },
+    {
+     "month": "2026-02",
+     "min": 2.59,
+     "riders": 781665
+    },
+    {
+     "month": "2026-03",
+     "min": 2.18,
+     "riders": 1006164
+    },
+    {
+     "month": "2026-04",
+     "min": 2.05,
+     "riders": 944410
+    },
+    {
+     "month": "2026-05",
+     "min": 2.96,
+     "riders": 905016
+    },
+    {
+     "month": "2026-06",
+     "min": 2.99,
+     "riders": 1052350
+    },
+    {
+     "month": "2026-07",
+     "min": 2.19,
+     "riders": 1044672
+    },
+    {
+     "month": "2026-08",
+     "min": 2.02,
+     "riders": 940899
+    },
+    {
+     "month": "2026-09",
+     "min": 2.35,
+     "riders": 915835
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "name": "Upper Manhattan North-South",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 12,
+   "name": "125th St",
+   "routes_used": [
+    "M125"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.14,
+   "since_release": {
+    "min": 1.96,
+    "same_months_prior_year_min": 2.16,
+    "change_min": -0.2,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.0
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.68,
+     "riders": 314926
+    },
+    {
+     "month": "2024-08",
+     "min": 3.08,
+     "riders": 307685
+    },
+    {
+     "month": "2024-09",
+     "min": 3.48,
+     "riders": 265609
+    },
+    {
+     "month": "2024-10",
+     "min": 1.89,
+     "riders": 319161
+    },
+    {
+     "month": "2024-11",
+     "min": 1.93,
+     "riders": 264417
+    },
+    {
+     "month": "2024-12",
+     "min": 2.05,
+     "riders": 314184
+    },
+    {
+     "month": "2025-01",
+     "min": 1.64,
+     "riders": 317119
+    },
+    {
+     "month": "2025-02",
+     "min": 1.81,
+     "riders": 285531
+    },
+    {
+     "month": "2025-03",
+     "min": 2.06,
+     "riders": 316323
+    },
+    {
+     "month": "2025-04",
+     "min": 1.5,
+     "riders": 271307
+    },
+    {
+     "month": "2025-05",
+     "min": 1.81,
+     "riders": 250824
+    },
+    {
+     "month": "2025-06",
+     "min": 2.4,
+     "riders": 264765
+    },
+    {
+     "month": "2025-07",
+     "min": 2.07,
+     "riders": 387764
+    },
+    {
+     "month": "2025-08",
+     "min": 2.12,
+     "riders": 359153
+    },
+    {
+     "month": "2025-09",
+     "min": 2.29,
+     "riders": 388708
+    },
+    {
+     "month": "2025-10",
+     "min": 2.25,
+     "riders": 375135
+    },
+    {
+     "month": "2025-11",
+     "min": 1.97,
+     "riders": 301436
+    },
+    {
+     "month": "2025-12",
+     "min": 2.14,
+     "riders": 332302
+    },
+    {
+     "month": "2026-01",
+     "min": 1.72,
+     "riders": 251127
+    },
+    {
+     "month": "2026-02",
+     "min": 2.33,
+     "riders": 282585
+    },
+    {
+     "month": "2026-03",
+     "min": 1.84,
+     "riders": 368182
+    },
+    {
+     "month": "2026-04",
+     "min": 1.91,
+     "riders": 337638
+    },
+    {
+     "month": "2026-05",
+     "min": 2.59,
+     "riders": 310572
+    },
+    {
+     "month": "2026-06",
+     "min": 2.37,
+     "riders": 336733
+    },
+    {
+     "month": "2026-07",
+     "min": 2.05,
+     "riders": 347129
+    },
+    {
+     "month": "2026-08",
+     "min": 1.83,
+     "riders": 311315
+    },
+    {
+     "month": "2026-09",
+     "min": 2.0,
+     "riders": 313987
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "name": "Lexington Ave (95th to 125th St)",
+   "routes_used": [
+    "M101",
+    "M102",
+    "M103"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.38,
+   "since_release": {
+    "min": 3.5,
+    "same_months_prior_year_min": 3.55,
+    "change_min": -0.05,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.96
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 4.91,
+     "riders": 1134997
+    },
+    {
+     "month": "2024-08",
+     "min": 8.59,
+     "riders": 1122424
+    },
+    {
+     "month": "2024-09",
+     "min": 5.85,
+     "riders": 616607
+    },
+    {
+     "month": "2024-10",
+     "min": 3.19,
+     "riders": 843827
+    },
+    {
+     "month": "2024-11",
+     "min": 3.03,
+     "riders": 702674
+    },
+    {
+     "month": "2024-12",
+     "min": 3.15,
+     "riders": 959049
+    },
+    {
+     "month": "2025-01",
+     "min": 2.04,
+     "riders": 994393
+    },
+    {
+     "month": "2025-02",
+     "min": 2.3,
+     "riders": 877428
+    },
+    {
+     "month": "2025-03",
+     "min": 2.71,
+     "riders": 950211
+    },
+    {
+     "month": "2025-04",
+     "min": 2.27,
+     "riders": 1046986
+    },
+    {
+     "month": "2025-05",
+     "min": 2.87,
+     "riders": 965602
+    },
+    {
+     "month": "2025-06",
+     "min": 3.5,
+     "riders": 960161
+    },
+    {
+     "month": "2025-07",
+     "min": 3.09,
+     "riders": 1160047
+    },
+    {
+     "month": "2025-08",
+     "min": 3.18,
+     "riders": 1096362
+    },
+    {
+     "month": "2025-09",
+     "min": 4.34,
+     "riders": 1198671
+    },
+    {
+     "month": "2025-10",
+     "min": 3.53,
+     "riders": 1149995
+    },
+    {
+     "month": "2025-11",
+     "min": 3.52,
+     "riders": 990152
+    },
+    {
+     "month": "2025-12",
+     "min": 3.85,
+     "riders": 1145890
+    },
+    {
+     "month": "2026-01",
+     "min": 2.11,
+     "riders": 798310
+    },
+    {
+     "month": "2026-02",
+     "min": 4.43,
+     "riders": 913552
+    },
+    {
+     "month": "2026-03",
+     "min": 2.98,
+     "riders": 1104024
+    },
+    {
+     "month": "2026-04",
+     "min": 2.74,
+     "riders": 960949
+    },
+    {
+     "month": "2026-05",
+     "min": 3.15,
+     "riders": 940834
+    },
+    {
+     "month": "2026-06",
+     "min": 3.32,
+     "riders": 1064960
+    },
+    {
+     "month": "2026-07",
+     "min": 3.74,
+     "riders": 1056087
+    },
+    {
+     "month": "2026-08",
+     "min": 2.78,
+     "riders": 927717
+    },
+    {
+     "month": "2026-09",
+     "min": 3.96,
+     "riders": 864678
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "116th St",
+   "routes_used": [
+    "M116"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 1.27,
+   "since_release": {
+    "min": 1.38,
+    "same_months_prior_year_min": 1.3,
+    "change_min": 0.08,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 1.37
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": true,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 1.35,
+     "riders": 238959
+    },
+    {
+     "month": "2024-08",
+     "min": 1.68,
+     "riders": 241733
+    },
+    {
+     "month": "2024-09",
+     "min": 1.63,
+     "riders": 218211
+    },
+    {
+     "month": "2024-10",
+     "min": 1.43,
+     "riders": 273355
+    },
+    {
+     "month": "2024-11",
+     "min": 1.68,
+     "riders": 227890
+    },
+    {
+     "month": "2024-12",
+     "min": 1.31,
+     "riders": 251530
+    },
+    {
+     "month": "2025-01",
+     "min": 1.06,
+     "riders": 254209
+    },
+    {
+     "month": "2025-02",
+     "min": 1.2,
+     "riders": 225415
+    },
+    {
+     "month": "2025-03",
+     "min": 1.14,
+     "riders": 249297
+    },
+    {
+     "month": "2025-04",
+     "min": 1.04,
+     "riders": 172536
+    },
+    {
+     "month": "2025-05",
+     "min": 1.27,
+     "riders": 165402
+    },
+    {
+     "month": "2025-06",
+     "min": 1.36,
+     "riders": 169963
+    },
+    {
+     "month": "2025-07",
+     "min": 1.57,
+     "riders": 238915
+    },
+    {
+     "month": "2025-08",
+     "min": 1.18,
+     "riders": 224978
+    },
+    {
+     "month": "2025-09",
+     "min": 1.15,
+     "riders": 270606
+    },
+    {
+     "month": "2025-10",
+     "min": 1.11,
+     "riders": 257188
+    },
+    {
+     "month": "2025-11",
+     "min": 1.22,
+     "riders": 227798
+    },
+    {
+     "month": "2025-12",
+     "min": 1.25,
+     "riders": 262891
+    },
+    {
+     "month": "2026-01",
+     "min": 1.1,
+     "riders": 173059
+    },
+    {
+     "month": "2026-02",
+     "min": 1.6,
+     "riders": 193370
+    },
+    {
+     "month": "2026-03",
+     "min": 1.24,
+     "riders": 251307
+    },
+    {
+     "month": "2026-04",
+     "min": 1.2,
+     "riders": 239790
+    },
+    {
+     "month": "2026-05",
+     "min": 1.29,
+     "riders": 219143
+    },
+    {
+     "month": "2026-06",
+     "min": 1.32,
+     "riders": 252897
+    },
+    {
+     "month": "2026-07",
+     "min": 1.48,
+     "riders": 245728
+    },
+    {
+     "month": "2026-08",
+     "min": 1.29,
+     "riders": 209131
+    },
+    {
+     "month": "2026-09",
+     "min": 1.37,
+     "riders": 198633
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "79th St",
+   "routes_used": [
+    "M79+"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 1.18,
+   "since_release": {
+    "min": 1.15,
+    "same_months_prior_year_min": 0.91,
+    "change_min": 0.24,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 1.28
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": true,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 0.95,
+     "riders": 244816
+    },
+    {
+     "month": "2024-08",
+     "min": 0.93,
+     "riders": 243958
+    },
+    {
+     "month": "2024-09",
+     "min": 1.37,
+     "riders": 229580
+    },
+    {
+     "month": "2024-10",
+     "min": 0.89,
+     "riders": 195432
+    },
+    {
+     "month": "2024-11",
+     "min": 1.09,
+     "riders": 156783
+    },
+    {
+     "month": "2024-12",
+     "min": 1.21,
+     "riders": 225091
+    },
+    {
+     "month": "2025-01",
+     "min": 0.93,
+     "riders": 228220
+    },
+    {
+     "month": "2025-02",
+     "min": 1.07,
+     "riders": 202569
+    },
+    {
+     "month": "2025-03",
+     "min": 1.11,
+     "riders": 222936
+    },
+    {
+     "month": "2025-04",
+     "min": 0.89,
+     "riders": 219681
+    },
+    {
+     "month": "2025-05",
+     "min": 0.98,
+     "riders": 204192
+    },
+    {
+     "month": "2025-06",
+     "min": 0.9,
+     "riders": 212045
+    },
+    {
+     "month": "2025-07",
+     "min": 0.9,
+     "riders": 220154
+    },
+    {
+     "month": "2025-08",
+     "min": 0.83,
+     "riders": 206196
+    },
+    {
+     "month": "2025-09",
+     "min": 0.98,
+     "riders": 276581
+    },
+    {
+     "month": "2025-10",
+     "min": 1.12,
+     "riders": 245662
+    },
+    {
+     "month": "2025-11",
+     "min": 1.15,
+     "riders": 222596
+    },
+    {
+     "month": "2025-12",
+     "min": 1.15,
+     "riders": 253353
+    },
+    {
+     "month": "2026-01",
+     "min": 0.85,
+     "riders": 175068
+    },
+    {
+     "month": "2026-02",
+     "min": 1.86,
+     "riders": 196077
+    },
+    {
+     "month": "2026-03",
+     "min": 1.87,
+     "riders": 260596
+    },
+    {
+     "month": "2026-04",
+     "min": 1.02,
+     "riders": 244977
+    },
+    {
+     "month": "2026-05",
+     "min": 1.17,
+     "riders": 238765
+    },
+    {
+     "month": "2026-06",
+     "min": 1.25,
+     "riders": 274085
+    },
+    {
+     "month": "2026-07",
+     "min": 0.99,
+     "riders": 267571
+    },
+    {
+     "month": "2026-08",
+     "min": 1.23,
+     "riders": 225819
+    },
+    {
+     "month": "2026-09",
+     "min": 1.28,
+     "riders": 210364
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Midtown Crosstown",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 17,
+   "name": "34th St Busway",
+   "routes_used": [
+    "M34+",
+    "M34A+"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.53,
+   "since_release": {
+    "min": 2.61,
+    "same_months_prior_year_min": 2.09,
+    "change_min": 0.52,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.56
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.76,
+     "riders": 297561
+    },
+    {
+     "month": "2024-08",
+     "min": 2.43,
+     "riders": 291601
+    },
+    {
+     "month": "2024-09",
+     "min": 2.5,
+     "riders": 201078
+    },
+    {
+     "month": "2024-10",
+     "min": 2.23,
+     "riders": 306618
+    },
+    {
+     "month": "2024-11",
+     "min": 2.21,
+     "riders": 251141
+    },
+    {
+     "month": "2024-12",
+     "min": 3.38,
+     "riders": 285552
+    },
+    {
+     "month": "2025-01",
+     "min": 1.72,
+     "riders": 289112
+    },
+    {
+     "month": "2025-02",
+     "min": 2.07,
+     "riders": 260410
+    },
+    {
+     "month": "2025-03",
+     "min": 1.97,
+     "riders": 280873
+    },
+    {
+     "month": "2025-04",
+     "min": 1.5,
+     "riders": 241938
+    },
+    {
+     "month": "2025-05",
+     "min": 2.01,
+     "riders": 231401
+    },
+    {
+     "month": "2025-06",
+     "min": 2.02,
+     "riders": 233739
+    },
+    {
+     "month": "2025-07",
+     "min": 2.19,
+     "riders": 343095
+    },
+    {
+     "month": "2025-08",
+     "min": 1.7,
+     "riders": 324566
+    },
+    {
+     "month": "2025-09",
+     "min": 2.37,
+     "riders": 339975
+    },
+    {
+     "month": "2025-10",
+     "min": 2.08,
+     "riders": 328069
+    },
+    {
+     "month": "2025-11",
+     "min": 3.18,
+     "riders": 269657
+    },
+    {
+     "month": "2025-12",
+     "min": 2.91,
+     "riders": 313987
+    },
+    {
+     "month": "2026-01",
+     "min": 1.54,
+     "riders": 213793
+    },
+    {
+     "month": "2026-02",
+     "min": 3.96,
+     "riders": 236644
+    },
+    {
+     "month": "2026-03",
+     "min": 2.29,
+     "riders": 308737
+    },
+    {
+     "month": "2026-04",
+     "min": 1.95,
+     "riders": 300449
+    },
+    {
+     "month": "2026-05",
+     "min": 2.76,
+     "riders": 285016
+    },
+    {
+     "month": "2026-06",
+     "min": 3.66,
+     "riders": 307879
+    },
+    {
+     "month": "2026-07",
+     "min": 2.7,
+     "riders": 317741
+    },
+    {
+     "month": "2026-08",
+     "min": 2.57,
+     "riders": 296831
+    },
+    {
+     "month": "2026-09",
+     "min": 2.56,
+     "riders": 289695
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "name": "9th Avenue",
+   "routes_used": [
+    "M11"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.31,
+   "since_release": {
+    "min": 2.08,
+    "same_months_prior_year_min": 2.23,
+    "change_min": -0.15,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.57
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.36,
+     "riders": 282038
+    },
+    {
+     "month": "2024-08",
+     "min": 2.41,
+     "riders": 275427
+    },
+    {
+     "month": "2024-09",
+     "min": 2.92,
+     "riders": 236152
+    },
+    {
+     "month": "2024-10",
+     "min": 2.99,
+     "riders": 238095
+    },
+    {
+     "month": "2024-11",
+     "min": 2.9,
+     "riders": 197264
+    },
+    {
+     "month": "2024-12",
+     "min": 2.6,
+     "riders": 285522
+    },
+    {
+     "month": "2025-01",
+     "min": 1.81,
+     "riders": 295961
+    },
+    {
+     "month": "2025-02",
+     "min": 1.9,
+     "riders": 261945
+    },
+    {
+     "month": "2025-03",
+     "min": 1.97,
+     "riders": 280798
+    },
+    {
+     "month": "2025-04",
+     "min": 1.95,
+     "riders": 301018
+    },
+    {
+     "month": "2025-05",
+     "min": 2.4,
+     "riders": 292254
+    },
+    {
+     "month": "2025-06",
+     "min": 2.2,
+     "riders": 291392
+    },
+    {
+     "month": "2025-07",
+     "min": 2.27,
+     "riders": 300053
+    },
+    {
+     "month": "2025-08",
+     "min": 1.87,
+     "riders": 287390
+    },
+    {
+     "month": "2025-09",
+     "min": 2.5,
+     "riders": 351503
+    },
+    {
+     "month": "2025-10",
+     "min": 2.47,
+     "riders": 332648
+    },
+    {
+     "month": "2025-11",
+     "min": 2.46,
+     "riders": 292249
+    },
+    {
+     "month": "2025-12",
+     "min": 2.51,
+     "riders": 339670
+    },
+    {
+     "month": "2026-01",
+     "min": 1.62,
+     "riders": 217884
+    },
+    {
+     "month": "2026-02",
+     "min": 2.74,
+     "riders": 251174
+    },
+    {
+     "month": "2026-03",
+     "min": 2.05,
+     "riders": 305279
+    },
+    {
+     "month": "2026-04",
+     "min": 2.1,
+     "riders": 285606
+    },
+    {
+     "month": "2026-05",
+     "min": 2.45,
+     "riders": 277326
+    },
+    {
+     "month": "2026-06",
+     "min": 2.5,
+     "riders": 305048
+    },
+    {
+     "month": "2026-07",
+     "min": 1.93,
+     "riders": 303982
+    },
+    {
+     "month": "2026-08",
+     "min": 1.79,
+     "riders": 273847
+    },
+    {
+     "month": "2026-09",
+     "min": 2.57,
+     "riders": 244093
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "name": "Lexington Ave (52nd to 60th St)",
+   "routes_used": [
+    "M101",
+    "M102",
+    "M103"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.38,
+   "since_release": {
+    "min": 3.5,
+    "same_months_prior_year_min": 3.55,
+    "change_min": -0.05,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.96
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 4.91,
+     "riders": 1134997
+    },
+    {
+     "month": "2024-08",
+     "min": 8.59,
+     "riders": 1122424
+    },
+    {
+     "month": "2024-09",
+     "min": 5.85,
+     "riders": 616607
+    },
+    {
+     "month": "2024-10",
+     "min": 3.19,
+     "riders": 843827
+    },
+    {
+     "month": "2024-11",
+     "min": 3.03,
+     "riders": 702674
+    },
+    {
+     "month": "2024-12",
+     "min": 3.15,
+     "riders": 959049
+    },
+    {
+     "month": "2025-01",
+     "min": 2.04,
+     "riders": 994393
+    },
+    {
+     "month": "2025-02",
+     "min": 2.3,
+     "riders": 877428
+    },
+    {
+     "month": "2025-03",
+     "min": 2.71,
+     "riders": 950211
+    },
+    {
+     "month": "2025-04",
+     "min": 2.27,
+     "riders": 1046986
+    },
+    {
+     "month": "2025-05",
+     "min": 2.87,
+     "riders": 965602
+    },
+    {
+     "month": "2025-06",
+     "min": 3.5,
+     "riders": 960161
+    },
+    {
+     "month": "2025-07",
+     "min": 3.09,
+     "riders": 1160047
+    },
+    {
+     "month": "2025-08",
+     "min": 3.18,
+     "riders": 1096362
+    },
+    {
+     "month": "2025-09",
+     "min": 4.34,
+     "riders": 1198671
+    },
+    {
+     "month": "2025-10",
+     "min": 3.53,
+     "riders": 1149995
+    },
+    {
+     "month": "2025-11",
+     "min": 3.52,
+     "riders": 990152
+    },
+    {
+     "month": "2025-12",
+     "min": 3.85,
+     "riders": 1145890
+    },
+    {
+     "month": "2026-01",
+     "min": 2.11,
+     "riders": 798310
+    },
+    {
+     "month": "2026-02",
+     "min": 4.43,
+     "riders": 913552
+    },
+    {
+     "month": "2026-03",
+     "min": 2.98,
+     "riders": 1104024
+    },
+    {
+     "month": "2026-04",
+     "min": 2.74,
+     "riders": 960949
+    },
+    {
+     "month": "2026-05",
+     "min": 3.15,
+     "riders": 940834
+    },
+    {
+     "month": "2026-06",
+     "min": 3.32,
+     "riders": 1064960
+    },
+    {
+     "month": "2026-07",
+     "min": 3.74,
+     "riders": 1056087
+    },
+    {
+     "month": "2026-08",
+     "min": 2.78,
+     "riders": 927717
+    },
+    {
+     "month": "2026-09",
+     "min": 3.96,
+     "riders": 864678
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "name": "6th Ave",
+   "routes_used": [
+    "M5",
+    "M55",
+    "M7"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.97,
+   "since_release": {
+    "min": 2.61,
+    "same_months_prior_year_min": 3.13,
+    "change_min": -0.52,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.36
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.76,
+     "riders": 459979
+    },
+    {
+     "month": "2024-08",
+     "min": 2.7,
+     "riders": 456776
+    },
+    {
+     "month": "2024-09",
+     "min": 3.95,
+     "riders": 410423
+    },
+    {
+     "month": "2024-10",
+     "min": 3.49,
+     "riders": 490829
+    },
+    {
+     "month": "2024-11",
+     "min": 3.0,
+     "riders": 405373
+    },
+    {
+     "month": "2024-12",
+     "min": 4.15,
+     "riders": 455393
+    },
+    {
+     "month": "2025-01",
+     "min": 2.04,
+     "riders": 466173
+    },
+    {
+     "month": "2025-02",
+     "min": 2.28,
+     "riders": 419211
+    },
+    {
+     "month": "2025-03",
+     "min": 2.25,
+     "riders": 457969
+    },
+    {
+     "month": "2025-04",
+     "min": 2.22,
+     "riders": 434071
+    },
+    {
+     "month": "2025-05",
+     "min": 2.99,
+     "riders": 416608
+    },
+    {
+     "month": "2025-06",
+     "min": 2.7,
+     "riders": 422618
+    },
+    {
+     "month": "2025-07",
+     "min": 2.87,
+     "riders": 572669
+    },
+    {
+     "month": "2025-08",
+     "min": 2.49,
+     "riders": 540398
+    },
+    {
+     "month": "2025-09",
+     "min": 4.02,
+     "riders": 553831
+    },
+    {
+     "month": "2025-10",
+     "min": 3.03,
+     "riders": 543793
+    },
+    {
+     "month": "2025-11",
+     "min": 3.49,
+     "riders": 454667
+    },
+    {
+     "month": "2025-12",
+     "min": 3.92,
+     "riders": 527589
+    },
+    {
+     "month": "2026-01",
+     "min": 1.88,
+     "riders": 350953
+    },
+    {
+     "month": "2026-02",
+     "min": 3.36,
+     "riders": 397839
+    },
+    {
+     "month": "2026-03",
+     "min": 2.27,
+     "riders": 488673
+    },
+    {
+     "month": "2026-04",
+     "min": 2.04,
+     "riders": 473823
+    },
+    {
+     "month": "2026-05",
+     "min": 2.58,
+     "riders": 481490
+    },
+    {
+     "month": "2026-06",
+     "min": 3.31,
+     "riders": 543572
+    },
+    {
+     "month": "2026-07",
+     "min": 2.35,
+     "riders": 528106
+    },
+    {
+     "month": "2026-08",
+     "min": 2.18,
+     "riders": 507735
+    },
+    {
+     "month": "2026-09",
+     "min": 3.36,
+     "riders": 482177
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "name": "Madison Ave",
+   "routes_used": [
+    "M1",
+    "M2",
+    "M3",
+    "M4"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.27,
+   "since_release": {
+    "min": 1.81,
+    "same_months_prior_year_min": 2.22,
+    "change_min": -0.41,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.05
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 1.86,
+     "riders": 1125965
+    },
+    {
+     "month": "2024-08",
+     "min": 2.08,
+     "riders": 1103358
+    },
+    {
+     "month": "2024-09",
+     "min": 3.11,
+     "riders": 818431
+    },
+    {
+     "month": "2024-10",
+     "min": 2.6,
+     "riders": 934354
+    },
+    {
+     "month": "2024-11",
+     "min": 2.23,
+     "riders": 778758
+    },
+    {
+     "month": "2024-12",
+     "min": 2.49,
+     "riders": 1098903
+    },
+    {
+     "month": "2025-01",
+     "min": 1.73,
+     "riders": 1114065
+    },
+    {
+     "month": "2025-02",
+     "min": 1.77,
+     "riders": 1005752
+    },
+    {
+     "month": "2025-03",
+     "min": 2.21,
+     "riders": 1096291
+    },
+    {
+     "month": "2025-04",
+     "min": 1.97,
+     "riders": 1108886
+    },
+    {
+     "month": "2025-05",
+     "min": 2.53,
+     "riders": 1062598
+    },
+    {
+     "month": "2025-06",
+     "min": 2.16,
+     "riders": 1067344
+    },
+    {
+     "month": "2025-07",
+     "min": 1.99,
+     "riders": 1258494
+    },
+    {
+     "month": "2025-08",
+     "min": 1.68,
+     "riders": 1182406
+    },
+    {
+     "month": "2025-09",
+     "min": 2.89,
+     "riders": 1374126
+    },
+    {
+     "month": "2025-10",
+     "min": 2.21,
+     "riders": 1311372
+    },
+    {
+     "month": "2025-11",
+     "min": 2.43,
+     "riders": 1117118
+    },
+    {
+     "month": "2025-12",
+     "min": 2.51,
+     "riders": 1297129
+    },
+    {
+     "month": "2026-01",
+     "min": 1.74,
+     "riders": 882924
+    },
+    {
+     "month": "2026-02",
+     "min": 2.8,
+     "riders": 984182
+    },
+    {
+     "month": "2026-03",
+     "min": 2.84,
+     "riders": 1238630
+    },
+    {
+     "month": "2026-04",
+     "min": 1.84,
+     "riders": 1137556
+    },
+    {
+     "month": "2026-05",
+     "min": 2.24,
+     "riders": 1119789
+    },
+    {
+     "month": "2026-06",
+     "min": 1.94,
+     "riders": 1284172
+    },
+    {
+     "month": "2026-07",
+     "min": 1.83,
+     "riders": 1293934
+    },
+    {
+     "month": "2026-08",
+     "min": 1.58,
+     "riders": 1186060
+    },
+    {
+     "month": "2026-09",
+     "min": 2.05,
+     "riders": 1014488
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Broadway",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 23,
+   "name": "Northern Blvd",
+   "routes_used": [
+    "Q12",
+    "Q63",
+    "Q66"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 1.89,
+   "since_release": {
+    "min": 1.72,
+    "same_months_prior_year_min": 2.09,
+    "change_min": -0.37,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 1.71
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 1.97,
+     "riders": 534650
+    },
+    {
+     "month": "2024-08",
+     "min": 2.09,
+     "riders": 533599
+    },
+    {
+     "month": "2024-09",
+     "min": 2.24,
+     "riders": 480410
+    },
+    {
+     "month": "2024-10",
+     "min": 2.23,
+     "riders": 516410
+    },
+    {
+     "month": "2024-11",
+     "min": 2.27,
+     "riders": 419310
+    },
+    {
+     "month": "2024-12",
+     "min": 2.09,
+     "riders": 541051
+    },
+    {
+     "month": "2025-01",
+     "min": 1.51,
+     "riders": 545894
+    },
+    {
+     "month": "2025-02",
+     "min": 1.55,
+     "riders": 497018
+    },
+    {
+     "month": "2025-03",
+     "min": 1.59,
+     "riders": 536995
+    },
+    {
+     "month": "2025-04",
+     "min": 1.62,
+     "riders": 542047
+    },
+    {
+     "month": "2025-05",
+     "min": 2.03,
+     "riders": 511458
+    },
+    {
+     "month": "2025-06",
+     "min": 1.92,
+     "riders": 528677
+    },
+    {
+     "month": "2025-07",
+     "min": 2.04,
+     "riders": 691364
+    },
+    {
+     "month": "2025-08",
+     "min": 2.06,
+     "riders": 623344
+    },
+    {
+     "month": "2025-09",
+     "min": 2.17,
+     "riders": 624850
+    },
+    {
+     "month": "2025-10",
+     "min": 1.89,
+     "riders": 577143
+    },
+    {
+     "month": "2025-11",
+     "min": 1.76,
+     "riders": 507497
+    },
+    {
+     "month": "2025-12",
+     "min": 1.99,
+     "riders": 592640
+    },
+    {
+     "month": "2026-01",
+     "min": 1.54,
+     "riders": 402303
+    },
+    {
+     "month": "2026-02",
+     "min": 2.59,
+     "riders": 433296
+    },
+    {
+     "month": "2026-03",
+     "min": 1.79,
+     "riders": 582287
+    },
+    {
+     "month": "2026-04",
+     "min": 1.4,
+     "riders": 516898
+    },
+    {
+     "month": "2026-05",
+     "min": 1.66,
+     "riders": 496947
+    },
+    {
+     "month": "2026-06",
+     "min": 1.68,
+     "riders": 578996
+    },
+    {
+     "month": "2026-07",
+     "min": 1.75,
+     "riders": 592803
+    },
+    {
+     "month": "2026-08",
+     "min": 1.71,
+     "riders": 528717
+    },
+    {
+     "month": "2026-09",
+     "min": 1.71,
+     "riders": 524027
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Jackson Heights Hub",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 25,
+   "name": "Grand Ave/Grand St",
+   "routes_used": [
+    "Q58",
+    "Q59"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.3,
+   "since_release": {
+    "min": 2.52,
+    "same_months_prior_year_min": 3.92,
+    "change_min": -1.4,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.21
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.1,
+     "riders": 735494
+    },
+    {
+     "month": "2024-08",
+     "min": 3.12,
+     "riders": 729942
+    },
+    {
+     "month": "2024-09",
+     "min": 3.79,
+     "riders": 668186
+    },
+    {
+     "month": "2024-10",
+     "min": 3.4,
+     "riders": 722931
+    },
+    {
+     "month": "2024-11",
+     "min": 3.78,
+     "riders": 595627
+    },
+    {
+     "month": "2024-12",
+     "min": 3.95,
+     "riders": 766442
+    },
+    {
+     "month": "2025-01",
+     "min": 2.68,
+     "riders": 767673
+    },
+    {
+     "month": "2025-02",
+     "min": 2.85,
+     "riders": 704871
+    },
+    {
+     "month": "2025-03",
+     "min": 2.93,
+     "riders": 724979
+    },
+    {
+     "month": "2025-04",
+     "min": 2.76,
+     "riders": 722165
+    },
+    {
+     "month": "2025-05",
+     "min": 3.54,
+     "riders": 695635
+    },
+    {
+     "month": "2025-06",
+     "min": 3.56,
+     "riders": 686777
+    },
+    {
+     "month": "2025-07",
+     "min": 4.54,
+     "riders": 543598
+    },
+    {
+     "month": "2025-08",
+     "min": 3.37,
+     "riders": 534244
+    },
+    {
+     "month": "2025-09",
+     "min": 3.85,
+     "riders": 606461
+    },
+    {
+     "month": "2025-10",
+     "min": 3.3,
+     "riders": 597277
+    },
+    {
+     "month": "2025-11",
+     "min": 3.02,
+     "riders": 498171
+    },
+    {
+     "month": "2025-12",
+     "min": 3.58,
+     "riders": 572742
+    },
+    {
+     "month": "2026-01",
+     "min": 2.8,
+     "riders": 390626
+    },
+    {
+     "month": "2026-02",
+     "min": 3.86,
+     "riders": 431877
+    },
+    {
+     "month": "2026-03",
+     "min": 2.96,
+     "riders": 564482
+    },
+    {
+     "month": "2026-04",
+     "min": 2.45,
+     "riders": 572743
+    },
+    {
+     "month": "2026-05",
+     "min": 2.99,
+     "riders": 537857
+    },
+    {
+     "month": "2026-06",
+     "min": 2.91,
+     "riders": 607778
+    },
+    {
+     "month": "2026-07",
+     "min": 2.28,
+     "riders": 607222
+    },
+    {
+     "month": "2026-08",
+     "min": 2.11,
+     "riders": 550861
+    },
+    {
+     "month": "2026-09",
+     "min": 3.21,
+     "riders": 539986
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "name": "108th St",
+   "routes_used": [
+    "Q23"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.92,
+   "since_release": {
+    "min": 1.55,
+    "same_months_prior_year_min": 3.57,
+    "change_min": -2.02,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.03
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.24,
+     "riders": 365827
+    },
+    {
+     "month": "2024-08",
+     "min": 3.15,
+     "riders": 365144
+    },
+    {
+     "month": "2024-09",
+     "min": 3.61,
+     "riders": 325608
+    },
+    {
+     "month": "2024-10",
+     "min": 3.31,
+     "riders": 333941
+    },
+    {
+     "month": "2024-11",
+     "min": 3.2,
+     "riders": 281418
+    },
+    {
+     "month": "2024-12",
+     "min": 3.35,
+     "riders": 338730
+    },
+    {
+     "month": "2025-01",
+     "min": 2.12,
+     "riders": 349281
+    },
+    {
+     "month": "2025-02",
+     "min": 2.17,
+     "riders": 313991
+    },
+    {
+     "month": "2025-03",
+     "min": 2.11,
+     "riders": 347410
+    },
+    {
+     "month": "2025-04",
+     "min": 2.25,
+     "riders": 376431
+    },
+    {
+     "month": "2025-05",
+     "min": 2.92,
+     "riders": 353189
+    },
+    {
+     "month": "2025-06",
+     "min": 2.83,
+     "riders": 346067
+    },
+    {
+     "month": "2025-07",
+     "min": 3.75,
+     "riders": 252775
+    },
+    {
+     "month": "2025-08",
+     "min": 3.0,
+     "riders": 253140
+    },
+    {
+     "month": "2025-09",
+     "min": 3.95,
+     "riders": 258501
+    },
+    {
+     "month": "2025-10",
+     "min": 3.29,
+     "riders": 259319
+    },
+    {
+     "month": "2025-11",
+     "min": 3.26,
+     "riders": 212638
+    },
+    {
+     "month": "2025-12",
+     "min": 3.51,
+     "riders": 249281
+    },
+    {
+     "month": "2026-01",
+     "min": 2.96,
+     "riders": 164760
+    },
+    {
+     "month": "2026-02",
+     "min": 3.73,
+     "riders": 185522
+    },
+    {
+     "month": "2026-03",
+     "min": 3.0,
+     "riders": 237146
+    },
+    {
+     "month": "2026-04",
+     "min": 1.8,
+     "riders": 264218
+    },
+    {
+     "month": "2026-05",
+     "min": 1.66,
+     "riders": 259209
+    },
+    {
+     "month": "2026-06",
+     "min": 1.69,
+     "riders": 292671
+    },
+    {
+     "month": "2026-07",
+     "min": 1.28,
+     "riders": 247441
+    },
+    {
+     "month": "2026-08",
+     "min": 1.31,
+     "riders": 258676
+    },
+    {
+     "month": "2026-09",
+     "min": 2.03,
+     "riders": 264203
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "name": "Main St/Linden Pl",
+   "routes_used": [
+    "Q20",
+    "Q20A",
+    "Q20B"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 1.73,
+   "since_release": {
+    "min": 1.57,
+    "same_months_prior_year_min": 1.62,
+    "change_min": -0.05,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 1.69
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": true,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 1.47,
+     "riders": 298323
+    },
+    {
+     "month": "2024-08",
+     "min": 1.29,
+     "riders": 298331
+    },
+    {
+     "month": "2024-09",
+     "min": 2.18,
+     "riders": 270467
+    },
+    {
+     "month": "2024-10",
+     "min": 1.85,
+     "riders": 275935
+    },
+    {
+     "month": "2024-11",
+     "min": 2.4,
+     "riders": 227813
+    },
+    {
+     "month": "2024-12",
+     "min": 2.12,
+     "riders": 306141
+    },
+    {
+     "month": "2025-01",
+     "min": 1.2,
+     "riders": 289737
+    },
+    {
+     "month": "2025-02",
+     "min": 1.25,
+     "riders": 256424
+    },
+    {
+     "month": "2025-03",
+     "min": 1.41,
+     "riders": 287549
+    },
+    {
+     "month": "2025-04",
+     "min": 1.53,
+     "riders": 314113
+    },
+    {
+     "month": "2025-05",
+     "min": 1.66,
+     "riders": 297812
+    },
+    {
+     "month": "2025-06",
+     "min": 1.66,
+     "riders": 298198
+    },
+    {
+     "month": "2025-07",
+     "min": 1.63,
+     "riders": 267005
+    },
+    {
+     "month": "2025-08",
+     "min": 1.49,
+     "riders": 257553
+    },
+    {
+     "month": "2025-09",
+     "min": 1.72,
+     "riders": 315055
+    },
+    {
+     "month": "2025-10",
+     "min": 1.55,
+     "riders": 295595
+    },
+    {
+     "month": "2025-11",
+     "min": 1.55,
+     "riders": 262021
+    },
+    {
+     "month": "2025-12",
+     "min": 1.99,
+     "riders": 287640
+    },
+    {
+     "month": "2026-01",
+     "min": 1.41,
+     "riders": 201722
+    },
+    {
+     "month": "2026-02",
+     "min": 3.01,
+     "riders": 226968
+    },
+    {
+     "month": "2026-03",
+     "min": 1.72,
+     "riders": 289810
+    },
+    {
+     "month": "2026-04",
+     "min": 1.44,
+     "riders": 294710
+    },
+    {
+     "month": "2026-05",
+     "min": 1.66,
+     "riders": 272995
+    },
+    {
+     "month": "2026-06",
+     "min": 1.7,
+     "riders": 297603
+    },
+    {
+     "month": "2026-07",
+     "min": 1.6,
+     "riders": 270618
+    },
+    {
+     "month": "2026-08",
+     "min": 1.43,
+     "riders": 263408
+    },
+    {
+     "month": "2026-09",
+     "min": 1.69,
+     "riders": 267402
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "name": "Kissena Blvd/Union St/Parsons Blvd",
+   "routes_used": [
+    "Q20B",
+    "Q25",
+    "Q34"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.36,
+   "since_release": {
+    "min": 2.01,
+    "same_months_prior_year_min": 2.4,
+    "change_min": -0.39,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.28
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.37,
+     "riders": 747665
+    },
+    {
+     "month": "2024-08",
+     "min": 2.22,
+     "riders": 747257
+    },
+    {
+     "month": "2024-09",
+     "min": 3.35,
+     "riders": 678644
+    },
+    {
+     "month": "2024-10",
+     "min": 2.7,
+     "riders": 669587
+    },
+    {
+     "month": "2024-11",
+     "min": 2.76,
+     "riders": 551778
+    },
+    {
+     "month": "2024-12",
+     "min": 2.42,
+     "riders": 752688
+    },
+    {
+     "month": "2025-01",
+     "min": 1.98,
+     "riders": 761532
+    },
+    {
+     "month": "2025-02",
+     "min": 2.08,
+     "riders": 681701
+    },
+    {
+     "month": "2025-03",
+     "min": 1.96,
+     "riders": 759506
+    },
+    {
+     "month": "2025-04",
+     "min": 2.01,
+     "riders": 766578
+    },
+    {
+     "month": "2025-05",
+     "min": 2.19,
+     "riders": 733682
+    },
+    {
+     "month": "2025-06",
+     "min": 2.25,
+     "riders": 715863
+    },
+    {
+     "month": "2025-07",
+     "min": 2.1,
+     "riders": 541463
+    },
+    {
+     "month": "2025-08",
+     "min": 1.94,
+     "riders": 519640
+    },
+    {
+     "month": "2025-09",
+     "min": 3.04,
+     "riders": 637774
+    },
+    {
+     "month": "2025-10",
+     "min": 2.5,
+     "riders": 613034
+    },
+    {
+     "month": "2025-11",
+     "min": 2.38,
+     "riders": 526881
+    },
+    {
+     "month": "2025-12",
+     "min": 2.45,
+     "riders": 615928
+    },
+    {
+     "month": "2026-01",
+     "min": 2.04,
+     "riders": 409894
+    },
+    {
+     "month": "2026-02",
+     "min": 3.43,
+     "riders": 441793
+    },
+    {
+     "month": "2026-03",
+     "min": 2.18,
+     "riders": 594980
+    },
+    {
+     "month": "2026-04",
+     "min": 1.93,
+     "riders": 543846
+    },
+    {
+     "month": "2026-05",
+     "min": 2.15,
+     "riders": 507936
+    },
+    {
+     "month": "2026-06",
+     "min": 2.11,
+     "riders": 586914
+    },
+    {
+     "month": "2026-07",
+     "min": 1.86,
+     "riders": 543940
+    },
+    {
+     "month": "2026-08",
+     "min": 1.92,
+     "riders": 510386
+    },
+    {
+     "month": "2026-09",
+     "min": 2.28,
+     "riders": 482948
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "name": "Ridgewood Busway",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 30,
+   "name": "Woodhaven/Metropolitan",
+   "routes_used": [
+    "Q11",
+    "Q21"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.19,
+   "since_release": {
+    "min": 2.07,
+    "same_months_prior_year_min": 2.28,
+    "change_min": -0.21,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.21
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.56,
+     "riders": 131187
+    },
+    {
+     "month": "2024-08",
+     "min": 2.77,
+     "riders": 130712
+    },
+    {
+     "month": "2024-09",
+     "min": 3.78,
+     "riders": 117992
+    },
+    {
+     "month": "2024-10",
+     "min": 3.0,
+     "riders": 112386
+    },
+    {
+     "month": "2024-11",
+     "min": 3.03,
+     "riders": 91140
+    },
+    {
+     "month": "2024-12",
+     "min": 3.08,
+     "riders": 142609
+    },
+    {
+     "month": "2025-01",
+     "min": 3.13,
+     "riders": 143699
+    },
+    {
+     "month": "2025-02",
+     "min": 3.09,
+     "riders": 132864
+    },
+    {
+     "month": "2025-03",
+     "min": 3.37,
+     "riders": 145323
+    },
+    {
+     "month": "2025-04",
+     "min": 3.13,
+     "riders": 137776
+    },
+    {
+     "month": "2025-05",
+     "min": 3.25,
+     "riders": 133227
+    },
+    {
+     "month": "2025-06",
+     "min": 2.93,
+     "riders": 132858
+    },
+    {
+     "month": "2025-07",
+     "min": 2.19,
+     "riders": 135295
+    },
+    {
+     "month": "2025-08",
+     "min": 2.27,
+     "riders": 126389
+    },
+    {
+     "month": "2025-09",
+     "min": 2.36,
+     "riders": 173870
+    },
+    {
+     "month": "2025-10",
+     "min": 2.06,
+     "riders": 147374
+    },
+    {
+     "month": "2025-11",
+     "min": 2.24,
+     "riders": 148570
+    },
+    {
+     "month": "2025-12",
+     "min": 2.42,
+     "riders": 173472
+    },
+    {
+     "month": "2026-01",
+     "min": 1.87,
+     "riders": 118229
+    },
+    {
+     "month": "2026-02",
+     "min": 2.6,
+     "riders": 133296
+    },
+    {
+     "month": "2026-03",
+     "min": 2.04,
+     "riders": 166482
+    },
+    {
+     "month": "2026-04",
+     "min": 2.08,
+     "riders": 164408
+    },
+    {
+     "month": "2026-05",
+     "min": 2.02,
+     "riders": 153249
+    },
+    {
+     "month": "2026-06",
+     "min": 2.06,
+     "riders": 172478
+    },
+    {
+     "month": "2026-07",
+     "min": 2.01,
+     "riders": 175999
+    },
+    {
+     "month": "2026-08",
+     "min": 2.02,
+     "riders": 145907
+    },
+    {
+     "month": "2026-09",
+     "min": 2.21,
+     "riders": 138405
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "name": "Woodhaven (Union Turnpike/107 Ave)",
+   "routes_used": [
+    "Q11",
+    "Q21"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.19,
+   "since_release": {
+    "min": 2.07,
+    "same_months_prior_year_min": 2.28,
+    "change_min": -0.21,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.21
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.56,
+     "riders": 131187
+    },
+    {
+     "month": "2024-08",
+     "min": 2.77,
+     "riders": 130712
+    },
+    {
+     "month": "2024-09",
+     "min": 3.78,
+     "riders": 117992
+    },
+    {
+     "month": "2024-10",
+     "min": 3.0,
+     "riders": 112386
+    },
+    {
+     "month": "2024-11",
+     "min": 3.03,
+     "riders": 91140
+    },
+    {
+     "month": "2024-12",
+     "min": 3.08,
+     "riders": 142609
+    },
+    {
+     "month": "2025-01",
+     "min": 3.13,
+     "riders": 143699
+    },
+    {
+     "month": "2025-02",
+     "min": 3.09,
+     "riders": 132864
+    },
+    {
+     "month": "2025-03",
+     "min": 3.37,
+     "riders": 145323
+    },
+    {
+     "month": "2025-04",
+     "min": 3.13,
+     "riders": 137776
+    },
+    {
+     "month": "2025-05",
+     "min": 3.25,
+     "riders": 133227
+    },
+    {
+     "month": "2025-06",
+     "min": 2.93,
+     "riders": 132858
+    },
+    {
+     "month": "2025-07",
+     "min": 2.19,
+     "riders": 135295
+    },
+    {
+     "month": "2025-08",
+     "min": 2.27,
+     "riders": 126389
+    },
+    {
+     "month": "2025-09",
+     "min": 2.36,
+     "riders": 173870
+    },
+    {
+     "month": "2025-10",
+     "min": 2.06,
+     "riders": 147374
+    },
+    {
+     "month": "2025-11",
+     "min": 2.24,
+     "riders": 148570
+    },
+    {
+     "month": "2025-12",
+     "min": 2.42,
+     "riders": 173472
+    },
+    {
+     "month": "2026-01",
+     "min": 1.87,
+     "riders": 118229
+    },
+    {
+     "month": "2026-02",
+     "min": 2.6,
+     "riders": 133296
+    },
+    {
+     "month": "2026-03",
+     "min": 2.04,
+     "riders": 166482
+    },
+    {
+     "month": "2026-04",
+     "min": 2.08,
+     "riders": 164408
+    },
+    {
+     "month": "2026-05",
+     "min": 2.02,
+     "riders": 153249
+    },
+    {
+     "month": "2026-06",
+     "min": 2.06,
+     "riders": 172478
+    },
+    {
+     "month": "2026-07",
+     "min": 2.01,
+     "riders": 175999
+    },
+    {
+     "month": "2026-08",
+     "min": 2.02,
+     "riders": 145907
+    },
+    {
+     "month": "2026-09",
+     "min": 2.21,
+     "riders": 138405
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "name": "Jamaica Ave",
+   "routes_used": [
+    "Q54",
+    "Q56"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.59,
+   "since_release": {
+    "min": 2.99,
+    "same_months_prior_year_min": 3.54,
+    "change_min": -0.55,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.41
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 4.26,
+     "riders": 392927
+    },
+    {
+     "month": "2024-08",
+     "min": 4.09,
+     "riders": 396005
+    },
+    {
+     "month": "2024-09",
+     "min": 4.69,
+     "riders": 358957
+    },
+    {
+     "month": "2024-10",
+     "min": 4.61,
+     "riders": 389797
+    },
+    {
+     "month": "2024-11",
+     "min": 5.01,
+     "riders": 320526
+    },
+    {
+     "month": "2024-12",
+     "min": 5.03,
+     "riders": 418506
+    },
+    {
+     "month": "2025-01",
+     "min": 3.92,
+     "riders": 421571
+    },
+    {
+     "month": "2025-02",
+     "min": 4.18,
+     "riders": 380126
+    },
+    {
+     "month": "2025-03",
+     "min": 4.43,
+     "riders": 420313
+    },
+    {
+     "month": "2025-04",
+     "min": 4.13,
+     "riders": 400231
+    },
+    {
+     "month": "2025-05",
+     "min": 4.61,
+     "riders": 388961
+    },
+    {
+     "month": "2025-06",
+     "min": 4.61,
+     "riders": 387765
+    },
+    {
+     "month": "2025-07",
+     "min": 3.65,
+     "riders": 440136
+    },
+    {
+     "month": "2025-08",
+     "min": 3.72,
+     "riders": 409861
+    },
+    {
+     "month": "2025-09",
+     "min": 3.29,
+     "riders": 490011
+    },
+    {
+     "month": "2025-10",
+     "min": 3.15,
+     "riders": 446932
+    },
+    {
+     "month": "2025-11",
+     "min": 3.35,
+     "riders": 416117
+    },
+    {
+     "month": "2025-12",
+     "min": 3.76,
+     "riders": 479212
+    },
+    {
+     "month": "2026-01",
+     "min": 3.14,
+     "riders": 323147
+    },
+    {
+     "month": "2026-02",
+     "min": 5.87,
+     "riders": 365700
+    },
+    {
+     "month": "2026-03",
+     "min": 3.67,
+     "riders": 453471
+    },
+    {
+     "month": "2026-04",
+     "min": 2.84,
+     "riders": 401631
+    },
+    {
+     "month": "2026-05",
+     "min": 3.5,
+     "riders": 393362
+    },
+    {
+     "month": "2026-06",
+     "min": 3.39,
+     "riders": 452722
+    },
+    {
+     "month": "2026-07",
+     "min": 2.68,
+     "riders": 458958
+    },
+    {
+     "month": "2026-08",
+     "min": 2.92,
+     "riders": 419015
+    },
+    {
+     "month": "2026-09",
+     "min": 3.41,
+     "riders": 408052
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Merrick Blvd",
+   "routes_used": [
+    "Q5",
+    "Q84",
+    "Q85"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 1.41,
+   "since_release": {
+    "min": 1.12,
+    "same_months_prior_year_min": 1.3,
+    "change_min": -0.18,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 1.32
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": true,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 1.21,
+     "riders": 628314
+    },
+    {
+     "month": "2024-08",
+     "min": 1.29,
+     "riders": 630481
+    },
+    {
+     "month": "2024-09",
+     "min": 1.91,
+     "riders": 568826
+    },
+    {
+     "month": "2024-10",
+     "min": 1.62,
+     "riders": 585653
+    },
+    {
+     "month": "2024-11",
+     "min": 1.54,
+     "riders": 483257
+    },
+    {
+     "month": "2024-12",
+     "min": 1.94,
+     "riders": 652232
+    },
+    {
+     "month": "2025-01",
+     "min": 1.48,
+     "riders": 689603
+    },
+    {
+     "month": "2025-02",
+     "min": 1.6,
+     "riders": 619577
+    },
+    {
+     "month": "2025-03",
+     "min": 1.6,
+     "riders": 682313
+    },
+    {
+     "month": "2025-04",
+     "min": 1.49,
+     "riders": 648133
+    },
+    {
+     "month": "2025-05",
+     "min": 1.59,
+     "riders": 617210
+    },
+    {
+     "month": "2025-06",
+     "min": 1.61,
+     "riders": 597773
+    },
+    {
+     "month": "2025-07",
+     "min": 1.21,
+     "riders": 395314
+    },
+    {
+     "month": "2025-08",
+     "min": 1.26,
+     "riders": 354982
+    },
+    {
+     "month": "2025-09",
+     "min": 1.41,
+     "riders": 451817
+    },
+    {
+     "month": "2025-10",
+     "min": 1.35,
+     "riders": 429173
+    },
+    {
+     "month": "2025-11",
+     "min": 1.37,
+     "riders": 375560
+    },
+    {
+     "month": "2025-12",
+     "min": 1.44,
+     "riders": 433308
+    },
+    {
+     "month": "2026-01",
+     "min": 1.41,
+     "riders": 287575
+    },
+    {
+     "month": "2026-02",
+     "min": 1.88,
+     "riders": 317568
+    },
+    {
+     "month": "2026-03",
+     "min": 1.37,
+     "riders": 412112
+    },
+    {
+     "month": "2026-04",
+     "min": 1.49,
+     "riders": 395517
+    },
+    {
+     "month": "2026-05",
+     "min": 1.41,
+     "riders": 374305
+    },
+    {
+     "month": "2026-06",
+     "min": 1.39,
+     "riders": 430172
+    },
+    {
+     "month": "2026-07",
+     "min": 0.95,
+     "riders": 433663
+    },
+    {
+     "month": "2026-08",
+     "min": 1.13,
+     "riders": 366337
+    },
+    {
+     "month": "2026-09",
+     "min": 1.32,
+     "riders": 346269
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "name": "Sutphin/Guy R Brewer Blvd",
+   "routes_used": [
+    "Q111",
+    "Q113",
+    "Q114",
+    "Q115",
+    "Q40",
+    "Q6"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.57,
+   "since_release": {
+    "min": 2.36,
+    "same_months_prior_year_min": 2.68,
+    "change_min": -0.32,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.59
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.67,
+     "riders": 974827
+    },
+    {
+     "month": "2024-08",
+     "min": 2.48,
+     "riders": 986871
+    },
+    {
+     "month": "2024-09",
+     "min": 2.86,
+     "riders": 899194
+    },
+    {
+     "month": "2024-10",
+     "min": 2.38,
+     "riders": 920870
+    },
+    {
+     "month": "2024-11",
+     "min": 2.61,
+     "riders": 757227
+    },
+    {
+     "month": "2024-12",
+     "min": 2.48,
+     "riders": 963063
+    },
+    {
+     "month": "2025-01",
+     "min": 2.25,
+     "riders": 997412
+    },
+    {
+     "month": "2025-02",
+     "min": 2.26,
+     "riders": 899583
+    },
+    {
+     "month": "2025-03",
+     "min": 2.17,
+     "riders": 982642
+    },
+    {
+     "month": "2025-04",
+     "min": 2.31,
+     "riders": 828309
+    },
+    {
+     "month": "2025-05",
+     "min": 2.35,
+     "riders": 797000
+    },
+    {
+     "month": "2025-06",
+     "min": 2.19,
+     "riders": 776494
+    },
+    {
+     "month": "2025-07",
+     "min": 2.46,
+     "riders": 1019539
+    },
+    {
+     "month": "2025-08",
+     "min": 2.62,
+     "riders": 949310
+    },
+    {
+     "month": "2025-09",
+     "min": 2.95,
+     "riders": 1033100
+    },
+    {
+     "month": "2025-10",
+     "min": 2.48,
+     "riders": 951206
+    },
+    {
+     "month": "2025-11",
+     "min": 2.45,
+     "riders": 867866
+    },
+    {
+     "month": "2025-12",
+     "min": 2.75,
+     "riders": 1004651
+    },
+    {
+     "month": "2026-01",
+     "min": 2.21,
+     "riders": 677230
+    },
+    {
+     "month": "2026-02",
+     "min": 3.62,
+     "riders": 757535
+    },
+    {
+     "month": "2026-03",
+     "min": 2.41,
+     "riders": 981453
+    },
+    {
+     "month": "2026-04",
+     "min": 2.2,
+     "riders": 965605
+    },
+    {
+     "month": "2026-05",
+     "min": 2.42,
+     "riders": 896561
+    },
+    {
+     "month": "2026-06",
+     "min": 2.32,
+     "riders": 1002997
+    },
+    {
+     "month": "2026-07",
+     "min": 2.19,
+     "riders": 1016698
+    },
+    {
+     "month": "2026-08",
+     "min": 2.31,
+     "riders": 943075
+    },
+    {
+     "month": "2026-09",
+     "min": 2.59,
+     "riders": 911132
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "name": "Bedford Ave",
+   "routes_used": [
+    "B49"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.32,
+   "since_release": {
+    "min": 2.77,
+    "same_months_prior_year_min": 3.08,
+    "change_min": -0.31,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.14
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.57,
+     "riders": 253599
+    },
+    {
+     "month": "2024-08",
+     "min": 2.8,
+     "riders": 254490
+    },
+    {
+     "month": "2024-09",
+     "min": 3.57,
+     "riders": 236710
+    },
+    {
+     "month": "2024-10",
+     "min": 3.18,
+     "riders": 219389
+    },
+    {
+     "month": "2024-11",
+     "min": 3.39,
+     "riders": 178620
+    },
+    {
+     "month": "2024-12",
+     "min": 3.14,
+     "riders": 284396
+    },
+    {
+     "month": "2025-01",
+     "min": 2.78,
+     "riders": 277737
+    },
+    {
+     "month": "2025-02",
+     "min": 2.85,
+     "riders": 253103
+    },
+    {
+     "month": "2025-03",
+     "min": 2.69,
+     "riders": 285386
+    },
+    {
+     "month": "2025-04",
+     "min": 2.49,
+     "riders": 257453
+    },
+    {
+     "month": "2025-05",
+     "min": 3.09,
+     "riders": 249472
+    },
+    {
+     "month": "2025-06",
+     "min": 2.68,
+     "riders": 243906
+    },
+    {
+     "month": "2025-07",
+     "min": 2.85,
+     "riders": 234048
+    },
+    {
+     "month": "2025-08",
+     "min": 2.71,
+     "riders": 216231
+    },
+    {
+     "month": "2025-09",
+     "min": 3.53,
+     "riders": 297488
+    },
+    {
+     "month": "2025-10",
+     "min": 3.42,
+     "riders": 270976
+    },
+    {
+     "month": "2025-11",
+     "min": 3.11,
+     "riders": 254297
+    },
+    {
+     "month": "2025-12",
+     "min": 3.09,
+     "riders": 284718
+    },
+    {
+     "month": "2026-01",
+     "min": 2.53,
+     "riders": 197988
+    },
+    {
+     "month": "2026-02",
+     "min": 5.52,
+     "riders": 221500
+    },
+    {
+     "month": "2026-03",
+     "min": 3.03,
+     "riders": 272029
+    },
+    {
+     "month": "2026-04",
+     "min": 2.84,
+     "riders": 239048
+    },
+    {
+     "month": "2026-05",
+     "min": 3.69,
+     "riders": 233338
+    },
+    {
+     "month": "2026-06",
+     "min": 3.44,
+     "riders": 270185
+    },
+    {
+     "month": "2026-07",
+     "min": 2.34,
+     "riders": 261777
+    },
+    {
+     "month": "2026-08",
+     "min": 2.93,
+     "riders": 222344
+    },
+    {
+     "month": "2026-09",
+     "min": 3.14,
+     "riders": 206043
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "name": "Marcy Ave",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 37,
+   "name": "Livingston St",
+   "routes_used": [
+    "B45"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 4.91,
+   "since_release": {
+    "min": 4.31,
+    "same_months_prior_year_min": 4.82,
+    "change_min": -0.51,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 4.66
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.95,
+     "riders": 98594
+    },
+    {
+     "month": "2024-08",
+     "min": 4.3,
+     "riders": 99351
+    },
+    {
+     "month": "2024-09",
+     "min": 5.89,
+     "riders": 87839
+    },
+    {
+     "month": "2024-10",
+     "min": 4.82,
+     "riders": 105545
+    },
+    {
+     "month": "2024-11",
+     "min": 5.38,
+     "riders": 86864
+    },
+    {
+     "month": "2024-12",
+     "min": 4.5,
+     "riders": 98880
+    },
+    {
+     "month": "2025-01",
+     "min": 3.84,
+     "riders": 101637
+    },
+    {
+     "month": "2025-02",
+     "min": 3.77,
+     "riders": 89760
+    },
+    {
+     "month": "2025-03",
+     "min": 3.78,
+     "riders": 103922
+    },
+    {
+     "month": "2025-04",
+     "min": 3.38,
+     "riders": 102804
+    },
+    {
+     "month": "2025-05",
+     "min": 4.56,
+     "riders": 96530
+    },
+    {
+     "month": "2025-06",
+     "min": 4.57,
+     "riders": 100836
+    },
+    {
+     "month": "2025-07",
+     "min": 4.05,
+     "riders": 119564
+    },
+    {
+     "month": "2025-08",
+     "min": 4.48,
+     "riders": 104212
+    },
+    {
+     "month": "2025-09",
+     "min": 5.98,
+     "riders": 109019
+    },
+    {
+     "month": "2025-10",
+     "min": 5.34,
+     "riders": 107518
+    },
+    {
+     "month": "2025-11",
+     "min": 5.35,
+     "riders": 89260
+    },
+    {
+     "month": "2025-12",
+     "min": 4.94,
+     "riders": 101401
+    },
+    {
+     "month": "2026-01",
+     "min": 3.9,
+     "riders": 63134
+    },
+    {
+     "month": "2026-02",
+     "min": 7.47,
+     "riders": 69994
+    },
+    {
+     "month": "2026-03",
+     "min": 4.1,
+     "riders": 91365
+    },
+    {
+     "month": "2026-04",
+     "min": 3.87,
+     "riders": 98682
+    },
+    {
+     "month": "2026-05",
+     "min": 5.23,
+     "riders": 95530
+    },
+    {
+     "month": "2026-06",
+     "min": 4.66,
+     "riders": 104220
+    },
+    {
+     "month": "2026-07",
+     "min": 4.57,
+     "riders": 101026
+    },
+    {
+     "month": "2026-08",
+     "min": 3.69,
+     "riders": 97719
+    },
+    {
+     "month": "2026-09",
+     "min": 4.66,
+     "riders": 96497
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "name": "DeKalb/Lafayette Ave",
+   "routes_used": [
+    "B38"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.48,
+   "since_release": {
+    "min": 2.09,
+    "same_months_prior_year_min": 2.55,
+    "change_min": -0.46,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.64
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.63,
+     "riders": 324325
+    },
+    {
+     "month": "2024-08",
+     "min": 2.55,
+     "riders": 340269
+    },
+    {
+     "month": "2024-09",
+     "min": 2.81,
+     "riders": 312726
+    },
+    {
+     "month": "2024-10",
+     "min": 2.51,
+     "riders": 362227
+    },
+    {
+     "month": "2024-11",
+     "min": 2.35,
+     "riders": 300947
+    },
+    {
+     "month": "2024-12",
+     "min": 3.07,
+     "riders": 349032
+    },
+    {
+     "month": "2025-01",
+     "min": 2.17,
+     "riders": 343652
+    },
+    {
+     "month": "2025-02",
+     "min": 2.28,
+     "riders": 315239
+    },
+    {
+     "month": "2025-03",
+     "min": 2.21,
+     "riders": 341204
+    },
+    {
+     "month": "2025-04",
+     "min": 2.15,
+     "riders": 326972
+    },
+    {
+     "month": "2025-05",
+     "min": 2.35,
+     "riders": 307728
+    },
+    {
+     "month": "2025-06",
+     "min": 2.4,
+     "riders": 305182
+    },
+    {
+     "month": "2025-07",
+     "min": 2.12,
+     "riders": 203785
+    },
+    {
+     "month": "2025-08",
+     "min": 2.31,
+     "riders": 215794
+    },
+    {
+     "month": "2025-09",
+     "min": 2.9,
+     "riders": 400311
+    },
+    {
+     "month": "2025-10",
+     "min": 2.39,
+     "riders": 380078
+    },
+    {
+     "month": "2025-11",
+     "min": 2.62,
+     "riders": 338607
+    },
+    {
+     "month": "2025-12",
+     "min": 3.02,
+     "riders": 386931
+    },
+    {
+     "month": "2026-01",
+     "min": 1.89,
+     "riders": 228970
+    },
+    {
+     "month": "2026-02",
+     "min": 3.83,
+     "riders": 248345
+    },
+    {
+     "month": "2026-03",
+     "min": 2.15,
+     "riders": 344837
+    },
+    {
+     "month": "2026-04",
+     "min": 1.85,
+     "riders": 339186
+    },
+    {
+     "month": "2026-05",
+     "min": 2.22,
+     "riders": 321537
+    },
+    {
+     "month": "2026-06",
+     "min": 2.27,
+     "riders": 366123
+    },
+    {
+     "month": "2026-07",
+     "min": 1.9,
+     "riders": 375174
+    },
+    {
+     "month": "2026-08",
+     "min": 1.78,
+     "riders": 325024
+    },
+    {
+     "month": "2026-09",
+     "min": 2.64,
+     "riders": 310732
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "name": "Flatbush Ave",
+   "routes_used": [
+    "B41",
+    "B9"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.22,
+   "since_release": {
+    "min": 3.02,
+    "same_months_prior_year_min": 3.06,
+    "change_min": -0.04,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.05
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.92,
+     "riders": 814925
+    },
+    {
+     "month": "2024-08",
+     "min": 3.31,
+     "riders": 818689
+    },
+    {
+     "month": "2024-09",
+     "min": 3.64,
+     "riders": 749103
+    },
+    {
+     "month": "2024-10",
+     "min": 3.0,
+     "riders": 795829
+    },
+    {
+     "month": "2024-11",
+     "min": 3.35,
+     "riders": 661994
+    },
+    {
+     "month": "2024-12",
+     "min": 3.27,
+     "riders": 859411
+    },
+    {
+     "month": "2025-01",
+     "min": 2.54,
+     "riders": 857123
+    },
+    {
+     "month": "2025-02",
+     "min": 2.8,
+     "riders": 775536
+    },
+    {
+     "month": "2025-03",
+     "min": 2.87,
+     "riders": 862746
+    },
+    {
+     "month": "2025-04",
+     "min": 2.67,
+     "riders": 855984
+    },
+    {
+     "month": "2025-05",
+     "min": 3.15,
+     "riders": 823684
+    },
+    {
+     "month": "2025-06",
+     "min": 3.09,
+     "riders": 807805
+    },
+    {
+     "month": "2025-07",
+     "min": 2.66,
+     "riders": 780624
+    },
+    {
+     "month": "2025-08",
+     "min": 2.66,
+     "riders": 730985
+    },
+    {
+     "month": "2025-09",
+     "min": 3.72,
+     "riders": 909044
+    },
+    {
+     "month": "2025-10",
+     "min": 3.21,
+     "riders": 855462
+    },
+    {
+     "month": "2025-11",
+     "min": 2.93,
+     "riders": 737069
+    },
+    {
+     "month": "2025-12",
+     "min": 3.09,
+     "riders": 851972
+    },
+    {
+     "month": "2026-01",
+     "min": 2.56,
+     "riders": 494030
+    },
+    {
+     "month": "2026-02",
+     "min": 5.69,
+     "riders": 551724
+    },
+    {
+     "month": "2026-03",
+     "min": 2.75,
+     "riders": 719099
+    },
+    {
+     "month": "2026-04",
+     "min": 2.52,
+     "riders": 735697
+    },
+    {
+     "month": "2026-05",
+     "min": 3.37,
+     "riders": 726746
+    },
+    {
+     "month": "2026-06",
+     "min": 3.68,
+     "riders": 825459
+    },
+    {
+     "month": "2026-07",
+     "min": 3.19,
+     "riders": 815983
+    },
+    {
+     "month": "2026-08",
+     "min": 2.8,
+     "riders": 723851
+    },
+    {
+     "month": "2026-09",
+     "min": 3.05,
+     "riders": 689661
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "name": "Utica Ave",
+   "routes_used": [
+    "B46",
+    "B46+"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.66,
+   "since_release": {
+    "min": 2.32,
+    "same_months_prior_year_min": 2.44,
+    "change_min": -0.12,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.25
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.37,
+     "riders": 843163
+    },
+    {
+     "month": "2024-08",
+     "min": 2.27,
+     "riders": 851323
+    },
+    {
+     "month": "2024-09",
+     "min": 2.42,
+     "riders": 708616
+    },
+    {
+     "month": "2024-10",
+     "min": 2.11,
+     "riders": 879769
+    },
+    {
+     "month": "2024-11",
+     "min": 2.61,
+     "riders": 736040
+    },
+    {
+     "month": "2024-12",
+     "min": 2.61,
+     "riders": 925261
+    },
+    {
+     "month": "2025-01",
+     "min": 2.18,
+     "riders": 898894
+    },
+    {
+     "month": "2025-02",
+     "min": 2.34,
+     "riders": 849280
+    },
+    {
+     "month": "2025-03",
+     "min": 2.35,
+     "riders": 919189
+    },
+    {
+     "month": "2025-04",
+     "min": 2.25,
+     "riders": 893753
+    },
+    {
+     "month": "2025-05",
+     "min": 2.53,
+     "riders": 852762
+    },
+    {
+     "month": "2025-06",
+     "min": 2.48,
+     "riders": 864670
+    },
+    {
+     "month": "2025-07",
+     "min": 2.26,
+     "riders": 877006
+    },
+    {
+     "month": "2025-08",
+     "min": 2.34,
+     "riders": 814979
+    },
+    {
+     "month": "2025-09",
+     "min": 2.7,
+     "riders": 960055
+    },
+    {
+     "month": "2025-10",
+     "min": 2.44,
+     "riders": 926796
+    },
+    {
+     "month": "2025-11",
+     "min": 2.34,
+     "riders": 802679
+    },
+    {
+     "month": "2025-12",
+     "min": 2.44,
+     "riders": 916543
+    },
+    {
+     "month": "2026-01",
+     "min": 2.25,
+     "riders": 623796
+    },
+    {
+     "month": "2026-02",
+     "min": 5.32,
+     "riders": 703152
+    },
+    {
+     "month": "2026-03",
+     "min": 2.41,
+     "riders": 878726
+    },
+    {
+     "month": "2026-04",
+     "min": 2.36,
+     "riders": 804086
+    },
+    {
+     "month": "2026-05",
+     "min": 2.7,
+     "riders": 795378
+    },
+    {
+     "month": "2026-06",
+     "min": 2.68,
+     "riders": 917256
+    },
+    {
+     "month": "2026-07",
+     "min": 2.15,
+     "riders": 926516
+    },
+    {
+     "month": "2026-08",
+     "min": 2.58,
+     "riders": 822410
+    },
+    {
+     "month": "2026-09",
+     "min": 2.25,
+     "riders": 786833
+    }
+   ]
+  },
+  {
+   "id": 41,
+   "name": "Church Ave",
+   "routes_used": [
+    "B35"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 4.03,
+   "since_release": {
+    "min": 3.88,
+    "same_months_prior_year_min": 3.89,
+    "change_min": -0.01,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 4.45
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.72,
+     "riders": 652021
+    },
+    {
+     "month": "2024-08",
+     "min": 3.25,
+     "riders": 657317
+    },
+    {
+     "month": "2024-09",
+     "min": 4.15,
+     "riders": 580771
+    },
+    {
+     "month": "2024-10",
+     "min": 3.69,
+     "riders": 663674
+    },
+    {
+     "month": "2024-11",
+     "min": 4.23,
+     "riders": 559003
+    },
+    {
+     "month": "2024-12",
+     "min": 3.95,
+     "riders": 642355
+    },
+    {
+     "month": "2025-01",
+     "min": 2.69,
+     "riders": 645678
+    },
+    {
+     "month": "2025-02",
+     "min": 3.03,
+     "riders": 583229
+    },
+    {
+     "month": "2025-03",
+     "min": 2.82,
+     "riders": 643640
+    },
+    {
+     "month": "2025-04",
+     "min": 2.79,
+     "riders": 649771
+    },
+    {
+     "month": "2025-05",
+     "min": 3.62,
+     "riders": 609765
+    },
+    {
+     "month": "2025-06",
+     "min": 3.73,
+     "riders": 586675
+    },
+    {
+     "month": "2025-07",
+     "min": 3.78,
+     "riders": 588590
+    },
+    {
+     "month": "2025-08",
+     "min": 3.3,
+     "riders": 535433
+    },
+    {
+     "month": "2025-09",
+     "min": 4.49,
+     "riders": 644851
+    },
+    {
+     "month": "2025-10",
+     "min": 3.12,
+     "riders": 641914
+    },
+    {
+     "month": "2025-11",
+     "min": 3.41,
+     "riders": 561814
+    },
+    {
+     "month": "2025-12",
+     "min": 4.72,
+     "riders": 658257
+    },
+    {
+     "month": "2026-01",
+     "min": 3.23,
+     "riders": 404893
+    },
+    {
+     "month": "2026-02",
+     "min": 6.41,
+     "riders": 442896
+    },
+    {
+     "month": "2026-03",
+     "min": 3.75,
+     "riders": 571682
+    },
+    {
+     "month": "2026-04",
+     "min": 3.56,
+     "riders": 531515
+    },
+    {
+     "month": "2026-05",
+     "min": 4.09,
+     "riders": 503859
+    },
+    {
+     "month": "2026-06",
+     "min": 4.66,
+     "riders": 629911
+    },
+    {
+     "month": "2026-07",
+     "min": 3.64,
+     "riders": 568048
+    },
+    {
+     "month": "2026-08",
+     "min": 3.55,
+     "riders": 565505
+    },
+    {
+     "month": "2026-09",
+     "min": 4.45,
+     "riders": 561440
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Kensington-JFK",
+   "routes_used": [
+    "B15",
+    "B35"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.95,
+   "since_release": {
+    "min": 3.68,
+    "same_months_prior_year_min": 3.79,
+    "change_min": -0.11,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 4.2
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.59,
+     "riders": 1022435
+    },
+    {
+     "month": "2024-08",
+     "min": 3.22,
+     "riders": 1027001
+    },
+    {
+     "month": "2024-09",
+     "min": 4.03,
+     "riders": 922253
+    },
+    {
+     "month": "2024-10",
+     "min": 3.63,
+     "riders": 1054357
+    },
+    {
+     "month": "2024-11",
+     "min": 4.11,
+     "riders": 881341
+    },
+    {
+     "month": "2024-12",
+     "min": 3.91,
+     "riders": 1039722
+    },
+    {
+     "month": "2025-01",
+     "min": 2.81,
+     "riders": 1039545
+    },
+    {
+     "month": "2025-02",
+     "min": 3.26,
+     "riders": 949134
+    },
+    {
+     "month": "2025-03",
+     "min": 3.15,
+     "riders": 1038383
+    },
+    {
+     "month": "2025-04",
+     "min": 3.15,
+     "riders": 1039375
+    },
+    {
+     "month": "2025-05",
+     "min": 3.92,
+     "riders": 979909
+    },
+    {
+     "month": "2025-06",
+     "min": 3.86,
+     "riders": 967750
+    },
+    {
+     "month": "2025-07",
+     "min": 3.68,
+     "riders": 1000718
+    },
+    {
+     "month": "2025-08",
+     "min": 3.35,
+     "riders": 923452
+    },
+    {
+     "month": "2025-09",
+     "min": 4.28,
+     "riders": 1064728
+    },
+    {
+     "month": "2025-10",
+     "min": 3.34,
+     "riders": 1048136
+    },
+    {
+     "month": "2025-11",
+     "min": 3.48,
+     "riders": 914352
+    },
+    {
+     "month": "2025-12",
+     "min": 4.29,
+     "riders": 1076637
+    },
+    {
+     "month": "2026-01",
+     "min": 3.31,
+     "riders": 677595
+    },
+    {
+     "month": "2026-02",
+     "min": 6.02,
+     "riders": 751043
+    },
+    {
+     "month": "2026-03",
+     "min": 3.85,
+     "riders": 963296
+    },
+    {
+     "month": "2026-04",
+     "min": 3.6,
+     "riders": 899032
+    },
+    {
+     "month": "2026-05",
+     "min": 4.01,
+     "riders": 870086
+    },
+    {
+     "month": "2026-06",
+     "min": 4.31,
+     "riders": 1040179
+    },
+    {
+     "month": "2026-07",
+     "min": 3.47,
+     "riders": 983395
+    },
+    {
+     "month": "2026-08",
+     "min": 3.37,
+     "riders": 967491
+    },
+    {
+     "month": "2026-09",
+     "min": 4.2,
+     "riders": 953150
+    }
+   ]
+  },
+  {
+   "id": 43,
+   "name": "Linden Blvd",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 44,
+   "name": "South Brooklyn Crosstown",
+   "routes_used": [
+    "B82",
+    "B82+"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.27,
+   "since_release": {
+    "min": 2.53,
+    "same_months_prior_year_min": 2.83,
+    "change_min": -0.3,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.96
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.26,
+     "riders": 706109
+    },
+    {
+     "month": "2024-08",
+     "min": 2.18,
+     "riders": 707036
+    },
+    {
+     "month": "2024-09",
+     "min": 2.66,
+     "riders": 658104
+    },
+    {
+     "month": "2024-10",
+     "min": 2.3,
+     "riders": 683917
+    },
+    {
+     "month": "2024-11",
+     "min": 2.62,
+     "riders": 565047
+    },
+    {
+     "month": "2024-12",
+     "min": 2.9,
+     "riders": 767059
+    },
+    {
+     "month": "2025-01",
+     "min": 2.49,
+     "riders": 771546
+    },
+    {
+     "month": "2025-02",
+     "min": 2.88,
+     "riders": 710872
+    },
+    {
+     "month": "2025-03",
+     "min": 2.63,
+     "riders": 778775
+    },
+    {
+     "month": "2025-04",
+     "min": 2.57,
+     "riders": 754658
+    },
+    {
+     "month": "2025-05",
+     "min": 3.08,
+     "riders": 718265
+    },
+    {
+     "month": "2025-06",
+     "min": 2.75,
+     "riders": 710896
+    },
+    {
+     "month": "2025-07",
+     "min": 2.29,
+     "riders": 711324
+    },
+    {
+     "month": "2025-08",
+     "min": 2.25,
+     "riders": 671697
+    },
+    {
+     "month": "2025-09",
+     "min": 3.82,
+     "riders": 789546
+    },
+    {
+     "month": "2025-10",
+     "min": 3.27,
+     "riders": 766822
+    },
+    {
+     "month": "2025-11",
+     "min": 3.42,
+     "riders": 666896
+    },
+    {
+     "month": "2025-12",
+     "min": 3.7,
+     "riders": 753549
+    },
+    {
+     "month": "2026-01",
+     "min": 2.87,
+     "riders": 519265
+    },
+    {
+     "month": "2026-02",
+     "min": 5.41,
+     "riders": 580804
+    },
+    {
+     "month": "2026-03",
+     "min": 3.18,
+     "riders": 742867
+    },
+    {
+     "month": "2026-04",
+     "min": 2.82,
+     "riders": 683889
+    },
+    {
+     "month": "2026-05",
+     "min": 3.16,
+     "riders": 667340
+    },
+    {
+     "month": "2026-06",
+     "min": 3.12,
+     "riders": 747397
+    },
+    {
+     "month": "2026-07",
+     "min": 2.36,
+     "riders": 698521
+    },
+    {
+     "month": "2026-08",
+     "min": 2.3,
+     "riders": 654167
+    },
+    {
+     "month": "2026-09",
+     "min": 2.96,
+     "riders": 614772
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Avenue J",
+   "routes_used": [],
+   "routes_unmatched": [],
+   "baseline_min": null,
+   "since_release": {
+    "min": null,
+    "same_months_prior_year_min": null,
+    "change_min": null,
+    "months": []
+   },
+   "latest": {
+    "month": null,
+    "min": null
+   },
+   "under_threshold": null,
+   "under_threshold_prior_year": null,
+   "has_since": false,
+   "series": []
+  },
+  {
+   "id": 46,
+   "name": "Bay Parkway",
+   "routes_used": [
+    "B6"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.22,
+   "since_release": {
+    "min": 2.57,
+    "same_months_prior_year_min": 3.13,
+    "change_min": -0.56,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.71
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.66,
+     "riders": 835352
+    },
+    {
+     "month": "2024-08",
+     "min": 2.52,
+     "riders": 824936
+    },
+    {
+     "month": "2024-09",
+     "min": 3.85,
+     "riders": 756808
+    },
+    {
+     "month": "2024-10",
+     "min": 3.59,
+     "riders": 770862
+    },
+    {
+     "month": "2024-11",
+     "min": 3.95,
+     "riders": 621515
+    },
+    {
+     "month": "2024-12",
+     "min": 3.65,
+     "riders": 927621
+    },
+    {
+     "month": "2025-01",
+     "min": 2.97,
+     "riders": 927500
+    },
+    {
+     "month": "2025-02",
+     "min": 3.19,
+     "riders": 820629
+    },
+    {
+     "month": "2025-03",
+     "min": 2.74,
+     "riders": 932193
+    },
+    {
+     "month": "2025-04",
+     "min": 2.52,
+     "riders": 899214
+    },
+    {
+     "month": "2025-05",
+     "min": 3.17,
+     "riders": 853559
+    },
+    {
+     "month": "2025-06",
+     "min": 2.92,
+     "riders": 851418
+    },
+    {
+     "month": "2025-07",
+     "min": 2.75,
+     "riders": 746199
+    },
+    {
+     "month": "2025-08",
+     "min": 2.58,
+     "riders": 723099
+    },
+    {
+     "month": "2025-09",
+     "min": 3.84,
+     "riders": 972310
+    },
+    {
+     "month": "2025-10",
+     "min": 3.18,
+     "riders": 884697
+    },
+    {
+     "month": "2025-11",
+     "min": 3.36,
+     "riders": 812205
+    },
+    {
+     "month": "2025-12",
+     "min": 3.59,
+     "riders": 909226
+    },
+    {
+     "month": "2026-01",
+     "min": 2.54,
+     "riders": 624232
+    },
+    {
+     "month": "2026-02",
+     "min": 5.0,
+     "riders": 664443
+    },
+    {
+     "month": "2026-03",
+     "min": 3.17,
+     "riders": 878459
+    },
+    {
+     "month": "2026-04",
+     "min": 2.45,
+     "riders": 751854
+    },
+    {
+     "month": "2026-05",
+     "min": 3.06,
+     "riders": 781625
+    },
+    {
+     "month": "2026-06",
+     "min": 2.99,
+     "riders": 884808
+    },
+    {
+     "month": "2026-07",
+     "min": 2.44,
+     "riders": 834361
+    },
+    {
+     "month": "2026-08",
+     "min": 2.59,
+     "riders": 719062
+    },
+    {
+     "month": "2026-09",
+     "min": 2.71,
+     "riders": 678655
+    }
+   ]
+  },
+  {
+   "id": 47,
+   "name": "86th St",
+   "routes_used": [
+    "B1",
+    "B16"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.04,
+   "since_release": {
+    "min": 3.01,
+    "same_months_prior_year_min": 2.89,
+    "change_min": 0.12,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 3.15
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.79,
+     "riders": 571964
+    },
+    {
+     "month": "2024-08",
+     "min": 2.76,
+     "riders": 577586
+    },
+    {
+     "month": "2024-09",
+     "min": 2.98,
+     "riders": 531394
+    },
+    {
+     "month": "2024-10",
+     "min": 2.47,
+     "riders": 463534
+    },
+    {
+     "month": "2024-11",
+     "min": 2.95,
+     "riders": 380953
+    },
+    {
+     "month": "2024-12",
+     "min": 2.92,
+     "riders": 622037
+    },
+    {
+     "month": "2025-01",
+     "min": 2.23,
+     "riders": 622470
+    },
+    {
+     "month": "2025-02",
+     "min": 2.35,
+     "riders": 560523
+    },
+    {
+     "month": "2025-03",
+     "min": 2.25,
+     "riders": 608963
+    },
+    {
+     "month": "2025-04",
+     "min": 2.44,
+     "riders": 538810
+    },
+    {
+     "month": "2025-05",
+     "min": 2.86,
+     "riders": 535453
+    },
+    {
+     "month": "2025-06",
+     "min": 3.3,
+     "riders": 532318
+    },
+    {
+     "month": "2025-07",
+     "min": 2.95,
+     "riders": 449133
+    },
+    {
+     "month": "2025-08",
+     "min": 2.57,
+     "riders": 408666
+    },
+    {
+     "month": "2025-09",
+     "min": 3.04,
+     "riders": 650617
+    },
+    {
+     "month": "2025-10",
+     "min": 2.95,
+     "riders": 571142
+    },
+    {
+     "month": "2025-11",
+     "min": 2.69,
+     "riders": 574081
+    },
+    {
+     "month": "2025-12",
+     "min": 3.13,
+     "riders": 645385
+    },
+    {
+     "month": "2026-01",
+     "min": 2.5,
+     "riders": 448293
+    },
+    {
+     "month": "2026-02",
+     "min": 4.8,
+     "riders": 498134
+    },
+    {
+     "month": "2026-03",
+     "min": 2.97,
+     "riders": 636084
+    },
+    {
+     "month": "2026-04",
+     "min": 2.58,
+     "riders": 547465
+    },
+    {
+     "month": "2026-05",
+     "min": 3.28,
+     "riders": 539047
+    },
+    {
+     "month": "2026-06",
+     "min": 2.96,
+     "riders": 628880
+    },
+    {
+     "month": "2026-07",
+     "min": 2.9,
+     "riders": 633853
+    },
+    {
+     "month": "2026-08",
+     "min": 3.01,
+     "riders": 513443
+    },
+    {
+     "month": "2026-09",
+     "min": 3.15,
+     "riders": 482373
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Bay St",
+   "routes_used": [
+    "S51",
+    "S81"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 3.4,
+   "since_release": {
+    "min": 2.81,
+    "same_months_prior_year_min": 4.14,
+    "change_min": -1.33,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.77
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 7.0,
+     "riders": 75968
+    },
+    {
+     "month": "2024-08",
+     "min": 8.38,
+     "riders": 72203
+    },
+    {
+     "month": "2024-09",
+     "min": 7.39,
+     "riders": 65963
+    },
+    {
+     "month": "2024-10",
+     "min": 4.83,
+     "riders": 77930
+    },
+    {
+     "month": "2024-11",
+     "min": 4.78,
+     "riders": 61648
+    },
+    {
+     "month": "2024-12",
+     "min": 4.27,
+     "riders": 73755
+    },
+    {
+     "month": "2025-01",
+     "min": 3.15,
+     "riders": 76993
+    },
+    {
+     "month": "2025-02",
+     "min": 3.32,
+     "riders": 71061
+    },
+    {
+     "month": "2025-03",
+     "min": 3.75,
+     "riders": 74969
+    },
+    {
+     "month": "2025-04",
+     "min": 5.17,
+     "riders": 75651
+    },
+    {
+     "month": "2025-05",
+     "min": 7.42,
+     "riders": 71939
+    },
+    {
+     "month": "2025-06",
+     "min": 6.58,
+     "riders": 72725
+    },
+    {
+     "month": "2025-07",
+     "min": 5.02,
+     "riders": 85102
+    },
+    {
+     "month": "2025-08",
+     "min": 3.83,
+     "riders": 79343
+    },
+    {
+     "month": "2025-09",
+     "min": 3.6,
+     "riders": 90059
+    },
+    {
+     "month": "2025-10",
+     "min": 3.1,
+     "riders": 88354
+    },
+    {
+     "month": "2025-11",
+     "min": 2.88,
+     "riders": 75088
+    },
+    {
+     "month": "2025-12",
+     "min": 3.3,
+     "riders": 88428
+    },
+    {
+     "month": "2026-01",
+     "min": 2.58,
+     "riders": 59912
+    },
+    {
+     "month": "2026-02",
+     "min": 3.68,
+     "riders": 69053
+    },
+    {
+     "month": "2026-03",
+     "min": 2.82,
+     "riders": 89428
+    },
+    {
+     "month": "2026-04",
+     "min": 2.82,
+     "riders": 83473
+    },
+    {
+     "month": "2026-05",
+     "min": 3.63,
+     "riders": 79818
+    },
+    {
+     "month": "2026-06",
+     "min": 3.33,
+     "riders": 92173
+    },
+    {
+     "month": "2026-07",
+     "min": 3.04,
+     "riders": 95426
+    },
+    {
+     "month": "2026-08",
+     "min": 2.59,
+     "riders": 86633
+    },
+    {
+     "month": "2026-09",
+     "min": 2.77,
+     "riders": 85775
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Victory Blvd",
+   "routes_used": [
+    "S61",
+    "S62",
+    "S66",
+    "S91",
+    "S92"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 2.64,
+   "since_release": {
+    "min": 2.38,
+    "same_months_prior_year_min": 2.68,
+    "change_min": -0.3,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 2.55
+   },
+   "under_threshold": false,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 3.68,
+     "riders": 185224
+    },
+    {
+     "month": "2024-08",
+     "min": 3.61,
+     "riders": 188319
+    },
+    {
+     "month": "2024-09",
+     "min": 4.87,
+     "riders": 170736
+    },
+    {
+     "month": "2024-10",
+     "min": 3.61,
+     "riders": 191973
+    },
+    {
+     "month": "2024-11",
+     "min": 3.2,
+     "riders": 151563
+    },
+    {
+     "month": "2024-12",
+     "min": 3.19,
+     "riders": 218240
+    },
+    {
+     "month": "2025-01",
+     "min": 2.24,
+     "riders": 225125
+    },
+    {
+     "month": "2025-02",
+     "min": 2.39,
+     "riders": 199947
+    },
+    {
+     "month": "2025-03",
+     "min": 2.38,
+     "riders": 224529
+    },
+    {
+     "month": "2025-04",
+     "min": 2.97,
+     "riders": 203601
+    },
+    {
+     "month": "2025-05",
+     "min": 3.42,
+     "riders": 200793
+    },
+    {
+     "month": "2025-06",
+     "min": 3.3,
+     "riders": 196320
+    },
+    {
+     "month": "2025-07",
+     "min": 2.81,
+     "riders": 195768
+    },
+    {
+     "month": "2025-08",
+     "min": 2.62,
+     "riders": 186006
+    },
+    {
+     "month": "2025-09",
+     "min": 2.63,
+     "riders": 258408
+    },
+    {
+     "month": "2025-10",
+     "min": 2.63,
+     "riders": 239890
+    },
+    {
+     "month": "2025-11",
+     "min": 2.56,
+     "riders": 214429
+    },
+    {
+     "month": "2025-12",
+     "min": 3.03,
+     "riders": 245864
+    },
+    {
+     "month": "2026-01",
+     "min": 2.14,
+     "riders": 171844
+    },
+    {
+     "month": "2026-02",
+     "min": 3.53,
+     "riders": 192206
+    },
+    {
+     "month": "2026-03",
+     "min": 2.49,
+     "riders": 242325
+    },
+    {
+     "month": "2026-04",
+     "min": 2.14,
+     "riders": 216401
+    },
+    {
+     "month": "2026-05",
+     "min": 2.54,
+     "riders": 212925
+    },
+    {
+     "month": "2026-06",
+     "min": 2.53,
+     "riders": 236996
+    },
+    {
+     "month": "2026-07",
+     "min": 2.34,
+     "riders": 227722
+    },
+    {
+     "month": "2026-08",
+     "min": 2.27,
+     "riders": 198062
+    },
+    {
+     "month": "2026-09",
+     "min": 2.55,
+     "riders": 193544
+    }
+   ]
+  },
+  {
+   "id": 50,
+   "name": "Richmond Ave",
+   "routes_used": [
+    "S44",
+    "S79+",
+    "S89",
+    "S94"
+   ],
+   "routes_unmatched": [],
+   "baseline_min": 1.99,
+   "since_release": {
+    "min": 1.57,
+    "same_months_prior_year_min": 2.01,
+    "change_min": -0.44,
+    "months": [
+     "2026-07",
+     "2026-08",
+     "2026-09"
+    ]
+   },
+   "latest": {
+    "month": "2026-09",
+    "min": 1.77
+   },
+   "under_threshold": true,
+   "under_threshold_prior_year": false,
+   "has_since": true,
+   "series": [
+    {
+     "month": "2024-07",
+     "min": 2.1,
+     "riders": 407772
+    },
+    {
+     "month": "2024-08",
+     "min": 2.29,
+     "riders": 426775
+    },
+    {
+     "month": "2024-09",
+     "min": 3.53,
+     "riders": 391690
+    },
+    {
+     "month": "2024-10",
+     "min": 2.57,
+     "riders": 430272
+    },
+    {
+     "month": "2024-11",
+     "min": 2.37,
+     "riders": 347066
+    },
+    {
+     "month": "2024-12",
+     "min": 2.52,
+     "riders": 460870
+    },
+    {
+     "month": "2025-01",
+     "min": 1.9,
+     "riders": 464742
+    },
+    {
+     "month": "2025-02",
+     "min": 1.92,
+     "riders": 397560
+    },
+    {
+     "month": "2025-03",
+     "min": 2.07,
+     "riders": 459076
+    },
+    {
+     "month": "2025-04",
+     "min": 1.99,
+     "riders": 442727
+    },
+    {
+     "month": "2025-05",
+     "min": 2.21,
+     "riders": 439811
+    },
+    {
+     "month": "2025-06",
+     "min": 2.22,
+     "riders": 422201
+    },
+    {
+     "month": "2025-07",
+     "min": 2.2,
+     "riders": 549483
+    },
+    {
+     "month": "2025-08",
+     "min": 1.82,
+     "riders": 426538
+    },
+    {
+     "month": "2025-09",
+     "min": 1.97,
+     "riders": 530162
+    },
+    {
+     "month": "2025-10",
+     "min": 2.09,
+     "riders": 495430
+    },
+    {
+     "month": "2025-11",
+     "min": 2.02,
+     "riders": 441476
+    },
+    {
+     "month": "2025-12",
+     "min": 2.4,
+     "riders": 514851
+    },
+    {
+     "month": "2026-01",
+     "min": 1.66,
+     "riders": 353367
+    },
+    {
+     "month": "2026-02",
+     "min": 2.26,
+     "riders": 400133
+    },
+    {
+     "month": "2026-03",
+     "min": 1.77,
+     "riders": 512433
+    },
+    {
+     "month": "2026-04",
+     "min": 1.63,
+     "riders": 473458
+    },
+    {
+     "month": "2026-05",
+     "min": 2.01,
+     "riders": 455994
+    },
+    {
+     "month": "2026-06",
+     "min": 1.93,
+     "riders": 508159
+    },
+    {
+     "month": "2026-07",
+     "min": 1.39,
+     "riders": 516830
+    },
+    {
+     "month": "2026-08",
+     "min": 1.57,
+     "riders": 456787
+    },
+    {
+     "month": "2026-09",
+     "min": 1.77,
+     "riders": 443733
+    }
+   ]
+  }
+ ],
+ "caveats": [
+  "The MTA publishes this metric for whole routes, not for the corridor stretch. Each figure is for routes that run on the corridor, including their parts off the corridor.",
+  "A route that runs on two corridors counts toward both. The tracked-corridor total counts each route once.",
+  "Corridor figures are rider-weighted (monthly customers) across routes and across peak and off-peak; no averages of averages.",
+  "Baseline is our choice (2025-07 to 2026-06); the plan sets none. Since-release means 2026-07 onward, compared with the same months a year earlier.",
+  "The plan says 'less than two minutes beyond the scheduled wait'. The MTA metric is an average over all riders; the plan does not define its measure, so this is a proxy.",
+  "Unmapped corridors have no route list and show nulls. Routes not found in the MTA data are listed per corridor.",
+  "Where the MTA lists both a local route and its Select Bus sibling, both are counted, since they share the street.",
+  "Queens bus routes were redesigned in mid 2025, so on Queens corridors the year-earlier months are not like for like."
+ ]
+}

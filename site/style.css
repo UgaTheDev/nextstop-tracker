@@ -70,6 +70,8 @@ footer.site{background:var(--bar);color:var(--panel-muted);margin-top:56px}
 /* sections */
 h2{font-size:24px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
 h2.gap{margin-top:40px}
+.dt.cm td{vertical-align:top;padding:12px}.dt.cm td:first-child{width:38%}.dt.cm .why a{color:inherit}
+.plainlist{margin:12px 0 0;padding-left:20px;max-width:80ch;line-height:1.55}.plainlist li{margin:6px 0}
 .sub{font-size:14px;color:var(--muted);margin:6px 0 12px;line-height:1.5}
 .cap,.note{font-size:14px;line-height:1.5;color:var(--muted);margin:12px 0}
 .note strong{color:var(--ink)}

@@ -34,7 +34,7 @@ function applyTheme(t, save) {
 const LOGO = '<svg width="36" height="36" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect x="6" y="3" width="36" height="28" rx="5" style="fill:var(--logo-sign)"/><rect x="21.5" y="31" width="5" height="15" style="fill:var(--logo-sign)"/><path d="M14 17h18M25 10l7 7-7 7" fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--logo-arrow)"/></svg>';
 function chrome() {
   const page = document.body.dataset.page === 'corridor' ? 'home' : document.body.dataset.page;
-  const links = [['home', 'index.html', 'Corridors'], ['ace', 'ace.html', 'Camera enforcement'], ['methods', 'methods.html', 'Methods']];
+  const links = [['home', 'index.html', 'Corridors'], ['commitments', 'commitments.html', 'Commitments'], ['ace', 'ace.html', 'Camera enforcement'], ['methods', 'methods.html', 'Methods']];
   $('#chrome-top').innerHTML = '<div class="strip"><div class="wrap">An independent project by Kush Zingade. Not affiliated with NYC DOT or the MTA.</div></div>' +
     '<header class="site"><div class="wrap bar"><a class="brand" href="index.html">' + LOGO + '<span>Next Stop Tracker</span></a>' +
     '<button type="button" class="btn menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button>' +
@@ -188,6 +188,11 @@ async function home() {
   if (err) { app.innerHTML = hero('<h1 class="display">Next Stop Tracker</h1>') + errBox(err); return; }
   const s = d.summary || {}, cs = d.corridors || [], pm = s.post_plan_months || [];
   let dash = {}; try { const r = await fetch('data/dashboard.json'); if (r.ok) dash = await r.json(); } catch (e) {}
+  let sd = null; try { const r = await fetch('data/stop_delay.json'); if (r.ok) sd = await r.json(); } catch (e) {}
+  const T = sd?.summary?.tracked, TS = T?.since_release || {}, CS = sd?.summary?.citywide?.since_release || {}, hasSD = !!(T && isN(T.baseline_min));
+  const thr = sd && isN(sd.threshold_min) ? sd.threshold_min.toFixed(1) : '2.0';
+  const same = isN(TS.change_min) && isN(CS.change_min) && Math.abs(TS.change_min - CS.change_min) < 0.1;
+  const sm = TS.months || [], smSpan = sm.length ? (sm.length > 1 ? mlabel(sm[0]) + ' to ' + mlabel(sm[sm.length - 1]) : mlabel(sm[0])) : '';
   const nPartial = cs.filter(c => stateOf(c) === 'Partly mapped').length;
   const span = pm.length ? (pm.length > 1 ? mlabel(pm[0]) + ' to ' + mlabel(pm[pm.length - 1]) : mlabel(pm[0])) : '';
   const nameOf = id => (cs.find(c => c.id === id) || {}).name || id;
@@ -211,8 +216,15 @@ async function home() {
    <section><h2>What the plan promised</h2>
    <p>In July 2026 NYC DOT and the MTA released <em>Next Stop: Fast Buses, Better Service</em>. It promises buses 20% faster on 50 Priority Corridors, saving riders up to six minutes on a trip, and a public performance dashboard. ${dash.last_checked ? (dash.found ? `On ${esc(dash.last_checked)} we found a dashboard (${esc(dash.where)}).` : `When we last checked, on ${esc(dash.last_checked)}, we could not find it.`) : 'We have not checked whether it exists.'} The plan gives no date for the dashboard or for the 20% goal. The MTA publishes general bus metrics at <a href="https://metrics.mta.info/">metrics.mta.info</a>, which are not tied to these corridors.</p></section>
    <section><h2>What this tracker is and is not</h2>
-   <p>This tracker measures average weekday bus speed (mph) on each corridor from public data, against a baseline of the 12 months before the plan (${esc(mlabel(d.baseline?.from))} to ${esc(mlabel(d.baseline?.to))}). The plan does not set a baseline, so that period is our choice. It covers the speed goal only: the plan's second goal, cutting rider delay at bus stops to under two minutes beyond the scheduled wait, is not measured here. Most street projects are not built yet, so flat speeds now are expected and are not a verdict on the plan. This is not an official dashboard and it cannot say why speeds change. <a href="methods.html">Read the methods</a>.</p></section>
+   <p>This tracker measures average weekday bus speed (mph) on each corridor from public data, against a baseline of the 12 months before the plan (${esc(mlabel(d.baseline?.from))} to ${esc(mlabel(d.baseline?.to))}). The plan does not set a baseline, so that period is our choice. ${hasSD ? "The plan's second goal, cutting rider delay at bus stops to under two minutes beyond the scheduled wait, is covered below with a rougher measure." : "The plan's second goal, cutting rider delay at bus stops to under two minutes beyond the scheduled wait, is not measured here."} Most street projects are not built yet, so flat speeds now are expected and are not a verdict on the plan. This is not an official dashboard and it cannot say why speeds change. <a href="methods.html">Read the methods</a>.</p></section>
   </div>
+  ${hasSD ? `<section class="tblsec"><h2>The second goal: extra wait at stops</h2>
+  <p class="sub">The plan aims for under ${esc(thr)} minutes of wait beyond the schedule on Priority Corridors. The MTA publishes this for whole routes only, so these figures cover the ${esc(T.routes_with_data_since_release ?? (T.routes || []).length)} routes that run on tracked corridors, over their full length.</p>
+  <dl class="kv"><dt>Baseline</dt><dd>${f2(T.baseline_min)} minutes (${esc(mlabel(sd.baseline?.from))} to ${esc(mlabel(sd.baseline?.to))})</dd>
+  <dt>Since plan release</dt><dd>${isN(TS.min) ? `${f2(TS.min)} minutes, versus ${f2(TS.same_months_prior_year_min)} in the same months a year earlier (${sg(TS.change_min, 2)} minutes)` : 'no months since release yet'}</dd>
+  ${isN(CS.change_min) ? `<dt>All city bus routes</dt><dd>${f2(CS.min)} minutes, versus ${f2(CS.same_months_prior_year_min)} a year earlier (${sg(CS.change_min, 2)} minutes).${same ? ' The change on corridor routes is about the same as the change citywide, so it is not evidence of a corridor effect.' : ''}</dd>` : ''}
+  <dt>Corridors under ${esc(thr)} minutes</dt><dd>${esc(sd.summary.corridors_under_threshold)} of ${esc(sd.summary.corridors_with_data)} with data in ${esc(smSpan)}, and ${esc(sd.summary.corridors_under_threshold_prior_year ?? 'n/a')} in the same months a year earlier. This is a short window, and several corridors sit close to the line. Each corridor page has its own figure.</dd></dl>
+  <p class="note">The plan does not say how it will measure the two minutes. This is the MTA's average over all riders, used as a stand-in. <a href="methods.html#delay">How this is measured</a></p></section>` : ''}
   <p class="note">Data runs through ${esc(mlabel(d.data_through))}. The latest single month was ${f2(s.tracked_latest_mph)} mph. A single month is not compared with the 12 month baseline here, because speeds change with the season. Compare the same months of different years instead.${shared ? ` Some corridors use the same segments, so their numbers are not independent: ${shared}.` : ''}</p>
   <section class="tblsec"><h2>All 50 corridors</h2>
   <p class="sub" id="count" role="status"></p><p class="sub" id="sortnote" aria-live="polite"></p>
@@ -272,6 +284,7 @@ async function corridor() {
   const { data: d, sample, err } = await load('data/corridors.json', 'data/corridors.sample.json');
   if (err) { app.innerHTML = errBox(err); return; }
   const id = new URLSearchParams(location.search).get('id');
+  let sd = null; try { const r = await fetch('data/stop_delay.json'); if (r.ok) sd = await r.json(); } catch (e) {}
   const c = (d.corridors || []).find(x => String(x.id) === id);
   if (!c) { app.innerHTML = hero('<a class="back" href="index.html">← All corridors</a><h1 class="display inner">Corridor not found</h1>', 'inner'); return; }
   document.title = c.name + ' | Next Stop Tracker';
@@ -306,6 +319,17 @@ async function corridor() {
    ${stat(f2(L.mph), 'mph', `latest, ${esc(mlabel(L.month))}`, 'amber')}
    ${stat(havePP ? (small ? pct(P.change_pct) : arrow(P.change_pct) + pct(P.change_pct)) : 'n/a', '', havePP ? 'since release vs same months a year earlier' : 'no months since release yet')}
    ${stat(f2(c.target_mph), 'mph', `target, baseline plus ${esc(tgt)}%`)}</div>`;
+  const SD = sd && (sd.corridors || []).find(x => String(x.id) === id), SR = SD && SD.since_release || {}, CW = sd && sd.summary?.citywide?.since_release || {};
+  const thr = sd && isN(sd.threshold_min) ? sd.threshold_min.toFixed(1) : '2.0';
+  const delay = SD && isN(SD.baseline_min) ? `<h2 class="gap" id="delay">Extra wait at stops</h2>
+  <p class="sub">The plan's second goal is under ${esc(thr)} minutes of wait beyond the schedule. The MTA publishes this for whole routes only, so these figures cover the full length of the routes that run here, not just this corridor.</p>
+  <dl class="kv"><dt>Routes counted</dt><dd>${esc((SD.routes_used || []).join(', ') || 'n/a')}</dd>
+  <dt>Baseline</dt><dd>${f2(SD.baseline_min)} minutes (${esc(mlabel(sd.baseline?.from))} to ${esc(mlabel(sd.baseline?.to))})</dd>
+  <dt>Since plan release</dt><dd>${isN(SR.min) ? `${f2(SR.min)} minutes over ${esc((SR.months || []).length)} month(s), versus ${f2(SR.same_months_prior_year_min)} in the same months a year earlier (${sg(SR.change_min, 2)} minutes)` : 'no months since release yet'}</dd>
+  ${isN(CW.change_min) ? `<dt>Citywide, same months</dt><dd>${f2(CW.min)} minutes, versus ${f2(CW.same_months_prior_year_min)} a year earlier (${sg(CW.change_min, 2)} minutes). A change on this corridor that is about the same size as the citywide change is not specific to it.</dd>` : ''}
+  <dt>Latest (${esc(mlabel(SD.latest?.month))})</dt><dd>${f2(SD.latest?.min)} minutes</dd>
+  <dt>The plan's goal</dt><dd>Under ${esc(thr)} minutes. The plan does not say how it will measure this, so the MTA's average over all riders is a stand-in, not the plan's own yardstick. <a href="methods.html#delay">How this is measured</a></dd></dl>
+  <details><summary>Extra wait by month as a table</summary><div class="tw"><table class="dt plain"><thead><tr><th>Month</th><th class="num">Extra wait (minutes)</th><th class="num">Riders</th></tr></thead><tbody>${(SD.series || []).map(s => `<tr><td>${esc(mlabel(s.month))}</td><td class="num">${f2(s.min)}</td><td class="num">${esc(isN(s.riders) ? s.riders.toLocaleString('en-US') : 'n/a')}</td></tr>`).join('')}</tbody></table></div></details>` : '';
   const first = c.series[0]?.month, lastM = c.series[c.series.length - 1]?.month;
   const segRows = [...c.segments].sort((a, b) => (isN(a.latest_mph) ? a.latest_mph : 1e9) - (isN(b.latest_mph) ? b.latest_mph : 1e9));
   app.innerHTML = (sample ? sampleBanner() : '') + head(stats) + warn + `<div class="wrap">
@@ -326,6 +350,7 @@ async function corridor() {
   <dt>Latest (${esc(mlabel(L.month))})</dt><dd>${f2(L.mph)} mph, ${arrow(L.yoy_pct)}${pct(L.yoy_pct)} vs same month last year. Versus the 12 month baseline: ${pct(L.vs_baseline_pct)} (not seasonally adjusted).</dd></dl>
   ${sh.length ? `<p class="note">This corridor uses some of the same segments as ${esc(sh.join(', '))}, so the two are not independent.</p>` : ''}
   <p class="note">Speeds are average weekday bus speed in mph. Flat speeds are expected while street projects are still being built.</p>
+  ${delay}
   </div>${callout}</div>
   <div class="row2"><div class="col">
   <h2>Segments, slowest first</h2><p class="sub">Click a heading to sort. Speeds are average weekday bus speed in mph. Segments marked "No" are listed but not used for the corridor figures.</p>
@@ -412,5 +437,36 @@ function aceChart(rs) {
   <ul class="legend lg2"><li><svg width="14" height="14" aria-hidden="true"><circle cx="7" cy="7" r="6" style="fill:var(--faster)"/></svg>Filled circle: better than comparison routes (above zero, positive number)</li><li><svg width="14" height="14" aria-hidden="true"><rect x="1.5" y="1.5" width="11" height="11" stroke-width="2.5" style="fill:var(--bg);stroke:var(--slower)"/></svg>Hollow square: worse (below zero, negative number)</li><li>Thick line is zero, same as comparison routes</li></ul>`;
 }
 
+// ---------- commitments ----------
+async function commitments() {
+  const { data: d, err } = await load('data/commitments.json', '');
+  const top = `<h1 class="display inner">What the plan committed to</h1><p class="lead">Each numbered or dated commitment we found in the plan, quoted exactly, with what open data can and cannot show about it today. An independent project by Kush Zingade, not affiliated with NYC DOT or the MTA.</p>`;
+  if (err) { app.innerHTML = hero(top, 'inner') + errBox(err); return; }
+  const cs = d.commitments || [], n = s => cs.filter(c => c.status === s).length;
+  const ST = { 'live count': ['Live count', ''], 'snapshot only': ['Snapshot only', ''], 'no public data': ['No public data', 'no'], 'milestone': ['Milestone', 'no'] };
+  const tagOf = c => { const t = ST[c.status] || [c.status, 'no']; return `<span class="tag ${t[1]}">${esc(t[0])}</span>`; };
+  const num = v => isN(v) ? v.toLocaleString('en-US') : esc(v ?? '');
+  const shows = c => { const m = c.measured; if (!m) return `<span class="why">${esc(c.note || '')}</span>`;
+    return `<strong>${num(m.value)}</strong> ${esc(m.unit)}<span class="why">${esc(m.method)} Source: <a href="${esc(m.dataset_url)}">${esc(m.dataset_name)}</a>, updated ${esc(m.dataset_updated)}${m.stale ? ', which is before the plan was released' : ''}.${c.note ? ' ' + esc(c.note) : ''}</span>`; };
+  const secs = [...new Set(cs.map(c => c.section))];
+  app.innerHTML = hero(top + `<div class="stats s4">
+   ${stat(esc(cs.length), '', 'commitments found in the plan')}
+   ${stat(esc(n('live count')), '', 'can be counted from open data today', 'amber')}
+   ${stat(esc(n('snapshot only')), '', 'have a dataset, but one that cannot show change since the plan')}
+   ${stat(esc(n('no public data') + n('milestone')), '', `have no public data (${esc(n('milestone'))} of them are yes or no milestones)`)}</div>`, 'inner') +
+  `<div class="notice"><div class="wrap"><strong>This page does not grade the city.</strong> A status says what open data can show, not whether the work is being done. Most of these commitments have deadlines that are still ahead.</div></div>
+  <div class="wrap">
+  <div class="prose2"><section><h2>How to read the statuses</h2><p><strong>Live count</strong>: a public dataset has dates, so progress can be counted. <strong>Snapshot only</strong>: a public list exists but has no usable dates, so we save its size and watch it change. <strong>No public data</strong>: we found no public dataset. <strong>Milestone</strong>: a yes or no event that data cannot measure.</p></section>
+  <section><h2>Where the wording comes from</h2><p>Each quote is copied from the text of <em>Next Stop: Fast Buses, Better Service</em> (July 2026), and the script that builds this page fails if a quote is not found word for word in that text. Some quotes are one clause of a longer sentence. <a href="methods.html#commitments">How this page is built</a>.</p></section></div>
+  ${secs.map(s => `<section class="tblsec"><h2>${esc(s)}</h2>
+  <div class="tw"><table class="dt cm"><thead><tr><th>Commitment, in the plan's words</th><th>By</th><th>What open data shows</th><th>Status</th></tr></thead><tbody>
+  ${cs.filter(c => c.section === s).map(c => `<tr><td><span class="sn"><strong>${esc(c.label)}</strong><span class="why">"${esc(c.quote)}"</span></span></td><td class="st">${esc(c.deadline || 'No date')}</td><td>${shows(c)}</td><td class="st">${tagOf(c)}</td></tr>`).join('')}</tbody></table></div></section>`).join('')}
+  <section class="tblsec"><h2>Data that would make these countable</h2><p class="sub">Each item is a dataset the city or the MTA could publish. With it, the matching commitments above could move to a live count.</p>
+  <ul class="plainlist">${(d.data_requests || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul></section>
+  <section class="tblsec"><h2>Limits</h2><ul class="plainlist">${(d.caveats || []).map(x => `<li>${esc(x)}</li>`).join('')}</ul>
+  <p class="note">Last built ${esc(d.generated)}. <a href="data/commitments.json">Download the data</a>.</p></section></div>`;
+  a11yScroll();
+}
+
 chrome();
-({ home, corridor, ace }[document.body.dataset.page] || (() => {}))();
+({ home, corridor, ace, commitments }[document.body.dataset.page] || (() => {}))();

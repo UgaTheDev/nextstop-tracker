@@ -1,0 +1,515 @@
+{
+ "generated": "2026-11-09",
+ "plan_released": "2026-07",
+ "commitments": [
+  {
+   "id": "priority_corridors",
+   "section": "Fast, Reliable Buses",
+   "label": "Improvements along 50 Priority Corridors",
+   "quote": "Joint NYC DOT and MTA improvements along 50 Priority Corridors.",
+   "target": {
+    "value": 50,
+    "unit": "corridors"
+   },
+   "deadline": null,
+   "status": "no public data",
+   "measured": null,
+   "note": "No public list of which corridors have received improvements."
+  },
+  {
+   "id": "projects_2026",
+   "section": "Fast, Reliable Buses",
+   "label": "Advance 28 ongoing street design projects",
+   "quote": "In 2026, advance 28 ongoing street design projects and evaluate future service adjustments.",
+   "target": {
+    "value": 28,
+    "unit": "projects"
+   },
+   "deadline": "2026",
+   "status": "no public data",
+   "measured": null,
+   "note": "Year list wording: \"Advance 28 ongoing projects with coordinated schedule adjustments.\" No public project tracker."
+  },
+  {
+   "id": "speed_goal",
+   "section": "Fast, Reliable Buses",
+   "label": "Bus speeds up 20% on Priority Corridors",
+   "quote": "20% increase in bus speeds on Priority Corridors, saving riders up to six minutes during their journey.",
+   "target": {
+    "value": 20,
+    "unit": "percent"
+   },
+   "deadline": null,
+   "status": "no public data",
+   "measured": null,
+   "note": "No official figure: the city has not published the corridor segments or a baseline. Our own estimate from public segment speeds is on the Corridors page."
+  },
+  {
+   "id": "delay_goal",
+   "section": "Fast, Reliable Buses",
+   "label": "Stop delay under two minutes on Priority Corridors",
+   "quote": "Reduce bus rider delay at bus stops to less than two minutes beyond the scheduled wait time on Priority Corridors.",
+   "target": {
+    "value": 2,
+    "unit": "minutes"
+   },
+   "deadline": null,
+   "status": "no public data",
+   "measured": null,
+   "note": "No official corridor figure. The MTA publishes extra wait at stops for whole routes only; our estimate from that is on the Corridors page."
+  },
+  {
+   "id": "queue_jumps",
+   "section": "Fast, Reliable Buses",
+   "label": "125 queue jumps by 2030 (25 per year)",
+   "quote": "Install 25 queue jump signals per year to reach 125 queue jumps by 2030.",
+   "target": {
+    "value": 125,
+    "unit": "queue jumps"
+   },
+   "deadline": "2030",
+   "status": "no public data",
+   "measured": null,
+   "note": "Catalog searches on both portals found no queue jump dataset. Annual pace is 25. The plan says 43 queue jumps were installed before it."
+  },
+  {
+   "id": "tsp",
+   "section": "Fast, Reliable Buses",
+   "label": "175 transit signal priority corridors by 2030",
+   "quote": "Activate or improve transit signal priority along 35 corridors per year, with the goal of 175 corridors by 2030",
+   "target": {
+    "value": 175,
+    "unit": "corridors"
+   },
+   "deadline": "2030",
+   "status": "no public data",
+   "measured": null,
+   "note": "Catalog searches on both portals found no signal priority dataset. Annual pace is 35."
+  },
+  {
+   "id": "new_buses",
+   "section": "Fast, Reliable Buses",
+   "label": "Purchase 2,500 new buses",
+   "quote": "Purchase 2,500 new buses\u2014 replacing over 40% of the existing fleet\u2014 as part of the 2025-2029 MTA Capital Program.",
+   "target": {
+    "value": 2500,
+    "unit": "buses"
+   },
+   "deadline": null,
+   "status": "no public data",
+   "measured": null,
+   "note": "The plan ties this to the 2025-2029 Capital Program, not to a date, and elsewhere says \"approximately 2,500\". Only a fleet inventory from the 20-year needs assessment turned up; it does not record purchases."
+  },
+  {
+   "id": "all_door",
+   "section": "Fast, Reliable Buses",
+   "label": "All-door boarding with full tap and ride",
+   "quote": "Implement all-door boarding by 2027 with the complete transition to tap and ride.",
+   "target": null,
+   "deadline": "2027",
+   "status": "milestone",
+   "measured": null,
+   "note": "A yes/no event; not measurable from open data."
+  },
+  {
+   "id": "bk_redesign",
+   "section": "Fast, Reliable Buses",
+   "label": "Engage on three Central Brooklyn bus corridors",
+   "quote": "Release next draft of the Brooklyn Bus Network Redesign and begin engagement for bus priority improvements on three key Central Brooklyn bus corridors.",
+   "target": {
+    "value": 3,
+    "unit": "corridors"
+   },
+   "deadline": "2026",
+   "status": "milestone",
+   "measured": null,
+   "note": "Year list item for 2026; an engagement event, not measurable from data."
+  },
+  {
+   "id": "shelters_300",
+   "section": "Valued Bus Riders",
+   "label": "300 new bus shelters by 2028",
+   "quote": "Install 300 new bus shelters by 2028.",
+   "target": {
+    "value": 300,
+    "unit": "new shelters"
+   },
+   "deadline": "2028",
+   "status": "snapshot only",
+   "measured": {
+    "value": 3312,
+    "unit": "rows in current list",
+    "as_of": "2026-10-01",
+    "since": null,
+    "method": "Total rows in today's list; no usable install date, so no count since 2026-07-01. Saved to history.",
+    "dataset_name": "Bus Stop Shelters",
+    "dataset_url": "https://data.cityofnewyork.us/d/t4f2-8md7",
+    "dataset_updated": "2026-10-01",
+    "stale": false
+   },
+   "note": "The shelter list has no install date, so new shelters cannot be separated from existing ones. Today's total is saved so change can be shown later."
+  },
+  {
+   "id": "shelters_100",
+   "section": "Valued Bus Riders",
+   "label": "100 new bus shelters per year, starting in 2026",
+   "quote": "Install 100 new bus shelters per year, starting in 2026.",
+   "target": {
+    "value": 100,
+    "unit": "new shelters per year"
+   },
+   "deadline": null,
+   "status": "snapshot only",
+   "measured": {
+    "value": 3312,
+    "unit": "rows in current list",
+    "as_of": "2026-10-01",
+    "since": null,
+    "method": "Total rows in today's list; no usable install date, so no count since 2026-07-01. Saved to history.",
+    "dataset_name": "Bus Stop Shelters",
+    "dataset_url": "https://data.cityofnewyork.us/d/t4f2-8md7",
+    "dataset_updated": "2026-10-01",
+    "stale": false
+   },
+   "note": "Same dataset and limits as the 300 shelter commitment."
+  },
+  {
+   "id": "seating_875",
+   "section": "Valued Bus Riders",
+   "label": "Seating at 875 bus stops in 2026",
+   "quote": "Install seating at 875 bus stops in 2026 to meet universal seating goal by 2035.",
+   "target": {
+    "value": 875,
+    "unit": "bus stops"
+   },
+   "deadline": "2026",
+   "status": "snapshot only",
+   "measured": {
+    "value": 5776,
+    "unit": "rows in current list",
+    "as_of": "2026-11-04",
+    "since": null,
+    "method": "Total rows in today's list; no usable install date, so no count since 2026-07-01. Saved to history.",
+    "dataset_name": "Seating Locations",
+    "dataset_url": "https://data.cityofnewyork.us/d/esmy-s8q5",
+    "dataset_updated": "2026-11-04",
+    "stale": false
+   },
+   "note": "The seating list has install dates but mixes bus stop seating with other sidewalk seating (category is empty), so dated rows would overcount. Total is saved for later comparison. Elsewhere the plan gives 875 stops as a yearly pace."
+  },
+  {
+   "id": "seating_universal",
+   "section": "Valued Bus Riders",
+   "label": "Universal seating at bus stops by 2035",
+   "quote": "Achieve universal seating at bus stops.",
+   "target": null,
+   "deadline": "2035",
+   "status": "no public data",
+   "measured": null,
+   "note": "Needs a list of all bus stops with and without seating."
+  },
+  {
+   "id": "trees_30",
+   "section": "Valued Bus Riders",
+   "label": "Plant 30 trees at bus stops in 2026",
+   "quote": "Plant 30 trees at bus stops and pilot shelter design improvements for mitigating extreme heat in 2026.",
+   "target": {
+    "value": 30,
+    "unit": "trees"
+   },
+   "deadline": "2026",
+   "status": "no public data",
+   "measured": null,
+   "note": "No dataset links tree plantings to bus stops. The 2015 street tree census is too old and not stop-specific."
+  },
+  {
+   "id": "trees_all",
+   "section": "Valued Bus Riders",
+   "label": "Tree planting at all feasible bus stops by 2035",
+   "quote": "Complete tree planting at all feasible bus stops.",
+   "target": null,
+   "deadline": "2035",
+   "status": "no public data",
+   "measured": null,
+   "note": "\"Feasible\" is not defined publicly and no stop-level tree data exists."
+  },
+  {
+   "id": "rtpi_2026",
+   "section": "Valued Bus Riders",
+   "label": "90 new real-time passenger information signs in 2026",
+   "quote": "Install 90 new real-time passenger information displays in 2026",
+   "target": {
+    "value": 90,
+    "unit": "signs"
+   },
+   "deadline": "2026",
+   "status": "snapshot only",
+   "measured": {
+    "value": 503,
+    "unit": "rows in current list",
+    "as_of": "2026-03-05",
+    "since": null,
+    "method": "Total rows in today's list; no usable install date, so no count since 2026-07-01. Saved to history.",
+    "dataset_name": "Real Time Passenger Information Sign Locations",
+    "dataset_url": "https://data.cityofnewyork.us/d/g9jx-npbk",
+    "dataset_updated": "2026-03-05",
+    "stale": true
+   },
+   "note": "The sign list carries completion dates, but none of them are recent, so it does not show new installs. Total is saved for later comparison."
+  },
+  {
+   "id": "rtpi_2030",
+   "section": "Valued Bus Riders",
+   "label": "2,900 new and improved RTPI signs by 2030",
+   "quote": "install 2,900 new and technologically improved RTPI signs by 2030.",
+   "target": {
+    "value": 2900,
+    "unit": "signs"
+   },
+   "deadline": "2030",
+   "status": "snapshot only",
+   "measured": {
+    "value": 503,
+    "unit": "rows in current list",
+    "as_of": "2026-03-05",
+    "since": null,
+    "method": "Total rows in today's list; no usable install date, so no count since 2026-07-01. Saved to history.",
+    "dataset_name": "Real Time Passenger Information Sign Locations",
+    "dataset_url": "https://data.cityofnewyork.us/d/g9jx-npbk",
+    "dataset_updated": "2026-03-05",
+    "stale": true
+   },
+   "note": "Same dataset and caveats as the 2026 sign commitment."
+  },
+  {
+   "id": "access_2026",
+   "section": "Valued Bus Riders",
+   "label": "Upgrade 35 inaccessible bus stops in 2026",
+   "quote": "Upgrade 35 inaccessible bus stops in 2026",
+   "target": {
+    "value": 35,
+    "unit": "bus stops"
+   },
+   "deadline": "2026",
+   "status": "no public data",
+   "measured": null,
+   "note": "No public list of stop accessibility status or upgrades."
+  },
+  {
+   "id": "access_2029",
+   "section": "Valued Bus Riders",
+   "label": "At least 50 accessible stop upgrades per year, 2027 to 2029",
+   "quote": "scaling to at least 50 per year from 2027 to 2029",
+   "target": {
+    "value": 50,
+    "unit": "bus stops per year"
+   },
+   "deadline": "2029",
+   "status": "no public data",
+   "measured": null,
+   "note": "Same gap as the 2026 accessibility commitment."
+  },
+  {
+   "id": "access_2030",
+   "section": "Valued Bus Riders",
+   "label": "At least 65 accessible stop upgrades per year after 2029",
+   "quote": "and at least 65 per year thereafter.",
+   "target": {
+    "value": 65,
+    "unit": "bus stops per year"
+   },
+   "deadline": "2030",
+   "status": "no public data",
+   "measured": null,
+   "note": "Same gap as the 2026 accessibility commitment. Year list places this at 2030."
+  },
+  {
+   "id": "capital_six",
+   "section": "Valued Bus Riders",
+   "label": "Capital projects along six priority corridors",
+   "quote": "Advance capital projects along six priority corridors across the city",
+   "target": {
+    "value": 6,
+    "unit": "corridors"
+   },
+   "deadline": null,
+   "status": "no public data",
+   "measured": null,
+   "note": "No public project list or schedule."
+  },
+  {
+   "id": "projects_2027",
+   "section": "Fast, Reliable Buses",
+   "label": "Advance new bus priority projects in 2027",
+   "quote": "Advance new bus priority projects on Priority Corridors.",
+   "target": null,
+   "deadline": "2027",
+   "status": "no public data",
+   "measured": null,
+   "note": "Year list item for 2027. No public project tracker."
+  },
+  {
+   "id": "ace_2026",
+   "section": "Culture of Courtesy and Respect",
+   "label": "Launch ACE on 25 routes in 2026",
+   "quote": "Launch ACE on 25 routes.",
+   "target": {
+    "value": 25,
+    "unit": "routes"
+   },
+   "deadline": "2026",
+   "status": "live count",
+   "measured": {
+    "value": 24,
+    "unit": "routes first enforced",
+    "as_of": "2026-10-23",
+    "since": null,
+    "method": "Routes whose first enforcement date in the list falls in calendar 2026. 14 of them started on or after 2026-07-01, when the plan was released.",
+    "dataset_name": "MTA Bus Automated Camera Enforced Routes: Beginning October 2019",
+    "dataset_url": "https://data.ny.gov/d/ki2b-sg5y",
+    "dataset_updated": "2026-10-23",
+    "stale": false
+   },
+   "note": "Counts routes whose first enforcement date falls in the calendar year."
+  },
+  {
+   "id": "ace_2027",
+   "section": "Culture of Courtesy and Respect",
+   "label": "Add ACE to 25 additional routes in 2027",
+   "quote": "Add ACE to 25 additional routes.",
+   "target": {
+    "value": 25,
+    "unit": "routes"
+   },
+   "deadline": "2027",
+   "status": "live count",
+   "measured": {
+    "value": 0,
+    "unit": "routes first enforced",
+    "as_of": "2026-10-23",
+    "since": null,
+    "method": "Routes whose first enforcement date falls in calendar 2027. That year has not started.",
+    "dataset_name": "MTA Bus Automated Camera Enforced Routes: Beginning October 2019",
+    "dataset_url": "https://data.ny.gov/d/ki2b-sg5y",
+    "dataset_updated": "2026-10-23",
+    "stale": false
+   },
+   "note": "Counts routes whose first enforcement date falls in the calendar year."
+  },
+  {
+   "id": "ace_50plus",
+   "section": "Culture of Courtesy and Respect",
+   "label": "ACE on 50+ additional routes by 2027",
+   "quote": "Expand Automated Camera Enforcement (ACE) to 50+ additional routes by 2027, prioritizing high-ridership and delay-prone corridors.",
+   "target": {
+    "value": 50,
+    "unit": "routes"
+   },
+   "deadline": "2027",
+   "status": "live count",
+   "measured": {
+    "value": 24,
+    "unit": "routes first enforced",
+    "as_of": "2026-10-23",
+    "since": "2026-01-01",
+    "method": "Routes whose first enforcement date falls in calendar 2026 or 2027. 14 of them started on or after 2026-07-01, when the plan was released.",
+    "dataset_name": "MTA Bus Automated Camera Enforced Routes: Beginning October 2019",
+    "dataset_url": "https://data.ny.gov/d/ki2b-sg5y",
+    "dataset_updated": "2026-10-23",
+    "stale": false
+   },
+   "note": "The plan describes this as 25 additional routes a year in 2026 and 2027, so the count covers both calendar years."
+  },
+  {
+   "id": "stationary_cams",
+   "section": "Culture of Courtesy and Respect",
+   "label": "200 new stationary bus lane cameras by 2027",
+   "quote": "Install 200 new stationary bus lane cameras by 2027.",
+   "target": {
+    "value": 200,
+    "unit": "cameras"
+   },
+   "deadline": "2027",
+   "status": "no public data",
+   "measured": null,
+   "note": "The ACE route list covers routes, not camera counts or locations. No camera dataset found."
+  },
+  {
+   "id": "nypd_routes",
+   "section": "Culture of Courtesy and Respect",
+   "label": "NYPD daily enforcement on 20 routes",
+   "quote": "Expand NYPD enforcement from 14 to 20 routes daily to be deployed where most needed.",
+   "target": {
+    "value": 20,
+    "unit": "routes"
+   },
+   "deadline": "2026",
+   "status": "no public data",
+   "measured": null,
+   "note": "No public data on which routes NYPD patrols. Year list says 2026."
+  },
+  {
+   "id": "coverage_90",
+   "section": "Quality Transit for All",
+   "label": "90% of New Yorkers near a subway, rail, Select Bus, or rapid bus station",
+   "quote": "Ensure 90% of New Yorkers live within a half-mile of a subway, rail, Select Bus, or new rapid bus station.",
+   "target": {
+    "value": 90,
+    "unit": "percent"
+   },
+   "deadline": null,
+   "status": "no public data",
+   "measured": null,
+   "note": "No published measure; it would need station locations joined to population by the city."
+  },
+  {
+   "id": "flatbush",
+   "section": "Quality Transit for All",
+   "label": "Rapid bus route on Flatbush Avenue by 2030",
+   "quote": "Implement a new, world-class rapid bus route on Flatbush Avenue by 2030.",
+   "target": null,
+   "deadline": "2030",
+   "status": "milestone",
+   "measured": null,
+   "note": "A yes/no event; not measurable from open data."
+  },
+  {
+   "id": "rapid_four",
+   "section": "Quality Transit for All",
+   "label": "Public engagement on four rapid bus corridors in 2026",
+   "quote": "Launch public engagement for the development of rapid bus service on four additional corridors in 2026.",
+   "target": {
+    "value": 4,
+    "unit": "corridors"
+   },
+   "deadline": "2026",
+   "status": "milestone",
+   "measured": null,
+   "note": "An engagement event, not measurable from data."
+  }
+ ],
+ "data_requests": [
+  "Publish a dataset of Priority Corridors with the date each received improvements, so the 50 corridor commitment can be counted.",
+  "Publish a project tracker listing the 28 ongoing street design projects and the six priority corridor capital projects with status dates.",
+  "Publish Priority Corridor segment speeds against a pre-plan baseline, and rider delay at stops, to show the speed and delay goals.",
+  "Publish a queue jump signal dataset with location and activation date.",
+  "Publish a transit signal priority dataset listing corridors with activation or improvement dates.",
+  "Publish the MTA bus fleet purchase and delivery record under the 2025-2029 Capital Program.",
+  "Add an install date and a new-or-replacement flag to the Bus Stop Shelters dataset.",
+  "Split bus stop seating from other sidewalk seating in the Seating Locations dataset, and publish a list of all bus stops with a seating flag.",
+  "Publish bus stop tree plantings with stop identifiers and dates, and define which stops are feasible for planting.",
+  "Keep the Real Time Passenger Information Sign Locations dataset current, with a completion date for each new sign.",
+  "Publish a bus stop accessibility dataset with each stop's status and the date of any upgrade.",
+  "Publish stationary bus lane camera locations with installation dates.",
+  "Publish the routes covered by daily NYPD bus lane enforcement.",
+  "Publish the station list and method behind the 90 percent half-mile access figure."
+ ],
+ "caveats": [
+  "This is a baseline tracker. Statuses describe what open data can show, not how the city is doing.",
+  "The plan was released in July 2026; counts since 2026-07-01 start from that baseline. Earlier 2026 activity is shown where a target is a calendar year.",
+  "ACE route counts use each route's first date in the enforcement list; routes already under the earlier ABLE program also count at their first date.",
+  "Quotes come from a text extraction of the plan PDF. The wording was checked against that text.",
+  "The Bus Lanes - Local Streets dataset (ycrg-ses3) was checked; no commitment in the plan sets a bus lane target, so it is not used.",
+  "Quote fragments for the accessibility and RTPI commitments are clauses of longer plan sentences; the full sentences are in the plan section."
+ ]
+}

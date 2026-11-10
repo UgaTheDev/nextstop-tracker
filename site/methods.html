@@ -12,12 +12,13 @@
 <main id="app" tabindex="-1">
 <section class="hero inner"><div class="wrap"><h1 class="display inner">Methods</h1><p class="lead">This is an independent project by Kush Zingade. It is not affiliated with NYC DOT or the MTA. Every number here is computed from public data, and the code and corridor definitions are open so they can be checked and corrected.</p></div></section>
 <div class="wrap methods">
-<nav class="toc" aria-label="On this page"><div class="tochd">On this page</div><ol><li><a href="#s1">Data sources</a></li><li><a href="#s2">How speeds are computed</a></li><li><a href="#s3">How corridors were defined</a></li><li><a href="#s4">Which segments count</a></li><li><a href="#s5">Baseline choice</a></li><li><a href="#s6">Camera enforcement analysis</a></li><li><a href="#s7">Limits</a></li><li><a href="#s8">Report a wrong corridor definition</a></li></ol></nav>
+<nav class="toc" aria-label="On this page"><div class="tochd">On this page</div><ol><li><a href="#s1">Data sources</a></li><li><a href="#s2">How speeds are computed</a></li><li><a href="#s3">How corridors were defined</a></li><li><a href="#s4">Which segments count</a></li><li><a href="#s5">Baseline choice</a></li><li><a href="#s6">Camera enforcement analysis</a></li><li><a href="#delay">Extra wait at stops</a></li><li><a href="#commitments">Commitments page</a></li><li><a href="#s7">Limits</a></li><li><a href="#s8">Report a wrong corridor definition</a></li></ol></nav>
 <div class="mbody">
 <section id="s1" aria-labelledby="s1h"><h2 id="s1h">Data sources</h2><ul>
 <li><a href="https://data.ny.gov/d/kufs-yh3x">MTA Bus Route Segment Speeds (data.ny.gov, kufs-yh3x)</a>: monthly weekday speeds between timepoint stops. We use Local, Limited and Select Bus Service trips only, so school and express trips are left out. This is the main source.</li>
 <li><a href="https://data.ny.gov/d/cudb-vcni">MTA Bus Speeds: Beginning 2015 (data.ny.gov, cudb-vcni)</a>: route speeds for the camera analysis.</li>
 <li><a href="https://data.ny.gov/d/ki2b-sg5y">MTA Bus Automated Camera Enforced Routes: Beginning October 2019 (data.ny.gov, ki2b-sg5y)</a>: which routes have cameras and when they started.</li>
+<li><a href="https://data.ny.gov/d/8mkn-d32t">MTA Bus Customer Journey-Focused Metrics (data.ny.gov, 8mkn-d32t)</a>: extra wait at stops, by route and month.</li>
 <li><a href="https://www.nyc.gov/html/dot/downloads/pdf/next-stop-fast-buses-better-service.pdf">Next Stop: Fast Buses, Better Service (NYC DOT plan PDF)</a>: the list of 50 Priority Corridors and the 20 percent goal.</li>
 </ul></section>
 <section id="s2" aria-labelledby="s2h"><h2 id="s2h">How speeds are computed</h2><p>A speed figure is average weekday bus speed in miles per hour (mph). For any group of segments and months, speed is total bus-miles divided by total bus-hours. We never average the speeds of individual segments, because that would give short, slow segments the same weight as long, fast ones.</p></section>
@@ -40,6 +41,23 @@
 <section id="s5" aria-labelledby="s5h"><h2 id="s5h">Baseline choice</h2><p>The plan does not define a baseline period. We chose the 12 months before the plan: July 2025 to June 2026. The baseline speed is the speed over those 12 months, and the target is the baseline times 1.2. This is our choice, and a different baseline would change the gap to target. Using a full year avoids seasonal swings, but it means a single month should not be compared with the baseline, because some months are always slower than the yearly average. The tracker leads with the months since release against the same months a year earlier. The plan was released in July 2026, so months from July 2026 on are "after release".</p>
 <p>Most street projects are not built yet, so flat speeds right after release are expected. This tracker sets a starting line. It does not judge the plan.</p></section>
 <section id="s6" aria-labelledby="s6h"><h2 id="s6h">Camera enforcement analysis</h2><p>The camera page compares each enforced route before and after cameras began, against control routes in the same borough and trip type, over matched calendar months. The result is the difference of the two percent changes, in percentage points. Because the result can be moved by other changes, the page also shows a check with fake start dates a year early, results without Queens routes affected by the mid 2025 Queens bus redesign, and the wider of two confidence intervals. Comparison routes that run in the same bus lanes as camera routes may also benefit, so the page also shows a version without them. Full method: <code>docs/ACE-METHOD.md</code>. Data downloads: <a href="data/corridors.json">corridors.json</a> and <a href="data/ace.json">ace.json</a>.</p></section>
+<section id="delay" aria-labelledby="delayh"><h2 id="delayh">Extra wait at stops</h2><p>The plan's second goal is to cut rider delay at bus stops to under two minutes beyond the scheduled wait on Priority Corridors. The closest public figure is the MTA's Additional Bus Stop Time, which the MTA defines as "the average time that customers spend waiting at a stop beyond their scheduled wait time", in minutes, by route and month.</p>
+<ul>
+<li>For each corridor we take the routes that run on it and pool them, peak and off-peak together, weighted by riders: total rider-minutes divided by total riders. We never average averages.</li>
+<li>The baseline is July 2025 to June 2026, the same window as for speed. Months since release are compared with the same months a year earlier.</li>
+<li>The MTA publishes this for whole routes, not for stretches of street. A corridor's figure includes delay on parts of its routes that are away from the corridor, and a route on two corridors counts toward both.</li>
+<li>The plan does not say how it will measure the two minutes. An average over all riders can be under two minutes while some stops are well over it. Treat this as a stand-in, not the plan's own yardstick.</li>
+<li>Where the MTA lists both a local route and its Select Bus sibling, both are counted.</li>
+<li>Queens bus routes were redesigned in mid 2025, so on Queens corridors the year-earlier months are not like for like.</li>
+<li>We show the citywide change next to each corridor's change. When the two are about the same size, the change is not specific to the corridor.</li>
+</ul></section>
+<section id="commitments" aria-labelledby="commitmentsh"><h2 id="commitmentsh">Commitments page</h2><p>The commitments page lists each numbered or dated commitment we found in the plan. If we missed one, please report it. Each quote is checked word for word against the plan's text every time the page is built.</p>
+<ul>
+<li>A commitment gets a live count only when a public dataset records dates, so that activity since the plan can be counted. Today that is true only for camera enforcement routes, counted by each route's first enforcement date.</li>
+<li>Where a public list exists without usable dates (bus shelters, seating, real-time signs), we record the size of the list and save a new snapshot whenever it changes. The size of a list is not progress on a commitment.</li>
+<li>For everything else we searched the state and city open data portals and found nothing that fits. The page lists the datasets that would close each gap.</li>
+<li>Statuses describe the data, never the city's performance. The page does not say whether any commitment is ahead or behind.</li>
+</ul></section>
 <section id="s7" aria-labelledby="s7h"><h2 id="s7h">Limits</h2><ul>
 <li>Timepoint segments: speeds are measured between scheduled timepoint stops, which can be far apart.</li>
 <li>Weekday averages only. Weekends, rush hours and individual trips are not separated.</li>
