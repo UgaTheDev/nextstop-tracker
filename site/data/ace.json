@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-13",
  "summary": {
   "all_routes": {
    "n_routes": 42,
@@ -975,6 +975,10 @@
   {
    "route": "Q80",
    "reason": "activated 2026-05-11: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+  },
+  {
+   "route": "S61",
+   "reason": "activated 2026-11-09: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
   },
   {
    "route": "S79+",

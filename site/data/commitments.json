@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-13",
  "plan_released": "2026-07",
  "commitments": [
   {
@@ -360,14 +360,14 @@
    "deadline": "2026",
    "status": "live count",
    "measured": {
-    "value": 24,
+    "value": 25,
     "unit": "routes first enforced",
-    "as_of": "2026-10-23",
+    "as_of": "2026-11-13",
     "since": null,
-    "method": "Routes whose first enforcement date in the list falls in calendar 2026. 14 of them started on or after 2026-07-01, when the plan was released.",
+    "method": "Routes whose first enforcement date in the list falls in calendar 2026. 15 of them started on or after 2026-07-01, when the plan was released.",
     "dataset_name": "MTA Bus Automated Camera Enforced Routes: Beginning October 2019",
     "dataset_url": "https://data.ny.gov/d/ki2b-sg5y",
-    "dataset_updated": "2026-10-23",
+    "dataset_updated": "2026-11-13",
     "stale": false
    },
    "note": "Counts routes whose first enforcement date falls in the calendar year."
@@ -386,12 +386,12 @@
    "measured": {
     "value": 0,
     "unit": "routes first enforced",
-    "as_of": "2026-10-23",
+    "as_of": "2026-11-13",
     "since": null,
     "method": "Routes whose first enforcement date falls in calendar 2027. That year has not started.",
     "dataset_name": "MTA Bus Automated Camera Enforced Routes: Beginning October 2019",
     "dataset_url": "https://data.ny.gov/d/ki2b-sg5y",
-    "dataset_updated": "2026-10-23",
+    "dataset_updated": "2026-11-13",
     "stale": false
    },
    "note": "Counts routes whose first enforcement date falls in the calendar year."
@@ -408,14 +408,14 @@
    "deadline": "2027",
    "status": "live count",
    "measured": {
-    "value": 24,
+    "value": 25,
     "unit": "routes first enforced",
-    "as_of": "2026-10-23",
+    "as_of": "2026-11-13",
     "since": "2026-01-01",
-    "method": "Routes whose first enforcement date falls in calendar 2026 or 2027. 14 of them started on or after 2026-07-01, when the plan was released.",
+    "method": "Routes whose first enforcement date falls in calendar 2026 or 2027. 15 of them started on or after 2026-07-01, when the plan was released.",
     "dataset_name": "MTA Bus Automated Camera Enforced Routes: Beginning October 2019",
     "dataset_url": "https://data.ny.gov/d/ki2b-sg5y",
-    "dataset_updated": "2026-10-23",
+    "dataset_updated": "2026-11-13",
     "stale": false
    },
    "note": "The plan describes this as 25 additional routes a year in 2026 and 2027, so the count covers both calendar years."

@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09",
- "data_through": "2026-09",
+ "generated": "2026-11-13",
+ "data_through": "2026-10",
  "threshold_min": 2.0,
  "metric": {
   "name": "Additional Bus Stop Time (minutes)",
@@ -101,41 +101,43 @@
    "routes_with_data_since_release": 79,
    "baseline_min": 2.7,
    "since_release": {
-    "min": 2.41,
-    "same_months_prior_year_min": 2.7,
-    "change_min": -0.29,
+    "min": 2.47,
+    "same_months_prior_year_min": 2.68,
+    "change_min": -0.21,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.7
+    "month": "2026-10",
+    "min": 2.61
    }
   },
   "citywide": {
    "baseline_min": 2.67,
    "since_release": {
-    "min": 2.37,
-    "same_months_prior_year_min": 2.65,
-    "change_min": -0.28,
+    "min": 2.43,
+    "same_months_prior_year_min": 2.63,
+    "change_min": -0.2,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.69
+    "month": "2026-10",
+    "min": 2.59
    }
   },
   "corridors_with_data": 41,
-  "corridors_under_threshold": 10,
+  "corridors_under_threshold": 9,
   "corridors_under_threshold_prior_year": 5,
-  "corridors_over_threshold": 31,
+  "corridors_over_threshold": 32,
   "routes_unmatched": []
  },
  "corridors": [
@@ -149,20 +151,21 @@
    "routes_unmatched": [],
    "baseline_min": 2.26,
    "since_release": {
-    "min": 1.96,
-    "same_months_prior_year_min": 2.44,
-    "change_min": -0.48,
+    "min": 2.01,
+    "same_months_prior_year_min": 2.37,
+    "change_min": -0.36,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.11
+    "month": "2026-10",
+    "min": 2.17
    },
-   "under_threshold": true,
+   "under_threshold": false,
    "under_threshold_prior_year": false,
    "has_since": true,
    "series": [
@@ -300,6 +303,11 @@
      "month": "2026-09",
      "min": 2.11,
      "riders": 395420
+    },
+    {
+     "month": "2026-10",
+     "min": 2.17,
+     "riders": 464599
     }
    ]
   },
@@ -312,18 +320,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.0,
    "since_release": {
-    "min": 2.01,
-    "same_months_prior_year_min": 1.84,
-    "change_min": 0.17,
+    "min": 2.17,
+    "same_months_prior_year_min": 1.97,
+    "change_min": 0.2,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.18
+    "month": "2026-10",
+    "min": 2.64
    },
    "under_threshold": false,
    "under_threshold_prior_year": true,
@@ -463,6 +472,11 @@
      "month": "2026-09",
      "min": 2.18,
      "riders": 594012
+    },
+    {
+     "month": "2026-10",
+     "min": 2.64,
+     "riders": 659663
     }
    ]
   },
@@ -477,18 +491,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.29,
    "since_release": {
-    "min": 2.15,
-    "same_months_prior_year_min": 2.4,
-    "change_min": -0.25,
+    "min": 2.26,
+    "same_months_prior_year_min": 2.3,
+    "change_min": -0.04,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.6
+    "month": "2026-10",
+    "min": 2.58
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -628,6 +643,11 @@
      "month": "2026-09",
      "min": 2.6,
      "riders": 1286170
+    },
+    {
+     "month": "2026-10",
+     "min": 2.58,
+     "riders": 1488796
     }
    ]
   },
@@ -640,18 +660,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.16,
    "since_release": {
-    "min": 2.48,
-    "same_months_prior_year_min": 3.84,
-    "change_min": -1.36,
+    "min": 2.45,
+    "same_months_prior_year_min": 3.48,
+    "change_min": -1.03,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.52
+    "month": "2026-10",
+    "min": 2.37
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -791,6 +812,11 @@
      "month": "2026-09",
      "min": 2.52,
      "riders": 415020
+    },
+    {
+     "month": "2026-10",
+     "min": 2.37,
+     "riders": 444024
     }
    ]
   },
@@ -804,18 +830,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.52,
    "since_release": {
-    "min": 2.17,
-    "same_months_prior_year_min": 2.57,
-    "change_min": -0.4,
+    "min": 2.25,
+    "same_months_prior_year_min": 2.44,
+    "change_min": -0.19,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.27
+    "month": "2026-10",
+    "min": 2.5
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -955,6 +982,11 @@
      "month": "2026-09",
      "min": 2.27,
      "riders": 521576
+    },
+    {
+     "month": "2026-10",
+     "min": 2.5,
+     "riders": 585145
     }
    ]
   },
@@ -968,18 +1000,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.34,
    "since_release": {
-    "min": 2.47,
-    "same_months_prior_year_min": 2.25,
-    "change_min": 0.22,
+    "min": 2.57,
+    "same_months_prior_year_min": 2.27,
+    "change_min": 0.3,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.84
+    "month": "2026-10",
+    "min": 2.83
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -1119,6 +1152,11 @@
      "month": "2026-09",
      "min": 2.84,
      "riders": 913109
+    },
+    {
+     "month": "2026-10",
+     "min": 2.83,
+     "riders": 1016154
     }
    ]
   },
@@ -1132,18 +1170,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.51,
    "since_release": {
-    "min": 3.07,
-    "same_months_prior_year_min": 3.42,
-    "change_min": -0.35,
+    "min": 3.22,
+    "same_months_prior_year_min": 3.4,
+    "change_min": -0.18,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.7
+    "month": "2026-10",
+    "min": 3.65
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -1283,6 +1322,11 @@
      "month": "2026-09",
      "min": 3.7,
      "riders": 738089
+    },
+    {
+     "month": "2026-10",
+     "min": 3.65,
+     "riders": 842487
     }
    ]
   },
@@ -1296,18 +1340,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.98,
    "since_release": {
-    "min": 2.71,
-    "same_months_prior_year_min": 2.94,
-    "change_min": -0.23,
+    "min": 2.81,
+    "same_months_prior_year_min": 2.87,
+    "change_min": -0.06,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.95
+    "month": "2026-10",
+    "min": 3.08
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -1447,6 +1492,11 @@
      "month": "2026-09",
      "min": 2.95,
      "riders": 977104
+    },
+    {
+     "month": "2026-10",
+     "min": 3.08,
+     "riders": 1135884
     }
    ]
   },
@@ -1482,18 +1532,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.31,
    "since_release": {
-    "min": 2.19,
-    "same_months_prior_year_min": 2.27,
-    "change_min": -0.08,
+    "min": 2.21,
+    "same_months_prior_year_min": 2.22,
+    "change_min": -0.01,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.35
+    "month": "2026-10",
+    "min": 2.26
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -1633,6 +1684,11 @@
      "month": "2026-09",
      "min": 2.35,
      "riders": 915835
+    },
+    {
+     "month": "2026-10",
+     "min": 2.26,
+     "riders": 1043025
     }
    ]
   },
@@ -1666,18 +1722,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.14,
    "since_release": {
-    "min": 1.96,
-    "same_months_prior_year_min": 2.16,
-    "change_min": -0.2,
+    "min": 1.97,
+    "same_months_prior_year_min": 2.18,
+    "change_min": -0.21,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.0
+    "month": "2026-10",
+    "min": 1.98
    },
    "under_threshold": true,
    "under_threshold_prior_year": false,
@@ -1817,6 +1874,11 @@
      "month": "2026-09",
      "min": 2.0,
      "riders": 313987
+    },
+    {
+     "month": "2026-10",
+     "min": 1.98,
+     "riders": 357053
     }
    ]
   },
@@ -1831,18 +1893,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.38,
    "since_release": {
-    "min": 3.5,
+    "min": 3.32,
     "same_months_prior_year_min": 3.55,
-    "change_min": -0.05,
+    "change_min": -0.23,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.96
+    "month": "2026-10",
+    "min": 2.86
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -1982,6 +2045,11 @@
      "month": "2026-09",
      "min": 3.96,
      "riders": 864678
+    },
+    {
+     "month": "2026-10",
+     "min": 2.86,
+     "riders": 1072294
     }
    ]
   },
@@ -1995,17 +2063,18 @@
    "baseline_min": 1.27,
    "since_release": {
     "min": 1.38,
-    "same_months_prior_year_min": 1.3,
-    "change_min": 0.08,
+    "same_months_prior_year_min": 1.25,
+    "change_min": 0.13,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 1.37
+    "month": "2026-10",
+    "min": 1.39
    },
    "under_threshold": true,
    "under_threshold_prior_year": true,
@@ -2145,6 +2214,11 @@
      "month": "2026-09",
      "min": 1.37,
      "riders": 198633
+    },
+    {
+     "month": "2026-10",
+     "min": 1.39,
+     "riders": 235648
     }
    ]
   },
@@ -2157,18 +2231,19 @@
    "routes_unmatched": [],
    "baseline_min": 1.18,
    "since_release": {
-    "min": 1.15,
-    "same_months_prior_year_min": 0.91,
+    "min": 1.2,
+    "same_months_prior_year_min": 0.96,
     "change_min": 0.24,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 1.28
+    "month": "2026-10",
+    "min": 1.31
    },
    "under_threshold": true,
    "under_threshold_prior_year": true,
@@ -2308,6 +2383,11 @@
      "month": "2026-09",
      "min": 1.28,
      "riders": 210364
+    },
+    {
+     "month": "2026-10",
+     "min": 1.31,
+     "riders": 258932
     }
    ]
   },
@@ -2342,18 +2422,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.53,
    "since_release": {
-    "min": 2.61,
+    "min": 2.56,
     "same_months_prior_year_min": 2.09,
-    "change_min": 0.52,
+    "change_min": 0.47,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.56
+    "month": "2026-10",
+    "min": 2.41
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -2493,6 +2574,11 @@
      "month": "2026-09",
      "min": 2.56,
      "riders": 289695
+    },
+    {
+     "month": "2026-10",
+     "min": 2.41,
+     "riders": 338656
     }
    ]
   },
@@ -2505,18 +2591,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.31,
    "since_release": {
-    "min": 2.08,
-    "same_months_prior_year_min": 2.23,
-    "change_min": -0.15,
+    "min": 2.2,
+    "same_months_prior_year_min": 2.29,
+    "change_min": -0.09,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.57
+    "month": "2026-10",
+    "min": 2.54
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -2656,6 +2743,11 @@
      "month": "2026-09",
      "min": 2.57,
      "riders": 244093
+    },
+    {
+     "month": "2026-10",
+     "min": 2.54,
+     "riders": 307636
     }
    ]
   },
@@ -2670,18 +2762,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.38,
    "since_release": {
-    "min": 3.5,
+    "min": 3.32,
     "same_months_prior_year_min": 3.55,
-    "change_min": -0.05,
+    "change_min": -0.23,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.96
+    "month": "2026-10",
+    "min": 2.86
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -2821,6 +2914,11 @@
      "month": "2026-09",
      "min": 3.96,
      "riders": 864678
+    },
+    {
+     "month": "2026-10",
+     "min": 2.86,
+     "riders": 1072294
     }
    ]
   },
@@ -2835,18 +2933,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.97,
    "since_release": {
-    "min": 2.61,
-    "same_months_prior_year_min": 3.13,
-    "change_min": -0.52,
+    "min": 2.7,
+    "same_months_prior_year_min": 3.1,
+    "change_min": -0.4,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.36
+    "month": "2026-10",
+    "min": 2.94
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -2986,6 +3085,11 @@
      "month": "2026-09",
      "min": 3.36,
      "riders": 482177
+    },
+    {
+     "month": "2026-10",
+     "min": 2.94,
+     "riders": 542018
     }
    ]
   },
@@ -3001,18 +3105,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.27,
    "since_release": {
-    "min": 1.81,
+    "min": 1.94,
     "same_months_prior_year_min": 2.22,
-    "change_min": -0.41,
+    "change_min": -0.28,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.05
+    "month": "2026-10",
+    "min": 2.3
    },
    "under_threshold": true,
    "under_threshold_prior_year": false,
@@ -3152,6 +3257,11 @@
      "month": "2026-09",
      "min": 2.05,
      "riders": 1014488
+    },
+    {
+     "month": "2026-10",
+     "min": 2.3,
+     "riders": 1284245
     }
    ]
   },
@@ -3187,18 +3297,19 @@
    "routes_unmatched": [],
    "baseline_min": 1.89,
    "since_release": {
-    "min": 1.72,
-    "same_months_prior_year_min": 2.09,
-    "change_min": -0.37,
+    "min": 1.71,
+    "same_months_prior_year_min": 2.04,
+    "change_min": -0.33,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 1.71
+    "month": "2026-10",
+    "min": 1.68
    },
    "under_threshold": true,
    "under_threshold_prior_year": false,
@@ -3338,6 +3449,11 @@
      "month": "2026-09",
      "min": 1.71,
      "riders": 524027
+    },
+    {
+     "month": "2026-10",
+     "min": 1.68,
+     "riders": 576689
     }
    ]
   },
@@ -3372,18 +3488,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.3,
    "since_release": {
-    "min": 2.52,
-    "same_months_prior_year_min": 3.92,
-    "change_min": -1.4,
+    "min": 2.6,
+    "same_months_prior_year_min": 3.76,
+    "change_min": -1.16,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.21
+    "month": "2026-10",
+    "min": 2.82
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -3523,6 +3640,11 @@
      "month": "2026-09",
      "min": 3.21,
      "riders": 539986
+    },
+    {
+     "month": "2026-10",
+     "min": 2.82,
+     "riders": 598057
     }
    ]
   },
@@ -3535,18 +3657,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.92,
    "since_release": {
-    "min": 1.55,
-    "same_months_prior_year_min": 3.57,
-    "change_min": -2.02,
+    "min": 1.59,
+    "same_months_prior_year_min": 3.5,
+    "change_min": -1.91,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.03
+    "month": "2026-10",
+    "min": 1.72
    },
    "under_threshold": true,
    "under_threshold_prior_year": false,
@@ -3686,6 +3809,11 @@
      "month": "2026-09",
      "min": 2.03,
      "riders": 264203
+    },
+    {
+     "month": "2026-10",
+     "min": 1.72,
+     "riders": 287954
     }
    ]
   },
@@ -3700,18 +3828,19 @@
    "routes_unmatched": [],
    "baseline_min": 1.73,
    "since_release": {
-    "min": 1.57,
-    "same_months_prior_year_min": 1.62,
-    "change_min": -0.05,
+    "min": 1.6,
+    "same_months_prior_year_min": 1.6,
+    "change_min": 0.0,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 1.69
+    "month": "2026-10",
+    "min": 1.68
    },
    "under_threshold": true,
    "under_threshold_prior_year": true,
@@ -3851,6 +3980,11 @@
      "month": "2026-09",
      "min": 1.69,
      "riders": 267402
+    },
+    {
+     "month": "2026-10",
+     "min": 1.68,
+     "riders": 299314
     }
    ]
   },
@@ -3865,18 +3999,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.36,
    "since_release": {
-    "min": 2.01,
-    "same_months_prior_year_min": 2.4,
-    "change_min": -0.39,
+    "min": 2.11,
+    "same_months_prior_year_min": 2.43,
+    "change_min": -0.32,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.28
+    "month": "2026-10",
+    "min": 2.35
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -4016,6 +4151,11 @@
      "month": "2026-09",
      "min": 2.28,
      "riders": 482948
+    },
+    {
+     "month": "2026-10",
+     "min": 2.35,
+     "riders": 590860
     }
    ]
   },
@@ -4050,18 +4190,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.19,
    "since_release": {
-    "min": 2.07,
-    "same_months_prior_year_min": 2.28,
-    "change_min": -0.21,
+    "min": 2.0,
+    "same_months_prior_year_min": 2.22,
+    "change_min": -0.22,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.21
+    "month": "2026-10",
+    "min": 1.8
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -4201,6 +4342,11 @@
      "month": "2026-09",
      "min": 2.21,
      "riders": 138405
+    },
+    {
+     "month": "2026-10",
+     "min": 1.8,
+     "riders": 166881
     }
    ]
   },
@@ -4214,18 +4360,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.19,
    "since_release": {
-    "min": 2.07,
-    "same_months_prior_year_min": 2.28,
-    "change_min": -0.21,
+    "min": 2.0,
+    "same_months_prior_year_min": 2.22,
+    "change_min": -0.22,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.21
+    "month": "2026-10",
+    "min": 1.8
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -4365,6 +4512,11 @@
      "month": "2026-09",
      "min": 2.21,
      "riders": 138405
+    },
+    {
+     "month": "2026-10",
+     "min": 1.8,
+     "riders": 166881
     }
    ]
   },
@@ -4378,18 +4530,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.59,
    "since_release": {
-    "min": 2.99,
-    "same_months_prior_year_min": 3.54,
-    "change_min": -0.55,
+    "min": 3.07,
+    "same_months_prior_year_min": 3.44,
+    "change_min": -0.37,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.41
+    "month": "2026-10",
+    "min": 3.3
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -4529,6 +4682,11 @@
      "month": "2026-09",
      "min": 3.41,
      "riders": 408052
+    },
+    {
+     "month": "2026-10",
+     "min": 3.3,
+     "riders": 452521
     }
    ]
   },
@@ -4544,17 +4702,18 @@
    "baseline_min": 1.41,
    "since_release": {
     "min": 1.12,
-    "same_months_prior_year_min": 1.3,
-    "change_min": -0.18,
+    "same_months_prior_year_min": 1.32,
+    "change_min": -0.2,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 1.32
+    "month": "2026-10",
+    "min": 1.11
    },
    "under_threshold": true,
    "under_threshold_prior_year": true,
@@ -4694,6 +4853,11 @@
      "month": "2026-09",
      "min": 1.32,
      "riders": 346269
+    },
+    {
+     "month": "2026-10",
+     "min": 1.11,
+     "riders": 417528
     }
    ]
   },
@@ -4711,18 +4875,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.57,
    "since_release": {
-    "min": 2.36,
-    "same_months_prior_year_min": 2.68,
-    "change_min": -0.32,
+    "min": 2.43,
+    "same_months_prior_year_min": 2.63,
+    "change_min": -0.2,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.59
+    "month": "2026-10",
+    "min": 2.65
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -4862,6 +5027,11 @@
      "month": "2026-09",
      "min": 2.59,
      "riders": 911132
+    },
+    {
+     "month": "2026-10",
+     "min": 2.65,
+     "riders": 1044248
     }
    ]
   },
@@ -4874,18 +5044,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.32,
    "since_release": {
-    "min": 2.77,
-    "same_months_prior_year_min": 3.08,
-    "change_min": -0.31,
+    "min": 2.82,
+    "same_months_prior_year_min": 3.17,
+    "change_min": -0.35,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.14
+    "month": "2026-10",
+    "min": 2.94
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -5025,6 +5196,11 @@
      "month": "2026-09",
      "min": 3.14,
      "riders": 206043
+    },
+    {
+     "month": "2026-10",
+     "min": 2.94,
+     "riders": 263576
     }
    ]
   },
@@ -5058,18 +5234,19 @@
    "routes_unmatched": [],
    "baseline_min": 4.91,
    "since_release": {
-    "min": 4.31,
-    "same_months_prior_year_min": 4.82,
-    "change_min": -0.51,
+    "min": 4.64,
+    "same_months_prior_year_min": 4.94,
+    "change_min": -0.3,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 4.66
+    "month": "2026-10",
+    "min": 5.5
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -5209,6 +5386,11 @@
      "month": "2026-09",
      "min": 4.66,
      "riders": 96497
+    },
+    {
+     "month": "2026-10",
+     "min": 5.5,
+     "riders": 113668
     }
    ]
   },
@@ -5221,18 +5403,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.48,
    "since_release": {
-    "min": 2.09,
-    "same_months_prior_year_min": 2.55,
-    "change_min": -0.46,
+    "min": 2.18,
+    "same_months_prior_year_min": 2.5,
+    "change_min": -0.32,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.64
+    "month": "2026-10",
+    "min": 2.43
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -5372,6 +5555,11 @@
      "month": "2026-09",
      "min": 2.64,
      "riders": 310732
+    },
+    {
+     "month": "2026-10",
+     "min": 2.43,
+     "riders": 376266
     }
    ]
   },
@@ -5385,18 +5573,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.22,
    "since_release": {
-    "min": 3.02,
-    "same_months_prior_year_min": 3.06,
-    "change_min": -0.04,
+    "min": 3.15,
+    "same_months_prior_year_min": 3.1,
+    "change_min": 0.05,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.05
+    "month": "2026-10",
+    "min": 3.5
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -5536,6 +5725,11 @@
      "month": "2026-09",
      "min": 3.05,
      "riders": 689661
+    },
+    {
+     "month": "2026-10",
+     "min": 3.5,
+     "riders": 804254
     }
    ]
   },
@@ -5549,18 +5743,19 @@
    "routes_unmatched": [],
    "baseline_min": 2.66,
    "since_release": {
-    "min": 2.32,
+    "min": 2.33,
     "same_months_prior_year_min": 2.44,
-    "change_min": -0.12,
+    "change_min": -0.11,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.25
+    "month": "2026-10",
+    "min": 2.37
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -5700,6 +5895,11 @@
      "month": "2026-09",
      "min": 2.25,
      "riders": 786833
+    },
+    {
+     "month": "2026-10",
+     "min": 2.37,
+     "riders": 901193
     }
    ]
   },
@@ -5712,18 +5912,19 @@
    "routes_unmatched": [],
    "baseline_min": 4.03,
    "since_release": {
-    "min": 3.88,
-    "same_months_prior_year_min": 3.89,
-    "change_min": -0.01,
+    "min": 3.81,
+    "same_months_prior_year_min": 3.69,
+    "change_min": 0.12,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 4.45
+    "month": "2026-10",
+    "min": 3.6
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -5863,6 +6064,11 @@
      "month": "2026-09",
      "min": 4.45,
      "riders": 561440
+    },
+    {
+     "month": "2026-10",
+     "min": 3.6,
+     "riders": 615145
     }
    ]
   },
@@ -5876,18 +6082,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.95,
    "since_release": {
-    "min": 3.68,
-    "same_months_prior_year_min": 3.79,
-    "change_min": -0.11,
+    "min": 3.69,
+    "same_months_prior_year_min": 3.68,
+    "change_min": 0.01,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 4.2
+    "month": "2026-10",
+    "min": 3.75
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -6027,6 +6234,11 @@
      "month": "2026-09",
      "min": 4.2,
      "riders": 953150
+    },
+    {
+     "month": "2026-10",
+     "min": 3.75,
+     "riders": 1055002
     }
    ]
   },
@@ -6061,18 +6273,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.27,
    "since_release": {
-    "min": 2.53,
-    "same_months_prior_year_min": 2.83,
-    "change_min": -0.3,
+    "min": 2.61,
+    "same_months_prior_year_min": 2.95,
+    "change_min": -0.34,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.96
+    "month": "2026-10",
+    "min": 2.85
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -6212,6 +6425,11 @@
      "month": "2026-09",
      "min": 2.96,
      "riders": 614772
+    },
+    {
+     "month": "2026-10",
+     "min": 2.85,
+     "riders": 707983
     }
    ]
   },
@@ -6245,18 +6463,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.22,
    "since_release": {
-    "min": 2.57,
-    "same_months_prior_year_min": 3.13,
-    "change_min": -0.56,
+    "min": 2.53,
+    "same_months_prior_year_min": 3.14,
+    "change_min": -0.61,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.71
+    "month": "2026-10",
+    "min": 2.39
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -6396,6 +6615,11 @@
      "month": "2026-09",
      "min": 2.71,
      "riders": 678655
+    },
+    {
+     "month": "2026-10",
+     "min": 2.39,
+     "riders": 809996
     }
    ]
   },
@@ -6409,18 +6633,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.04,
    "since_release": {
-    "min": 3.01,
-    "same_months_prior_year_min": 2.89,
-    "change_min": 0.12,
+    "min": 2.9,
+    "same_months_prior_year_min": 2.9,
+    "change_min": 0.0,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 3.15
+    "month": "2026-10",
+    "min": 2.57
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -6560,6 +6785,11 @@
      "month": "2026-09",
      "min": 3.15,
      "riders": 482373
+    },
+    {
+     "month": "2026-10",
+     "min": 2.57,
+     "riders": 561005
     }
    ]
   },
@@ -6573,18 +6803,19 @@
    "routes_unmatched": [],
    "baseline_min": 3.4,
    "since_release": {
-    "min": 2.81,
-    "same_months_prior_year_min": 4.14,
-    "change_min": -1.33,
+    "min": 2.78,
+    "same_months_prior_year_min": 3.88,
+    "change_min": -1.1,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.77
+    "month": "2026-10",
+    "min": 2.71
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -6724,6 +6955,11 @@
      "month": "2026-09",
      "min": 2.77,
      "riders": 85775
+    },
+    {
+     "month": "2026-10",
+     "min": 2.71,
+     "riders": 92212
     }
    ]
   },
@@ -6741,17 +6977,18 @@
    "baseline_min": 2.64,
    "since_release": {
     "min": 2.38,
-    "same_months_prior_year_min": 2.68,
-    "change_min": -0.3,
+    "same_months_prior_year_min": 2.67,
+    "change_min": -0.29,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 2.55
+    "month": "2026-10",
+    "min": 2.36
    },
    "under_threshold": false,
    "under_threshold_prior_year": false,
@@ -6891,6 +7128,11 @@
      "month": "2026-09",
      "min": 2.55,
      "riders": 193544
+    },
+    {
+     "month": "2026-10",
+     "min": 2.36,
+     "riders": 240666
     }
    ]
   },
@@ -6906,18 +7148,19 @@
    "routes_unmatched": [],
    "baseline_min": 1.99,
    "since_release": {
-    "min": 1.57,
-    "same_months_prior_year_min": 2.01,
-    "change_min": -0.44,
+    "min": 1.6,
+    "same_months_prior_year_min": 2.03,
+    "change_min": -0.43,
     "months": [
      "2026-07",
      "2026-08",
-     "2026-09"
+     "2026-09",
+     "2026-10"
     ]
    },
    "latest": {
-    "month": "2026-09",
-    "min": 1.77
+    "month": "2026-10",
+    "min": 1.7
    },
    "under_threshold": true,
    "under_threshold_prior_year": false,
@@ -7057,6 +7300,11 @@
      "month": "2026-09",
      "min": 1.77,
      "riders": 443733
+    },
+    {
+     "month": "2026-10",
+     "min": 1.7,
+     "riders": 509113
     }
    ]
   }
