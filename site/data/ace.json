@@ -1,80 +1,80 @@
 {
- "generated": "2026-11-13",
+ "generated": "2026-11-14",
  "summary": {
   "all_routes": {
-   "n_routes": 42,
-   "median_did_pct": 0.04,
-   "mean_did_pct": 0.09,
-   "mean_ci95_lo": -0.33,
-   "mean_ci95_hi": 0.55,
-   "mean_ci95_clustered_by_activation_date_lo": -0.28,
-   "mean_ci95_clustered_by_activation_date_hi": 0.5,
-   "share_improved_vs_control": 0.548
+   "n_routes": 44,
+   "median_did_pct": 0.08,
+   "mean_did_pct": 0.16,
+   "mean_ci95_lo": -0.26,
+   "mean_ci95_hi": 0.59,
+   "mean_ci95_clustered_by_activation_date_lo": -0.21,
+   "mean_ci95_clustered_by_activation_date_hi": 0.54,
+   "share_improved_vs_control": 0.568
   },
   "excluding_pandemic_overlap": {
-   "n_routes": 42,
-   "median_did_pct": 0.04,
-   "mean_did_pct": 0.09,
-   "mean_ci95_lo": -0.33,
-   "mean_ci95_hi": 0.55,
-   "mean_ci95_clustered_by_activation_date_lo": -0.28,
-   "mean_ci95_clustered_by_activation_date_hi": 0.5,
-   "share_improved_vs_control": 0.548
+   "n_routes": 44,
+   "median_did_pct": 0.08,
+   "mean_did_pct": 0.16,
+   "mean_ci95_lo": -0.26,
+   "mean_ci95_hi": 0.6,
+   "mean_ci95_clustered_by_activation_date_lo": -0.21,
+   "mean_ci95_clustered_by_activation_date_hi": 0.55,
+   "share_improved_vs_control": 0.568
   },
   "pandemic_overlap_routes": 0,
   "bootstrap": "10000 resamples of routes with replacement, seed 20261109; percentile interval",
   "unit": "did_pct = treated % change minus control % change, percentage points",
   "excluding_queens_redesign_overlap": {
-   "n_routes": 36,
-   "median_did_pct": 0.04,
-   "mean_did_pct": -0.11,
-   "mean_ci95_lo": -0.48,
-   "mean_ci95_hi": 0.24,
-   "mean_ci95_clustered_by_activation_date_lo": -0.44,
-   "mean_ci95_clustered_by_activation_date_hi": 0.22,
-   "share_improved_vs_control": 0.528
+   "n_routes": 38,
+   "median_did_pct": 0.06,
+   "mean_did_pct": -0.01,
+   "mean_ci95_lo": -0.39,
+   "mean_ci95_hi": 0.34,
+   "mean_ci95_clustered_by_activation_date_lo": -0.35,
+   "mean_ci95_clustered_by_activation_date_hi": 0.36,
+   "share_improved_vs_control": 0.553
   },
   "excluding_controls_sharing_a_corridor": {
-   "n_routes": 42,
-   "median_did_pct": 0.04,
-   "mean_did_pct": 0.09,
-   "mean_ci95_lo": -0.34,
-   "mean_ci95_hi": 0.55,
-   "mean_ci95_clustered_by_activation_date_lo": -0.31,
-   "mean_ci95_clustered_by_activation_date_hi": 0.49,
-   "share_improved_vs_control": 0.548
+   "n_routes": 44,
+   "median_did_pct": 0.08,
+   "mean_did_pct": 0.15,
+   "mean_ci95_lo": -0.28,
+   "mean_ci95_hi": 0.6,
+   "mean_ci95_clustered_by_activation_date_lo": -0.24,
+   "mean_ci95_clustered_by_activation_date_hi": 0.55,
+   "share_improved_vs_control": 0.568
   },
   "queens_redesign_overlap_routes": 6,
   "excluding_pandemic_first_program_ACE": {
-   "n_routes": 32,
-   "median_did_pct": 0.04,
-   "mean_did_pct": 0.06,
-   "mean_ci95_lo": -0.47,
-   "mean_ci95_hi": 0.61,
-   "mean_ci95_clustered_by_activation_date_lo": -0.42,
-   "mean_ci95_clustered_by_activation_date_hi": 0.52,
-   "share_improved_vs_control": 0.531
+   "n_routes": 34,
+   "median_did_pct": 0.1,
+   "mean_did_pct": 0.15,
+   "mean_ci95_lo": -0.35,
+   "mean_ci95_hi": 0.67,
+   "mean_ci95_clustered_by_activation_date_lo": -0.31,
+   "mean_ci95_clustered_by_activation_date_hi": 0.59,
+   "share_improved_vs_control": 0.559
   },
   "excluding_pandemic_first_program_ABLE": {
    "n_routes": 10,
    "median_did_pct": 0.05,
    "mean_did_pct": 0.22,
-   "mean_ci95_lo": -0.42,
-   "mean_ci95_hi": 0.89,
-   "mean_ci95_clustered_by_activation_date_lo": -0.35,
-   "mean_ci95_clustered_by_activation_date_hi": 1.22,
+   "mean_ci95_lo": -0.41,
+   "mean_ci95_hi": 0.87,
+   "mean_ci95_clustered_by_activation_date_lo": -0.33,
+   "mean_ci95_clustered_by_activation_date_hi": 1.16,
    "share_improved_vs_control": 0.6
   },
   "placebo_fake_activation_12_months_early": {
    "note": "same method with activation moved 12 months before the real date, using only pre-camera months; a mean far from 0 means treated and control routes were already drifting apart",
-   "n_routes": 36,
-   "median_did_pct": 0.27,
-   "mean_did_pct": 0.36,
-   "mean_ci95_lo": -0.07,
-   "mean_ci95_hi": 0.78,
-   "mean_ci95_clustered_by_activation_date_lo": -0.08,
-   "mean_ci95_clustered_by_activation_date_hi": 0.83,
-   "share_improved_vs_control": 0.667
+   "n_routes": 38,
+   "median_did_pct": 0.21,
+   "mean_did_pct": 0.32,
+   "mean_ci95_lo": -0.1,
+   "mean_ci95_hi": 0.73,
+   "mean_ci95_clustered_by_activation_date_lo": -0.09,
+   "mean_ci95_clustered_by_activation_date_hi": 0.77,
+   "share_improved_vs_control": 0.658
   }
  },
  "routes": [
@@ -82,36 +82,54 @@
    "route": "B11",
    "program": "ACE",
    "activated": "2025-11-10",
-   "before_mph": 5.577,
-   "after_mph": 5.595,
-   "change_pct": 0.33,
-   "control_change_pct": -0.58,
-   "did_pct": 0.91,
-   "months_after": 10,
+   "before_mph": 5.582,
+   "after_mph": 5.583,
+   "change_pct": 0.02,
+   "control_change_pct": -0.77,
+   "did_pct": 0.79,
+   "months_after": 11,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
    "borough": "Brooklyn",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 35,
+   "n_control_routes": 33,
    "second_camera_program": null
   },
   {
    "route": "B12",
    "program": "ACE",
    "activated": "2026-03-16",
-   "before_mph": 5.782,
-   "after_mph": 5.726,
-   "change_pct": -0.97,
-   "control_change_pct": -0.1,
-   "did_pct": -0.88,
+   "before_mph": 5.776,
+   "after_mph": 5.692,
+   "change_pct": -1.46,
+   "control_change_pct": -0.52,
+   "did_pct": -0.94,
+   "months_after": 7,
+   "pandemic_overlap": false,
+   "redesign_overlap": false,
+   "bronx_redesign_overlap": false,
+   "borough": "Brooklyn",
+   "trip_type": "LCL/LTD",
+   "n_control_routes": 33,
+   "second_camera_program": null
+  },
+  {
+   "route": "B15",
+   "program": "ACE",
+   "activated": "2026-04-13",
+   "before_mph": 7.445,
+   "after_mph": 7.467,
+   "change_pct": 0.29,
+   "control_change_pct": -0.79,
+   "did_pct": 1.08,
    "months_after": 6,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
    "borough": "Brooklyn",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 35,
+   "n_control_routes": 33,
    "second_camera_program": null
   },
   {
@@ -208,18 +226,18 @@
    "route": "B60",
    "program": "ACE",
    "activated": "2025-12-08",
-   "before_mph": 6.466,
-   "after_mph": 6.426,
-   "change_pct": -0.62,
-   "control_change_pct": -0.66,
-   "did_pct": 0.04,
-   "months_after": 9,
+   "before_mph": 6.463,
+   "after_mph": 6.414,
+   "change_pct": -0.76,
+   "control_change_pct": -0.88,
+   "did_pct": 0.11,
+   "months_after": 10,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
    "borough": "Brooklyn",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 35,
+   "n_control_routes": 33,
    "second_camera_program": null
   },
   {
@@ -244,48 +262,48 @@
    "route": "B63",
    "program": "ACE",
    "activated": "2025-11-10",
-   "before_mph": 5.615,
-   "after_mph": 5.621,
-   "change_pct": 0.12,
-   "control_change_pct": -0.58,
-   "did_pct": 0.69,
-   "months_after": 10,
+   "before_mph": 5.607,
+   "after_mph": 5.617,
+   "change_pct": 0.18,
+   "control_change_pct": -0.77,
+   "did_pct": 0.95,
+   "months_after": 11,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
    "borough": "Brooklyn",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 35,
+   "n_control_routes": 33,
    "second_camera_program": null
   },
   {
    "route": "B68",
    "program": "ACE",
    "activated": "2025-12-08",
-   "before_mph": 7.262,
+   "before_mph": 7.253,
    "after_mph": 7.163,
-   "change_pct": -1.36,
-   "control_change_pct": -0.66,
-   "did_pct": -0.7,
-   "months_after": 9,
+   "change_pct": -1.25,
+   "control_change_pct": -0.88,
+   "did_pct": -0.37,
+   "months_after": 10,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
    "borough": "Brooklyn",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 35,
+   "n_control_routes": 33,
    "second_camera_program": null
   },
   {
    "route": "BX15",
    "program": "ACE",
    "activated": "2025-11-10",
-   "before_mph": 6.535,
-   "after_mph": 6.515,
-   "change_pct": -0.32,
-   "control_change_pct": -0.48,
-   "did_pct": 0.16,
-   "months_after": 10,
+   "before_mph": 6.534,
+   "after_mph": 6.503,
+   "change_pct": -0.47,
+   "control_change_pct": -0.55,
+   "did_pct": 0.08,
+   "months_after": 11,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
@@ -496,12 +514,12 @@
    "route": "BX9",
    "program": "ACE",
    "activated": "2025-11-10",
-   "before_mph": 6.349,
-   "after_mph": 6.265,
-   "change_pct": -1.33,
-   "control_change_pct": -0.48,
-   "did_pct": -0.85,
-   "months_after": 10,
+   "before_mph": 6.337,
+   "after_mph": 6.245,
+   "change_pct": -1.46,
+   "control_change_pct": -0.55,
+   "did_pct": -0.91,
+   "months_after": 11,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
@@ -583,6 +601,24 @@
    "second_camera_program": null
   },
   {
+   "route": "M31",
+   "program": "ACE",
+   "activated": "2026-04-13",
+   "before_mph": 4.854,
+   "after_mph": 4.974,
+   "change_pct": 2.47,
+   "control_change_pct": 0.57,
+   "did_pct": 1.9,
+   "months_after": 6,
+   "pandemic_overlap": false,
+   "redesign_overlap": false,
+   "bronx_redesign_overlap": false,
+   "borough": "Manhattan",
+   "trip_type": "LCL/LTD",
+   "n_control_routes": 22,
+   "second_camera_program": null
+  },
+  {
    "route": "M4",
    "program": "ACE",
    "activated": "2025-05-19",
@@ -622,12 +658,12 @@
    "route": "M57",
    "program": "ACE",
    "activated": "2025-12-08",
-   "before_mph": 4.738,
-   "after_mph": 4.721,
-   "change_pct": -0.35,
-   "control_change_pct": 0.76,
-   "did_pct": -1.11,
-   "months_after": 9,
+   "before_mph": 4.726,
+   "after_mph": 4.713,
+   "change_pct": -0.29,
+   "control_change_pct": 0.62,
+   "did_pct": -0.92,
+   "months_after": 10,
    "pandemic_overlap": false,
    "redesign_overlap": false,
    "bronx_redesign_overlap": false,
@@ -658,36 +694,36 @@
    "route": "Q17",
    "program": "ACE",
    "activated": "2026-02-16",
-   "before_mph": 8.111,
-   "after_mph": 8.351,
-   "change_pct": 2.96,
-   "control_change_pct": 1.96,
-   "did_pct": 0.99,
-   "months_after": 7,
+   "before_mph": 8.127,
+   "after_mph": 8.34,
+   "change_pct": 2.62,
+   "control_change_pct": 1.79,
+   "did_pct": 0.83,
+   "months_after": 8,
    "pandemic_overlap": false,
    "redesign_overlap": true,
    "bronx_redesign_overlap": false,
    "borough": "Queens",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 58,
+   "n_control_routes": 57,
    "second_camera_program": null
   },
   {
    "route": "Q27",
    "program": "ACE",
    "activated": "2026-02-16",
-   "before_mph": 9.342,
-   "after_mph": 9.854,
-   "change_pct": 5.48,
-   "control_change_pct": 1.96,
-   "did_pct": 3.51,
-   "months_after": 7,
+   "before_mph": 9.356,
+   "after_mph": 9.834,
+   "change_pct": 5.11,
+   "control_change_pct": 1.79,
+   "did_pct": 3.31,
+   "months_after": 8,
    "pandemic_overlap": false,
    "redesign_overlap": true,
    "bronx_redesign_overlap": false,
    "borough": "Queens",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 58,
+   "n_control_routes": 57,
    "second_camera_program": null
   },
   {
@@ -784,18 +820,18 @@
    "route": "Q60",
    "program": "ACE",
    "activated": "2026-03-16",
-   "before_mph": 7.267,
-   "after_mph": 7.306,
-   "change_pct": 0.53,
-   "control_change_pct": 1.99,
-   "did_pct": -1.46,
-   "months_after": 6,
+   "before_mph": 7.268,
+   "after_mph": 7.291,
+   "change_pct": 0.32,
+   "control_change_pct": 1.76,
+   "did_pct": -1.44,
+   "months_after": 7,
    "pandemic_overlap": false,
    "redesign_overlap": true,
    "bronx_redesign_overlap": false,
    "borough": "Queens",
    "trip_type": "LCL/LTD",
-   "n_control_routes": 58,
+   "n_control_routes": 57,
    "second_camera_program": null
   },
   {
@@ -838,151 +874,143 @@
  "excluded": [
   {
    "route": "B1",
-   "reason": "activated 2026-10-12: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-10-12: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "B103",
-   "reason": "activated 2026-07-13: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
-  },
-  {
-   "route": "B15",
-   "reason": "activated 2026-04-13: only 5 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-07-13: only 3 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "B38",
-   "reason": "activated 2026-07-13: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-07-13: only 3 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "B44+",
-   "reason": "activated 2019-10-30: only 1 eligible control routes in Brooklyn SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2019-10-30: only 1 eligible control routes in Brooklyn SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "B46+",
-   "reason": "activated 2020-02-19: only 1 eligible control routes in Brooklyn SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2020-02-19: only 1 eligible control routes in Brooklyn SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "B6",
-   "reason": "activated 2026-10-12: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-10-12: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "B8",
-   "reason": "activated 2026-08-17: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-08-17: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "B82+",
-   "reason": "activated 2024-09-30: only 0 eligible control routes in Brooklyn SBS (need 5); bus-speed data ends 2026-09"
+   "reason": "activated 2024-09-30: only 0 eligible control routes in Brooklyn SBS (need 5); bus-speed data ends 2026-10"
   },
   {
    "route": "B9",
-   "reason": "activated 2026-08-17: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-08-17: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "BX11",
-   "reason": "activated 2026-07-13: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-07-13: only 3 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "BX12+",
-   "reason": "activated 2022-11-18: only 1 eligible control routes in Bronx SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2022-11-18: only 1 eligible control routes in Bronx SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "BX17",
-   "reason": "activated 2026-07-13: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-07-13: only 3 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "BX21",
-   "reason": "activated 2026-08-17: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-08-17: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "BX41+",
-   "reason": "activated 2022-11-18: only 1 eligible control routes in Bronx SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2022-11-18: only 1 eligible control routes in Bronx SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "BX6+",
-   "reason": "activated 2024-09-30: only 0 eligible control routes in Bronx SBS (need 5); bus-speed data ends 2026-09"
+   "reason": "activated 2024-09-30: only 0 eligible control routes in Bronx SBS (need 5); bus-speed data ends 2026-10"
   },
   {
    "route": "M14+",
-   "reason": "activated 2019-11-21: only 4 matched before/after month pairs (need 6); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2019-11-21: only 4 matched before/after month pairs (need 6); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "M15+",
-   "reason": "activated 2019-10-07: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2019-10-07: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "M23+",
-   "reason": "activated 2020-08-10: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
-  },
-  {
-   "route": "M31",
-   "reason": "activated 2026-04-13: only 5 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2020-08-10: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "M34+",
-   "reason": "activated 2020-08-10: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2020-08-10: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "M60+",
-   "reason": "activated 2024-09-30: only 0 eligible control routes in Manhattan SBS (need 5); bus-speed data ends 2026-09"
+   "reason": "activated 2024-09-30: only 0 eligible control routes in Manhattan SBS (need 5); bus-speed data ends 2026-10"
   },
   {
    "route": "M7",
-   "reason": "activated 2026-05-11: only 4 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-05-11: only 5 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "M79+",
-   "reason": "activated 2024-09-30: only 0 eligible control routes in Manhattan SBS (need 5); bus-speed data ends 2026-09"
+   "reason": "activated 2024-09-30: only 0 eligible control routes in Manhattan SBS (need 5); bus-speed data ends 2026-10"
   },
   {
    "route": "M86+",
-   "reason": "activated 2020-08-10: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-09-30; bus-speed data ends 2026-09"
+   "reason": "activated 2020-08-10: only 2 eligible control routes in Manhattan SBS (need 5); second camera program starts 2024-09-30; bus-speed data ends 2026-10"
   },
   {
    "route": "Q10",
-   "reason": "activated 2026-05-11: only 4 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-05-11: only 5 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q101",
-   "reason": "activated 2026-08-17: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-08-17: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q25",
-   "reason": "activated 2026-09-14: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-09-14: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q44+",
-   "reason": "activated 2022-10-03: only 3 eligible control routes in Queens SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-09"
+   "reason": "activated 2022-10-03: only 3 eligible control routes in Queens SBS (need 5); second camera program starts 2024-06-20; bus-speed data ends 2026-10"
   },
   {
    "route": "Q53+",
-   "reason": "activated 2024-09-30: only 2 eligible control routes in Queens SBS (need 5); bus-speed data ends 2026-09"
+   "reason": "activated 2024-09-30: only 2 eligible control routes in Queens SBS (need 5); bus-speed data ends 2026-10"
   },
   {
    "route": "Q63",
-   "reason": "activated 2026-09-14: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-09-14: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q65",
-   "reason": "activated 2026-10-12: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-10-12: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q66",
-   "reason": "activated 2026-09-14: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-09-14: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q8",
-   "reason": "activated 2026-06-15: only 3 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-06-15: only 4 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "Q80",
-   "reason": "activated 2026-05-11: only 1 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-05-11: only 2 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "S61",
-   "reason": "activated 2026-11-09: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-09"
+   "reason": "activated 2026-11-09: only 0 matched before/after month pairs (need 6); bus-speed data ends 2026-10"
   },
   {
    "route": "S79+",
-   "reason": "activated 2022-10-31: only 0 eligible control routes in Staten Island SBS (need 5); second camera program starts 2024-09-16; bus-speed data ends 2026-09"
+   "reason": "activated 2022-10-31: only 0 eligible control routes in Staten Island SBS (need 5); second camera program starts 2024-09-16; bus-speed data ends 2026-10"
   }
  ],
  "caveats": [
@@ -990,7 +1018,7 @@
   "Each camera route is compared with routes in the same borough and trip type that never had cameras. Those routes can still differ in road work, service changes, and Manhattan congestion pricing, which began 2025-01-05 and falls in the before months of the 2025 Manhattan routes.",
   "Queens bus routes were redesigned in phases in mid 2025 (this tracker flags June to September 2025). Queens routes whose before or after months include that period (this run: Q17, Q27, Q5, Q6, Q60, Q69) mix the redesign with any camera effect. Read them with care. The summary is also given without those routes.",
   "The Bronx Local Bus Network Redesign took effect in late June 2022. Bronx routes whose before and after months straddle it (this run: BX19, BX35) mix the redesign with any camera effect. They are flagged in the data but not removed.",
-  "Some comparison routes run in the same bus lanes as camera routes (for example the Madison Av routes M1 and M3 beside M2 and M4). Cameras ticket every vehicle in the lane, so these routes may also benefit, which would push the measured difference toward zero. As a check, the summary also gives a version without comparison routes that share a corridor with the camera route, using the corridor maps of the 50 Priority Corridors, so it catches only some overlaps. Mean difference in this run: 0.09 points without them, 0.09 with them.",
+  "Some comparison routes run in the same bus lanes as camera routes (for example the Madison Av routes M1 and M3 beside M2 and M4). Cameras ticket every vehicle in the lane, so these routes may also benefit, which would push the measured difference toward zero. As a check, the summary also gives a version without comparison routes that share a corridor with the camera route, using the corridor maps of the 50 Priority Corridors, so it catches only some overlaps. Mean difference in this run: 0.15 points without them, 0.16 with them.",
   "Almost all Select Bus Service (SBS) routes have cameras, so too few SBS routes without cameras remain to compare against. The results are really about local and limited routes.",
   "Many routes started on the same dates and share comparison routes, so their results are not independent. The interval shown on the page is the wider of two intervals we compute, so it does not overstate the certainty.",
   "Speed is measured over the whole route, but cameras cover only part of it, which dilutes any effect.",
@@ -999,6 +1027,6 @@
   "Comparison routes that share a corridor name with a camera route (for example B44 local and B44 SBS) are left out.",
   "Routes whose cameras started in 2019 or earlier lack a full year of earlier data (the series starts 2019-01) and are excluded.",
   "March 2020 to June 2021 (the pandemic) is flagged. Results are given with and without those routes. None of the routes overlap it in this run.",
-  "Check with fake dates: moving each start date a year earlier, when no camera was present, gave an average of 0.36 points against 0.09 for the real dates. That is larger than the main result, so the method's own drift is about as big as the effect it is trying to measure and the result is within noise."
+  "Check with fake dates: moving each start date a year earlier, when no camera was present, gave an average of 0.32 points against 0.16 for the real dates. That is larger than the main result, so the method's own drift is about as big as the effect it is trying to measure and the result is within noise."
  ]
 }

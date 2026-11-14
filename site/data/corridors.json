@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-09",
- "data_through": "2026-09",
+ "generated": "2026-11-14",
+ "data_through": "2026-10",
  "plan_released": "2026-07",
  "inputs": {
   "corridor_files_sha256_12": {
@@ -23,13 +23,14 @@
   "post_plan_months": [
    "2026-07",
    "2026-08",
-   "2026-09"
+   "2026-09",
+   "2026-10"
   ],
   "tracked_baseline_mph": 6.93,
-  "tracked_latest_mph": 6.87,
-  "tracked_post_plan_mph": 7.02,
-  "tracked_same_months_prior_year_mph": 7.01,
-  "tracked_post_plan_change_pct": 0.2,
+  "tracked_latest_mph": 6.88,
+  "tracked_post_plan_mph": 6.98,
+  "tracked_same_months_prior_year_mph": 6.99,
+  "tracked_post_plan_change_pct": -0.0,
   "shared_segment_pairs": [
    [
     30,
@@ -61,16 +62,16 @@
    "baseline_mph": 6.62,
    "target_mph": 7.94,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.63,
-    "yoy_pct": 3.8,
-    "vs_baseline_pct": 0.1
+    "month": "2026-10",
+    "mph": 6.57,
+    "yoy_pct": -0.8,
+    "vs_baseline_pct": -0.8
    },
    "post_plan": {
-    "mph": 6.75,
+    "mph": 6.71,
     "same_months_prior_year_mph": 6.6,
-    "change_pct": 2.4,
-    "months": 3
+    "change_pct": 1.6,
+    "months": 4
    },
    "series": [
     {
@@ -147,6 +148,11 @@
      "month": "2026-09",
      "mph": 6.63,
      "trips": 6915
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.57,
+     "trips": 7047
     }
    ],
    "consistent_series": [
@@ -224,6 +230,11 @@
      "month": "2026-09",
      "mph": 6.63,
      "trips": 6915
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.57,
+     "trips": 7047
     }
    ],
    "segments": [
@@ -238,7 +249,7 @@
      "to_lon": -73.853148,
      "miles": 0.719,
      "baseline_mph": 7.11,
-     "latest_mph": 7.12,
+     "latest_mph": 7.02,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -253,7 +264,7 @@
      "to_lon": -73.866829,
      "miles": 0.684,
      "baseline_mph": 6.35,
-     "latest_mph": 6.36,
+     "latest_mph": 6.32,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -268,7 +279,7 @@
      "to_lon": -73.853148,
      "miles": 0.719,
      "baseline_mph": 6.88,
-     "latest_mph": 6.79,
+     "latest_mph": 6.74,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -283,7 +294,7 @@
      "to_lon": -73.866829,
      "miles": 0.685,
      "baseline_mph": 6.09,
-     "latest_mph": 6.18,
+     "latest_mph": 6.12,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -313,16 +324,16 @@
    "baseline_mph": 4.45,
    "target_mph": 5.34,
    "latest": {
-    "month": "2026-09",
-    "mph": 4.43,
-    "yoy_pct": 0.2,
-    "vs_baseline_pct": -0.3
+    "month": "2026-10",
+    "mph": 4.4,
+    "yoy_pct": -0.4,
+    "vs_baseline_pct": -1.0
    },
    "post_plan": {
-    "mph": 4.49,
-    "same_months_prior_year_mph": 4.5,
+    "mph": 4.47,
+    "same_months_prior_year_mph": 4.48,
     "change_pct": -0.4,
-    "months": 3
+    "months": 4
    },
    "series": [
     {
@@ -399,6 +410,11 @@
      "month": "2026-09",
      "mph": 4.43,
      "trips": 6354
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.4,
+     "trips": 5983
     }
    ],
    "consistent_series": [
@@ -476,6 +492,11 @@
      "month": "2026-09",
      "mph": 4.43,
      "trips": 6354
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.4,
+     "trips": 5983
     }
    ],
    "segments": [
@@ -490,7 +511,7 @@
      "to_lon": -73.89673,
      "miles": 0.684,
      "baseline_mph": 4.22,
-     "latest_mph": 4.23,
+     "latest_mph": 4.14,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -505,7 +526,7 @@
      "to_lon": -73.889882,
      "miles": 0.725,
      "baseline_mph": 4.69,
-     "latest_mph": 4.65,
+     "latest_mph": 4.69,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -536,16 +557,16 @@
    "baseline_mph": 5.26,
    "target_mph": 6.31,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.19,
-    "yoy_pct": -0.6,
-    "vs_baseline_pct": -1.4
+    "month": "2026-10",
+    "mph": 5.21,
+    "yoy_pct": 1.3,
+    "vs_baseline_pct": -1.0
    },
    "post_plan": {
     "mph": 5.21,
-    "same_months_prior_year_mph": 5.28,
-    "change_pct": -1.4,
-    "months": 3
+    "same_months_prior_year_mph": 5.24,
+    "change_pct": -0.7,
+    "months": 4
    },
    "series": [
     {
@@ -622,6 +643,11 @@
      "month": "2026-09",
      "mph": 5.19,
      "trips": 7780
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.21,
+     "trips": 7457
     }
    ],
    "consistent_series": [
@@ -699,6 +725,11 @@
      "month": "2026-09",
      "mph": 5.19,
      "trips": 7780
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.21,
+     "trips": 7457
     }
    ],
    "segments": [
@@ -758,7 +789,7 @@
      "to_lon": -73.890431,
      "miles": 0.311,
      "baseline_mph": 5.29,
-     "latest_mph": 4.92,
+     "latest_mph": 5.9,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -803,7 +834,7 @@
      "to_lon": -73.890431,
      "miles": 0.2,
      "baseline_mph": 4.06,
-     "latest_mph": 4.22,
+     "latest_mph": 4.05,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -863,7 +894,7 @@
      "to_lon": -73.895647,
      "miles": 0.247,
      "baseline_mph": 5.11,
-     "latest_mph": 5.49,
+     "latest_mph": 5.64,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -878,7 +909,7 @@
      "to_lon": -73.908655,
      "miles": 0.184,
      "baseline_mph": 6.56,
-     "latest_mph": 6.71,
+     "latest_mph": 6.74,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -893,7 +924,7 @@
      "to_lon": -73.905143,
      "miles": 0.512,
      "baseline_mph": 5.91,
-     "latest_mph": 5.48,
+     "latest_mph": 5.5,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -908,7 +939,7 @@
      "to_lon": -73.895709,
      "miles": 0.313,
      "baseline_mph": 4.7,
-     "latest_mph": 4.74,
+     "latest_mph": 4.77,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -938,16 +969,16 @@
    "baseline_mph": 6.16,
    "target_mph": 7.39,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.18,
-    "yoy_pct": 3.2,
-    "vs_baseline_pct": 0.4
+    "month": "2026-10",
+    "mph": 6.12,
+    "yoy_pct": -0.2,
+    "vs_baseline_pct": -0.6
    },
    "post_plan": {
-    "mph": 6.26,
-    "same_months_prior_year_mph": 6.15,
-    "change_pct": 1.9,
-    "months": 3
+    "mph": 6.23,
+    "same_months_prior_year_mph": 6.14,
+    "change_pct": 1.4,
+    "months": 4
    },
    "series": [
     {
@@ -1024,6 +1055,11 @@
      "month": "2026-09",
      "mph": 6.18,
      "trips": 4171
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.12,
+     "trips": 4127
     }
    ],
    "consistent_series": [
@@ -1101,6 +1137,11 @@
      "month": "2026-09",
      "mph": 6.18,
      "trips": 4171
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.12,
+     "trips": 4127
     }
    ],
    "segments": [
@@ -1115,7 +1156,7 @@
      "to_lon": -73.857336,
      "miles": 1.16,
      "baseline_mph": 10.14,
-     "latest_mph": 9.5,
+     "latest_mph": 9.58,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1130,7 +1171,7 @@
      "to_lon": -73.866027,
      "miles": 3.128,
      "baseline_mph": 6.06,
-     "latest_mph": 6.06,
+     "latest_mph": 6.02,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1145,7 +1186,7 @@
      "to_lon": -73.866304,
      "miles": 1.186,
      "baseline_mph": 12.0,
-     "latest_mph": 11.12,
+     "latest_mph": 10.76,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1160,7 +1201,7 @@
      "to_lon": -73.862876,
      "miles": 3.172,
      "baseline_mph": 6.18,
-     "latest_mph": 6.24,
+     "latest_mph": 6.16,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -1191,16 +1232,16 @@
    "baseline_mph": 7.17,
    "target_mph": 8.61,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.14,
-    "yoy_pct": -1.0,
-    "vs_baseline_pct": -0.4
+    "month": "2026-10",
+    "mph": 7.13,
+    "yoy_pct": -0.8,
+    "vs_baseline_pct": -0.6
    },
    "post_plan": {
-    "mph": 7.26,
-    "same_months_prior_year_mph": 7.21,
-    "change_pct": 0.7,
-    "months": 3
+    "mph": 7.23,
+    "same_months_prior_year_mph": 7.2,
+    "change_pct": 0.3,
+    "months": 4
    },
    "series": [
     {
@@ -1277,6 +1318,11 @@
      "month": "2026-09",
      "mph": 7.14,
      "trips": 9411
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.13,
+     "trips": 9324
     }
    ],
    "consistent_series": [
@@ -1354,6 +1400,11 @@
      "month": "2026-09",
      "mph": 7.14,
      "trips": 9411
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.13,
+     "trips": 9324
     }
    ],
    "segments": [
@@ -1368,7 +1419,7 @@
      "to_lon": -73.842224,
      "miles": 0.649,
      "baseline_mph": 6.48,
-     "latest_mph": 6.61,
+     "latest_mph": 6.67,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1383,7 +1434,7 @@
      "to_lon": -73.821205,
      "miles": 1.614,
      "baseline_mph": 8.59,
-     "latest_mph": 8.63,
+     "latest_mph": 8.43,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1398,7 +1449,7 @@
      "to_lon": -73.842275,
      "miles": 1.556,
      "baseline_mph": 7.94,
-     "latest_mph": 7.83,
+     "latest_mph": 7.74,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1413,7 +1464,7 @@
      "to_lon": -73.853124,
      "miles": 0.625,
      "baseline_mph": 5.55,
-     "latest_mph": 5.47,
+     "latest_mph": 5.64,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1428,7 +1479,7 @@
      "to_lon": -73.842224,
      "miles": 0.649,
      "baseline_mph": 6.16,
-     "latest_mph": 6.43,
+     "latest_mph": 6.46,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1443,7 +1494,7 @@
      "to_lon": -73.842275,
      "miles": 1.556,
      "baseline_mph": 7.79,
-     "latest_mph": 7.8,
+     "latest_mph": 7.65,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1458,7 +1509,7 @@
      "to_lon": -73.853124,
      "miles": 0.625,
      "baseline_mph": 5.45,
-     "latest_mph": 5.09,
+     "latest_mph": 5.27,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -1489,16 +1540,16 @@
    "baseline_mph": 6.11,
    "target_mph": 7.34,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.08,
-    "yoy_pct": 1.0,
-    "vs_baseline_pct": -0.6
+    "month": "2026-10",
+    "mph": 5.99,
+    "yoy_pct": -2.4,
+    "vs_baseline_pct": -2.1
    },
    "post_plan": {
-    "mph": 6.16,
-    "same_months_prior_year_mph": 6.05,
-    "change_pct": 1.8,
-    "months": 3
+    "mph": 6.12,
+    "same_months_prior_year_mph": 6.07,
+    "change_pct": 0.7,
+    "months": 4
    },
    "series": [
     {
@@ -1575,6 +1626,11 @@
      "month": "2026-09",
      "mph": 6.08,
      "trips": 16572
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.99,
+     "trips": 16599
     }
    ],
    "consistent_series": [
@@ -1652,6 +1708,11 @@
      "month": "2026-09",
      "mph": 6.08,
      "trips": 16572
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.99,
+     "trips": 16599
     }
    ],
    "segments": [
@@ -1666,7 +1727,7 @@
      "to_lon": -73.919938,
      "miles": 0.944,
      "baseline_mph": 6.89,
-     "latest_mph": 6.69,
+     "latest_mph": 6.76,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1681,7 +1742,7 @@
      "to_lon": -73.905997,
      "miles": 1.451,
      "baseline_mph": 6.82,
-     "latest_mph": 6.53,
+     "latest_mph": 6.52,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1696,7 +1757,7 @@
      "to_lon": -73.896368,
      "miles": 1.095,
      "baseline_mph": 5.57,
-     "latest_mph": 5.78,
+     "latest_mph": 5.55,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1711,7 +1772,7 @@
      "to_lon": -73.906702,
      "miles": 1.036,
      "baseline_mph": 6.83,
-     "latest_mph": 6.83,
+     "latest_mph": 6.62,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1726,7 +1787,7 @@
      "to_lon": -73.927286,
      "miles": 0.934,
      "baseline_mph": 8.61,
-     "latest_mph": 8.34,
+     "latest_mph": 8.48,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1741,7 +1802,7 @@
      "to_lon": -73.920603,
      "miles": 1.453,
      "baseline_mph": 6.85,
-     "latest_mph": 6.51,
+     "latest_mph": 6.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1756,7 +1817,7 @@
      "to_lon": -73.896368,
      "miles": 1.095,
      "baseline_mph": 4.21,
-     "latest_mph": 4.4,
+     "latest_mph": 4.24,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1771,7 +1832,7 @@
      "to_lon": -73.906702,
      "miles": 1.036,
      "baseline_mph": 5.22,
-     "latest_mph": 5.3,
+     "latest_mph": 5.1,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -1802,16 +1863,16 @@
    "baseline_mph": 6.29,
    "target_mph": 7.55,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.25,
-    "yoy_pct": -0.5,
-    "vs_baseline_pct": -0.6
+    "month": "2026-10",
+    "mph": 6.2,
+    "yoy_pct": -1.4,
+    "vs_baseline_pct": -1.3
    },
    "post_plan": {
-    "mph": 6.45,
-    "same_months_prior_year_mph": 6.37,
-    "change_pct": 1.3,
-    "months": 3
+    "mph": 6.39,
+    "same_months_prior_year_mph": 6.35,
+    "change_pct": 0.6,
+    "months": 4
    },
    "series": [
     {
@@ -1888,6 +1949,11 @@
      "month": "2026-09",
      "mph": 6.25,
      "trips": 27178
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.2,
+     "trips": 27596
     }
    ],
    "consistent_series": [
@@ -1965,6 +2031,11 @@
      "month": "2026-09",
      "mph": 6.25,
      "trips": 27178
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.2,
+     "trips": 27596
     }
    ],
    "segments": [
@@ -1979,7 +2050,7 @@
      "to_lon": -73.90119,
      "miles": 0.519,
      "baseline_mph": 6.39,
-     "latest_mph": 6.43,
+     "latest_mph": 6.28,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -1994,7 +2065,7 @@
      "to_lon": -73.90119,
      "miles": 0.389,
      "baseline_mph": 7.18,
-     "latest_mph": 7.08,
+     "latest_mph": 7.13,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2009,7 +2080,7 @@
      "to_lon": -73.890313,
      "miles": 1.059,
      "baseline_mph": 6.64,
-     "latest_mph": 6.59,
+     "latest_mph": 6.47,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2024,7 +2095,7 @@
      "to_lon": -73.89588,
      "miles": 0.68,
      "baseline_mph": 6.63,
-     "latest_mph": 6.47,
+     "latest_mph": 6.4,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2039,7 +2110,7 @@
      "to_lon": -73.905596,
      "miles": 1.229,
      "baseline_mph": 6.32,
-     "latest_mph": 6.39,
+     "latest_mph": 6.41,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2054,7 +2125,7 @@
      "to_lon": -73.904686,
      "miles": 1.359,
      "baseline_mph": 6.28,
-     "latest_mph": 6.23,
+     "latest_mph": 6.2,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2069,7 +2140,7 @@
      "to_lon": -73.917547,
      "miles": 1.229,
      "baseline_mph": 5.91,
-     "latest_mph": 6.0,
+     "latest_mph": 5.91,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2084,7 +2155,7 @@
      "to_lon": -73.917547,
      "miles": 1.385,
      "baseline_mph": 5.85,
-     "latest_mph": 5.8,
+     "latest_mph": 5.81,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2099,7 +2170,7 @@
      "to_lon": -73.906088,
      "miles": 0.58,
      "baseline_mph": 6.78,
-     "latest_mph": 6.78,
+     "latest_mph": 6.64,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2114,7 +2185,7 @@
      "to_lon": -73.905044,
      "miles": 0.424,
      "baseline_mph": 8.48,
-     "latest_mph": 8.5,
+     "latest_mph": 8.29,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2189,7 +2260,7 @@
      "to_lon": -73.908417,
      "miles": 0.712,
      "baseline_mph": 6.21,
-     "latest_mph": 6.13,
+     "latest_mph": 6.18,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2204,7 +2275,7 @@
      "to_lon": -73.917547,
      "miles": 0.728,
      "baseline_mph": 5.24,
-     "latest_mph": 5.1,
+     "latest_mph": 5.12,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -2236,16 +2307,16 @@
    "baseline_mph": 6.36,
    "target_mph": 7.63,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.35,
-    "yoy_pct": 0.1,
-    "vs_baseline_pct": -0.0
+    "month": "2026-10",
+    "mph": 6.28,
+    "yoy_pct": -1.7,
+    "vs_baseline_pct": -1.1
    },
    "post_plan": {
-    "mph": 6.42,
-    "same_months_prior_year_mph": 6.43,
-    "change_pct": -0.2,
-    "months": 3
+    "mph": 6.38,
+    "same_months_prior_year_mph": 6.42,
+    "change_pct": -0.6,
+    "months": 4
    },
    "series": [
     {
@@ -2322,6 +2393,11 @@
      "month": "2026-09",
      "mph": 6.35,
      "trips": 10696
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.28,
+     "trips": 10925
     }
    ],
    "consistent_series": [
@@ -2399,6 +2475,11 @@
      "month": "2026-09",
      "mph": 6.35,
      "trips": 10696
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.28,
+     "trips": 10925
     }
    ],
    "segments": [
@@ -2413,7 +2494,7 @@
      "to_lon": -73.880674,
      "miles": 1.297,
      "baseline_mph": 6.95,
-     "latest_mph": 6.96,
+     "latest_mph": 6.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2428,7 +2509,7 @@
      "to_lon": -73.885462,
      "miles": 1.601,
      "baseline_mph": 5.79,
-     "latest_mph": 5.76,
+     "latest_mph": 5.83,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2443,7 +2524,7 @@
      "to_lon": -73.885763,
      "miles": 1.339,
      "baseline_mph": 7.13,
-     "latest_mph": 7.18,
+     "latest_mph": 7.05,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2458,7 +2539,7 @@
      "to_lon": -73.891773,
      "miles": 1.592,
      "baseline_mph": 6.03,
-     "latest_mph": 6.03,
+     "latest_mph": 5.94,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2525,16 +2606,16 @@
    "baseline_mph": 5.48,
    "target_mph": 6.57,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.36,
-    "yoy_pct": 0.1,
-    "vs_baseline_pct": -2.2
+    "month": "2026-10",
+    "mph": 5.49,
+    "yoy_pct": 1.3,
+    "vs_baseline_pct": 0.3
    },
    "post_plan": {
-    "mph": 5.43,
-    "same_months_prior_year_mph": 5.5,
-    "change_pct": -1.1,
-    "months": 3
+    "mph": 5.45,
+    "same_months_prior_year_mph": 5.48,
+    "change_pct": -0.5,
+    "months": 4
    },
    "series": [
     {
@@ -2611,6 +2692,11 @@
      "month": "2026-09",
      "mph": 5.36,
      "trips": 11868
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.49,
+     "trips": 11963
     }
    ],
    "consistent_series": [
@@ -2688,6 +2774,11 @@
      "month": "2026-09",
      "mph": 5.36,
      "trips": 11868
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.49,
+     "trips": 11963
     }
    ],
    "segments": [
@@ -2702,7 +2793,7 @@
      "to_lon": -73.908882,
      "miles": 0.977,
      "baseline_mph": 6.54,
-     "latest_mph": 6.63,
+     "latest_mph": 6.48,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2717,7 +2808,7 @@
      "to_lon": -73.926034,
      "miles": 0.975,
      "baseline_mph": 4.88,
-     "latest_mph": 4.59,
+     "latest_mph": 5.08,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2732,7 +2823,7 @@
      "to_lon": -73.913643,
      "miles": 0.702,
      "baseline_mph": 7.35,
-     "latest_mph": 7.38,
+     "latest_mph": 7.5,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2747,7 +2838,7 @@
      "to_lon": -73.900189,
      "miles": 0.755,
      "baseline_mph": 5.55,
-     "latest_mph": 5.45,
+     "latest_mph": 5.44,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2762,7 +2853,7 @@
      "to_lon": -73.89174,
      "miles": 0.496,
      "baseline_mph": 4.97,
-     "latest_mph": 4.96,
+     "latest_mph": 5.12,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2777,7 +2868,7 @@
      "to_lon": -73.914216,
      "miles": 0.753,
      "baseline_mph": 4.72,
-     "latest_mph": 4.44,
+     "latest_mph": 4.58,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2792,7 +2883,7 @@
      "to_lon": -73.925724,
      "miles": 0.648,
      "baseline_mph": 5.25,
-     "latest_mph": 5.18,
+     "latest_mph": 5.42,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -2858,16 +2949,16 @@
    "baseline_mph": 4.71,
    "target_mph": 5.65,
    "latest": {
-    "month": "2026-09",
-    "mph": 4.88,
-    "yoy_pct": 3.1,
-    "vs_baseline_pct": 3.7
+    "month": "2026-10",
+    "mph": 4.84,
+    "yoy_pct": 3.3,
+    "vs_baseline_pct": 2.8
    },
    "post_plan": {
     "mph": 4.82,
     "same_months_prior_year_mph": 4.68,
     "change_pct": 3.1,
-    "months": 3
+    "months": 4
    },
    "series": [
     {
@@ -2944,6 +3035,11 @@
      "month": "2026-09",
      "mph": 4.88,
      "trips": 20171
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.84,
+     "trips": 19516
     }
    ],
    "consistent_series": [
@@ -3021,6 +3117,11 @@
      "month": "2026-09",
      "mph": 4.88,
      "trips": 20171
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.84,
+     "trips": 19516
     }
    ],
    "segments": [
@@ -3035,7 +3136,7 @@
      "to_lon": -73.950705,
      "miles": 0.324,
      "baseline_mph": 5.25,
-     "latest_mph": 5.31,
+     "latest_mph": 5.25,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3050,7 +3151,7 @@
      "to_lon": -73.940296,
      "miles": 0.624,
      "baseline_mph": 4.86,
-     "latest_mph": 4.97,
+     "latest_mph": 4.96,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3065,7 +3166,7 @@
      "to_lon": -73.935437,
      "miles": 0.292,
      "baseline_mph": 3.78,
-     "latest_mph": 4.36,
+     "latest_mph": 4.41,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3080,7 +3181,7 @@
      "to_lon": -73.959504,
      "miles": 0.292,
      "baseline_mph": 5.14,
-     "latest_mph": 5.07,
+     "latest_mph": 4.98,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3095,7 +3196,7 @@
      "to_lon": -73.956392,
      "miles": 0.351,
      "baseline_mph": 5.5,
-     "latest_mph": 5.76,
+     "latest_mph": 5.68,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3110,7 +3211,7 @@
      "to_lon": -73.951598,
      "miles": 0.634,
      "baseline_mph": 5.04,
-     "latest_mph": 5.07,
+     "latest_mph": 5.04,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3125,7 +3226,7 @@
      "to_lon": -73.940999,
      "miles": 0.287,
      "baseline_mph": 3.53,
-     "latest_mph": 3.75,
+     "latest_mph": 3.67,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -3157,16 +3258,16 @@
    "baseline_mph": 5.09,
    "target_mph": 6.1,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.15,
-    "yoy_pct": 4.8,
-    "vs_baseline_pct": 1.3
+    "month": "2026-10",
+    "mph": 5.11,
+    "yoy_pct": 2.2,
+    "vs_baseline_pct": 0.5
    },
    "post_plan": {
     "mph": 5.12,
     "same_months_prior_year_mph": 5.02,
-    "change_pct": 1.9,
-    "months": 3
+    "change_pct": 2.0,
+    "months": 4
    },
    "series": [
     {
@@ -3243,6 +3344,11 @@
      "month": "2026-09",
      "mph": 5.15,
      "trips": 9267
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.11,
+     "trips": 10622
     }
    ],
    "consistent_series": [
@@ -3320,6 +3426,11 @@
      "month": "2026-09",
      "mph": 5.15,
      "trips": 9267
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.11,
+     "trips": 10622
     }
    ],
    "segments": [
@@ -3334,7 +3445,7 @@
      "to_lon": -73.949209,
      "miles": 1.232,
      "baseline_mph": 6.49,
-     "latest_mph": 6.72,
+     "latest_mph": 6.55,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3349,7 +3460,7 @@
      "to_lon": -73.951206,
      "miles": 0.218,
      "baseline_mph": 2.85,
-     "latest_mph": 2.88,
+     "latest_mph": 2.82,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3364,7 +3475,7 @@
      "to_lon": -73.951206,
      "miles": 0.218,
      "baseline_mph": 3.43,
-     "latest_mph": 3.39,
+     "latest_mph": 3.45,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3379,7 +3490,7 @@
      "to_lon": -73.949209,
      "miles": 1.231,
      "baseline_mph": 6.07,
-     "latest_mph": 6.07,
+     "latest_mph": 6.03,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3394,7 +3505,7 @@
      "to_lon": -73.951206,
      "miles": 0.218,
      "baseline_mph": 2.8,
-     "latest_mph": 2.81,
+     "latest_mph": 2.9,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -3424,16 +3535,16 @@
    "baseline_mph": 5.27,
    "target_mph": 6.32,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.17,
-    "yoy_pct": -2.1,
-    "vs_baseline_pct": -1.7
+    "month": "2026-10",
+    "mph": 5.37,
+    "yoy_pct": 1.5,
+    "vs_baseline_pct": 2.0
    },
    "post_plan": {
-    "mph": 5.28,
-    "same_months_prior_year_mph": 5.24,
-    "change_pct": 0.7,
-    "months": 3
+    "mph": 5.3,
+    "same_months_prior_year_mph": 5.25,
+    "change_pct": 0.9,
+    "months": 4
    },
    "series": [
     {
@@ -3510,6 +3621,11 @@
      "month": "2026-09",
      "mph": 5.17,
      "trips": 12395
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.37,
+     "trips": 12434
     }
    ],
    "consistent_series": [
@@ -3587,6 +3703,11 @@
      "month": "2026-09",
      "mph": 5.17,
      "trips": 12395
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.37,
+     "trips": 12434
     }
    ],
    "segments": [
@@ -3601,7 +3722,7 @@
      "to_lon": -73.949213,
      "miles": 0.357,
      "baseline_mph": 6.27,
-     "latest_mph": 6.68,
+     "latest_mph": 6.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3616,7 +3737,7 @@
      "to_lon": -73.944398,
      "miles": 0.289,
      "baseline_mph": 4.85,
-     "latest_mph": 4.96,
+     "latest_mph": 5.17,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3631,7 +3752,7 @@
      "to_lon": -73.955141,
      "miles": 0.306,
      "baseline_mph": 5.67,
-     "latest_mph": 5.84,
+     "latest_mph": 6.02,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3646,7 +3767,7 @@
      "to_lon": -73.950025,
      "miles": 0.294,
      "baseline_mph": 5.64,
-     "latest_mph": 6.04,
+     "latest_mph": 6.31,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3676,7 +3797,7 @@
      "to_lon": -73.94517,
      "miles": 0.697,
      "baseline_mph": 4.75,
-     "latest_mph": 4.24,
+     "latest_mph": 4.44,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -3706,16 +3827,16 @@
    "baseline_mph": 6.51,
    "target_mph": 7.81,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.4,
-    "yoy_pct": 1.6,
-    "vs_baseline_pct": -1.6
+    "month": "2026-10",
+    "mph": 6.35,
+    "yoy_pct": 0.9,
+    "vs_baseline_pct": -2.4
    },
    "post_plan": {
-    "mph": 6.7,
-    "same_months_prior_year_mph": 6.65,
+    "mph": 6.61,
+    "same_months_prior_year_mph": 6.55,
     "change_pct": 0.8,
-    "months": 3
+    "months": 4
    },
    "series": [
     {
@@ -3792,6 +3913,11 @@
      "month": "2026-09",
      "mph": 6.4,
      "trips": 13305
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.35,
+     "trips": 13266
     }
    ],
    "consistent_series": [
@@ -3869,6 +3995,11 @@
      "month": "2026-09",
      "mph": 6.4,
      "trips": 13305
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.35,
+     "trips": 13266
     }
    ],
    "segments": [
@@ -3883,7 +4014,7 @@
      "to_lon": -73.980284,
      "miles": 0.124,
      "baseline_mph": 3.64,
-     "latest_mph": 3.69,
+     "latest_mph": 3.7,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3898,7 +4029,7 @@
      "to_lon": -73.963421,
      "miles": 1.185,
      "baseline_mph": 7.74,
-     "latest_mph": 7.34,
+     "latest_mph": 7.37,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3913,7 +4044,7 @@
      "to_lon": -73.980345,
      "miles": 1.185,
      "baseline_mph": 7.78,
-     "latest_mph": 7.9,
+     "latest_mph": 7.54,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -3928,7 +4059,7 @@
      "to_lon": -73.963475,
      "miles": 0.886,
      "baseline_mph": 4.92,
-     "latest_mph": 4.84,
+     "latest_mph": 4.9,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -3980,16 +4111,16 @@
    "baseline_mph": 5.08,
    "target_mph": 6.09,
    "latest": {
-    "month": "2026-09",
-    "mph": 4.95,
-    "yoy_pct": -3.2,
-    "vs_baseline_pct": -2.5
+    "month": "2026-10",
+    "mph": 4.99,
+    "yoy_pct": -0.0,
+    "vs_baseline_pct": -1.8
    },
    "post_plan": {
-    "mph": 5.08,
-    "same_months_prior_year_mph": 5.21,
-    "change_pct": -2.4,
-    "months": 3
+    "mph": 5.06,
+    "same_months_prior_year_mph": 5.15,
+    "change_pct": -1.8,
+    "months": 4
    },
    "series": [
     {
@@ -4066,6 +4197,11 @@
      "month": "2026-09",
      "mph": 4.95,
      "trips": 9054
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.99,
+     "trips": 9538
     }
    ],
    "consistent_series": [
@@ -4143,6 +4279,11 @@
      "month": "2026-09",
      "mph": 4.95,
      "trips": 9054
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.99,
+     "trips": 9538
     }
    ],
    "segments": [
@@ -4172,7 +4313,7 @@
      "to_lon": -73.990911,
      "miles": 0.765,
      "baseline_mph": 5.21,
-     "latest_mph": 5.39,
+     "latest_mph": 5.3,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4187,7 +4328,7 @@
      "to_lon": -73.976091,
      "miles": 0.902,
      "baseline_mph": 5.14,
-     "latest_mph": 4.88,
+     "latest_mph": 5.03,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4202,7 +4343,7 @@
      "to_lon": -74.00431,
      "miles": 0.967,
      "baseline_mph": 5.37,
-     "latest_mph": 5.52,
+     "latest_mph": 5.37,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4217,7 +4358,7 @@
      "to_lon": -73.991027,
      "miles": 1.027,
      "baseline_mph": 4.93,
-     "latest_mph": 4.78,
+     "latest_mph": 4.86,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4232,7 +4373,7 @@
      "to_lon": -73.976091,
      "miles": 0.902,
      "baseline_mph": 5.03,
-     "latest_mph": 4.7,
+     "latest_mph": 4.79,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4247,7 +4388,7 @@
      "to_lon": -73.991027,
      "miles": 1.027,
      "baseline_mph": 4.86,
-     "latest_mph": 4.63,
+     "latest_mph": 4.7,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -4277,16 +4418,16 @@
    "baseline_mph": 6.02,
    "target_mph": 7.22,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.28,
-    "yoy_pct": 5.4,
-    "vs_baseline_pct": 4.3
+    "month": "2026-10",
+    "mph": 6.13,
+    "yoy_pct": 3.8,
+    "vs_baseline_pct": 1.8
    },
    "post_plan": {
-    "mph": 6.08,
-    "same_months_prior_year_mph": 6.03,
-    "change_pct": 0.8,
-    "months": 3
+    "mph": 6.09,
+    "same_months_prior_year_mph": 6.0,
+    "change_pct": 1.5,
+    "months": 4
    },
    "series": [
     {
@@ -4363,6 +4504,11 @@
      "month": "2026-09",
      "mph": 6.28,
      "trips": 1840
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.13,
+     "trips": 1827
     }
    ],
    "consistent_series": [
@@ -4440,6 +4586,11 @@
      "month": "2026-09",
      "mph": 6.28,
      "trips": 1840
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.13,
+     "trips": 1827
     }
    ],
    "segments": [
@@ -4454,7 +4605,7 @@
      "to_lon": -74.001642,
      "miles": 0.972,
      "baseline_mph": 6.02,
-     "latest_mph": 6.28,
+     "latest_mph": 6.13,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -4486,16 +4637,16 @@
    "baseline_mph": 5.19,
    "target_mph": 6.23,
    "latest": {
-    "month": "2026-09",
-    "mph": 4.85,
-    "yoy_pct": 2.8,
-    "vs_baseline_pct": -6.5
+    "month": "2026-10",
+    "mph": 4.83,
+    "yoy_pct": -9.5,
+    "vs_baseline_pct": -7.0
    },
    "post_plan": {
-    "mph": 5.16,
-    "same_months_prior_year_mph": 5.2,
-    "change_pct": -0.7,
-    "months": 3
+    "mph": 5.07,
+    "same_months_prior_year_mph": 5.23,
+    "change_pct": -3.1,
+    "months": 4
    },
    "series": [
     {
@@ -4572,6 +4723,11 @@
      "month": "2026-09",
      "mph": 4.85,
      "trips": 4850
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.83,
+     "trips": 5552
     }
    ],
    "consistent_series": [
@@ -4649,6 +4805,11 @@
      "month": "2026-09",
      "mph": 4.85,
      "trips": 4850
+    },
+    {
+     "month": "2026-10",
+     "mph": 4.83,
+     "trips": 5552
     }
    ],
    "segments": [
@@ -4663,7 +4824,7 @@
      "to_lon": -73.976533,
      "miles": 0.888,
      "baseline_mph": 5.55,
-     "latest_mph": 5.23,
+     "latest_mph": 5.16,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4693,7 +4854,7 @@
      "to_lon": -73.976533,
      "miles": 0.888,
      "baseline_mph": 4.92,
-     "latest_mph": 4.67,
+     "latest_mph": 4.64,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -4725,16 +4886,16 @@
    "baseline_mph": 5.32,
    "target_mph": 6.39,
    "latest": {
-    "month": "2026-09",
-    "mph": 4.91,
-    "yoy_pct": -2.9,
-    "vs_baseline_pct": -7.9
+    "month": "2026-10",
+    "mph": 5.13,
+    "yoy_pct": -3.4,
+    "vs_baseline_pct": -3.7
    },
    "post_plan": {
-    "mph": 5.22,
-    "same_months_prior_year_mph": 5.4,
+    "mph": 5.19,
+    "same_months_prior_year_mph": 5.38,
     "change_pct": -3.4,
-    "months": 3
+    "months": 4
    },
    "series": [
     {
@@ -4811,6 +4972,11 @@
      "month": "2026-09",
      "mph": 4.91,
      "trips": 5866
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.13,
+     "trips": 6195
     }
    ],
    "consistent_series": [
@@ -4888,6 +5054,11 @@
      "month": "2026-09",
      "mph": 4.91,
      "trips": 5866
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.13,
+     "trips": 6195
     }
    ],
    "segments": [
@@ -4902,7 +5073,7 @@
      "to_lon": -73.977001,
      "miles": 0.734,
      "baseline_mph": 4.88,
-     "latest_mph": 4.42,
+     "latest_mph": 5.06,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4917,7 +5088,7 @@
      "to_lon": -73.983786,
      "miles": 0.558,
      "baseline_mph": 4.71,
-     "latest_mph": 4.43,
+     "latest_mph": 4.3,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4932,7 +5103,7 @@
      "to_lon": -73.98901,
      "miles": 0.932,
      "baseline_mph": 5.48,
-     "latest_mph": 4.99,
+     "latest_mph": 4.77,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4947,7 +5118,7 @@
      "to_lon": -73.997539,
      "miles": 0.579,
      "baseline_mph": 6.17,
-     "latest_mph": 6.11,
+     "latest_mph": 6.06,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -4962,7 +5133,7 @@
      "to_lon": -74.00254,
      "miles": 0.423,
      "baseline_mph": 6.35,
-     "latest_mph": 5.38,
+     "latest_mph": 6.45,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5025,16 +5196,16 @@
    "baseline_mph": 5.13,
    "target_mph": 6.16,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.18,
-    "yoy_pct": 9.7,
-    "vs_baseline_pct": 1.0
+    "month": "2026-10",
+    "mph": 5.56,
+    "yoy_pct": 4.4,
+    "vs_baseline_pct": 8.4
    },
    "post_plan": {
-    "mph": 5.37,
-    "same_months_prior_year_mph": 5.14,
+    "mph": 5.42,
+    "same_months_prior_year_mph": 5.19,
     "change_pct": 4.4,
-    "months": 3
+    "months": 4
    },
    "series": [
     {
@@ -5111,6 +5282,11 @@
      "month": "2026-09",
      "mph": 5.18,
      "trips": 7105
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.56,
+     "trips": 7426
     }
    ],
    "consistent_series": [
@@ -5188,6 +5364,11 @@
      "month": "2026-09",
      "mph": 5.18,
      "trips": 7105
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.56,
+     "trips": 7426
     }
    ],
    "segments": [
@@ -5202,7 +5383,7 @@
      "to_lon": -73.971959,
      "miles": 1.46,
      "baseline_mph": 4.99,
-     "latest_mph": 5.11,
+     "latest_mph": 5.51,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5217,7 +5398,7 @@
      "to_lon": -73.971959,
      "miles": 1.46,
      "baseline_mph": 5.96,
-     "latest_mph": 6.09,
+     "latest_mph": 6.74,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5232,7 +5413,7 @@
      "to_lon": -73.971997,
      "miles": 1.459,
      "baseline_mph": 4.79,
-     "latest_mph": 4.85,
+     "latest_mph": 5.14,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5247,7 +5428,7 @@
      "to_lon": -73.971997,
      "miles": 1.258,
      "baseline_mph": 4.9,
-     "latest_mph": 4.79,
+     "latest_mph": 5.05,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -5300,16 +5481,16 @@
    "baseline_mph": 8.49,
    "target_mph": 10.19,
    "latest": {
-    "month": "2026-09",
-    "mph": 8.59,
-    "yoy_pct": 3.0,
-    "vs_baseline_pct": 1.2
+    "month": "2026-10",
+    "mph": 8.47,
+    "yoy_pct": 2.1,
+    "vs_baseline_pct": -0.2
    },
    "post_plan": {
-    "mph": 8.64,
-    "same_months_prior_year_mph": 8.43,
-    "change_pct": 2.5,
-    "months": 3
+    "mph": 8.6,
+    "same_months_prior_year_mph": 8.4,
+    "change_pct": 2.4,
+    "months": 4
    },
    "series": [
     {
@@ -5386,6 +5567,11 @@
      "month": "2026-09",
      "mph": 8.59,
      "trips": 23139
+    },
+    {
+     "month": "2026-10",
+     "mph": 8.47,
+     "trips": 22954
     }
    ],
    "consistent_series": [
@@ -5463,6 +5649,11 @@
      "month": "2026-09",
      "mph": 8.59,
      "trips": 23139
+    },
+    {
+     "month": "2026-10",
+     "mph": 8.47,
+     "trips": 22954
     }
    ],
    "segments": [
@@ -5477,7 +5668,7 @@
      "to_lon": -73.768238,
      "miles": 0.84,
      "baseline_mph": 8.4,
-     "latest_mph": 8.57,
+     "latest_mph": 8.58,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5492,7 +5683,7 @@
      "to_lon": -73.747222,
      "miles": 1.137,
      "baseline_mph": 13.68,
-     "latest_mph": 13.46,
+     "latest_mph": 11.78,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5507,7 +5698,7 @@
      "to_lon": -73.783657,
      "miles": 1.059,
      "baseline_mph": 10.05,
-     "latest_mph": 10.14,
+     "latest_mph": 10.19,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5537,7 +5728,7 @@
      "to_lon": -73.769242,
      "miles": 1.212,
      "baseline_mph": 12.99,
-     "latest_mph": 13.07,
+     "latest_mph": 13.1,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5567,7 +5758,7 @@
      "to_lon": -73.802708,
      "miles": 1.096,
      "baseline_mph": 10.71,
-     "latest_mph": 11.08,
+     "latest_mph": 11.04,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5582,7 +5773,7 @@
      "to_lon": -73.746869,
      "miles": 0.835,
      "baseline_mph": 8.96,
-     "latest_mph": 8.1,
+     "latest_mph": 8.13,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5597,7 +5788,7 @@
      "to_lon": -73.873152,
      "miles": 1.802,
      "baseline_mph": 6.34,
-     "latest_mph": 6.6,
+     "latest_mph": 6.67,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5612,7 +5803,7 @@
      "to_lon": -73.907383,
      "miles": 1.758,
      "baseline_mph": 6.6,
-     "latest_mph": 6.84,
+     "latest_mph": 6.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5642,7 +5833,7 @@
      "to_lon": -73.873152,
      "miles": 1.802,
      "baseline_mph": 6.89,
-     "latest_mph": 6.79,
+     "latest_mph": 6.8,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5672,7 +5863,7 @@
      "to_lon": -73.907383,
      "miles": 1.758,
      "baseline_mph": 6.76,
-     "latest_mph": 6.91,
+     "latest_mph": 6.82,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -5724,16 +5915,16 @@
    "baseline_mph": 7.93,
    "target_mph": 9.52,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.96,
-    "yoy_pct": 2.7,
-    "vs_baseline_pct": 0.3
+    "month": "2026-10",
+    "mph": 7.81,
+    "yoy_pct": -0.3,
+    "vs_baseline_pct": -1.6
    },
    "post_plan": {
-    "mph": 8.1,
-    "same_months_prior_year_mph": 7.98,
-    "change_pct": 1.5,
-    "months": 3
+    "mph": 8.03,
+    "same_months_prior_year_mph": 7.94,
+    "change_pct": 1.1,
+    "months": 4
    },
    "series": [
     {
@@ -5810,6 +6001,11 @@
      "month": "2026-09",
      "mph": 7.96,
      "trips": 15718
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.81,
+     "trips": 15513
     }
    ],
    "consistent_series": [
@@ -5887,6 +6083,11 @@
      "month": "2026-09",
      "mph": 7.96,
      "trips": 15718
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.81,
+     "trips": 15513
     }
    ],
    "segments": [
@@ -5901,7 +6102,7 @@
      "to_lon": -73.877838,
      "miles": 1.007,
      "baseline_mph": 7.89,
-     "latest_mph": 8.07,
+     "latest_mph": 7.89,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5916,7 +6117,7 @@
      "to_lon": -73.891827,
      "miles": 0.955,
      "baseline_mph": 8.54,
-     "latest_mph": 8.53,
+     "latest_mph": 8.27,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5931,7 +6132,7 @@
      "to_lon": -73.918144,
      "miles": 0.903,
      "baseline_mph": 8.95,
-     "latest_mph": 8.94,
+     "latest_mph": 8.6,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5946,7 +6147,7 @@
      "to_lon": -73.877838,
      "miles": 0.841,
      "baseline_mph": 7.95,
-     "latest_mph": 7.99,
+     "latest_mph": 7.88,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -5976,7 +6177,7 @@
      "to_lon": -73.889932,
      "miles": 1.722,
      "baseline_mph": 7.82,
-     "latest_mph": 7.88,
+     "latest_mph": 7.85,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6006,7 +6207,7 @@
      "to_lon": -73.891827,
      "miles": 0.955,
      "baseline_mph": 8.11,
-     "latest_mph": 8.03,
+     "latest_mph": 7.86,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6021,7 +6222,7 @@
      "to_lon": -73.902289,
      "miles": 0.666,
      "baseline_mph": 5.94,
-     "latest_mph": 5.76,
+     "latest_mph": 5.84,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6051,7 +6252,7 @@
      "to_lon": -73.92461,
      "miles": 0.339,
      "baseline_mph": 8.25,
-     "latest_mph": 8.12,
+     "latest_mph": 7.92,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -6082,16 +6283,16 @@
    "baseline_mph": 5.78,
    "target_mph": 6.94,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.39,
-    "yoy_pct": -4.9,
-    "vs_baseline_pct": -6.5
+    "month": "2026-10",
+    "mph": 5.71,
+    "yoy_pct": -3.3,
+    "vs_baseline_pct": -0.8
    },
    "post_plan": {
-    "mph": 5.64,
-    "same_months_prior_year_mph": 5.73,
-    "change_pct": -1.7,
-    "months": 3
+    "mph": 5.66,
+    "same_months_prior_year_mph": 5.78,
+    "change_pct": -2.1,
+    "months": 4
    },
    "series": [
     {
@@ -6168,6 +6369,11 @@
      "month": "2026-09",
      "mph": 5.39,
      "trips": 7544
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.71,
+     "trips": 7747
     }
    ],
    "consistent_series": [
@@ -6245,6 +6451,11 @@
      "month": "2026-09",
      "mph": 5.39,
      "trips": 7544
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.71,
+     "trips": 7747
     }
    ],
    "segments": [
@@ -6259,7 +6470,7 @@
      "to_lon": -73.858754,
      "miles": 0.978,
      "baseline_mph": 5.64,
-     "latest_mph": 5.32,
+     "latest_mph": 5.83,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6274,7 +6485,7 @@
      "to_lon": -73.852172,
      "miles": 1.16,
      "baseline_mph": 6.62,
-     "latest_mph": 6.41,
+     "latest_mph": 6.55,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6319,7 +6530,7 @@
      "to_lon": -73.851769,
      "miles": 1.015,
      "baseline_mph": 5.09,
-     "latest_mph": 4.62,
+     "latest_mph": 4.89,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -6351,16 +6562,16 @@
    "baseline_mph": 7.23,
    "target_mph": 8.67,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.24,
-    "yoy_pct": 0.2,
-    "vs_baseline_pct": 0.1
+    "month": "2026-10",
+    "mph": 7.27,
+    "yoy_pct": -0.4,
+    "vs_baseline_pct": 0.6
    },
    "post_plan": {
-    "mph": 7.34,
-    "same_months_prior_year_mph": 7.23,
-    "change_pct": 1.5,
-    "months": 3
+    "mph": 7.32,
+    "same_months_prior_year_mph": 7.25,
+    "change_pct": 1.0,
+    "months": 4
    },
    "series": [
     {
@@ -6437,6 +6648,11 @@
      "month": "2026-09",
      "mph": 7.24,
      "trips": 9053
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.27,
+     "trips": 8855
     }
    ],
    "consistent_series": [
@@ -6514,6 +6730,11 @@
      "month": "2026-09",
      "mph": 7.24,
      "trips": 9053
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.27,
+     "trips": 8855
     }
    ],
    "segments": [
@@ -6528,7 +6749,7 @@
      "to_lon": -73.83062,
      "miles": 1.278,
      "baseline_mph": 5.75,
-     "latest_mph": 5.91,
+     "latest_mph": 5.94,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6543,7 +6764,7 @@
      "to_lon": -73.825468,
      "miles": 1.814,
      "baseline_mph": 8.73,
-     "latest_mph": 8.57,
+     "latest_mph": 8.56,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6558,7 +6779,7 @@
      "to_lon": -73.817324,
      "miles": 1.81,
      "baseline_mph": 8.54,
-     "latest_mph": 8.41,
+     "latest_mph": 8.47,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6573,7 +6794,7 @@
      "to_lon": -73.825588,
      "miles": 1.271,
      "baseline_mph": 6.0,
-     "latest_mph": 6.05,
+     "latest_mph": 6.08,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6725,16 +6946,16 @@
    "baseline_mph": 7.72,
    "target_mph": 9.26,
    "latest": {
-    "month": "2026-09",
+    "month": "2026-10",
     "mph": 7.53,
-    "yoy_pct": 0.5,
-    "vs_baseline_pct": -2.4
+    "yoy_pct": -2.8,
+    "vs_baseline_pct": -3.7
    },
    "post_plan": {
-    "mph": 7.97,
-    "same_months_prior_year_mph": 7.85,
-    "change_pct": 1.5,
-    "months": 3
+    "mph": 7.89,
+    "same_months_prior_year_mph": 7.83,
+    "change_pct": 0.7,
+    "months": 4
    },
    "series": [
     {
@@ -6811,6 +7032,11 @@
      "month": "2026-09",
      "mph": 7.53,
      "trips": 4285
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.53,
+     "trips": 3800
     }
    ],
    "consistent_series": [
@@ -6888,6 +7114,11 @@
      "month": "2026-09",
      "mph": 7.53,
      "trips": 4285
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.53,
+     "trips": 3800
     }
    ],
    "segments": [
@@ -6917,7 +7148,7 @@
      "to_lon": -73.814763,
      "miles": 1.981,
      "baseline_mph": 7.82,
-     "latest_mph": 7.48,
+     "latest_mph": 7.53,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6932,7 +7163,7 @@
      "to_lon": -73.802937,
      "miles": 1.868,
      "baseline_mph": 7.6,
-     "latest_mph": 7.84,
+     "latest_mph": null,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -6985,7 +7216,7 @@
    "consistent_coverage_pct": 100.0,
    "n_consistent_segments": 2,
    "n_basis_segments": 2,
-   "n_latest_segments": 2,
+   "n_latest_segments": 1,
    "n_post_plan_segments": 2,
    "shares_segments_with": []
   },
@@ -7029,16 +7260,16 @@
    "baseline_mph": 10.29,
    "target_mph": 12.34,
    "latest": {
-    "month": "2026-09",
-    "mph": 10.18,
-    "yoy_pct": -0.3,
-    "vs_baseline_pct": -1.1
+    "month": "2026-10",
+    "mph": 10.23,
+    "yoy_pct": 0.4,
+    "vs_baseline_pct": -0.5
    },
    "post_plan": {
-    "mph": 10.46,
-    "same_months_prior_year_mph": 10.48,
-    "change_pct": -0.2,
-    "months": 3
+    "mph": 10.41,
+    "same_months_prior_year_mph": 10.39,
+    "change_pct": 0.1,
+    "months": 4
    },
    "series": [
     {
@@ -7115,6 +7346,11 @@
      "month": "2026-09",
      "mph": 10.18,
      "trips": 4585
+    },
+    {
+     "month": "2026-10",
+     "mph": 10.23,
+     "trips": 4624
     }
    ],
    "consistent_series": [
@@ -7192,6 +7428,11 @@
      "month": "2026-09",
      "mph": 10.18,
      "trips": 4585
+    },
+    {
+     "month": "2026-10",
+     "mph": 10.23,
+     "trips": 4624
     }
    ],
    "segments": [
@@ -7206,7 +7447,7 @@
      "to_lon": -73.859508,
      "miles": 1.402,
      "baseline_mph": 10.66,
-     "latest_mph": 10.39,
+     "latest_mph": 10.43,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7221,7 +7462,7 @@
      "to_lon": -73.852378,
      "miles": 1.389,
      "baseline_mph": 9.92,
-     "latest_mph": 9.96,
+     "latest_mph": 10.03,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7284,16 +7525,16 @@
    "baseline_mph": 9.77,
    "target_mph": 11.73,
    "latest": {
-    "month": "2026-09",
-    "mph": 9.62,
-    "yoy_pct": -0.3,
-    "vs_baseline_pct": -1.5
+    "month": "2026-10",
+    "mph": 9.69,
+    "yoy_pct": -0.9,
+    "vs_baseline_pct": -0.8
    },
    "post_plan": {
-    "mph": 9.91,
-    "same_months_prior_year_mph": 9.85,
-    "change_pct": 0.7,
-    "months": 3
+    "mph": 9.86,
+    "same_months_prior_year_mph": 9.83,
+    "change_pct": 0.3,
+    "months": 4
    },
    "series": [
     {
@@ -7370,6 +7611,11 @@
      "month": "2026-09",
      "mph": 9.62,
      "trips": 6651
+    },
+    {
+     "month": "2026-10",
+     "mph": 9.69,
+     "trips": 6622
     }
    ],
    "consistent_series": [
@@ -7447,6 +7693,11 @@
      "month": "2026-09",
      "mph": 9.62,
      "trips": 6651
+    },
+    {
+     "month": "2026-10",
+     "mph": 9.69,
+     "trips": 6622
     }
    ],
    "segments": [
@@ -7461,7 +7712,7 @@
      "to_lon": -73.859508,
      "miles": 1.402,
      "baseline_mph": 10.66,
-     "latest_mph": 10.39,
+     "latest_mph": 10.43,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7476,7 +7727,7 @@
      "to_lon": -73.851946,
      "miles": 1.005,
      "baseline_mph": 8.53,
-     "latest_mph": 8.23,
+     "latest_mph": 8.28,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7491,7 +7742,7 @@
      "to_lon": -73.852378,
      "miles": 1.389,
      "baseline_mph": 9.92,
-     "latest_mph": 9.96,
+     "latest_mph": 10.03,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7614,16 +7865,16 @@
    "baseline_mph": 7.38,
    "target_mph": 8.86,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.6,
-    "yoy_pct": 3.4,
-    "vs_baseline_pct": 2.9
+    "month": "2026-10",
+    "mph": 7.71,
+    "yoy_pct": 2.7,
+    "vs_baseline_pct": 4.5
    },
    "post_plan": {
-    "mph": 7.61,
-    "same_months_prior_year_mph": 7.35,
-    "change_pct": 3.5,
-    "months": 3
+    "mph": 7.63,
+    "same_months_prior_year_mph": 7.39,
+    "change_pct": 3.3,
+    "months": 4
    },
    "series": [
     {
@@ -7700,6 +7951,11 @@
      "month": "2026-09",
      "mph": 7.6,
      "trips": 8170
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.71,
+     "trips": 8353
     }
    ],
    "consistent_series": [
@@ -7777,6 +8033,11 @@
      "month": "2026-09",
      "mph": 7.6,
      "trips": 8170
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.71,
+     "trips": 8353
     }
    ],
    "segments": [
@@ -7791,7 +8052,7 @@
      "to_lon": -73.789882,
      "miles": 1.011,
      "baseline_mph": 7.91,
-     "latest_mph": 8.11,
+     "latest_mph": 8.19,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7806,7 +8067,7 @@
      "to_lon": -73.808733,
      "miles": 1.088,
      "baseline_mph": 7.36,
-     "latest_mph": 7.64,
+     "latest_mph": 7.76,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7836,7 +8097,7 @@
      "to_lon": -73.789882,
      "miles": 1.012,
      "baseline_mph": 7.16,
-     "latest_mph": 7.31,
+     "latest_mph": 7.41,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -7851,7 +8112,7 @@
      "to_lon": -73.808716,
      "miles": 1.087,
      "baseline_mph": 6.93,
-     "latest_mph": 7.12,
+     "latest_mph": 7.28,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -7883,16 +8144,16 @@
    "baseline_mph": 8.61,
    "target_mph": 10.33,
    "latest": {
-    "month": "2026-09",
-    "mph": 9.08,
-    "yoy_pct": 5.3,
-    "vs_baseline_pct": 5.5
+    "month": "2026-10",
+    "mph": 9.06,
+    "yoy_pct": 3.4,
+    "vs_baseline_pct": 5.3
    },
    "post_plan": {
-    "mph": 9.16,
-    "same_months_prior_year_mph": 8.64,
-    "change_pct": 6.1,
-    "months": 3
+    "mph": 9.14,
+    "same_months_prior_year_mph": 8.67,
+    "change_pct": 5.4,
+    "months": 4
    },
    "series": [
     {
@@ -7969,6 +8230,11 @@
      "month": "2026-09",
      "mph": 9.08,
      "trips": 4373
+    },
+    {
+     "month": "2026-10",
+     "mph": 9.06,
+     "trips": 4586
     }
    ],
    "consistent_series": [
@@ -8046,6 +8312,11 @@
      "month": "2026-09",
      "mph": 9.08,
      "trips": 4373
+    },
+    {
+     "month": "2026-10",
+     "mph": 9.06,
+     "trips": 4586
     }
    ],
    "segments": [
@@ -8060,7 +8331,7 @@
      "to_lon": -73.779251,
      "miles": 0.925,
      "baseline_mph": 8.21,
-     "latest_mph": 9.18,
+     "latest_mph": 9.17,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8075,7 +8346,7 @@
      "to_lon": -73.79054,
      "miles": 0.986,
      "baseline_mph": 9.05,
-     "latest_mph": 8.98,
+     "latest_mph": 8.95,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8170,16 +8441,16 @@
    "baseline_mph": 7.4,
    "target_mph": 8.87,
    "latest": {
-    "month": "2026-09",
+    "month": "2026-10",
     "mph": 7.14,
-    "yoy_pct": -1.2,
+    "yoy_pct": -2.2,
     "vs_baseline_pct": -3.4
    },
    "post_plan": {
-    "mph": 7.48,
-    "same_months_prior_year_mph": 7.51,
-    "change_pct": -0.5,
-    "months": 3
+    "mph": 7.39,
+    "same_months_prior_year_mph": 7.46,
+    "change_pct": -0.9,
+    "months": 4
    },
    "series": [
     {
@@ -8256,6 +8527,11 @@
      "month": "2026-09",
      "mph": 7.14,
      "trips": 20942
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.14,
+     "trips": 21431
     }
    ],
    "consistent_series": [
@@ -8333,6 +8609,11 @@
      "month": "2026-09",
      "mph": 7.14,
      "trips": 20942
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.14,
+     "trips": 21431
     }
    ],
    "segments": [
@@ -8362,7 +8643,7 @@
      "to_lon": -73.798748,
      "miles": 1.229,
      "baseline_mph": 8.49,
-     "latest_mph": 7.24,
+     "latest_mph": 7.59,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8377,7 +8658,7 @@
      "to_lon": -73.785751,
      "miles": 1.318,
      "baseline_mph": 8.52,
-     "latest_mph": 7.9,
+     "latest_mph": 8.19,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8422,7 +8703,7 @@
      "to_lon": -73.798748,
      "miles": 1.229,
      "baseline_mph": 7.97,
-     "latest_mph": 7.1,
+     "latest_mph": 7.39,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8437,7 +8718,7 @@
      "to_lon": -73.785751,
      "miles": 1.278,
      "baseline_mph": 8.64,
-     "latest_mph": 8.17,
+     "latest_mph": 7.96,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8482,7 +8763,7 @@
      "to_lon": -73.798748,
      "miles": 1.229,
      "baseline_mph": 9.03,
-     "latest_mph": 8.13,
+     "latest_mph": 8.38,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8512,7 +8793,7 @@
      "to_lon": -73.785751,
      "miles": 1.284,
      "baseline_mph": 9.35,
-     "latest_mph": 8.81,
+     "latest_mph": 8.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8527,7 +8808,7 @@
      "to_lon": -73.798748,
      "miles": 1.228,
      "baseline_mph": 6.98,
-     "latest_mph": 6.45,
+     "latest_mph": 6.59,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8542,7 +8823,7 @@
      "to_lon": -73.785751,
      "miles": 1.318,
      "baseline_mph": 7.1,
-     "latest_mph": 6.97,
+     "latest_mph": 6.8,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8557,7 +8838,7 @@
      "to_lon": -73.808029,
      "miles": 0.22,
      "baseline_mph": 5.27,
-     "latest_mph": 5.8,
+     "latest_mph": 5.89,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8572,7 +8853,7 @@
      "to_lon": -73.807598,
      "miles": 2.163,
      "baseline_mph": 6.69,
-     "latest_mph": 6.54,
+     "latest_mph": 6.47,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8587,7 +8868,7 @@
      "to_lon": -73.78783,
      "miles": 2.266,
      "baseline_mph": 7.05,
-     "latest_mph": 7.21,
+     "latest_mph": 7.06,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -8617,16 +8898,16 @@
    "baseline_mph": 5.96,
    "target_mph": 7.15,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.79,
-    "yoy_pct": 2.4,
-    "vs_baseline_pct": -2.8
+    "month": "2026-10",
+    "mph": 5.77,
+    "yoy_pct": -1.9,
+    "vs_baseline_pct": -3.2
    },
    "post_plan": {
-    "mph": 6.0,
+    "mph": 5.93,
     "same_months_prior_year_mph": 5.88,
-    "change_pct": 1.9,
-    "months": 3
+    "change_pct": 0.9,
+    "months": 4
    },
    "series": [
     {
@@ -8703,6 +8984,11 @@
      "month": "2026-09",
      "mph": 5.79,
      "trips": 4161
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.77,
+     "trips": 4376
     }
    ],
    "consistent_series": [
@@ -8780,6 +9066,11 @@
      "month": "2026-09",
      "mph": 5.79,
      "trips": 4161
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.77,
+     "trips": 4376
     }
    ],
    "segments": [
@@ -8794,7 +9085,7 @@
      "to_lon": -73.957279,
      "miles": 0.92,
      "baseline_mph": 6.32,
-     "latest_mph": 6.1,
+     "latest_mph": 6.08,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8809,7 +9100,7 @@
      "to_lon": -73.95595,
      "miles": 0.91,
      "baseline_mph": 5.57,
-     "latest_mph": 5.46,
+     "latest_mph": 5.43,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -8824,7 +9115,7 @@
      "to_lon": -73.954329,
      "miles": 0.67,
      "baseline_mph": 8.79,
-     "latest_mph": 8.18,
+     "latest_mph": 8.26,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -8875,16 +9166,16 @@
    "baseline_mph": 5.62,
    "target_mph": 6.75,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.7,
-    "yoy_pct": 5.1,
-    "vs_baseline_pct": 1.3
+    "month": "2026-10",
+    "mph": 5.32,
+    "yoy_pct": -13.1,
+    "vs_baseline_pct": -5.4
    },
    "post_plan": {
-    "mph": 5.89,
-    "same_months_prior_year_mph": 5.4,
-    "change_pct": 9.2,
-    "months": 3
+    "mph": 5.74,
+    "same_months_prior_year_mph": 5.55,
+    "change_pct": 3.5,
+    "months": 4
    },
    "series": [
     {
@@ -8961,6 +9252,11 @@
      "month": "2026-09",
      "mph": 5.7,
      "trips": 1225
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.32,
+     "trips": 1224
     }
    ],
    "consistent_series": [
@@ -9038,6 +9334,11 @@
      "month": "2026-09",
      "mph": 5.7,
      "trips": 1225
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.32,
+     "trips": 1224
     }
    ],
    "segments": [
@@ -9052,7 +9353,7 @@
      "to_lon": -73.987469,
      "miles": 0.2,
      "baseline_mph": 5.62,
-     "latest_mph": 5.7,
+     "latest_mph": 5.32,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9098,16 +9399,16 @@
    "baseline_mph": 6.81,
    "target_mph": 8.18,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.55,
-    "yoy_pct": -1.8,
-    "vs_baseline_pct": -3.8
+    "month": "2026-10",
+    "mph": 6.91,
+    "yoy_pct": -0.7,
+    "vs_baseline_pct": 1.4
    },
    "post_plan": {
     "mph": 6.92,
-    "same_months_prior_year_mph": 6.93,
-    "change_pct": -0.1,
-    "months": 3
+    "same_months_prior_year_mph": 6.94,
+    "change_pct": -0.3,
+    "months": 4
    },
    "series": [
     {
@@ -9184,6 +9485,11 @@
      "month": "2026-09",
      "mph": 6.55,
      "trips": 11146
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.91,
+     "trips": 11762
     }
    ],
    "consistent_series": [
@@ -9261,6 +9567,11 @@
      "month": "2026-09",
      "mph": 6.55,
      "trips": 11146
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.91,
+     "trips": 11762
     }
    ],
    "segments": [
@@ -9275,7 +9586,7 @@
      "to_lon": -73.928106,
      "miles": 1.21,
      "baseline_mph": 7.7,
-     "latest_mph": 8.03,
+     "latest_mph": 7.97,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9290,7 +9601,7 @@
      "to_lon": -73.952196,
      "miles": 1.09,
      "baseline_mph": 7.01,
-     "latest_mph": 6.9,
+     "latest_mph": 6.83,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9305,7 +9616,7 @@
      "to_lon": -73.96952,
      "miles": 0.92,
      "baseline_mph": 5.75,
-     "latest_mph": 5.03,
+     "latest_mph": 5.94,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -9336,16 +9647,16 @@
    "baseline_mph": 7.1,
    "target_mph": 8.52,
    "latest": {
-    "month": "2026-09",
-    "mph": 6.88,
-    "yoy_pct": -3.3,
-    "vs_baseline_pct": -3.0
+    "month": "2026-10",
+    "mph": 6.84,
+    "yoy_pct": -4.0,
+    "vs_baseline_pct": -3.6
    },
    "post_plan": {
-    "mph": 6.89,
-    "same_months_prior_year_mph": 7.31,
-    "change_pct": -5.8,
-    "months": 3
+    "mph": 6.87,
+    "same_months_prior_year_mph": 7.26,
+    "change_pct": -5.4,
+    "months": 4
    },
    "series": [
     {
@@ -9422,6 +9733,11 @@
      "month": "2026-09",
      "mph": 6.88,
      "trips": 31810
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.84,
+     "trips": 32684
     }
    ],
    "consistent_series": [
@@ -9499,6 +9815,11 @@
      "month": "2026-09",
      "mph": 6.88,
      "trips": 31810
+    },
+    {
+     "month": "2026-10",
+     "mph": 6.84,
+     "trips": 32684
     }
    ],
    "segments": [
@@ -9513,7 +9834,7 @@
      "to_lon": -73.933156,
      "miles": 0.93,
      "baseline_mph": 6.43,
-     "latest_mph": 6.73,
+     "latest_mph": 7.15,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9573,7 +9894,7 @@
      "to_lon": -73.977818,
      "miles": 1.73,
      "baseline_mph": 6.72,
-     "latest_mph": 6.29,
+     "latest_mph": 6.12,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9603,7 +9924,7 @@
      "to_lon": -73.962211,
      "miles": 0.86,
      "baseline_mph": 6.98,
-     "latest_mph": 6.9,
+     "latest_mph": 6.99,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9618,7 +9939,7 @@
      "to_lon": -73.962143,
      "miles": 1.72,
      "baseline_mph": 8.77,
-     "latest_mph": 7.59,
+     "latest_mph": 7.88,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9633,7 +9954,7 @@
      "to_lon": -73.933306,
      "miles": 1.15,
      "baseline_mph": 8.04,
-     "latest_mph": 8.14,
+     "latest_mph": 7.8,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9648,7 +9969,7 @@
      "to_lon": -73.921513,
      "miles": 1.1,
      "baseline_mph": 7.88,
-     "latest_mph": 7.91,
+     "latest_mph": 7.84,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9663,7 +9984,7 @@
      "to_lon": -73.958641,
      "miles": 0.92,
      "baseline_mph": 6.34,
-     "latest_mph": 6.46,
+     "latest_mph": 6.43,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9678,7 +9999,7 @@
      "to_lon": -73.947221,
      "miles": 1.41,
      "baseline_mph": 5.96,
-     "latest_mph": 6.05,
+     "latest_mph": 5.93,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9693,7 +10014,7 @@
      "to_lon": -73.920622,
      "miles": 1.02,
      "baseline_mph": 8.25,
-     "latest_mph": 8.29,
+     "latest_mph": 8.12,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -9724,16 +10045,16 @@
    "baseline_mph": 7.41,
    "target_mph": 8.89,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.5,
-    "yoy_pct": 0.8,
-    "vs_baseline_pct": 1.3
+    "month": "2026-10",
+    "mph": 7.47,
+    "yoy_pct": 0.3,
+    "vs_baseline_pct": 0.8
    },
    "post_plan": {
-    "mph": 7.5,
-    "same_months_prior_year_mph": 7.48,
-    "change_pct": 0.2,
-    "months": 3
+    "mph": 7.49,
+    "same_months_prior_year_mph": 7.47,
+    "change_pct": 0.3,
+    "months": 4
    },
    "series": [
     {
@@ -9810,6 +10131,11 @@
      "month": "2026-09",
      "mph": 7.5,
      "trips": 29627
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.47,
+     "trips": 30401
     }
    ],
    "consistent_series": [
@@ -9887,6 +10213,11 @@
      "month": "2026-09",
      "mph": 7.5,
      "trips": 29627
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.47,
+     "trips": 30401
     }
    ],
    "segments": [
@@ -9901,7 +10232,7 @@
      "to_lon": -73.926824,
      "miles": 0.38,
      "baseline_mph": 6.28,
-     "latest_mph": 7.2,
+     "latest_mph": 7.07,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9916,7 +10247,7 @@
      "to_lon": -73.928289,
      "miles": 0.89,
      "baseline_mph": 9.2,
-     "latest_mph": 9.23,
+     "latest_mph": 9.15,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9931,7 +10262,7 @@
      "to_lon": -73.929053,
      "miles": 0.76,
      "baseline_mph": 5.98,
-     "latest_mph": 5.89,
+     "latest_mph": 5.77,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9946,7 +10277,7 @@
      "to_lon": -73.931074,
      "miles": 1.11,
      "baseline_mph": 6.14,
-     "latest_mph": 6.05,
+     "latest_mph": 6.12,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9961,7 +10292,7 @@
      "to_lon": -73.930416,
      "miles": 1.37,
      "baseline_mph": 8.2,
-     "latest_mph": 8.18,
+     "latest_mph": 8.1,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9976,7 +10307,7 @@
      "to_lon": -73.926961,
      "miles": 0.97,
      "baseline_mph": 9.72,
-     "latest_mph": 9.89,
+     "latest_mph": 9.8,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -9991,7 +10322,7 @@
      "to_lon": -73.926533,
      "miles": 0.28,
      "baseline_mph": 6.14,
-     "latest_mph": 6.78,
+     "latest_mph": 6.88,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10006,7 +10337,7 @@
      "to_lon": -73.930412,
      "miles": 1.17,
      "baseline_mph": 6.73,
-     "latest_mph": 6.65,
+     "latest_mph": 6.72,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10021,7 +10352,7 @@
      "to_lon": -73.928456,
      "miles": 1.28,
      "baseline_mph": 8.26,
-     "latest_mph": 8.35,
+     "latest_mph": 8.2,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10036,7 +10367,7 @@
      "to_lon": -73.926533,
      "miles": 0.28,
      "baseline_mph": 6.56,
-     "latest_mph": 7.7,
+     "latest_mph": 7.65,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -10066,16 +10397,16 @@
    "baseline_mph": 5.35,
    "target_mph": 6.42,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.29,
-    "yoy_pct": 2.8,
-    "vs_baseline_pct": -1.0
+    "month": "2026-10",
+    "mph": 5.32,
+    "yoy_pct": -1.9,
+    "vs_baseline_pct": -0.5
    },
    "post_plan": {
-    "mph": 5.44,
-    "same_months_prior_year_mph": 5.29,
-    "change_pct": 2.9,
-    "months": 3
+    "mph": 5.41,
+    "same_months_prior_year_mph": 5.33,
+    "change_pct": 1.6,
+    "months": 4
    },
    "series": [
     {
@@ -10152,6 +10483,11 @@
      "month": "2026-09",
      "mph": 5.29,
      "trips": 19810
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.32,
+     "trips": 20805
     }
    ],
    "consistent_series": [
@@ -10229,6 +10565,11 @@
      "month": "2026-09",
      "mph": 5.29,
      "trips": 19810
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.32,
+     "trips": 20805
     }
    ],
    "segments": [
@@ -10243,7 +10584,7 @@
      "to_lon": -73.971013,
      "miles": 0.51,
      "baseline_mph": 5.99,
-     "latest_mph": 5.89,
+     "latest_mph": 5.78,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10258,7 +10599,7 @@
      "to_lon": -73.958218,
      "miles": 0.74,
      "baseline_mph": 4.94,
-     "latest_mph": 4.89,
+     "latest_mph": 4.84,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10273,7 +10614,7 @@
      "to_lon": -73.949277,
      "miles": 0.47,
      "baseline_mph": 5.04,
-     "latest_mph": 4.94,
+     "latest_mph": 4.91,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10288,7 +10629,7 @@
      "to_lon": -73.922293,
      "miles": 0.44,
      "baseline_mph": 4.86,
-     "latest_mph": 4.93,
+     "latest_mph": 5.07,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10303,7 +10644,7 @@
      "to_lon": -73.930572,
      "miles": 0.99,
      "baseline_mph": 5.68,
-     "latest_mph": 5.68,
+     "latest_mph": 5.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10318,7 +10659,7 @@
      "to_lon": -73.930558,
      "miles": 0.38,
      "baseline_mph": 5.65,
-     "latest_mph": 5.7,
+     "latest_mph": 5.88,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10333,7 +10674,7 @@
      "to_lon": -73.97071,
      "miles": 0.65,
      "baseline_mph": 5.65,
-     "latest_mph": 5.57,
+     "latest_mph": 5.62,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10348,7 +10689,7 @@
      "to_lon": -73.979883,
      "miles": 0.55,
      "baseline_mph": 5.31,
-     "latest_mph": 5.43,
+     "latest_mph": 5.3,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10363,7 +10704,7 @@
      "to_lon": -73.959407,
      "miles": 0.5,
      "baseline_mph": 4.7,
-     "latest_mph": 4.49,
+     "latest_mph": 4.55,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10378,7 +10719,7 @@
      "to_lon": -73.950008,
      "miles": 1.02,
      "baseline_mph": 5.55,
-     "latest_mph": 5.42,
+     "latest_mph": 5.51,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -10411,16 +10752,16 @@
    "baseline_mph": 5.71,
    "target_mph": 6.85,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.65,
-    "yoy_pct": 2.7,
-    "vs_baseline_pct": -1.1
+    "month": "2026-10",
+    "mph": 5.6,
+    "yoy_pct": -2.8,
+    "vs_baseline_pct": -2.0
    },
    "post_plan": {
-    "mph": 5.8,
-    "same_months_prior_year_mph": 5.69,
-    "change_pct": 1.8,
-    "months": 3
+    "mph": 5.74,
+    "same_months_prior_year_mph": 5.71,
+    "change_pct": 0.6,
+    "months": 4
    },
    "series": [
     {
@@ -10497,6 +10838,11 @@
      "month": "2026-09",
      "mph": 5.65,
      "trips": 22461
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.6,
+     "trips": 23498
     }
    ],
    "consistent_series": [
@@ -10574,6 +10920,11 @@
      "month": "2026-09",
      "mph": 5.65,
      "trips": 22461
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.6,
+     "trips": 23498
     }
    ],
    "segments": [
@@ -10648,7 +10999,7 @@
      "to_lon": -73.883632,
      "miles": 1.26,
      "baseline_mph": 7.53,
-     "latest_mph": 7.48,
+     "latest_mph": 6.96,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10693,7 +11044,7 @@
      "to_lon": -73.971013,
      "miles": 0.51,
      "baseline_mph": 5.99,
-     "latest_mph": 5.89,
+     "latest_mph": 5.78,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10708,7 +11059,7 @@
      "to_lon": -73.958218,
      "miles": 0.74,
      "baseline_mph": 4.94,
-     "latest_mph": 4.89,
+     "latest_mph": 4.84,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10723,7 +11074,7 @@
      "to_lon": -73.949277,
      "miles": 0.47,
      "baseline_mph": 5.04,
-     "latest_mph": 4.94,
+     "latest_mph": 4.91,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10738,7 +11089,7 @@
      "to_lon": -73.922293,
      "miles": 0.44,
      "baseline_mph": 4.86,
-     "latest_mph": 4.93,
+     "latest_mph": 5.07,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10753,7 +11104,7 @@
      "to_lon": -73.930572,
      "miles": 0.99,
      "baseline_mph": 5.68,
-     "latest_mph": 5.68,
+     "latest_mph": 5.75,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10768,7 +11119,7 @@
      "to_lon": -73.930558,
      "miles": 0.38,
      "baseline_mph": 5.65,
-     "latest_mph": 5.7,
+     "latest_mph": 5.88,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10783,7 +11134,7 @@
      "to_lon": -73.97071,
      "miles": 0.65,
      "baseline_mph": 5.65,
-     "latest_mph": 5.57,
+     "latest_mph": 5.62,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10798,7 +11149,7 @@
      "to_lon": -73.979883,
      "miles": 0.55,
      "baseline_mph": 5.31,
-     "latest_mph": 5.43,
+     "latest_mph": 5.3,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10813,7 +11164,7 @@
      "to_lon": -73.959407,
      "miles": 0.5,
      "baseline_mph": 4.7,
-     "latest_mph": 4.49,
+     "latest_mph": 4.55,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -10828,7 +11179,7 @@
      "to_lon": -73.950008,
      "miles": 1.02,
      "baseline_mph": 5.55,
-     "latest_mph": 5.42,
+     "latest_mph": 5.51,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -10882,16 +11233,16 @@
    "baseline_mph": 7.52,
    "target_mph": 9.02,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.49,
-    "yoy_pct": 1.4,
-    "vs_baseline_pct": -0.4
+    "month": "2026-10",
+    "mph": 7.5,
+    "yoy_pct": -0.7,
+    "vs_baseline_pct": -0.3
    },
    "post_plan": {
-    "mph": 7.7,
-    "same_months_prior_year_mph": 7.72,
-    "change_pct": -0.3,
-    "months": 3
+    "mph": 7.65,
+    "same_months_prior_year_mph": 7.68,
+    "change_pct": -0.4,
+    "months": 4
    },
    "series": [
     {
@@ -10968,6 +11319,11 @@
      "month": "2026-09",
      "mph": 7.49,
      "trips": 34296
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.5,
+     "trips": 34720
     }
    ],
    "consistent_series": [
@@ -11045,6 +11401,11 @@
      "month": "2026-09",
      "mph": 7.49,
      "trips": 34296
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.5,
+     "trips": 34720
     }
    ],
    "segments": [
@@ -11059,7 +11420,7 @@
      "to_lon": -73.953732,
      "miles": 0.46,
      "baseline_mph": 4.49,
-     "latest_mph": 4.37,
+     "latest_mph": 4.47,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11074,7 +11435,7 @@
      "to_lon": -73.937036,
      "miles": 1.23,
      "baseline_mph": 7.76,
-     "latest_mph": 7.68,
+     "latest_mph": 7.9,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11104,7 +11465,7 @@
      "to_lon": -73.917964,
      "miles": 1.33,
      "baseline_mph": 7.17,
-     "latest_mph": 7.35,
+     "latest_mph": 7.0,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11119,7 +11480,7 @@
      "to_lon": -73.878269,
      "miles": 1.92,
      "baseline_mph": 7.51,
-     "latest_mph": 7.7,
+     "latest_mph": 7.66,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11134,7 +11495,7 @@
      "to_lon": -73.961376,
      "miles": 1.06,
      "baseline_mph": 5.96,
-     "latest_mph": 5.86,
+     "latest_mph": 5.81,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11149,7 +11510,7 @@
      "to_lon": -73.980387,
      "miles": 1.6,
      "baseline_mph": 7.43,
-     "latest_mph": 7.38,
+     "latest_mph": 7.34,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11164,7 +11525,7 @@
      "to_lon": -73.962372,
      "miles": 0.55,
      "baseline_mph": 4.33,
-     "latest_mph": 4.27,
+     "latest_mph": 4.25,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11179,7 +11540,7 @@
      "to_lon": -73.980974,
      "miles": 1.04,
      "baseline_mph": 6.78,
-     "latest_mph": 6.73,
+     "latest_mph": 6.65,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11194,7 +11555,7 @@
      "to_lon": -73.937256,
      "miles": 1.32,
      "baseline_mph": 7.89,
-     "latest_mph": 8.04,
+     "latest_mph": 7.96,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11209,7 +11570,7 @@
      "to_lon": -73.902489,
      "miles": 1.95,
      "baseline_mph": 8.11,
-     "latest_mph": 8.14,
+     "latest_mph": 7.65,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11224,7 +11585,7 @@
      "to_lon": -73.954068,
      "miles": 1.22,
      "baseline_mph": 7.37,
-     "latest_mph": 7.21,
+     "latest_mph": 7.39,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11239,7 +11600,7 @@
      "to_lon": -73.994851,
      "miles": 1.55,
      "baseline_mph": 6.88,
-     "latest_mph": 6.65,
+     "latest_mph": 6.73,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11254,7 +11615,7 @@
      "to_lon": -73.918456,
      "miles": 1.4,
      "baseline_mph": 6.25,
-     "latest_mph": 6.21,
+     "latest_mph": 6.62,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11269,7 +11630,7 @@
      "to_lon": -73.878269,
      "miles": 8.99,
      "baseline_mph": 8.57,
-     "latest_mph": 8.58,
+     "latest_mph": 8.57,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11284,7 +11645,7 @@
      "to_lon": -73.902489,
      "miles": 1.95,
      "baseline_mph": 9.03,
-     "latest_mph": 8.87,
+     "latest_mph": 8.27,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11299,7 +11660,7 @@
      "to_lon": -73.994851,
      "miles": 7.05,
      "baseline_mph": 7.85,
-     "latest_mph": 7.85,
+     "latest_mph": 7.97,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -11350,16 +11711,16 @@
    "baseline_mph": 7.79,
    "target_mph": 9.35,
    "latest": {
-    "month": "2026-09",
-    "mph": 7.71,
-    "yoy_pct": 0.2,
-    "vs_baseline_pct": -1.1
+    "month": "2026-10",
+    "mph": 7.75,
+    "yoy_pct": -0.2,
+    "vs_baseline_pct": -0.6
    },
    "post_plan": {
-    "mph": 7.95,
-    "same_months_prior_year_mph": 7.96,
+    "mph": 7.89,
+    "same_months_prior_year_mph": 7.91,
     "change_pct": -0.2,
-    "months": 3
+    "months": 4
    },
    "series": [
     {
@@ -11436,6 +11797,11 @@
      "month": "2026-09",
      "mph": 7.71,
      "trips": 19395
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.75,
+     "trips": 20729
     }
    ],
    "consistent_series": [
@@ -11513,6 +11879,11 @@
      "month": "2026-09",
      "mph": 7.71,
      "trips": 19395
+    },
+    {
+     "month": "2026-10",
+     "mph": 7.75,
+     "trips": 20729
     }
    ],
    "segments": [
@@ -11527,7 +11898,7 @@
      "to_lon": -73.978441,
      "miles": 1.26,
      "baseline_mph": 7.34,
-     "latest_mph": 7.41,
+     "latest_mph": 7.18,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11542,7 +11913,7 @@
      "to_lon": -73.993317,
      "miles": 0.81,
      "baseline_mph": 7.65,
-     "latest_mph": 7.72,
+     "latest_mph": 7.91,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11557,7 +11928,7 @@
      "to_lon": -73.992878,
      "miles": 1.39,
      "baseline_mph": 9.46,
-     "latest_mph": 8.96,
+     "latest_mph": 9.58,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11572,7 +11943,7 @@
      "to_lon": -73.993777,
      "miles": 1.3,
      "baseline_mph": 6.94,
-     "latest_mph": 6.93,
+     "latest_mph": 6.78,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -11603,16 +11974,16 @@
    "baseline_mph": 5.8,
    "target_mph": 6.96,
    "latest": {
-    "month": "2026-09",
-    "mph": 5.42,
-    "yoy_pct": -8.4,
-    "vs_baseline_pct": -6.5
+    "month": "2026-10",
+    "mph": 5.38,
+    "yoy_pct": -8.7,
+    "vs_baseline_pct": -7.3
    },
    "post_plan": {
-    "mph": 5.6,
-    "same_months_prior_year_mph": 6.03,
-    "change_pct": -7.0,
-    "months": 3
+    "mph": 5.54,
+    "same_months_prior_year_mph": 5.99,
+    "change_pct": -7.5,
+    "months": 4
    },
    "series": [
     {
@@ -11689,6 +12060,11 @@
      "month": "2026-09",
      "mph": 5.42,
      "trips": 6154
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.38,
+     "trips": 6470
     }
    ],
    "consistent_series": [
@@ -11766,6 +12142,11 @@
      "month": "2026-09",
      "mph": 5.42,
      "trips": 6154
+    },
+    {
+     "month": "2026-10",
+     "mph": 5.38,
+     "trips": 6470
     }
    ],
    "segments": [
@@ -11780,7 +12161,7 @@
      "to_lon": -74.00326,
      "miles": 1.21,
      "baseline_mph": 5.81,
-     "latest_mph": 5.73,
+     "latest_mph": 5.68,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11795,7 +12176,7 @@
      "to_lon": -73.985361,
      "miles": 1.14,
      "baseline_mph": 5.26,
-     "latest_mph": 4.63,
+     "latest_mph": 4.54,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -11810,7 +12191,7 @@
      "to_lon": -74.040556,
      "miles": 0.81,
      "baseline_mph": 7.64,
-     "latest_mph": 7.49,
+     "latest_mph": 7.38,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -11841,16 +12222,16 @@
    "baseline_mph": 9.71,
    "target_mph": 11.66,
    "latest": {
-    "month": "2026-09",
-    "mph": 9.78,
-    "yoy_pct": 0.5,
-    "vs_baseline_pct": 0.7
+    "month": "2026-10",
+    "mph": 9.76,
+    "yoy_pct": -0.6,
+    "vs_baseline_pct": 0.5
    },
    "post_plan": {
-    "mph": 9.6,
-    "same_months_prior_year_mph": 9.74,
-    "change_pct": -1.4,
-    "months": 3
+    "mph": 9.64,
+    "same_months_prior_year_mph": 9.76,
+    "change_pct": -1.2,
+    "months": 4
    },
    "series": [
     {
@@ -11927,6 +12308,11 @@
      "month": "2026-09",
      "mph": 9.78,
      "trips": 6261
+    },
+    {
+     "month": "2026-10",
+     "mph": 9.76,
+     "trips": 6473
     }
    ],
    "consistent_series": [
@@ -12004,6 +12390,11 @@
      "month": "2026-09",
      "mph": 9.78,
      "trips": 6261
+    },
+    {
+     "month": "2026-10",
+     "mph": 9.76,
+     "trips": 6473
     }
    ],
    "segments": [
@@ -12018,7 +12409,7 @@
      "to_lon": -74.075818,
      "miles": 1.05,
      "baseline_mph": 9.87,
-     "latest_mph": 10.0,
+     "latest_mph": 9.98,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12048,7 +12439,7 @@
      "to_lon": -74.075789,
      "miles": 0.76,
      "baseline_mph": 8.73,
-     "latest_mph": 9.05,
+     "latest_mph": 9.04,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12063,7 +12454,7 @@
      "to_lon": -74.06601,
      "miles": 1.03,
      "baseline_mph": 9.78,
-     "latest_mph": 9.74,
+     "latest_mph": 9.69,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12078,7 +12469,7 @@
      "to_lon": -74.075789,
      "miles": 0.76,
      "baseline_mph": 11.93,
-     "latest_mph": 12.53,
+     "latest_mph": 12.26,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12093,7 +12484,7 @@
      "to_lon": -74.064632,
      "miles": 1.18,
      "baseline_mph": 12.2,
-     "latest_mph": 11.43,
+     "latest_mph": 11.53,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -12127,16 +12518,16 @@
    "baseline_mph": 11.09,
    "target_mph": 13.31,
    "latest": {
-    "month": "2026-09",
-    "mph": 11.12,
-    "yoy_pct": 0.3,
-    "vs_baseline_pct": 0.2
+    "month": "2026-10",
+    "mph": 11.09,
+    "yoy_pct": 0.2,
+    "vs_baseline_pct": -0.0
    },
    "post_plan": {
-    "mph": 11.23,
-    "same_months_prior_year_mph": 11.38,
-    "change_pct": -1.3,
-    "months": 3
+    "mph": 11.2,
+    "same_months_prior_year_mph": 11.3,
+    "change_pct": -0.9,
+    "months": 4
    },
    "series": [
     {
@@ -12213,6 +12604,11 @@
      "month": "2026-09",
      "mph": 11.12,
      "trips": 13021
+    },
+    {
+     "month": "2026-10",
+     "mph": 11.09,
+     "trips": 14096
     }
    ],
    "consistent_series": [
@@ -12290,6 +12686,11 @@
      "month": "2026-09",
      "mph": 11.12,
      "trips": 13021
+    },
+    {
+     "month": "2026-10",
+     "mph": 11.09,
+     "trips": 14096
     }
    ],
    "segments": [
@@ -12304,7 +12705,7 @@
      "to_lon": -74.088817,
      "miles": 1.21,
      "baseline_mph": 14.22,
-     "latest_mph": 14.49,
+     "latest_mph": 14.35,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12334,7 +12735,7 @@
      "to_lon": -74.104545,
      "miles": 1.26,
      "baseline_mph": 14.23,
-     "latest_mph": 14.22,
+     "latest_mph": 14.19,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12349,7 +12750,7 @@
      "to_lon": -74.089431,
      "miles": 0.97,
      "baseline_mph": 8.16,
-     "latest_mph": 8.2,
+     "latest_mph": 8.09,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12364,7 +12765,7 @@
      "to_lon": -74.088817,
      "miles": 1.21,
      "baseline_mph": 14.57,
-     "latest_mph": 14.37,
+     "latest_mph": 14.59,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12379,7 +12780,7 @@
      "to_lon": -74.076194,
      "miles": 0.92,
      "baseline_mph": 9.35,
-     "latest_mph": 9.32,
+     "latest_mph": 9.33,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12394,7 +12795,7 @@
      "to_lon": -74.104545,
      "miles": 1.26,
      "baseline_mph": 14.63,
-     "latest_mph": 14.3,
+     "latest_mph": 14.44,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12409,7 +12810,7 @@
      "to_lon": -74.089431,
      "miles": 0.97,
      "baseline_mph": 8.54,
-     "latest_mph": 8.46,
+     "latest_mph": 8.44,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12439,7 +12840,7 @@
      "to_lon": -74.089431,
      "miles": 0.97,
      "baseline_mph": 8.52,
-     "latest_mph": 8.34,
+     "latest_mph": 8.37,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12454,7 +12855,7 @@
      "to_lon": -74.088817,
      "miles": 1.21,
      "baseline_mph": 13.52,
-     "latest_mph": 14.95,
+     "latest_mph": 14.55,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12469,7 +12870,7 @@
      "to_lon": -74.076194,
      "miles": 0.92,
      "baseline_mph": 10.14,
-     "latest_mph": 10.32,
+     "latest_mph": 10.31,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12484,7 +12885,7 @@
      "to_lon": -74.104545,
      "miles": 1.26,
      "baseline_mph": 15.04,
-     "latest_mph": 14.77,
+     "latest_mph": 14.82,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12499,7 +12900,7 @@
      "to_lon": -74.089431,
      "miles": 0.97,
      "baseline_mph": 11.34,
-     "latest_mph": 11.46,
+     "latest_mph": 11.47,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12514,7 +12915,7 @@
      "to_lon": -74.088817,
      "miles": 1.21,
      "baseline_mph": 14.3,
-     "latest_mph": 15.15,
+     "latest_mph": 14.72,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12529,7 +12930,7 @@
      "to_lon": -74.076194,
      "miles": 0.92,
      "baseline_mph": 10.33,
-     "latest_mph": 10.58,
+     "latest_mph": 10.51,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12544,7 +12945,7 @@
      "to_lon": -74.104545,
      "miles": 1.26,
      "baseline_mph": 14.52,
-     "latest_mph": 14.7,
+     "latest_mph": 14.63,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12559,7 +12960,7 @@
      "to_lon": -74.089431,
      "miles": 0.97,
      "baseline_mph": 10.91,
-     "latest_mph": 11.23,
+     "latest_mph": 11.41,
      "in_basis": true,
      "excluded_reason": null
     }
@@ -12592,16 +12993,16 @@
    "baseline_mph": 13.94,
    "target_mph": 16.72,
    "latest": {
-    "month": "2026-09",
-    "mph": 13.8,
-    "yoy_pct": -0.5,
-    "vs_baseline_pct": -1.0
+    "month": "2026-10",
+    "mph": 13.49,
+    "yoy_pct": -3.1,
+    "vs_baseline_pct": -3.2
    },
    "post_plan": {
-    "mph": 13.92,
-    "same_months_prior_year_mph": 14.07,
-    "change_pct": -1.0,
-    "months": 3
+    "mph": 13.81,
+    "same_months_prior_year_mph": 14.03,
+    "change_pct": -1.6,
+    "months": 4
    },
    "series": [
     {
@@ -12678,6 +13079,11 @@
      "month": "2026-09",
      "mph": 13.8,
      "trips": 6248
+    },
+    {
+     "month": "2026-10",
+     "mph": 13.49,
+     "trips": 6425
     }
    ],
    "consistent_series": [
@@ -12755,6 +13161,11 @@
      "month": "2026-09",
      "mph": 13.8,
      "trips": 6248
+    },
+    {
+     "month": "2026-10",
+     "mph": 13.49,
+     "trips": 6425
     }
    ],
    "segments": [
@@ -12769,7 +13180,7 @@
      "to_lon": -74.149609,
      "miles": 1.27,
      "baseline_mph": 12.03,
-     "latest_mph": 11.77,
+     "latest_mph": 11.79,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12784,7 +13195,7 @@
      "to_lon": -74.162535,
      "miles": 1.43,
      "baseline_mph": 11.54,
-     "latest_mph": 11.46,
+     "latest_mph": 11.44,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12814,7 +13225,7 @@
      "to_lon": -74.16954,
      "miles": 3.31,
      "baseline_mph": 15.38,
-     "latest_mph": 15.34,
+     "latest_mph": 14.85,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12829,7 +13240,7 @@
      "to_lon": -74.162535,
      "miles": 1.43,
      "baseline_mph": 12.78,
-     "latest_mph": 12.63,
+     "latest_mph": 12.68,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12844,7 +13255,7 @@
      "to_lon": -74.149609,
      "miles": 1.27,
      "baseline_mph": 12.66,
-     "latest_mph": 12.05,
+     "latest_mph": 10.71,
      "in_basis": true,
      "excluded_reason": null
     },
@@ -12859,7 +13270,7 @@
      "to_lon": -74.162535,
      "miles": 1.43,
      "baseline_mph": 11.4,
-     "latest_mph": 11.41,
+     "latest_mph": 11.05,
      "in_basis": true,
      "excluded_reason": null
     }
